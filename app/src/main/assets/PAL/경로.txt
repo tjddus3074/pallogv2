@@ -1,0 +1,28 @@
+데이터 파일 (능력치/스펙) - 갱신된 Exports 경로
+C:/Users/강성연/Downloads/Output/Exports/Pal/Content/Pal/DataTable/
+
+카테고리	파일	주요 필드
+팰 스펙	Character/DT_PalMonsterParameter_Common.json	Hp, MeleeAttack, ShotAttack, Defense, ElementType, WorkSuitability, CaptureRate, etc.
+아이템 스펙	Item/DT_ItemDataTable_Common.json	TypeA/B, PhysicalAttackValue, PhysicalDefenseValue, HPValue, Durability, Price, etc.
+아이템 레시피	Item/DT_ItemRecipeDataTable_Common.json	제작 재료
+기술 트리	Technology/DT_TechnologyRecipeUnlock_Common.json	LevelCap, Tier, Cost, UnlockBuildObjects
+건축물	MapObject/Building/DT_BuildObjectDataTable_Common.json	TypeA/B, Material1~4, RequiredBuildWorkAmount
+액티브 스킬	Waza/DT_WazaDataTable_Common.json	Element, Power, CoolTime, EffectType
+팰 스킬 레벨	Waza/DT_WazaMasterLevel_Common.json	PalId, WazaID, Level
+패시브 스킬	PassiveSkill/DT_PassiveSkill_Main_Common.json	EffectType, EffectValue, Rank
+파트너 스킬	PartnerSkill/DT_PartnerSkill.json	EffectTime, CoolDownTime
+드롭 아이템	Character/DT_PalDropItem_Common.json	CharacterID, ItemId15, Rate15
+한국어 텍스트 - paldex 프로젝트 경로
+C:/Users/강성연/paldex/data-provider/palworld-assets/L10N/ko/Pal/DataTable/Text/
+
+파일	내용
+DT_PalNameText.json	팰 이름
+DT_PalLongDescriptionText.json	팰 도감 설명
+DT_ItemNameText.json	아이템 이름
+DT_ItemDescriptionText.json	아이템 설명
+DT_SkillNameText.json	스킬 이름
+DT_SkillDescText.json	스킬 설명
+DT_TechnologyNameText.json	기술 이름
+DT_TechnologyDescText.json	기술 설명
+DT_BuildObjectDescText.json	건축물 설명
+DT_MapObjectNameText.json	건축물 이름

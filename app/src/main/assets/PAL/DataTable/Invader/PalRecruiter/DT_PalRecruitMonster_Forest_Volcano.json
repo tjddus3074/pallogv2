@@ -1,0 +1,792 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalRecruitMonster_Forest_Volcano",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalRecruitMonsterInfoRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "RecruitPal_1": {
+        "PalName": {
+          "Key": "SharkKid_Fire"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_2": {
+        "PalName": {
+          "Key": "Windchimes_Ice"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_3": {
+        "PalName": {
+          "Key": "GrassPanda"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_4": {
+        "PalName": {
+          "Key": "Baphomet"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_5": {
+        "PalName": {
+          "Key": "Baphomet_Dark"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_6": {
+        "PalName": {
+          "Key": "LizardMan_Fire"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_7": {
+        "PalName": {
+          "Key": "Werewolf"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_8": {
+        "PalName": {
+          "Key": "RobinHood"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_9": {
+        "PalName": {
+          "Key": "Gorilla"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_10": {
+        "PalName": {
+          "Key": "QueenBee"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_11": {
+        "PalName": {
+          "Key": "MopKing"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_12": {
+        "PalName": {
+          "Key": "WeaselDragon"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_13": {
+        "PalName": {
+          "Key": "IceFox"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_14": {
+        "PalName": {
+          "Key": "FireKirin"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_15": {
+        "PalName": {
+          "Key": "FireKirin_Dark"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_16": {
+        "PalName": {
+          "Key": "FlowerDinosaur"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_17": {
+        "PalName": {
+          "Key": "GhostBeast"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_18": {
+        "PalName": {
+          "Key": "LavaGirl"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_19": {
+        "PalName": {
+          "Key": "BirdDragon"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_20": {
+        "PalName": {
+          "Key": "Ronin"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_21": {
+        "PalName": {
+          "Key": "RedArmorBird"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_22": {
+        "PalName": {
+          "Key": "CatMage"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_23": {
+        "PalName": {
+          "Key": "FoxMage"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_24": {
+        "PalName": {
+          "Key": "Kelpie_Fire"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_25": {
+        "PalName": {
+          "Key": "Manticore"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_26": {
+        "PalName": {
+          "Key": "Manticore_Dark"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_27": {
+        "PalName": {
+          "Key": "LazyDragon"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_28": {
+        "PalName": {
+          "Key": "SakuraSaurus"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_29": {
+        "PalName": {
+          "Key": "VolcanicMonster"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_30": {
+        "PalName": {
+          "Key": "GrassMammoth"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_31": {
+        "PalName": {
+          "Key": "FengyunDeeper"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_32": {
+        "PalName": {
+          "Key": "CatVampire"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_33": {
+        "PalName": {
+          "Key": "HadesBird"
+        },
+        "Weight": 126.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_34": {
+        "PalName": {
+          "Key": "GrassPanda_Electric"
+        },
+        "Weight": 102.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_35": {
+        "PalName": {
+          "Key": "GrassRabbitMan"
+        },
+        "Weight": 102.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_36": {
+        "PalName": {
+          "Key": "VioletFairy"
+        },
+        "Weight": 102.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_37": {
+        "PalName": {
+          "Key": "FairyDragon_Water"
+        },
+        "Weight": 102.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_38": {
+        "PalName": {
+          "Key": "FairyDragon"
+        },
+        "Weight": 102.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_39": {
+        "PalName": {
+          "Key": "BlueDragon"
+        },
+        "Weight": 102.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_40": {
+        "PalName": {
+          "Key": "SakuraSaurus_Water"
+        },
+        "Weight": 102.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_41": {
+        "PalName": {
+          "Key": "FlowerDoll"
+        },
+        "Weight": 102.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_42": {
+        "PalName": {
+          "Key": "KingAlpaca"
+        },
+        "Weight": 102.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_43": {
+        "PalName": {
+          "Key": "KingAlpaca_Ice"
+        },
+        "Weight": 102.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_44": {
+        "PalName": {
+          "Key": "SkyDragon"
+        },
+        "Weight": 102.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_45": {
+        "PalName": {
+          "Key": "SheepBall"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_46": {
+        "PalName": {
+          "Key": "PinkCat"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_47": {
+        "PalName": {
+          "Key": "ChickenPal"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_48": {
+        "PalName": {
+          "Key": "Carbunclo"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_49": {
+        "PalName": {
+          "Key": "Kitsunebi"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_50": {
+        "PalName": {
+          "Key": "BluePlatypus"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_51": {
+        "PalName": {
+          "Key": "ElecCat"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_52": {
+        "PalName": {
+          "Key": "Monkey"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_53": {
+        "PalName": {
+          "Key": "FlameBambi"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_54": {
+        "PalName": {
+          "Key": "Penguin"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_55": {
+        "PalName": {
+          "Key": "Hedgehog"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_56": {
+        "PalName": {
+          "Key": "Hedgehog_Ice"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_57": {
+        "PalName": {
+          "Key": "PlantSlime"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_58": {
+        "PalName": {
+          "Key": "CuteFox"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_59": {
+        "PalName": {
+          "Key": "WizardOwl"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_60": {
+        "PalName": {
+          "Key": "Ganesha"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_61": {
+        "PalName": {
+          "Key": "NegativeKoala"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_62": {
+        "PalName": {
+          "Key": "WoolFox"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_63": {
+        "PalName": {
+          "Key": "DreamDemon"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_64": {
+        "PalName": {
+          "Key": "Boar"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_65": {
+        "PalName": {
+          "Key": "NightFox"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_66": {
+        "PalName": {
+          "Key": "CuteMole"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_67": {
+        "PalName": {
+          "Key": "NegativeOctopus"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_68": {
+        "PalName": {
+          "Key": "Bastet"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_69": {
+        "PalName": {
+          "Key": "Bastet_Ice"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_70": {
+        "PalName": {
+          "Key": "FlyingManta"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_71": {
+        "PalName": {
+          "Key": "Garm"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_72": {
+        "PalName": {
+          "Key": "ColorfulBird"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_73": {
+        "PalName": {
+          "Key": "FlowerRabbit"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_74": {
+        "PalName": {
+          "Key": "CowPal"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_75": {
+        "PalName": {
+          "Key": "LittleBriarRose"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_76": {
+        "PalName": {
+          "Key": "SharkKid"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_77": {
+        "PalName": {
+          "Key": "Windchimes"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_78": {
+        "PalName": {
+          "Key": "SweetsSheep"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_79": {
+        "PalName": {
+          "Key": "BerryGoat"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_80": {
+        "PalName": {
+          "Key": "Alpaca"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_81": {
+        "PalName": {
+          "Key": "Deer"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_82": {
+        "PalName": {
+          "Key": "Deer_Ground"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_83": {
+        "PalName": {
+          "Key": "HawkBird"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_84": {
+        "PalName": {
+          "Key": "PinkRabbit"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_85": {
+        "PalName": {
+          "Key": "CuteButterfly"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_86": {
+        "PalName": {
+          "Key": "FlameBuffalo"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_87": {
+        "PalName": {
+          "Key": "LazyCatfish"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_88": {
+        "PalName": {
+          "Key": "DarkCrow"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_89": {
+        "PalName": {
+          "Key": "LizardMan"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_90": {
+        "PalName": {
+          "Key": "Eagle"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_91": {
+        "PalName": {
+          "Key": "SoldierBee"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_92": {
+        "PalName": {
+          "Key": "NaughtyCat"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_93": {
+        "PalName": {
+          "Key": "MopBaby"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_94": {
+        "PalName": {
+          "Key": "Kirin"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_95": {
+        "PalName": {
+          "Key": "Serpent"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_96": {
+        "PalName": {
+          "Key": "CatBat"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      },
+      "RecruitPal_97": {
+        "PalName": {
+          "Key": "Kelpie"
+        },
+        "Weight": 100.0,
+        "LevelMin": 25,
+        "LevelMax": 35
+      }
+    }
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "Type": "CompositeDataTable",
+    "Name": "DT_ItemShopLotteryData",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'CompositeDataTable'",
+    "Properties": {
+      "ParentTables": [
+        {
+          "ObjectName": "DataTable'DT_ItemShopLotteryData_Common'",
+          "ObjectPath": "Pal/Content/Pal/DataTable/ItemShop/DT_ItemShopLotteryData_Common.0"
+        }
+      ],
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalItemShopLotteryDataRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "TestTable_1": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Vagrant_Trader_1_1",
+            "Weight": 100
+          },
+          {
+            "ShopGroupName": "Vagrant_Trader_1_2",
+            "Weight": 50
+          },
+          {
+            "ShopGroupName": "Vagrant_Trader_1_3",
+            "Weight": 50
+          }
+        ]
+      },
+      "TestTable_2": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Village_Shop_1",
+            "Weight": 100
+          }
+        ]
+      },
+      "TestTable_3": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "TestShop_2",
+            "Weight": 25
+          },
+          {
+            "ShopGroupName": "TestShop_3",
+            "Weight": 50
+          }
+        ]
+      },
+      "DesertShopTable": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Desert_Shop_1",
+            "Weight": 100
+          }
+        ]
+      },
+      "VolcanoShopTable": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Volcano_Shop_1",
+            "Weight": 100
+          }
+        ]
+      },
+      "WanderShopTable": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Wander_Shop_1",
+            "Weight": 100
+          }
+        ]
+      },
+      "DesertShopTable2": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Desert_Shop_2",
+            "Weight": 100
+          }
+        ]
+      },
+      "VolcanoShopTable2": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Volcano_Shop_2",
+            "Weight": 100
+          }
+        ]
+      },
+      "MedalShop1": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Medal_Shop_1",
+            "Weight": 100
+          }
+        ]
+      },
+      "SkinShopTest": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Skin_Shop_Test",
+            "Weight": 100
+          }
+        ]
+      },
+      "BountyShop1": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Bounty_Shop_1",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop1": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_1",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop2": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_2",
+            "Weight": 100
+          }
+        ]
+      },
+      "CaravanShop3": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Caravan_Shop_3",
+            "Weight": 100
+          }
+        ]
+      },
+      "ArenaShop1": {
+        "lotteryDataArray": [
+          {
+            "ShopGroupName": "Arena_Shop_1",
+            "Weight": 100
+          }
+        ]
+      }
+    }
+  }
+]

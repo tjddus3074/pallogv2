@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\\\Users\\\\asuspc\\\\AndroidStudioProjects\\\\pallogv2\\\\app\\\\src\\\\main\\\\res\")"
+    ]
+  }
+}

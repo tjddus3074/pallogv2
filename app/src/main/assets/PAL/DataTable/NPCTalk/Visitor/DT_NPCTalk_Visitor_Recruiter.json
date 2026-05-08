@@ -1,0 +1,108 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_NPCTalk_Visitor_Recruiter",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalNPCTalkDataTableRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "Default": {
+        "TalkData": [
+          {
+            "TalkCommand": "EPalNPCTalkCommand::SimpleMessages",
+            "MessageIDList": [
+              "Visitor_Recruiter"
+            ],
+            "ChoiceMessageIDList": [],
+            "TalkerNameID": "None",
+            "CustomFuncName": "None",
+            "isCloseWhenCalledCustomFunc": false,
+            "CustomFuncParam": null,
+            "SelectedChoiceCommandDataList": []
+          },
+          {
+            "TalkCommand": "EPalNPCTalkCommand::CustomChoice",
+            "MessageIDList": [],
+            "ChoiceMessageIDList": [
+              "CHOICE_YES",
+              "CHOICE_NO"
+            ],
+            "TalkerNameID": "None",
+            "CustomFuncName": "None",
+            "isCloseWhenCalledCustomFunc": false,
+            "CustomFuncParam": null,
+            "SelectedChoiceCommandDataList": [
+              {
+                "selectedChoiceCommand": "EPalNPCTalkSelectedChoiceCommand::ChangeSeqence",
+                "SeqenceName": "OpenRecruitUI",
+                "CustomFuncName": "None",
+                "isCloseWhenCalledCustomFunc": false,
+                "CustomFuncParam": null
+              },
+              {
+                "selectedChoiceCommand": "EPalNPCTalkSelectedChoiceCommand::ChangeSeqence",
+                "SeqenceName": "Exit",
+                "CustomFuncName": "None",
+                "isCloseWhenCalledCustomFunc": false,
+                "CustomFuncParam": null
+              }
+            ]
+          }
+        ]
+      },
+      "Exit": {
+        "TalkData": [
+          {
+            "TalkCommand": "EPalNPCTalkCommand::SimpleMessages",
+            "MessageIDList": [
+              "SHOP_EXIT_TEST"
+            ],
+            "ChoiceMessageIDList": [],
+            "TalkerNameID": "None",
+            "CustomFuncName": "None",
+            "isCloseWhenCalledCustomFunc": false,
+            "CustomFuncParam": null,
+            "SelectedChoiceCommandDataList": []
+          }
+        ]
+      },
+      "OpenRecruitUI": {
+        "TalkData": [
+          {
+            "TalkCommand": "EPalNPCTalkCommand::CustomFunc",
+            "MessageIDList": [
+              "CHOICE_YES"
+            ],
+            "ChoiceMessageIDList": [],
+            "TalkerNameID": "None",
+            "CustomFuncName": "OpenRecruitUI",
+            "isCloseWhenCalledCustomFunc": true,
+            "CustomFuncParam": null,
+            "SelectedChoiceCommandDataList": []
+          }
+        ]
+      },
+      "OpenShop_Sell": {
+        "TalkData": [
+          {
+            "TalkCommand": "EPalNPCTalkCommand::CustomFunc",
+            "MessageIDList": [
+              "CHOICE_YES"
+            ],
+            "ChoiceMessageIDList": [],
+            "TalkerNameID": "None",
+            "CustomFuncName": "OpenRecruitUI",
+            "isCloseWhenCalledCustomFunc": true,
+            "CustomFuncParam": null,
+            "SelectedChoiceCommandDataList": []
+          }
+        ]
+      }
+    }
+  }
+]

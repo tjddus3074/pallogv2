@@ -1,0 +1,3496 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_PalRandomizer",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'PalRandomizerDatabaseRow'",
+        "ObjectPath": "/Script/Pal"
+      }
+    },
+    "Rows": {
+      "RAID_NightLady": {
+        "PalId": "RAID_NightLady",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "RAID_NightLady_Dark": {
+        "PalId": "RAID_NightLady_Dark",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "RAID_NightLady_Dark_2": {
+        "PalId": "RAID_NightLady_Dark_2",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "RAID_KingBahamut_Dragon": {
+        "PalId": "RAID_KingBahamut_Dragon",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "RAID_KingBahamut_Dragon_2": {
+        "PalId": "RAID_KingBahamut_Dragon_2",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GYM_BlackGriffon": {
+        "PalId": "GYM_BlackGriffon",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GYM_ElecPanda": {
+        "PalId": "GYM_ElecPanda",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GYM_Horus": {
+        "PalId": "GYM_Horus",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GYM_LilyQueen": {
+        "PalId": "GYM_LilyQueen",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GYM_ThunderDragonMan": {
+        "PalId": "GYM_ThunderDragonMan",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GYM_MoonQueen": {
+        "PalId": "GYM_MoonQueen",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GYM_BlackGriffon_2": {
+        "PalId": "GYM_BlackGriffon_2",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GYM_BlackGriffon_2_Avatar": {
+        "PalId": "GYM_BlackGriffon_2_Avatar",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GYM_ElecPanda_2": {
+        "PalId": "GYM_ElecPanda_2",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GYM_Horus_2": {
+        "PalId": "GYM_Horus_2",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GYM_LilyQueen_2": {
+        "PalId": "GYM_LilyQueen_2",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GYM_ThunderDragonMan_2": {
+        "PalId": "GYM_ThunderDragonMan_2",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GYM_MoonQueen_2": {
+        "PalId": "GYM_MoonQueen_2",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GYM_MoonQueen_2_Servant": {
+        "PalId": "GYM_MoonQueen_2_Servant",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BadCatgirl": {
+        "PalId": "BadCatgirl",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "BlueberryFairy": {
+        "PalId": "BlueberryFairy",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "BOSS_Alpaca": {
+        "PalId": "BOSS_Alpaca",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_AmaterasuWolf": {
+        "PalId": "BOSS_AmaterasuWolf",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "Boss_Anubis": {
+        "PalId": "Boss_Anubis",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BadCatgirl": {
+        "PalId": "BOSS_BadCatgirl",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Baphomet": {
+        "PalId": "BOSS_Baphomet",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Baphomet_Dark": {
+        "PalId": "BOSS_Baphomet_Dark",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Bastet": {
+        "PalId": "BOSS_Bastet",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Bastet_Ice": {
+        "PalId": "BOSS_Bastet_Ice",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BeardedDragon": {
+        "PalId": "BOSS_BeardedDragon",
+        "BaseLv": 1,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BerryGoat": {
+        "PalId": "BOSS_BerryGoat",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BirdDragon": {
+        "PalId": "BOSS_BirdDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BirdDragon_Ice": {
+        "PalId": "BOSS_BirdDragon_Ice",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BlackCentaur": {
+        "PalId": "BOSS_BlackCentaur",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BlackFurDragon": {
+        "PalId": "BOSS_BlackFurDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BlackGriffon": {
+        "PalId": "BOSS_BlackGriffon",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BlackMetalDragon": {
+        "PalId": "BOSS_BlackMetalDragon",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BlueberryFairy": {
+        "PalId": "BOSS_BlueberryFairy",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BlueDragon": {
+        "PalId": "BOSS_BlueDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BluePlatypus": {
+        "PalId": "BOSS_BluePlatypus",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Boar": {
+        "PalId": "BOSS_Boar",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BrownRabbit": {
+        "PalId": "BOSS_BrownRabbit",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_CaptainPenguin": {
+        "PalId": "BOSS_CaptainPenguin",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Carbunclo": {
+        "PalId": "BOSS_Carbunclo",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_CatBat": {
+        "PalId": "BOSS_CatBat",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_CatMage": {
+        "PalId": "BOSS_CatMage",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_CatMage_Fire": {
+        "PalId": "BOSS_CatMage_Fire",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_CatVampire": {
+        "PalId": "BOSS_CatVampire",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_ChickenPal": {
+        "PalId": "BOSS_ChickenPal",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_ColorfulBird": {
+        "PalId": "BOSS_ColorfulBird",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_CowPal": {
+        "PalId": "BOSS_CowPal",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_CuteButterfly": {
+        "PalId": "BOSS_CuteButterfly",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_CuteFox": {
+        "PalId": "BOSS_CuteFox",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_CuteMole": {
+        "PalId": "BOSS_CuteMole",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_DarkCrow": {
+        "PalId": "BOSS_DarkCrow",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_DarkMutant": {
+        "PalId": "BOSS_DarkMutant",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_DarkScorpion": {
+        "PalId": "BOSS_DarkScorpion",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_DarkScorpion_Ground": {
+        "PalId": "BOSS_DarkScorpion_Ground",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Deer": {
+        "PalId": "BOSS_Deer",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Deer_Ground": {
+        "PalId": "BOSS_Deer_Ground",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_DreamDemon": {
+        "PalId": "BOSS_DreamDemon",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_DrillGame": {
+        "PalId": "BOSS_DrillGame",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Eagle": {
+        "PalId": "BOSS_Eagle",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_ElecCat": {
+        "PalId": "BOSS_ElecCat",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_ElecLion": {
+        "PalId": "BOSS_ElecLion",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_ElecPanda": {
+        "PalId": "BOSS_ElecPanda",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FairyDragon": {
+        "PalId": "BOSS_FairyDragon",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FairyDragon_Water": {
+        "PalId": "BOSS_FairyDragon_Water",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FengyunDeeper": {
+        "PalId": "BOSS_FengyunDeeper",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FireKirin": {
+        "PalId": "BOSS_FireKirin",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FireKirin_Dark": {
+        "PalId": "BOSS_FireKirin_Dark",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FlameBambi": {
+        "PalId": "BOSS_FlameBambi",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FlameBuffalo": {
+        "PalId": "BOSS_FlameBuffalo",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FlowerDinosaur": {
+        "PalId": "BOSS_FlowerDinosaur",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FlowerDinosaur_Electric": {
+        "PalId": "BOSS_FlowerDinosaur_Electric",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FlowerDoll": {
+        "PalId": "BOSS_FlowerDoll",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FlowerRabbit": {
+        "PalId": "BOSS_FlowerRabbit",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FlyingManta": {
+        "PalId": "BOSS_FlyingManta",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FoxMage": {
+        "PalId": "BOSS_FoxMage",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FoxMage_Dark": {
+        "PalId": "BOSS_FoxMage_Dark",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Ganesha": {
+        "PalId": "BOSS_Ganesha",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Garm": {
+        "PalId": "BOSS_Garm",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_GhostBeast": {
+        "PalId": "BOSS_GhostBeast",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_GoldenHorse": {
+        "PalId": "BOSS_GoldenHorse",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Gorilla": {
+        "PalId": "BOSS_Gorilla",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Gorilla_Ground": {
+        "PalId": "BOSS_Gorilla_Ground",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_GrassDragon": {
+        "PalId": "BOSS_GrassDragon",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_GrassMammoth": {
+        "PalId": "BOSS_GrassMammoth",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_GrassMammoth_Ice": {
+        "PalId": "BOSS_GrassMammoth_Ice",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_GrassPanda": {
+        "PalId": "BOSS_GrassPanda",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_GrassPanda_Electric": {
+        "PalId": "BOSS_GrassPanda_Electric",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_GrassRabbitMan": {
+        "PalId": "BOSS_GrassRabbitMan",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_HadesBird": {
+        "PalId": "BOSS_HadesBird",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_HadesBird_Electric": {
+        "PalId": "BOSS_HadesBird_Electric",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_HawkBird": {
+        "PalId": "BOSS_HawkBird",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Hedgehog": {
+        "PalId": "BOSS_Hedgehog",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Hedgehog_Ice": {
+        "PalId": "BOSS_Hedgehog_Ice",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_HerculesBeetle": {
+        "PalId": "BOSS_HerculesBeetle",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_HerculesBeetle_Ground": {
+        "PalId": "BOSS_HerculesBeetle_Ground",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Horus": {
+        "PalId": "BOSS_Horus",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_IceDeer": {
+        "PalId": "BOSS_IceDeer",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_IceFox": {
+        "PalId": "BOSS_IceFox",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_IceHorse": {
+        "PalId": "BOSS_IceHorse",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_IceHorse_Dark": {
+        "PalId": "BOSS_IceHorse_Dark",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_JetDragon": {
+        "PalId": "BOSS_JetDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Kelpie": {
+        "PalId": "BOSS_Kelpie",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Kelpie_Fire": {
+        "PalId": "BOSS_Kelpie_Fire",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_KingAlpaca": {
+        "PalId": "BOSS_KingAlpaca",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_KingAlpaca_Ice": {
+        "PalId": "BOSS_KingAlpaca_Ice",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_KingBahamut": {
+        "PalId": "BOSS_KingBahamut",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_KingBahamut_Dragon": {
+        "PalId": "BOSS_KingBahamut_Dragon",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Kirin": {
+        "PalId": "BOSS_Kirin",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Kitsunebi": {
+        "PalId": "BOSS_Kitsunebi",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_LavaGirl": {
+        "PalId": "BOSS_LavaGirl",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_LazyCatfish": {
+        "PalId": "BOSS_LazyCatfish",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_LazyDragon": {
+        "PalId": "BOSS_LazyDragon",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_LazyDragon_Electric": {
+        "PalId": "BOSS_LazyDragon_Electric",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_LilyQueen": {
+        "PalId": "BOSS_LilyQueen",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_LilyQueen_Dark": {
+        "PalId": "BOSS_LilyQueen_Dark",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_LittleBriarRose": {
+        "PalId": "BOSS_LittleBriarRose",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_LizardMan": {
+        "PalId": "BOSS_LizardMan",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_LizardMan_Fire": {
+        "PalId": "BOSS_LizardMan_Fire",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Manticore": {
+        "PalId": "BOSS_Manticore",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Manticore_Dark": {
+        "PalId": "BOSS_Manticore_Dark",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Monkey": {
+        "PalId": "BOSS_Monkey",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_MopBaby": {
+        "PalId": "BOSS_MopBaby",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_MopKing": {
+        "PalId": "BOSS_MopKing",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Mutant": {
+        "PalId": "BOSS_Mutant",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_NaughtyCat": {
+        "PalId": "BOSS_NaughtyCat",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_NegativeKoala": {
+        "PalId": "BOSS_NegativeKoala",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_NegativeOctopus": {
+        "PalId": "BOSS_NegativeOctopus",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_NightFox": {
+        "PalId": "BOSS_NightFox",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Penguin": {
+        "PalId": "BOSS_Penguin",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_PinkCat": {
+        "PalId": "BOSS_PinkCat",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_PinkKangaroo": {
+        "PalId": "BOSS_PinkKangaroo",
+        "BaseLv": 1,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_PinkLizard": {
+        "PalId": "BOSS_PinkLizard",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_PinkRabbit": {
+        "PalId": "BOSS_PinkRabbit",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_PlantSlime": {
+        "PalId": "BOSS_PlantSlime",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_PlantSlime_Flower": {
+        "PalId": "BOSS_PlantSlime_Flower",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_QueenBee": {
+        "PalId": "BOSS_QueenBee",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_RaijinDaughter": {
+        "PalId": "BOSS_RaijinDaughter",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_RedArmorBird": {
+        "PalId": "BOSS_RedArmorBird",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_RobinHood": {
+        "PalId": "BOSS_RobinHood",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_RobinHood_Ground": {
+        "PalId": "BOSS_RobinHood_Ground",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Ronin": {
+        "PalId": "BOSS_Ronin",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Ronin_Dark": {
+        "PalId": "BOSS_Ronin_Dark",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SaintCentaur": {
+        "PalId": "BOSS_SaintCentaur",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SakuraSaurus": {
+        "PalId": "BOSS_SakuraSaurus",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SakuraSaurus_Water": {
+        "PalId": "BOSS_SakuraSaurus_Water",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Serpent": {
+        "PalId": "BOSS_Serpent",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Serpent_Ground": {
+        "PalId": "BOSS_Serpent_Ground",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SharkKid": {
+        "PalId": "BOSS_SharkKid",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SharkKid_Fire": {
+        "PalId": "BOSS_SharkKid_Fire",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SheepBall": {
+        "PalId": "BOSS_SheepBall",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SkyDragon": {
+        "PalId": "BOSS_SkyDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SkyDragon_Grass": {
+        "PalId": "BOSS_SkyDragon_Grass",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SoldierBee": {
+        "PalId": "BOSS_SoldierBee",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Suzaku": {
+        "PalId": "BOSS_Suzaku",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Suzaku_Water": {
+        "PalId": "BOSS_Suzaku_Water",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SweetsSheep": {
+        "PalId": "BOSS_SweetsSheep",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_TentacleTurtle": {
+        "PalId": "BOSS_TentacleTurtle",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_ThunderBird": {
+        "PalId": "BOSS_ThunderBird",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_ThunderDog": {
+        "PalId": "BOSS_ThunderDog",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_ThunderDragonMan": {
+        "PalId": "BOSS_ThunderDragonMan",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Umihebi": {
+        "PalId": "BOSS_Umihebi",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Umihebi_Fire": {
+        "PalId": "BOSS_Umihebi_Fire",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_VioletFairy": {
+        "PalId": "BOSS_VioletFairy",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_VolcanicMonster": {
+        "PalId": "BOSS_VolcanicMonster",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_VolcanicMonster_Ice": {
+        "PalId": "BOSS_VolcanicMonster_Ice",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_WaterLizard": {
+        "PalId": "BOSS_WaterLizard",
+        "BaseLv": 1,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_WeaselDragon": {
+        "PalId": "BOSS_WeaselDragon",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_WeaselDragon_Fire": {
+        "PalId": "BOSS_WeaselDragon_Fire",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Werewolf": {
+        "PalId": "BOSS_Werewolf",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_WhiteMoth": {
+        "PalId": "BOSS_WhiteMoth",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_WhiteTiger": {
+        "PalId": "BOSS_WhiteTiger",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_WindChimes": {
+        "PalId": "BOSS_WindChimes",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_WindChimes_Ice": {
+        "PalId": "BOSS_WindChimes_Ice",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_WizardOwl": {
+        "PalId": "BOSS_WizardOwl",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_WoolFox": {
+        "PalId": "BOSS_WoolFox",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Yeti": {
+        "PalId": "BOSS_Yeti",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Yeti_Grass": {
+        "PalId": "BOSS_Yeti_Grass",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_NightLady": {
+        "PalId": "BOSS_NightLady",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_NightLady_Dark": {
+        "PalId": "BOSS_NightLady_Dark",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_MoonQueen": {
+        "PalId": "BOSS_MoonQueen",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_KendoFrog": {
+        "PalId": "BOSS_KendoFrog",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_LeafPrincess": {
+        "PalId": "BOSS_LeafPrincess",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_MushroomDragon": {
+        "PalId": "BOSS_MushroomDragon",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_MushroomDragon_Dark": {
+        "PalId": "BOSS_MushroomDragon_Dark",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SmallArmadillo": {
+        "PalId": "BOSS_SmallArmadillo",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FeatherOstrich": {
+        "PalId": "BOSS_FeatherOstrich",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_ScorpionMan": {
+        "PalId": "BOSS_ScorpionMan",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_WingGolem": {
+        "PalId": "BOSS_WingGolem",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_CandleGhost": {
+        "PalId": "BOSS_CandleGhost",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_GuardianDog": {
+        "PalId": "BOSS_GuardianDog",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SifuDog": {
+        "PalId": "BOSS_SifuDog",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_MimicDog": {
+        "PalId": "BOSS_MimicDog",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_DarkAlien": {
+        "PalId": "BOSS_DarkAlien",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_WhiteAlienDragon": {
+        "PalId": "BOSS_WhiteAlienDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_VolcanoDragon": {
+        "PalId": "BOSS_VolcanoDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_DarkMechaDragon": {
+        "PalId": "BOSS_DarkMechaDragon",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_GhostRabbit": {
+        "PalId": "BOSS_GhostRabbit",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_NightBlueHorse": {
+        "PalId": "BOSS_NightBlueHorse",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_WhiteShieldDragon": {
+        "PalId": "BOSS_WhiteShieldDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BlackPuppy": {
+        "PalId": "BOSS_BlackPuppy",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_WhiteDeer": {
+        "PalId": "BOSS_WhiteDeer",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_KingWhale": {
+        "PalId": "BOSS_KingWhale",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_MysteryMask": {
+        "PalId": "BOSS_MysteryMask",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_HoodGhost": {
+        "PalId": "BOSS_HoodGhost",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Sekhmet": {
+        "PalId": "BOSS_Sekhmet",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_ElecLizard": {
+        "PalId": "BOSS_ElecLizard",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_GrimGirl": {
+        "PalId": "BOSS_GrimGirl",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_PurpleSpider": {
+        "PalId": "BOSS_PurpleSpider",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BlueThunderHorse": {
+        "PalId": "BOSS_BlueThunderHorse",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_RockBeast": {
+        "PalId": "BOSS_RockBeast",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_OctopusGirl": {
+        "PalId": "BOSS_OctopusGirl",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_IceNarwhal": {
+        "PalId": "BOSS_IceNarwhal",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_JellyfishFairy": {
+        "PalId": "BOSS_JellyfishFairy",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BerryGoat_Dark": {
+        "PalId": "BOSS_BerryGoat_Dark",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Kitsunebi_Ice": {
+        "PalId": "BOSS_Kitsunebi_Ice",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_RaijinDaughter_Water": {
+        "PalId": "BOSS_RaijinDaughter_Water",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SnowTigerBeastman": {
+        "PalId": "BOSS_SnowTigerBeastman",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Werewolf_Ice": {
+        "PalId": "BOSS_Werewolf_Ice",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_WhiteTiger_Ground": {
+        "PalId": "BOSS_WhiteTiger_Ground",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Horus_Water": {
+        "PalId": "BOSS_Horus_Water",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FengyunDeeper_Electric": {
+        "PalId": "BOSS_FengyunDeeper_Electric",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_AmaterasuWolf_Dark": {
+        "PalId": "BOSS_AmaterasuWolf_Dark",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_PinkRabbit_Grass": {
+        "PalId": "BOSS_PinkRabbit_Grass",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SnakeGirl": {
+        "PalId": "BOSS_SnakeGirl",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_GhostAnglerfish": {
+        "PalId": "BOSS_GhostAnglerfish",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_IceWitch": {
+        "PalId": "BOSS_IceWitch",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_ClownRabbit": {
+        "PalId": "BOSS_ClownRabbit",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_LegendDeer": {
+        "PalId": "BOSS_LegendDeer",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_LeafMomonga": {
+        "PalId": "BOSS_LeafMomonga",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SmallYeti": {
+        "PalId": "BOSS_SmallYeti",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_IceCrocodile": {
+        "PalId": "BOSS_IceCrocodile",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_CactusDoll": {
+        "PalId": "BOSS_CactusDoll",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_MushroomLady": {
+        "PalId": "BOSS_MushroomLady",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_StuffedShark": {
+        "PalId": "BOSS_StuffedShark",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FoxExorcist": {
+        "PalId": "BOSS_FoxExorcist",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_IceSeal": {
+        "PalId": "BOSS_IceSeal",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_CloverFairy": {
+        "PalId": "BOSS_CloverFairy",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_ElecPomeranian": {
+        "PalId": "BOSS_ElecPomeranian",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_GhostBlackCat": {
+        "PalId": "BOSS_GhostBlackCat",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_ThiefBird": {
+        "PalId": "BOSS_ThiefBird",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_OniGhostGirl": {
+        "PalId": "BOSS_OniGhostGirl",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_KingCrab": {
+        "PalId": "BOSS_KingCrab",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Plesiosaur": {
+        "PalId": "BOSS_Plesiosaur",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_TropicalOstrich": {
+        "PalId": "BOSS_TropicalOstrich",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_GrassGolem": {
+        "PalId": "BOSS_GrassGolem",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SnowPeafowl": {
+        "PalId": "BOSS_SnowPeafowl",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_PyramidTurtle": {
+        "PalId": "BOSS_PyramidTurtle",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_LongCat": {
+        "PalId": "BOSS_LongCat",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_JellyfishGhost": {
+        "PalId": "BOSS_JellyfishGhost",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_ThunderFluffyBird": {
+        "PalId": "BOSS_ThunderFluffyBird",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_MoonChild": {
+        "PalId": "BOSS_MoonChild",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SamuraiDog": {
+        "PalId": "BOSS_SamuraiDog",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_PoseidonOrca": {
+        "PalId": "BOSS_PoseidonOrca",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_SwordCutlassfish": {
+        "PalId": "BOSS_SwordCutlassfish",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_NegativeOctopus_Neutral": {
+        "PalId": "BOSS_NegativeOctopus_Neutral",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_Penguin_Electric": {
+        "PalId": "BOSS_Penguin_Electric",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_CaptainPenguin_Black": {
+        "PalId": "BOSS_CaptainPenguin_Black",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_FlyingManta_Thunder": {
+        "PalId": "BOSS_FlyingManta_Thunder",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BluePlatypus_Fire": {
+        "PalId": "BOSS_BluePlatypus_Fire",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_LazyCatfish_Gold": {
+        "PalId": "BOSS_LazyCatfish_Gold",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_TentacleTurtle_Ground": {
+        "PalId": "BOSS_TentacleTurtle_Ground",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_KendoFrog_Dark": {
+        "PalId": "BOSS_KendoFrog_Dark",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_BlueDragon_Ice": {
+        "PalId": "BOSS_BlueDragon_Ice",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_IceNarwhal_Fire": {
+        "PalId": "BOSS_IceNarwhal_Fire",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_GhostAnglerfish_Fire": {
+        "PalId": "BOSS_GhostAnglerfish_Fire",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BOSS_StuffedShark_Fire": {
+        "PalId": "BOSS_StuffedShark_Fire",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BrownRabbit": {
+        "PalId": "BrownRabbit",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "ElecLion": {
+        "PalId": "ElecLion",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GoldenHorse": {
+        "PalId": "GoldenHorse",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "PinkKangaroo": {
+        "PalId": "PinkKangaroo",
+        "BaseLv": 1,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "TentacleTurtle": {
+        "PalId": "TentacleTurtle",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "TentacleTurtle_Ground": {
+        "PalId": "TentacleTurtle_Ground",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "BeardedDragon": {
+        "PalId": "BeardedDragon",
+        "BaseLv": 1,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "WaterLizard": {
+        "PalId": "WaterLizard",
+        "BaseLv": 1,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GrassDragon": {
+        "PalId": "GrassDragon",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "Anubis": {
+        "PalId": "Anubis",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "Baphomet": {
+        "PalId": "Baphomet",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Baphomet_Dark": {
+        "PalId": "Baphomet_Dark",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Bastet": {
+        "PalId": "Bastet",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Bastet_Ice": {
+        "PalId": "Bastet_Ice",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Boar": {
+        "PalId": "Boar",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Carbunclo": {
+        "PalId": "Carbunclo",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "ColorfulBird": {
+        "PalId": "ColorfulBird",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Deer": {
+        "PalId": "Deer",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Deer_Ground": {
+        "PalId": "Deer_Ground",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "DrillGame": {
+        "PalId": "DrillGame",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "Eagle": {
+        "PalId": "Eagle",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "ElecPanda": {
+        "PalId": "ElecPanda",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "Ganesha": {
+        "PalId": "Ganesha",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Garm": {
+        "PalId": "Garm",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Gorilla": {
+        "PalId": "Gorilla",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "Gorilla_Ground": {
+        "PalId": "Gorilla_Ground",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "Hedgehog": {
+        "PalId": "Hedgehog",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Hedgehog_Ice": {
+        "PalId": "Hedgehog_Ice",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Kirin": {
+        "PalId": "Kirin",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Kitsunebi": {
+        "PalId": "Kitsunebi",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "LittleBriarRose": {
+        "PalId": "LittleBriarRose",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Mutant": {
+        "PalId": "Mutant",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "Penguin": {
+        "PalId": "Penguin",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Penguin_Electric": {
+        "PalId": "Penguin_Electric",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "RaijinDaughter": {
+        "PalId": "RaijinDaughter",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "SharkKid": {
+        "PalId": "SharkKid",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "SharkKid_Fire": {
+        "PalId": "SharkKid_Fire",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "SheepBall": {
+        "PalId": "SheepBall",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Umihebi": {
+        "PalId": "Umihebi",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "Umihebi_Fire": {
+        "PalId": "Umihebi_Fire",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "Werewolf": {
+        "PalId": "Werewolf",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "WindChimes": {
+        "PalId": "WindChimes",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "WindChimes_Ice": {
+        "PalId": "WindChimes_Ice",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Suzaku": {
+        "PalId": "Suzaku",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "Suzaku_Water": {
+        "PalId": "Suzaku_Water",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "FireKirin": {
+        "PalId": "FireKirin",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "FireKirin_Dark": {
+        "PalId": "FireKirin_Dark",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "FairyDragon": {
+        "PalId": "FairyDragon",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "FairyDragon_Water": {
+        "PalId": "FairyDragon_Water",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "SweetsSheep": {
+        "PalId": "SweetsSheep",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "WhiteTiger": {
+        "PalId": "WhiteTiger",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "Alpaca": {
+        "PalId": "Alpaca",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Serpent": {
+        "PalId": "Serpent",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "Serpent_Ground": {
+        "PalId": "Serpent_Ground",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "DarkCrow": {
+        "PalId": "DarkCrow",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "BlueDragon": {
+        "PalId": "BlueDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "BlueDragon_Ice": {
+        "PalId": "BlueDragon_Ice",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "PinkCat": {
+        "PalId": "PinkCat",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "NegativeKoala": {
+        "PalId": "NegativeKoala",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "FengyunDeeper": {
+        "PalId": "FengyunDeeper",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "VolcanicMonster": {
+        "PalId": "VolcanicMonster",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "VolcanicMonster_Ice": {
+        "PalId": "VolcanicMonster_Ice",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "GhostBeast": {
+        "PalId": "GhostBeast",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "RobinHood": {
+        "PalId": "RobinHood",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "RobinHood_Ground": {
+        "PalId": "RobinHood_Ground",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "LazyDragon": {
+        "PalId": "LazyDragon",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "LazyDragon_Electric": {
+        "PalId": "LazyDragon_Electric",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "AmaterasuWolf": {
+        "PalId": "AmaterasuWolf",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "LizardMan": {
+        "PalId": "LizardMan",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "LizardMan_Fire": {
+        "PalId": "LizardMan_Fire",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "BluePlatypus": {
+        "PalId": "BluePlatypus",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "BluePlatypus_Fire": {
+        "PalId": "BluePlatypus_Fire",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "BlackFurDragon": {
+        "PalId": "BlackFurDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BirdDragon": {
+        "PalId": "BirdDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "BirdDragon_Ice": {
+        "PalId": "BirdDragon_Ice",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "ChickenPal": {
+        "PalId": "ChickenPal",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "FlowerDinosaur": {
+        "PalId": "FlowerDinosaur",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "FlowerDinosaur_Electric": {
+        "PalId": "FlowerDinosaur_Electric",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "ElecCat": {
+        "PalId": "ElecCat",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "IceHorse": {
+        "PalId": "IceHorse",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "IceHorse_Dark": {
+        "PalId": "IceHorse_Dark",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GrassMammoth": {
+        "PalId": "GrassMammoth",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GrassMammoth_Ice": {
+        "PalId": "GrassMammoth_Ice",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "CatVampire": {
+        "PalId": "CatVampire",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "SakuraSaurus": {
+        "PalId": "SakuraSaurus",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "SakuraSaurus_Water": {
+        "PalId": "SakuraSaurus_Water",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "Horus": {
+        "PalId": "Horus",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "KingBahamut": {
+        "PalId": "KingBahamut",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "KingBahamut_Dragon": {
+        "PalId": "KingBahamut_Dragon",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BerryGoat": {
+        "PalId": "BerryGoat",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "IceDeer": {
+        "PalId": "IceDeer",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "BlackGriffon": {
+        "PalId": "BlackGriffon",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "WhiteMoth": {
+        "PalId": "WhiteMoth",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "CuteFox": {
+        "PalId": "CuteFox",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "FoxMage": {
+        "PalId": "FoxMage",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "FoxMage_Dark": {
+        "PalId": "FoxMage_Dark",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "PinkLizard": {
+        "PalId": "PinkLizard",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "WizardOwl": {
+        "PalId": "WizardOwl",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Kelpie": {
+        "PalId": "Kelpie",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Kelpie_Fire": {
+        "PalId": "Kelpie_Fire",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "NegativeOctopus": {
+        "PalId": "NegativeOctopus",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "NegativeOctopus_Neutral": {
+        "PalId": "NegativeOctopus_Neutral",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "CowPal": {
+        "PalId": "CowPal",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Yeti": {
+        "PalId": "Yeti",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "Yeti_Grass": {
+        "PalId": "Yeti_Grass",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "VioletFairy": {
+        "PalId": "VioletFairy",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "HawkBird": {
+        "PalId": "HawkBird",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "FlowerRabbit": {
+        "PalId": "FlowerRabbit",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "LilyQueen": {
+        "PalId": "LilyQueen",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "LilyQueen_Dark": {
+        "PalId": "LilyQueen_Dark",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "QueenBee": {
+        "PalId": "QueenBee",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "SoldierBee": {
+        "PalId": "SoldierBee",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "CatBat": {
+        "PalId": "CatBat",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "GrassPanda": {
+        "PalId": "GrassPanda",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "GrassPanda_Electric": {
+        "PalId": "GrassPanda_Electric",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "FlameBuffalo": {
+        "PalId": "FlameBuffalo",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "ThunderDog": {
+        "PalId": "ThunderDog",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "CuteMole": {
+        "PalId": "CuteMole",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "BlackMetalDragon": {
+        "PalId": "BlackMetalDragon",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GrassRabbitMan": {
+        "PalId": "GrassRabbitMan",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "IceFox": {
+        "PalId": "IceFox",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "JetDragon": {
+        "PalId": "JetDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "DreamDemon": {
+        "PalId": "DreamDemon",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Monkey": {
+        "PalId": "Monkey",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Manticore": {
+        "PalId": "Manticore",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "Manticore_Dark": {
+        "PalId": "Manticore_Dark",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "KingAlpaca": {
+        "PalId": "KingAlpaca",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "KingAlpaca_Ice": {
+        "PalId": "KingAlpaca_Ice",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PlantSlime": {
+        "PalId": "PlantSlime",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "PlantSlime_Flower": {
+        "PalId": "PlantSlime_Flower",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "DarkMutant": {
+        "PalId": "DarkMutant",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "MopBaby": {
+        "PalId": "MopBaby",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 4
+      },
+      "MopKing": {
+        "PalId": "MopKing",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "CatMage": {
+        "PalId": "CatMage",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "CatMage_Fire": {
+        "PalId": "CatMage_Fire",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "PinkRabbit": {
+        "PalId": "PinkRabbit",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "ThunderBird": {
+        "PalId": "ThunderBird",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "HerculesBeetle": {
+        "PalId": "HerculesBeetle",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "HerculesBeetle_Ground": {
+        "PalId": "HerculesBeetle_Ground",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "SaintCentaur": {
+        "PalId": "SaintCentaur",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "NightFox": {
+        "PalId": "NightFox",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "CaptainPenguin": {
+        "PalId": "CaptainPenguin",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "CaptainPenguin_Black": {
+        "PalId": "CaptainPenguin_Black",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "WeaselDragon": {
+        "PalId": "WeaselDragon",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "WeaselDragon_Fire": {
+        "PalId": "WeaselDragon_Fire",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "SkyDragon": {
+        "PalId": "SkyDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "SkyDragon_Grass": {
+        "PalId": "SkyDragon_Grass",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "HadesBird": {
+        "PalId": "HadesBird",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "HadesBird_Electric": {
+        "PalId": "HadesBird_Electric",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "RedArmorBird": {
+        "PalId": "RedArmorBird",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "Ronin": {
+        "PalId": "Ronin",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "Ronin_Dark": {
+        "PalId": "Ronin_Dark",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "FlyingManta": {
+        "PalId": "FlyingManta",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "FlyingManta_Thunder": {
+        "PalId": "FlyingManta_Thunder",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "BlackCentaur": {
+        "PalId": "BlackCentaur",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "FlowerDoll": {
+        "PalId": "FlowerDoll",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "NaughtyCat": {
+        "PalId": "NaughtyCat",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "CuteButterfly": {
+        "PalId": "CuteButterfly",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "DarkScorpion": {
+        "PalId": "DarkScorpion",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "DarkScorpion_Ground": {
+        "PalId": "DarkScorpion_Ground",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "ThunderDragonMan": {
+        "PalId": "ThunderDragonMan",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "WoolFox": {
+        "PalId": "WoolFox",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "LazyCatfish": {
+        "PalId": "LazyCatfish",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "LazyCatfish_Gold": {
+        "PalId": "LazyCatfish_Gold",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "LavaGirl": {
+        "PalId": "LavaGirl",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "FlameBambi": {
+        "PalId": "FlameBambi",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "NightLady": {
+        "PalId": "NightLady",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "NightLady_Dark": {
+        "PalId": "NightLady_Dark",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "MoonQueen": {
+        "PalId": "MoonQueen",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "KendoFrog": {
+        "PalId": "KendoFrog",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "KendoFrog_Dark": {
+        "PalId": "KendoFrog_Dark",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "LeafPrincess": {
+        "PalId": "LeafPrincess",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "MushroomDragon": {
+        "PalId": "MushroomDragon",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "MushroomDragon_Dark": {
+        "PalId": "MushroomDragon_Dark",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "SmallArmadillo": {
+        "PalId": "SmallArmadillo",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "CandleGhost": {
+        "PalId": "CandleGhost",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "ScorpionMan": {
+        "PalId": "ScorpionMan",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "WingGolem": {
+        "PalId": "WingGolem",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GuardianDog": {
+        "PalId": "GuardianDog",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "SifuDog": {
+        "PalId": "SifuDog",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "FeatherOstrich": {
+        "PalId": "FeatherOstrich",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "MimicDog": {
+        "PalId": "MimicDog",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "DarkAlien": {
+        "PalId": "DarkAlien",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "WhiteAlienDragon": {
+        "PalId": "WhiteAlienDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "VolcanoDragon": {
+        "PalId": "VolcanoDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "DarkMechaDragon": {
+        "PalId": "DarkMechaDragon",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GhostRabbit": {
+        "PalId": "GhostRabbit",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "NightBlueHorse": {
+        "PalId": "NightBlueHorse",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "WhiteShieldDragon": {
+        "PalId": "WhiteShieldDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "BlackPuppy": {
+        "PalId": "BlackPuppy",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "WhiteDeer": {
+        "PalId": "WhiteDeer",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "KingWhale": {
+        "PalId": "KingWhale",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "MysteryMask": {
+        "PalId": "MysteryMask",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "HoodGhost": {
+        "PalId": "HoodGhost",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Sekhmet": {
+        "PalId": "Sekhmet",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "ElecLizard": {
+        "PalId": "ElecLizard",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "GrimGirl": {
+        "PalId": "GrimGirl",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PurpleSpider": {
+        "PalId": "PurpleSpider",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "BlueThunderHorse": {
+        "PalId": "BlueThunderHorse",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "RockBeast": {
+        "PalId": "RockBeast",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "OctopusGirl": {
+        "PalId": "OctopusGirl",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "IceNarwhal": {
+        "PalId": "IceNarwhal",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "IceNarwhal_Fire": {
+        "PalId": "IceNarwhal_Fire",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "JellyfishFairy": {
+        "PalId": "JellyfishFairy",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "GYM_SnowTigerBeastman": {
+        "PalId": "GYM_SnowTigerBeastman",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "GYM_SnowTigerBeastman_2": {
+        "PalId": "GYM_SnowTigerBeastman_2",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "SUMMON_DarkAlien": {
+        "PalId": "SUMMON_DarkAlien",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "SUMMON_DarkAlien_MAX": {
+        "PalId": "SUMMON_DarkAlien_MAX",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "SUMMON_WhiteAlienDragon": {
+        "PalId": "SUMMON_WhiteAlienDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "SUMMON_WhiteAlienDragon_MAX": {
+        "PalId": "SUMMON_WhiteAlienDragon_MAX",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_AmaterasuWolf": {
+        "PalId": "PREDATOR_AmaterasuWolf",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_BirdDragon": {
+        "PalId": "PREDATOR_BirdDragon",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_DrillGame": {
+        "PalId": "PREDATOR_DrillGame",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_FairyDragon": {
+        "PalId": "PREDATOR_FairyDragon",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_FeatherOstrich": {
+        "PalId": "PREDATOR_FeatherOstrich",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_FlowerDinosaur": {
+        "PalId": "PREDATOR_FlowerDinosaur",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_Garm": {
+        "PalId": "PREDATOR_Garm",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_GhostBeast": {
+        "PalId": "PREDATOR_GhostBeast",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_GoldenHorse": {
+        "PalId": "PREDATOR_GoldenHorse",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_Gorilla": {
+        "PalId": "PREDATOR_Gorilla",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_GrassPanda": {
+        "PalId": "PREDATOR_GrassPanda",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_GrimGirl": {
+        "PalId": "PREDATOR_GrimGirl",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_Horus_Water": {
+        "PalId": "PREDATOR_Horus_Water",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_LazyDragon": {
+        "PalId": "PREDATOR_LazyDragon",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_Manticore_Dark": {
+        "PalId": "PREDATOR_Manticore_Dark",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_MushroomDragon": {
+        "PalId": "PREDATOR_MushroomDragon",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_MysteryMask": {
+        "PalId": "PREDATOR_MysteryMask",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_NightBlueHorse": {
+        "PalId": "PREDATOR_NightBlueHorse",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_PinkLizard": {
+        "PalId": "PREDATOR_PinkLizard",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_PurpleSpider": {
+        "PalId": "PREDATOR_PurpleSpider",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_RedArmorBird": {
+        "PalId": "PREDATOR_RedArmorBird",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_ScorpionMan": {
+        "PalId": "PREDATOR_ScorpionMan",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_SifuDog": {
+        "PalId": "PREDATOR_SifuDog",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_ThunderDog": {
+        "PalId": "PREDATOR_ThunderDog",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_Umihebi_Fire": {
+        "PalId": "PREDATOR_Umihebi_Fire",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_VolcanicMonster_Ice": {
+        "PalId": "PREDATOR_VolcanicMonster_Ice",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_Werewolf_Ice": {
+        "PalId": "PREDATOR_Werewolf_Ice",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_WhiteTiger_Ground": {
+        "PalId": "PREDATOR_WhiteTiger_Ground",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_Yeti": {
+        "PalId": "PREDATOR_Yeti",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_HadesBird_Electric": {
+        "PalId": "PREDATOR_HadesBird_Electric",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_Ronin_Dark": {
+        "PalId": "PREDATOR_Ronin_Dark",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_CandleGhost": {
+        "PalId": "PREDATOR_CandleGhost",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "PREDATOR_Baphomet_Dark": {
+        "PalId": "PREDATOR_Baphomet_Dark",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "RAID_DarkMechaDragon": {
+        "PalId": "RAID_DarkMechaDragon",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "RAID_DarkMechaDragon_2": {
+        "PalId": "RAID_DarkMechaDragon_2",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "Kitsunebi_Ice": {
+        "PalId": "Kitsunebi_Ice",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "BerryGoat_Dark": {
+        "PalId": "BerryGoat_Dark",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "PinkRabbit_Grass": {
+        "PalId": "PinkRabbit_Grass",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "Werewolf_Ice": {
+        "PalId": "Werewolf_Ice",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "AmaterasuWolf_Dark": {
+        "PalId": "AmaterasuWolf_Dark",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "RaijinDaughter_Water": {
+        "PalId": "RaijinDaughter_Water",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "WhiteTiger_Ground": {
+        "PalId": "WhiteTiger_Ground",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "FengyunDeeper_Electric": {
+        "PalId": "FengyunDeeper_Electric",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "Horus_Water": {
+        "PalId": "Horus_Water",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "SnowTigerBeastman": {
+        "PalId": "SnowTigerBeastman",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "WingGolem_Oilrig": {
+        "PalId": "WingGolem_Oilrig",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "DarkAlien_Oilrig": {
+        "PalId": "DarkAlien_Oilrig",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "Horus_Oilrig": {
+        "PalId": "Horus_Oilrig",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "Baphomet_Dark_Oilrig": {
+        "PalId": "Baphomet_Dark_Oilrig",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "HadesBird_Oilrig": {
+        "PalId": "HadesBird_Oilrig",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "LizardMan_Oilrig": {
+        "PalId": "LizardMan_Oilrig",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "SnakeGirl": {
+        "PalId": "SnakeGirl",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "GhostAnglerfish": {
+        "PalId": "GhostAnglerfish",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "GhostAnglerfish_Fire": {
+        "PalId": "GhostAnglerfish_Fire",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "IceWitch": {
+        "PalId": "IceWitch",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "ClownRabbit": {
+        "PalId": "ClownRabbit",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "LegendDeer": {
+        "PalId": "LegendDeer",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "LeafMomonga": {
+        "PalId": "LeafMomonga",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "SmallYeti": {
+        "PalId": "SmallYeti",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "IceCrocodile": {
+        "PalId": "IceCrocodile",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "CactusDoll": {
+        "PalId": "CactusDoll",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "MushroomLady": {
+        "PalId": "MushroomLady",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "StuffedShark": {
+        "PalId": "StuffedShark",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "StuffedShark_Fire": {
+        "PalId": "StuffedShark_Fire",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "FoxExorcist": {
+        "PalId": "FoxExorcist",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "IceSeal": {
+        "PalId": "IceSeal",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "CloverFairy": {
+        "PalId": "CloverFairy",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "ElecPomeranian": {
+        "PalId": "ElecPomeranian",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "GhostBlackCat": {
+        "PalId": "GhostBlackCat",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "ThiefBird": {
+        "PalId": "ThiefBird",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "OniGhostGirl": {
+        "PalId": "OniGhostGirl",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "KingCrab": {
+        "PalId": "KingCrab",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "Plesiosaur": {
+        "PalId": "Plesiosaur",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "TropicalOstrich": {
+        "PalId": "TropicalOstrich",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "GrassGolem": {
+        "PalId": "GrassGolem",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "SnowPeafowl": {
+        "PalId": "SnowPeafowl",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "PyramidTurtle": {
+        "PalId": "PyramidTurtle",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "LongCat": {
+        "PalId": "LongCat",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "JellyfishGhost": {
+        "PalId": "JellyfishGhost",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "ThunderFluffyBird": {
+        "PalId": "ThunderFluffyBird",
+        "BaseLv": 30,
+        "NumMin": 1,
+        "NumMax": 2
+      },
+      "MoonChild": {
+        "PalId": "MoonChild",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "SamuraiDog": {
+        "PalId": "SamuraiDog",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "PoseidonOrca": {
+        "PalId": "PoseidonOrca",
+        "BaseLv": 48,
+        "NumMin": 1,
+        "NumMax": 1
+      },
+      "SwordCutlassfish": {
+        "PalId": "SwordCutlassfish",
+        "BaseLv": 15,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "YakushimaMonster001": {
+        "PalId": "YakushimaMonster001",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "YakushimaMonster001_Blue": {
+        "PalId": "YakushimaMonster001_Blue",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "YakushimaMonster001_Red": {
+        "PalId": "YakushimaMonster001_Red",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "YakushimaMonster001_Purple": {
+        "PalId": "YakushimaMonster001_Purple",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "YakushimaMonster001_Pink": {
+        "PalId": "YakushimaMonster001_Pink",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "YakushimaMonster001_Rainbow": {
+        "PalId": "YakushimaMonster001_Rainbow",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "YakushimaMonster002": {
+        "PalId": "YakushimaMonster002",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "YakushimaMonster003": {
+        "PalId": "YakushimaMonster003",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "YakushimaMonster003_Purple": {
+        "PalId": "YakushimaMonster003_Purple",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "YakushimaBoss001": {
+        "PalId": "YakushimaBoss001",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "BOSS_YakushimaBoss001": {
+        "PalId": "BOSS_YakushimaBoss001",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "YakushimaBoss001_Small": {
+        "PalId": "YakushimaBoss001_Small",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "RAID_YakushimaBoss001_Green": {
+        "PalId": "RAID_YakushimaBoss001_Green",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "RAID_YakushimaBoss002": {
+        "PalId": "RAID_YakushimaBoss002",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "RAID_YakushimaBoss002_Hand_Left": {
+        "PalId": "RAID_YakushimaBoss002_Hand_Left",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      },
+      "RAID_YakushimaBoss002_Hand_Right": {
+        "PalId": "RAID_YakushimaBoss002_Hand_Right",
+        "BaseLv": 5,
+        "NumMin": 1,
+        "NumMax": 3
+      }
+    }
+  }
+]
