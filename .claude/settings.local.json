@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(dir \"C:\\\\Users\\\\asuspc\\\\AndroidStudioProjects\\\\pallogv2\\\\app\\\\src\\\\main\\\\res\")",
-      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\asuspc\\\\AndroidStudioProjects\\\\pallogv2\\\\app\\\\src\\\\main\" -Recurse | Select-Object FullName, PSIsContainer | Where-Object {$_.PSIsContainer -eq $false} | Select-Object -First 50)"
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\asuspc\\\\AndroidStudioProjects\\\\pallogv2\\\\app\\\\src\\\\main\" -Recurse | Select-Object FullName, PSIsContainer | Where-Object {$_.PSIsContainer -eq $false} | Select-Object -First 50)",
+      "Bash(dir \"C:\\\\Users\\\\asuspc\\\\AndroidStudioProjects\\\\pallogv2\\\\app\\\\src\\\\main\\\\assets\\\\PAL\")"
     ]
   }
 }

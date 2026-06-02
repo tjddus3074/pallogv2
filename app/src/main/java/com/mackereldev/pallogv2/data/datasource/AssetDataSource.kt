@@ -3,6 +3,8 @@ package com.mackereldev.pallogv2.data.datasource
 import android.content.Context
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import com.mackereldev.pallogv2.data.model.Building
+import com.mackereldev.pallogv2.data.model.Item
 import com.mackereldev.pallogv2.data.model.Pal
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
@@ -17,5 +19,19 @@ class AssetDataSource @Inject constructor(
             .bufferedReader()
             .use { it.readText() }
         return Gson().fromJson(json, object : TypeToken<List<Pal>>() {}.type)
+    }
+
+    fun loadItems(fileName: String): List<Item> {
+        val json = context.assets.open("PAL/Json/$fileName")
+            .bufferedReader()
+            .use { it.readText() }
+        return Gson().fromJson(json, object : TypeToken<List<Item>>() {}.type)
+    }
+
+    fun loadBuildings(fileName: String): List<Building> {
+        val json = context.assets.open("PAL/Json/$fileName")
+            .bufferedReader()
+            .use { it.readText() }
+        return Gson().fromJson(json, object : TypeToken<List<Building>>() {}.type)
     }
 }

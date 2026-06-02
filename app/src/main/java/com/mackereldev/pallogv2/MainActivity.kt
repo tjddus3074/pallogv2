@@ -14,6 +14,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.navigation.compose.rememberNavController
 import com.mackereldev.pallogv2.navigation.NavGraph
+import com.mackereldev.pallogv2.ui.components.AppShell
 import kotlinx.coroutines.delay
 
 @AndroidEntryPoint
@@ -33,8 +34,9 @@ class MainActivity : ComponentActivity() {
 //                    showSplash = false
 //                }
                 val navController = rememberNavController()
-                NavGraph(navController = navController)
-
+                AppShell(navController = navController) { onMenuClick ->
+                    NavGraph(navController = navController, onMenuClick = onMenuClick)
+                }
             }
         }
     }

@@ -20,7 +20,12 @@ data class Pal (
     val drops: List<PalDrop>
 ) {
     val iconAssetpath: String
-        get() = "PAL/Texture/PalIcon/Normal/T_${stats.code}_icon_normal.png"
+        get() = if (stats.code.contains("Yakushima")) {
+            "PAL/Texture/PalIcon/Normal/Yakushima/T_${stats.code}_icon_normal.png"
+        } else {
+            "PAL/Texture/PalIcon/Normal/T_${stats.code}_icon_normal.png"
+        }
+
 }
 
 data class PalStats(

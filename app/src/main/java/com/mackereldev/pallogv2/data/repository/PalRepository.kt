@@ -12,7 +12,7 @@ class PalRepository @Inject constructor(
     private var cache: List<Pal>? = null
 
     fun getPals(): List<Pal> {
-        if(cache == null) cache = dataSource.loadPals()
+        if(cache == null) cache = dataSource.loadPals().sortedBy { it.palDeckIndex }
         return cache!!
     }
 

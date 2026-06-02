@@ -8,10 +8,11 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 @Composable
 fun PalListScreen(
     onPalClick: (Int) -> Unit,
+    onMenuClick: () -> Unit,
     viewModel: PalListViewModel = hiltViewModel()
 ) {
 
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
-    PalListView(uiState = uiState, onPalClick = onPalClick)
+    PalListView(uiState = uiState, onPalClick = onPalClick, onMenuClick = onMenuClick)
 
 }
