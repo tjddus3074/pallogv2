@@ -36,7 +36,7 @@ private const val COLUMN_COUNT = 3
 @Composable
 fun PalListView(
     uiState: PalListUiState,
-    onPalClick: (Int) -> Unit,
+    onPalClick: (String) -> Unit,
     onMenuClick: () -> Unit
 ) {
 
@@ -72,7 +72,7 @@ fun PalListView(
                     items(uiState.pals) { pal ->
                         PalCard(
                             pal = pal,
-                            onClick = { onPalClick(pal.palDeckIndex) },
+                            onClick = { onPalClick(pal.stats.code) },
                             modifier = Modifier.fillMaxWidth()
                         )
                     }

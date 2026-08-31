@@ -1,1 +1,2232 @@
-[{"id":"da72293249c4a52e651d34e458139d206c4a2f8ca00d1634593ca37ebbdbcf80","name":"원시적인 작업대","href":"Primitive_Workbench","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench.webp","dynamic":{"기술":"1","needwork":"Handiwork","SAN":"-0.11"},"description":"간단한 아이템을 제작하는 원시적인 작업대. 수작업이 가능한 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Code":"WorkBench","Defense":"2","수작업":"1","Hp":"1000","Hp_PVP":"1000","Defense_PVP":"25","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","ExtinguishBurnWorkAmount":"1000","bShowHPGauge":"1","TypeA":"Product","TypeB":"Prod_Craft","TypeUIDisplay":"Product_Repair","Rank":"1","AssetValue":"1","BuildExpRate":"1","TypesA":"Weapon","TypesB":"ArmorBody","meterial":{"목재":"2"},"production":[]},{"id":"?s=MapObjects%2FRepairBench","name":"수리대","href":"Repair_Bench","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_RepairBench.webp","dynamic":{"기술":"2","needwork":"Handiwork","SAN":"-0.11"},"description":"파손된 도구를 수리하는 작업대. 소재를 소모하여 수리할 수 있다.","skill":"","Type":"생산","작업량":"수작업","Code":"RepairBench","Defense":"2","수작업":"1","Worker":"Max","Hp":"2000","Hp_PVP":"2000","Defense_PVP":"25","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","ExtinguishBurnWorkAmount":"1000","bShowHPGauge":"1","TypeA":"Product","SortId":"1","TypeB":"Prod_Craft","TypeUIDisplay":"Product_Repair","Rank":"1","AssetValue":"1","BuildExpRate":"2.21","meterial":{"목재":"10","돌":"10"},"production":[]},{"id":"?s=MapObjects%2FWorkBench_SkillUnlock","name":"팰 장비 제작대","href":"Pal_Gear_Workbench","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench_SkillUnlock.webp","dynamic":{"기술":"6","needwork":"Handiwork","SAN":"-0.11"},"description":"팰이 쓸 도구를 만드는 원시적인 작업대. 안장을 만들어 팰 위에 얹거나 총을 만들어 팰에게 쥐여 주자.","skill":"","Type":"생산","작업량":"수작업","Code":"WorkBench_SkillUnlock","Defense":"2","수작업":"1","Hp":"1000","Hp_PVP":"1000","Defense_PVP":"25","bBelongToBaseCamp":"1","DeteriorationDamage":"0.02","ExtinguishBurnWorkAmount":"1000","bShowHPGauge":"1","TypeA":"Product","SortId":"2","TypeB":"Prod_Craft","TypeUIDisplay":"Product_Repair","Rank":"1","AssetValue":"1","BuildExpRate":"2.74","TypesA":"Essential","TypesB":"Essential_PalGear","meterial":{"팰지움 파편":"10","목재":"30","천":"2"},"production":[]},{"id":"?s=MapObjects%2FStonePit","name":"채석장","href":"Stone_Pit","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_StonePit.webp","dynamic":{"기술":"7","needwork":"Mining","SAN":"-0.15"},"description":"돌을(를) 생산하는 시설. 돌을(를) 파내는 작업은 고되므로 체력이 필요하다. 채굴에 자신 있는 팰에게 맡기자.","skill":"","Type":"생산","작업량":"수작업","Code":"StonePit","Defense":"4","채굴":"1","Hp":"10000","Hp_PVP":"10000","Defense_PVP":"12","bBelongToBaseCamp":"1","DeteriorationDamage":"0.2","bShowHPGauge":"1","TypeA":"Product","SortId":"18","TypeB":"Prod_Resource","TypeUIDisplay":"Deforest_Mining","Rank":"1","AssetValue":"1","BuildExpRate":"3.64","돌":"x1","meterial":{"돌":"50","목재":"20","팰지움 파편":"10"},"production":[]},{"id":"?s=MapObjects%2FStationDeforest2","name":"벌목장","href":"Logging_Site","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_StationDeforest2.webp","dynamic":{"기술":"7","needwork":"Lumbering","SAN":"-0.15"},"description":"목재을(를) 생산하는 시설. 나무를 자르는 작업은 고되므로 체력이 필요하다. 벌목에 자신 있는 팰에게 맡기자.","skill":"","Type":"생산","작업량":"수작업","Code":"StationDeforest2","Defense":"4","벌목":"1","Worker":"Max","Hp":"10000","Hp_PVP":"10000","Defense_PVP":"12","bBelongToBaseCamp":"1","DeteriorationDamage":"0.2","ExtinguishBurnWorkAmount":"1000","bShowHPGauge":"1","TypeA":"Product","SortId":"17","TypeB":"Prod_Resource","TypeUIDisplay":"Deforest_Mining","Rank":"1","AssetValue":"1","BuildExpRate":"3.64","목재":"x1","meterial":{"목재":"50","돌":"20","팰지움 파편":"10"},"production":[]},{"id":"?s=MapObjects%2FCrusher","name":"파쇄기","href":"Crusher","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Crusher.webp","dynamic":{"기술":"8","needwork":"Watering","SAN":"-0.11"},"description":"돌 혹은 목재을(를) 분쇄하여 다른 소재로 변환할 수 있는 시설. 물레방아를 돌리는 |관개| 적성의 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Code":"Crusher","Defense":"3","관개":"1","Hp":"4000","Hp_PVP":"4000","Defense_PVP":"31","bBelongToBaseCamp":"1","DeteriorationDamage":"0.12","bShowHPGauge":"1","TypeA":"Product","SortId":"31","TypeB":"Prod_Craft","TypeUIDisplay":"Milling_Crusher","Rank":"1","AssetValue":"1","BuildExpRate":"3.32","TypesA":"Material","TypesB":"MaterialOre","meterial":{"목재":"50","돌":"20","팰지움 파편":"10"},"production":[]},{"id":"?s=MapObjects%2FBlastFurnace","name":"원시적인 화로","href":"Primitive_Furnace","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace.webp","dynamic":{"기술":"10","needwork":"Kindling","SAN":"-0.15"},"description":"금속 주괴을(를) 제련할 수 있다. 품질이 썩 좋지 않고 속도가 느리다. 화염 팰이 불을 붙여줘야 한다.","skill":"","Type":"생산","작업량":"수작업","Code":"BlastFurnace","Defense":"2","불":"피우기","Hp":"2000","Hp_PVP":"2000","Defense_PVP":"25","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","bShowHPGauge":"1","TypeA":"Product","SortId":"26","TypeB":"Prod_Furnace","TypeUIDisplay":"Refine","Rank":"1","AssetValue":"1","BuildExpRate":"2.74","TypesA":"Material","TypesB":"MaterialIngot","meterial":{"목재":"20","돌":"50","발화 기관":"3"},"production":[]},{"id":"?s=MapObjects%2FFactory_Hard_01","name":"상급 작업대","href":"High_Quality_Workbench","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp","dynamic":{"기술":"11","needwork":"Handiwork","SAN":"-0.11"},"description":"아이템 및 방어구를 제작하는 데 필요한 상급 작업대. 아직 작업장이 협소해 빠른 제작은 불가능하다. 수작업이 가능한 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Code":"Factory_Hard_01","Defense":"2","수작업":"1","Hp":"2000","Hp_PVP":"2000","Defense_PVP":"25","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","ExtinguishBurnWorkAmount":"1000","bShowHPGauge":"1","TypeA":"Product","SortId":"3","TypeB":"Prod_Craft","TypeUIDisplay":"Product_Repair","Rank":"1","AssetValue":"1","BuildExpRate":"2.21","TypesA":"Weapon","TypesB":"ArmorBody","Speed":"Rate","meterial":{"금속 주괴":"15","목재":"50","못":"10"},"production":[]},{"id":"?s=MapObjects%2FMedicineFacility_01","name":"중세 제약대","href":"Medieval_Medicine_Workbench","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_01.webp","dynamic":{"기술":"12","needwork":"Medicine_Production","SAN":"-0.11"},"description":"아픈 팰을 치료할 약을 만드는 설비. 아직은 간단한 약밖에 못 만든다. 작업은 제약이 가능한 팰에게 맡기자.","skill":"","Type":"생산","작업량":"수작업","Code":"MedicineFacility_01","Defense":"2","제약":"1","Hp":"2000","Hp_PVP":"2000","Defense_PVP":"25","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","ExtinguishBurnWorkAmount":"1000","bShowHPGauge":"1","TypeA":"Product","SortId":"33","TypeB":"Prod_Medicine","TypeUIDisplay":"Medicine","Rank":"1","AssetValue":"1","BuildExpRate":"2.21","TypesA":"Food","TypesB":"Medicine","meterial":{"목재":"30","못":"5","팰지움 파편":"10"},"production":[]},{"id":"?s=MapObjects%2FSphereFactory_Black_01","name":"스피어 제작대","href":"Sphere_Workbench","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_01.webp","dynamic":{"기술":"14","needwork":"Handiwork","SAN":"-0.15"},"description":"팰 포획용 스피어 제작 작업대. 아직 작업장이 협소해 스피어를 빠르게 생산하기는 힘들다. 수작업이 가능한 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Code":"SphereFactory_Black_01","Defense":"2","수작업":"1","Hp":"2000","Hp_PVP":"2000","Defense_PVP":"25","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","ExtinguishBurnWorkAmount":"1000","bShowHPGauge":"1","TypeA":"Product","SortId":"13","TypeB":"Pal_Capture","TypeUIDisplay":"PalCaptureItem","Rank":"1","AssetValue":"1","BuildExpRate":"2.74","TypesA":"SpecialWeapon","TypesB":"SPWeaponCaptureBall","Speed":"Rate","meterial":{"팰지움 파편":"10","목재":"30","못":"10"},"production":[]},{"id":"8408a3a4cb9d9c25379e5e16475e3c74043653a500ff9139f7908c2d83a6e3cb","name":"제분기","href":"Mill","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FlourMill.webp","dynamic":{"기술":"15","needwork":"Watering","SAN":"-0.11"},"description":"밀을(를) 빻아 밀가루을(를) 생산할 수 있는 시설. 물레방아를 돌리는 |관개| 적성의 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Code":"FlourMill","Defense":"3","관개":"1","Hp":"4000","Hp_PVP":"4000","Defense_PVP":"31","bBelongToBaseCamp":"1","DeteriorationDamage":"0.12","bShowHPGauge":"1","TypeA":"Product","SortId":"30","TypeB":"Prod_Craft","TypeUIDisplay":"Milling_Crusher","Rank":"1","AssetValue":"1","BuildExpRate":"3.32","TypesA":"Food","TypesB":"FoodVegetable","meterial":{"목재":"50","돌":"40"},"production":[]},{"id":"22e27386c30587ec32734745ce1cc26c4535aa68662eb6dc7d2a203cd2e4b079","name":"무기 제작대","href":"Weapon_Workbench","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp","dynamic":{"기술":"20","needwork":"Handiwork","SAN":"-0.15"},"description":"무기나 탄약을 생산하는 작업대. 아직 작업장이 협소해 상위 무기 제작은 힘들다. 수작업이 가능한 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Code":"WeaponFactory_Dirty_01","Defense":"2","수작업":"1","Hp":"2000","Hp_PVP":"2000","Defense_PVP":"25","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","ExtinguishBurnWorkAmount":"1000","bShowHPGauge":"1","TypeA":"Product","SortId":"9","TypeB":"Prod_Craft","TypeUIDisplay":"Weapon","Rank":"1","AssetValue":"1","BuildExpRate":"2.74","TypesA":"Weapon","TypesB":"WeaponShotgun","Speed":"Rate","meterial":{"금속 주괴":"15","목재":"50","못":"10"},"production":[]},{"id":"?s=MapObjects%2FCopperPit","name":"금속 채굴장","href":"Ore_Mining_Site","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CopperPit.webp","dynamic":{"기술":"24","needwork":"Mining","SAN":"-0.15"},"description":"금속 광석을(를) 생산하는 시설. 금속 광석을(를) 파내는 작업은 고되므로 체력이 필요하다. 채굴에 자신 있는 팰에게 맡기자.","skill":"","Type":"생산","작업량":"수작업","Code":"CopperPit","Defense":"4","채굴":"1","Hp":"10000","Hp_PVP":"10000","Defense_PVP":"12","bBelongToBaseCamp":"1","DeteriorationDamage":"0.2","bShowHPGauge":"1","TypeA":"Product","SortId":"19","TypeB":"Prod_Resource","TypeUIDisplay":"Deforest_Mining","Rank":"1","AssetValue":"1","BuildExpRate":"3.64","금속":"광석","meterial":{"돌":"50","금속 주괴":"25","팰지움 파편":"20"},"production":[]},{"id":"46ec310ff755d6c80affe3d7e3995ebade5cb577105156216b30d77a22a4871a","name":"스피어라인 공장","href":"Sphere_Assembly_Line","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_02.webp","dynamic":{"기술":"27","needwork":"Handiwork","SAN":"-0.15"},"description":"팰 포획용 스피어 제작 공장. 분업 덕분에 꽤 속도를 낼 수 있게 됐다. 수작업이 가능한 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Energy":"Type","Code":"SphereFactory_Black_02","Defense":"3","수작업":"1","Hp":"4000","Hp_PVP":"4000","Defense_PVP":"18","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","bShowHPGauge":"1","TypeA":"Product","SortId":"14","TypeB":"Pal_Capture","TypeUIDisplay":"PalCaptureItem","Rank":"1","AssetValue":"1","ConsumeEnergySpeed":"200","bIsInstallOnlyHubAround":"1","BuildExpRate":"5.67","TypesA":"SpecialWeapon","TypesB":"SPWeaponCaptureBall","Speed":"Rate","meterial":{"팰지움 파편":"30","목재":"50","금속 주괴":"100","못":"20"},"production":[]},{"id":"a12fd0e22fc3b4bb4567cc244d92138b1c1bc9fa84d5504acd580035fe09b1f7","name":"작업라인 공장","href":"Production_Assembly_Line","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp","dynamic":{"기술":"28","needwork":"Handiwork","SAN":"-0.11"},"description":"아이템 및 방어구를 제작하는 데 필요한 공장. 분업 덕분에 꽤 속도를 낼 수 있게 됐다. 수작업이 가능한 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Energy":"Type","Code":"Factory_Hard_02","Defense":"3","수작업":"1","Hp":"4000","Hp_PVP":"4000","Defense_PVP":"31","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","bShowHPGauge":"1","TypeA":"Product","SortId":"4","TypeB":"Prod_Craft","TypeUIDisplay":"Product_Repair","Rank":"1","AssetValue":"1","ConsumeEnergySpeed":"200","bIsInstallOnlyHubAround":"1","BuildExpRate":"3.64","TypesA":"Weapon","TypesB":"ArmorBody","Speed":"Rate","meterial":{"금속 주괴":"100","목재":"50","못":"20","시멘트":"10"},"production":[]},{"id":"?s=MapObjects%2FFishingPond1","name":"낚시터","href":"Fishing_Pond","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FishingPond1.webp","dynamic":{"기술":"31","needwork":"Handiwork"},"description":"낚시 도구를 비치한 낚시터. 팰을 배치하면 느긋하게 낚시를 한다. 수작업이 가능한 팰이 필요하다.","skill":"","meterial":{"목재":"40","시멘트":"5","팰의 체액":"10"},"Type":"생산","작업량":"수작업","Code":"FishingPond1","Defense":"5","수작업":"1","Worker":"Max","Hp":"4500","Hp_PVP":"4500","Defense_PVP":"16","bBelongToBaseCamp":"1","DeteriorationDamage":"0.18","ExtinguishBurnWorkAmount":"1000","bShowHPGauge":"1","TypeA":"Product","SortId":"36","TypeB":"Prod_Resource","TypeUIDisplay":"FishingPond","Rank":"1","AssetValue":"1","bIsInstallOnlyHubAround":"1","BuildExpRate":"5.14","production":[]},{"id":"09697783018b91b77bce89b277d7e0142db68020797263b450e8ab8c10dd2635","name":"무기라인 공장","href":"Weapon_Assembly_Line","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp","dynamic":{"기술":"32","needwork":"Handiwork","SAN":"-0.15"},"description":"무기나 탄약을 생산하는 공장. 분업 덕분에 꽤 많은 무기를 생산할 수 있게 됐다. 수작업이 가능한 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Energy":"Type","Code":"WeaponFactory_Dirty_02","Defense":"3","수작업":"1","Hp":"4000","Hp_PVP":"4000","Defense_PVP":"18","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","bShowHPGauge":"1","TypeA":"Product","SortId":"10","TypeB":"Prod_Craft","TypeUIDisplay":"Weapon","Rank":"1","AssetValue":"1","ConsumeEnergySpeed":"200","bIsInstallOnlyHubAround":"1","BuildExpRate":"5.67","TypesA":"Weapon","TypesB":"WeaponAssaultRifle","Speed":"Rate","meterial":{"금속 주괴":"100","목재":"50","못":"20","고급 팰 기름":"10"},"production":[]},{"id":"4d961d2e8b18bbf2497baa4a6313ceb9a525cf12dd42a7c771438b2308eef37e","name":"개선된 화로","href":"Improved_Furnace","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace_2.webp","dynamic":{"기술":"34","needwork":"Kindling","SAN":"-0.15"},"description":"제련 주괴을(를) 제련할 수 있다. 품질은 좀 나아졌지만 속도는 여전히 꽤 느리다. 화염 팰이 불을 붙여줘야 한다.","skill":"","Type":"생산","작업량":"수작업","Code":"BlastFurnace2","Defense":"3","불":"피우기","Hp":"4000","Hp_PVP":"4000","Defense_PVP":"18","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","bShowHPGauge":"1","TypeA":"Product","SortId":"27","TypeB":"Prod_Furnace","TypeUIDisplay":"Refine","Rank":"1","AssetValue":"1","BuildExpRate":"5.67","TypesA":"Material","TypesB":"MaterialIngot","Speed":"Rate","meterial":{"돌":"100","시멘트":"30","발화 기관":"15"},"production":[]},{"id":"?s=MapObjects%2FSphereFactory_Black_03","name":"스피어라인 공장 II","href":"Sphere_Assembly_Line_II","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_03.webp","dynamic":{"기술":"35","needwork":"Handiwork","SAN":"-0.15"},"description":"팰 포획용 스피어 제작 공장. 작업 세분화를 통해 빠른 스피어 제작이 가능해졌다. 수작업이 가능한 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Energy":"Type","Code":"SphereFactory_Black_03","Defense":"4","수작업":"1","Hp":"8000","Hp_PVP":"8000","Defense_PVP":"12","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","bShowHPGauge":"1","TypeA":"Product","SortId":"15","TypeB":"Pal_Capture","TypeUIDisplay":"PalCaptureItem","Rank":"1","AssetValue":"1","ConsumeEnergySpeed":"400","bIsInstallOnlyHubAround":"1","BuildExpRate":"9.75","TypesA":"SpecialWeapon","TypesB":"SPWeaponCaptureBall","Speed":"Rate","meterial":{"제련 주괴":"100","전자기판":"10","못":"30","팰지움 파편":"50"},"production":[]},{"id":"?s=MapObjects%2FCopperPit_2","name":"금속 채굴장 Ⅱ","href":"Ore_Mining_Site_II","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CopperPit_2.webp","dynamic":{"기술":"39","needwork":"Mining","SAN":"-0.15"},"description":"금속 광석을(를) 대량으로 생산하는 시설. 금속 광석을(를) 파내는 작업은 고되므로 체력이 필요하다. 채굴에 자신 있는 팰에게 맡기자.","skill":"","Type":"생산","작업량":"수작업","Code":"CopperPit_2","Defense":"4","채굴":"1","Hp":"10000","Hp_PVP":"10000","Defense_PVP":"12","bBelongToBaseCamp":"1","DeteriorationDamage":"0.2","bShowHPGauge":"1","TypeA":"Product","SortId":"20","TypeB":"Prod_Resource","TypeUIDisplay":"Deforest_Mining","Rank":"1","AssetValue":"1","BuildExpRate":"3.64","금속":"광석","meterial":{"돌":"100","금속 주괴":"50","팰지움 파편":"40"},"production":[]},{"id":"17da63714ede036f9690c8e0d9eb127785febb90c2a912b624e510bcda0d8a83","name":"작업라인 공장 II","href":"Production_Assembly_Line_II","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp","dynamic":{"기술":"42","needwork":"Handiwork","SAN":"-0.2"},"description":"아이템 및 방어구를 제작하는 데 필요한 공장. 작업 세분화를 통해 빠른 제작이 가능해졌다. 수작업이 가능한 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Energy":"Type","Code":"Factory_Hard_03","Defense":"4","수작업":"1","Hp":"6000","Hp_PVP":"6000","Defense_PVP":"20","bBelongToBaseCamp":"1","DeteriorationDamage":"0.06","bShowHPGauge":"1","TypeA":"Product","SortId":"5","TypeB":"Prod_Craft","TypeUIDisplay":"Product_Repair","Rank":"1","AssetValue":"1","ConsumeEnergySpeed":"400","bIsInstallOnlyHubAround":"1","BuildExpRate":"6.94","TypesA":"Weapon","TypesB":"ArmorBody","Speed":"Rate","meterial":{"제련 주괴":"100","전자기판":"10","못":"30"},"production":[]},{"id":"?s=MapObjects%2FCoalPit","name":"석탄 채굴장","href":"Coal_Mine","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoalPit.webp","dynamic":{"기술":"42","needwork":"Mining","SAN":"-0.15"},"description":"석탄을(를) 생산하는 시설. 석탄을(를) 파내는 작업은 고되므로 체력이 필요하다. 채굴에 자신 있는 팰에게 맡기자.","skill":"","Type":"생산","작업량":"수작업","Code":"CoalPit","Defense":"4","채굴":"1","Hp":"10000","Hp_PVP":"10000","Defense_PVP":"12","bBelongToBaseCamp":"1","DeteriorationDamage":"0.2","bShowHPGauge":"1","TypeA":"Product","SortId":"21","TypeB":"Prod_Resource","TypeUIDisplay":"Deforest_Mining","Rank":"1","AssetValue":"1","BuildExpRate":"5.67","석탄":"x1","meterial":{"돌":"70","석탄":"100","팰지움 파편":"30"},"production":[]},{"id":"4770b7ac1ca46762364980dbe5eacd01c7f5126c46ad1f8b1e779a0e7425e798","name":"전기 제약대","href":"Electric_Medicine_Workbench","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_02.webp","dynamic":{"기술":"43","needwork":"Medicine_Production","SAN":"-0.11"},"description":"아픈 팰을 치료할 약을 만드는 설비. 전기가 필요하지만 상위 약품도 만들 수 있다. 작업은 제약이 가능한 팰에게 맡기자.","skill":"","Type":"생산","작업량":"수작업","Energy":"Type","Code":"MedicineFacility_02","Defense":"3","제약":"1","Hp":"10000","Hp_PVP":"10000","Defense_PVP":"10","bBelongToBaseCamp":"1","DeteriorationDamage":"0.1","ExtinguishBurnWorkAmount":"1000","bShowHPGauge":"1","TypeA":"Product","SortId":"34","TypeB":"Prod_Medicine","TypeUIDisplay":"Medicine","Rank":"1","AssetValue":"1","ConsumeEnergySpeed":"50","bIsInstallOnlyHubAround":"1","BuildExpRate":"6.94","TypesA":"Food","TypesB":"Medicine","Speed":"Rate","meterial":{"제련 주괴":"40","전자기판":"10","카본 섬유":"20"},"production":[]},{"id":"fe7d8b5909ed7a59d3d63537f3d13017e4372b327252a2576fc92d108be2bd9b","name":"전기 화로","href":"Electric_Furnace","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace3.webp","dynamic":{"기술":"44","needwork":"Kindling","SAN":"-0.15"},"description":"팰 금속 주괴을(를) 제련할 수 있다. 전기가 필요하지만 상당히 빠르게 제련할 수 있다. 화염 팰이 불을 붙여줘야 한다.","skill":"","Type":"생산","작업량":"수작업","Energy":"Type","Code":"BlastFurnace3","Defense":"4","불":"피우기","Hp":"8000","Hp_PVP":"8000","Defense_PVP":"12","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","bShowHPGauge":"1","TypeA":"Product","SortId":"28","TypeB":"Prod_Furnace","TypeUIDisplay":"Refine","Rank":"1","AssetValue":"1","ConsumeEnergySpeed":"500","bIsInstallOnlyHubAround":"1","BuildExpRate":"9.09","TypesA":"Material","TypesB":"MaterialIngot","Speed":"Rate","meterial":{"제련 주괴":"50","전자기판":"10","폴리머":"20","카본 섬유":"20"},"production":[]},{"id":"ef640629e154f1eaede7f994936416db537e20b5c7a429a4f037277e6ad1649c","name":"제도대","href":"Drafting_Table","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CompositeDesk.webp","dynamic":{"기술":"45","needwork":"Handiwork","SAN":"-0.11"},"description":"시설여러 설계도를 조합해 더욱 높은 단계의 설계도를 제도할 수 있는 시설.","skill":"","Type":"생산","작업량":"수작업","Code":"CompositeDesk","Defense":"2","수작업":"1","Hp":"1000","Hp_PVP":"1000","Defense_PVP":"25","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","ExtinguishBurnWorkAmount":"1000","bShowHPGauge":"1","TypeA":"Product","SortId":"7","TypeB":"Prod_Craft","TypeUIDisplay":"Product_Repair","Rank":"1","AssetValue":"1","BuildExpRate":"4.82","TypesA":"Blueprint","TypesB":"Blueprint","meterial":{"제련 주괴":"20","목재":"100","숯":"30"},"production":[]},{"id":"?s=MapObjects%2FSulfurPit","name":"유황 채굴장","href":"Sulfur_Mine","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SulfurPit.webp","dynamic":{"기술":"46","needwork":"Mining","SAN":"-0.15"},"description":"유황을(를) 생산하는 시설. 유황을(를) 파내는 작업은 고되므로 체력이 필요하다. 채굴에 자신 있는 팰에게 맡기자.","skill":"","Type":"생산","작업량":"수작업","Code":"SulfurPit","Defense":"4","채굴":"1","Hp":"10000","Hp_PVP":"10000","Defense_PVP":"12","bBelongToBaseCamp":"1","DeteriorationDamage":"0.2","bShowHPGauge":"1","TypeA":"Product","SortId":"22","TypeB":"Prod_Resource","TypeUIDisplay":"Deforest_Mining","Rank":"1","AssetValue":"1","BuildExpRate":"5.67","유황":"x1","meterial":{"돌":"70","유황":"100","팰지움 파편":"30"},"production":[]},{"id":"6cbb3f5e659cdc3beae9fd8d5665023024de660f4c88bb3d7af152a4765be7a5","name":"무기라인 공장 II","href":"Weapon_Assembly_Line_II","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp","dynamic":{"기술":"47","needwork":"Handiwork","SAN":"-0.2"},"description":"무기나 탄약을 생산하는 공장. 작업 세분화를 통해 상위 무기를 빠르게 생산할 수 있게 됐다. 수작업이 가능한 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Energy":"Type","Code":"WeaponFactory_Dirty_03","Defense":"4","수작업":"1","Hp":"8000","Hp_PVP":"8000","Defense_PVP":"12","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","bShowHPGauge":"1","TypeA":"Product","SortId":"11","TypeB":"Prod_Craft","TypeUIDisplay":"Weapon","Rank":"1","AssetValue":"1","ConsumeEnergySpeed":"400","bIsInstallOnlyHubAround":"1","BuildExpRate":"9.75","TypesA":"Weapon","TypesB":"WeaponAssaultRifle","Speed":"Rate","meterial":{"제련 주괴":"100","전자기판":"10","못":"30"},"production":[]},{"id":"cf680d7b55e676a8725109a3ea0dedd9589b13ecb1f6d57a8c41da180267117b","name":"금화 제조 공장","href":"Gold_Coin_Assembly_Line","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Money.webp","dynamic":{"기술":"48","needwork":"Handiwork","SAN":"-0.5"},"description":"금화을(를) 제조하는 공장. 정신에 부담이 가는 작업이기에 SAN 수치가 감소한다. 수작업이 가능한 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Energy":"Type","Code":"Factory_Money","Defense":"3","수작업":"1","Hp":"4000","Hp_PVP":"4000","Defense_PVP":"31","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","bShowHPGauge":"1","TypeA":"Product","SortId":"8","TypeB":"Prod_Craft","TypeUIDisplay":"Product_Repair","Rank":"1","AssetValue":"1","ConsumeEnergySpeed":"200","bIsInstallOnlyHubAround":"1","BuildExpRate":"3.64","TypesA":"Material","TypesB":"Money","Speed":"Rate","meterial":{"팰 금속 주괴":"100","못":"50","전자기판":"20","시멘트":"30"},"production":[]},{"id":"?s=MapObjects%2FOilPump","name":"원유 추출기","href":"Crude_Oil_Extractor","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OilPump.webp","dynamic":{"기술":"50"},"description":"유전에서 원유을(를) 추출할 때 필요한 장치. 가동하려면 대량의 전력 공급이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Energy":"Type","Code":"OilPump","Defense":"4","Hp":"100000","Hp_PVP":"100000","Defense_PVP":"1","bBelongToBaseCamp":"1","DeteriorationDamage":"1","bShowHPGauge":"1","TypeA":"Product","SortId":"23","TypeB":"Prod_Resource","TypeUIDisplay":"Deforest_Mining","Rank":"1","AssetValue":"1","ConsumeEnergySpeed":"6000","bIsInstallOnlyHubAround":"1","BuildExpRate":"16.79","원유":"x1","meterial":{"팰 금속 주괴":"250","전자기판":"50"},"production":[]},{"id":"?s=MapObjects%2FQuartzPit","name":"순수한 석영 채굴장","href":"Pure_Quartz_Mine","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_QuartzPit.webp","dynamic":{"기술":"51","needwork":"Mining","SAN":"-0.15"},"description":"순수한 석영을(를) 생산하는 시설. 순수한 석영을(를) 파내는 작업은 고되므로 체력이 필요하다. 채굴에 자신 있는 팰에게 맡기자.","skill":"","Type":"생산","작업량":"수작업","Code":"QuartzPit","Defense":"4","채굴":"1","Hp":"10000","Hp_PVP":"10000","Defense_PVP":"12","bBelongToBaseCamp":"1","DeteriorationDamage":"0.2","bShowHPGauge":"1","TypeA":"Product","SortId":"24","TypeB":"Prod_Resource","TypeUIDisplay":"Deforest_Mining","Rank":"1","AssetValue":"1","BuildExpRate":"6.94","순수한":"석영","meterial":{"돌":"70","순수한 석영":"100","팰지움 파편":"30"},"production":[]},{"id":"?s=MapObjects%2FIceCrusher","name":"동결 분쇄기","href":"Refrigerated_Crusher","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_IceCrusher.webp","dynamic":{"기술":"52","needwork":"Cooling","SAN":"-0.11"},"description":"금속 광석을(를) 분쇄하여 다른 소재로 변환할 수 있는 시설. 작업 효율이 높은 대신, 가동하려면 전력 공급 및 |냉각| 적성을 가진 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Energy":"Type","Code":"IceCrusher","Defense":"3","냉각":"1","Hp":"4000","Hp_PVP":"4000","Defense_PVP":"31","bBelongToBaseCamp":"1","DeteriorationDamage":"0.12","bShowHPGauge":"1","TypeA":"Product","SortId":"32","TypeB":"Prod_Craft","TypeUIDisplay":"Milling_Crusher","Rank":"1","AssetValue":"1","ConsumeEnergySpeed":"300","BuildExpRate":"9.09","TypesA":"Material","TypesB":"MaterialOre","Speed":"Rate","meterial":{"팰 금속 주괴":"50","플라스틸":"30","빙결 기관":"50"},"production":[]},{"id":"?s=MapObjects%2FFishingPond2","name":"커다란 낚시터","href":"Large_Fishing_Pond","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FishingPond2.webp","dynamic":{"기술":"55","needwork":"Handiwork"},"description":"낚시 도구를 비치한 커다란 낚시터. 기존 낚시터보다 크기에 더욱 커다란 팰을 낚을 수 있다. 수작업이 가능한 팰이 필요하다.","skill":"","meterial":{"목재":"60","돌":"20","플라스틸":"10","고급 팰 기름":"20"},"Type":"생산","작업량":"수작업","Code":"FishingPond2","Defense":"5","수작업":"1","Worker":"Max","Hp":"5500","Hp_PVP":"5500","Defense_PVP":"22","bBelongToBaseCamp":"1","DeteriorationDamage":"0.22","ExtinguishBurnWorkAmount":"1000","bShowHPGauge":"1","TypeA":"Product","SortId":"37","TypeB":"Prod_Resource","TypeUIDisplay":"FishingPond","Rank":"1","AssetValue":"1","bIsInstallOnlyHubAround":"1","BuildExpRate":"8.53","production":[]},{"id":"666a8b0974f42ded15d759b5abcec18a7093dcc4285547149af36b987248fc72","name":"고도 문명 스피어 공장","href":"Advanced_Sphere_Assembly_Line","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_04.webp","dynamic":{"기술":"56","needwork":"Handiwork","SAN":"-0.15"},"description":"팰 포획용 스피어 제작 공장. 고성능 기계를 도입하여 고속 스피어 제작이 가능해졌다. 수작업이 가능한 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Energy":"Type","Code":"SphereFactory_Black_04","Defense":"5","수작업":"1","Hp":"10000","Hp_PVP":"10000","Defense_PVP":"12","bBelongToBaseCamp":"1","DeteriorationDamage":"0.1","bShowHPGauge":"1","TypeA":"Product","SortId":"16","TypeB":"Pal_Capture","TypeUIDisplay":"PalCaptureItem","Rank":"1","AssetValue":"1","ConsumeEnergySpeed":"1000","bIsInstallOnlyHubAround":"1","BuildExpRate":"16.79","TypesA":"SpecialWeapon","TypesB":"SPWeaponCaptureBall","Speed":"Rate","meterial":{"헥소라이트":"50","플라스틸":"50","전자기판":"30","못":"50"},"production":[]},{"id":"5231c3728825e7f6230ea6b078c3e0c10af7dd2abe6b3e81a741690347f4aae7","name":"거대한 화로","href":"Gigantic_Furnace","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace4.webp","dynamic":{"기술":"56","needwork":"Kindling","SAN":"-0.08"},"description":"헥소라이트을(를) 제련할 수 있다. 거대화를 거쳐 여러 팰이 힘을 합쳐 제련할 수 있게 되었다. 화염 팰이 불을 붙여줘야 한다.","skill":"","Type":"생산","작업량":"수작업","Energy":"Type","Code":"BlastFurnace4","Defense":"5","불":"피우기","Hp":"10000","Hp_PVP":"10000","Defense_PVP":"12","bBelongToBaseCamp":"1","DeteriorationDamage":"0.1","bShowHPGauge":"1","TypeA":"Product","SortId":"29","TypeB":"Prod_Furnace","TypeUIDisplay":"Refine","Rank":"1","AssetValue":"1","ConsumeEnergySpeed":"1500","bIsInstallOnlyHubAround":"1","BuildExpRate":"17.98","TypesA":"Material","TypesB":"MaterialIngot","Speed":"Rate","meterial":{"플라스틸":"150","폴리머":"100","발화 기관":"200","고대 문명의 부품":"20"},"production":[]},{"id":"ddab8931ad08f8c9c50d3da4a72bca6b07167ec6f78d094bc10d2aef05f676fd","name":"고도 문명 제약대","href":"Advanced_Medicine_Workbench","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_03.webp","dynamic":{"기술":"59","needwork":"Medicine_Production","SAN":"-0.15"},"description":"아픈 팰을 치료할 약을 만드는 설비. 미래 기술을 활용하여 미지의 약도 만들 수 있다. 작업은 제약이 가능한 팰에게 맡기자.","skill":"","Type":"생산","작업량":"수작업","Energy":"Type","Code":"MedicineFacility_03","Defense":"4","제약":"1","Worker":"Max","Hp":"15000","Hp_PVP":"15000","Defense_PVP":"8","bBelongToBaseCamp":"1","DeteriorationDamage":"0.15","bShowHPGauge":"1","TypeA":"Product","SortId":"35","TypeB":"Prod_Medicine","TypeUIDisplay":"Medicine","Rank":"1","AssetValue":"1","ConsumeEnergySpeed":"1000","bIsInstallOnlyHubAround":"1","BuildExpRate":"16.79","TypesA":"Food","TypesB":"Medicine","Speed":"Rate","meterial":{"헥소라이트":"50","플라스틸":"50","전자기판":"30"},"production":[]},{"id":"bd5a1dd4fca3e36203f52d4575f4f7e435deea232e1c7da2e46b0ddad766e3e1","name":"고도 문명 작업 공장","href":"Advanced_Workshop","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp","dynamic":{"기술":"61","needwork":"Handiwork","SAN":"-0.2"},"description":"아이템 및 방어구를 제작하는 데 필요한 공장. 고성능 기계를 도입하여 고속 제작이 가능해졌다. 수작업이 가능한 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Energy":"Type","Code":"Factory_Hard_04","Defense":"5","수작업":"1","Hp":"8000","Hp_PVP":"8000","Defense_PVP":"15","bBelongToBaseCamp":"1","DeteriorationDamage":"0.08","bShowHPGauge":"1","TypeA":"Product","SortId":"6","TypeB":"Prod_Craft","TypeUIDisplay":"Product_Repair","Rank":"1","AssetValue":"1","ConsumeEnergySpeed":"1000","bIsInstallOnlyHubAround":"1","BuildExpRate":"16.79","TypesA":"Weapon","TypesB":"ArmorBody","Speed":"Rate","meterial":{"코랄리움 주괴":"50","헥소라이트":"50","전자기판":"30","못":"20"},"production":[]},{"id":"b8c4dc2cccd5c7d268e7c8556ed0f75ed192e9f6ab96d9fe81d7732971ecc426","name":"헥소 석영 채굴장","href":"Hexolite_Quartz_Mine","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CrystalPit.webp","dynamic":{"기술":"61","needwork":"Mining","SAN":"-0.15"},"description":"헥소 석영을(를) 생산하는 시설. 헥소 석영을(를) 파내는 작업은 고되므로 체력이 필요하다. 채굴에 자신 있는 팰에게 맡기자.","skill":"","Type":"생산","작업량":"수작업","Code":"CrystalPit","Defense":"4","채굴":"1","Hp":"10000","Hp_PVP":"10000","Defense_PVP":"12","bBelongToBaseCamp":"1","DeteriorationDamage":"0.2","bShowHPGauge":"1","TypeA":"Product","SortId":"25","TypeB":"Prod_Resource","TypeUIDisplay":"Deforest_Mining","Rank":"1","AssetValue":"1","BuildExpRate":"6.94","헥소":"석영","meterial":{"돌":"70","헥소 석영":"100"},"production":[]},{"id":"8b9c737fb88614cf4c43b763c26100e6e164c29d7a8f47744bdbd8443e82cbd3","name":"고도 문명 무기 공장","href":"Advanced_Weapon_Assembly_Line","imgurl":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp","dynamic":{"기술":"62","needwork":"Handiwork","SAN":"-0.2"},"description":"무기나 탄약을 생산하는 공장. 고성능 기계를 도입하여 고속 제작이 가능해졌다. 수작업이 가능한 팰이 필요하다.","skill":"","Type":"생산","작업량":"수작업","Energy":"Type","Code":"WeaponFactory_Dirty_04","Defense":"5","수작업":"1","Hp":"10000","Hp_PVP":"10000","Defense_PVP":"12","bBelongToBaseCamp":"1","DeteriorationDamage":"0.1","bShowHPGauge":"1","TypeA":"Product","SortId":"12","TypeB":"Prod_Craft","TypeUIDisplay":"Weapon","Rank":"1","AssetValue":"1","ConsumeEnergySpeed":"1000","bIsInstallOnlyHubAround":"1","BuildExpRate":"17.98","TypesA":"Weapon","TypesB":"WeaponAssaultRifle","Speed":"Rate","meterial":{"코랄리움 주괴":"50","헥소라이트":"50","전자기판":"30","못":"20"},"production":[]}]
+[
+  {
+    "id": "?s=MapObjects%2FWorkBench",
+    "name": "원시적인 작업대",
+    "href": "Primitive_Workbench",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench.webp",
+    "dynamic": {
+      "기술": "1",
+      "SAN": "-0.11"
+    },
+    "description": "간단한 아이템을 제작하는 원시적인 작업대. 수작업이 가능한 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "5",
+    "작업타입": "수작업",
+    "Code": "WorkBench",
+    "Defense": "2",
+    "수작업": "1",
+    "Hp": "1000",
+    "Hp_PVP": "1000",
+    "Defense_PVP": "25",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "ExtinguishBurnWorkAmount": "1000",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Product_Repair",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "1",
+    "TypesA": "Weapon Armor Consume Ammo Material SpecialWeapon Glider Essential",
+    "TypesB": "ArmorBody ArmorHead SPWeaponCaptureBall ConsumeBullet WeaponMelee WeaponBow ConsumeOther MaterialProccessing Shield Glider Essential_UnlockPlayerFuture WeaponHandgun WeaponThrowObject WeaponCrossbow Essential_AdditionalInventory WeaponFishingRod ConsumeFishingBait",
+    "Rank Max": "1",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "목재": "2"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FRepairBench",
+    "name": "수리대",
+    "href": "Repair_Bench",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_RepairBench.webp",
+    "dynamic": {
+      "기술": "2",
+      "SAN": "-0.11"
+    },
+    "description": "파손된 도구를 수리하는 작업대. 소재를 소모하여 수리할 수 있다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "30",
+    "작업타입": "수작업",
+    "Code": "RepairBench",
+    "Defense": "2",
+    "수작업": "1",
+    "Worker Max": "1",
+    "Hp": "2000",
+    "Hp_PVP": "2000",
+    "Defense_PVP": "25",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "ExtinguishBurnWorkAmount": "1000",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "1",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Product_Repair",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "2.21",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "목재": "10",
+      "돌": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FWorkBench_SkillUnlock",
+    "name": "팰 장비 제작대",
+    "href": "Pal_Gear_Workbench",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench_SkillUnlock.webp",
+    "dynamic": {
+      "기술": "6",
+      "SAN": "-0.11"
+    },
+    "description": "팰이 쓸 도구를 만드는 원시적인 작업대. 안장을 만들어 팰 위에 얹거나 총을 만들어 팰에게 쥐여 주자.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "50",
+    "작업타입": "수작업",
+    "Code": "WorkBench_SkillUnlock",
+    "Defense": "2",
+    "수작업": "1",
+    "Hp": "1000",
+    "Hp_PVP": "1000",
+    "Defense_PVP": "25",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.02",
+    "ExtinguishBurnWorkAmount": "1000",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "2",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Product_Repair",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "2.74",
+    "TypesA": "Essential",
+    "TypesB": "Essential_PalGear",
+    "Rank Max": "4",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "팰지움 파편": "10",
+      "목재": "30",
+      "천": "2"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FStonePit",
+    "name": "채석장",
+    "href": "Stone_Pit",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_StonePit.webp",
+    "dynamic": {
+      "기술": "7",
+      "SAN": "-0.15"
+    },
+    "description": "돌을(를) 생산하는 시설. 돌을(를) 파내는 작업은 고되므로 체력이 필요하다. 채굴에 자신 있는 팰에게 맡기자.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "100",
+    "작업타입": "수작업",
+    "Code": "StonePit",
+    "Defense": "4",
+    "채굴": "1",
+    "Hp": "10000",
+    "Hp_PVP": "10000",
+    "Defense_PVP": "12",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.2",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "21",
+    "TypeB": "Prod_Resource",
+    "TypeUIDisplay": "Deforest_Mining",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "3.64",
+    "요구적성": [
+      {
+        "type": "Mining",
+        "name": "Ticonpalwork07",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_07.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "돌": "50",
+      "목재": "20",
+      "팰지움 파편": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FStationDeforest2",
+    "name": "벌목장",
+    "href": "Logging_Site",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_StationDeforest2.webp",
+    "dynamic": {
+      "기술": "7",
+      "SAN": "-0.15"
+    },
+    "description": "목재을(를) 생산하는 시설. 나무를 자르는 작업은 고되므로 체력이 필요하다. 벌목에 자신 있는 팰에게 맡기자.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "100",
+    "작업타입": "수작업",
+    "Code": "StationDeforest2",
+    "Defense": "4",
+    "벌목": "1",
+    "Worker Max": "3",
+    "Hp": "10000",
+    "Hp_PVP": "10000",
+    "Defense_PVP": "12",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.2",
+    "ExtinguishBurnWorkAmount": "1000",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "19",
+    "TypeB": "Prod_Resource",
+    "TypeUIDisplay": "Deforest_Mining",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "3.64",
+    "요구적성": [
+      {
+        "type": "Lumbering",
+        "name": "Ticonpalwork06",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_06.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "목재": "50",
+      "돌": "20",
+      "팰지움 파편": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FCrusher",
+    "name": "파쇄기",
+    "href": "Crusher",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Crusher.webp",
+    "dynamic": {
+      "기술": "8",
+      "SAN": "-0.11"
+    },
+    "description": "돌 혹은 목재을(를) 분쇄하여 다른 소재로 변환할 수 있는 시설. 물레방아를 돌리는 |물 주기| 적성의 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "80",
+    "작업타입": "수작업",
+    "Code": "Crusher",
+    "Defense": "3",
+    "물 주기": "1",
+    "Hp": "4000",
+    "Hp_PVP": "4000",
+    "Defense_PVP": "31",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.12",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "38",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Milling_Crusher",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "3.32",
+    "TypesA": "Material",
+    "TypesB": "MaterialOre MaterialWood MaterialMonster",
+    "Rank Max": "2",
+    "요구적성": [
+      {
+        "type": "Watering",
+        "name": "Ticonpalwork01",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_01.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "목재": "50",
+      "돌": "20",
+      "팰지움 파편": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FBlastFurnace",
+    "name": "원시적인 화로",
+    "href": "Primitive_Furnace",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace.webp",
+    "dynamic": {
+      "기술": "10",
+      "SAN": "-0.15"
+    },
+    "description": "금속 주괴을(를) 제련할 수 있다. 품질이 썩 좋지 않고 속도가 느리다. 화염 팰이 불을 붙여줘야 한다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "50",
+    "작업타입": "수작업",
+    "Code": "BlastFurnace",
+    "Defense": "2",
+    "불 피우기": "1",
+    "Hp": "2000",
+    "Hp_PVP": "2000",
+    "Defense_PVP": "25",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "32",
+    "TypeB": "Prod_Furnace",
+    "TypeUIDisplay": "Refine",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "2.74",
+    "TypesA": "Material",
+    "TypesB": "MaterialIngot",
+    "Rank Max": "1",
+    "요구적성": [
+      {
+        "type": "Kindling",
+        "name": "Ticonpalwork00",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_00.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "목재": "20",
+      "돌": "40",
+      "발화 기관": "3"
+    },
+    "production": []
+  },
+  {
+    "id": "19b59ae77d92138b441a732cfcb856753245bfa11e31d2c7c7067f0588783e0c",
+    "name": "상급 작업대",
+    "href": "High_Quality_Workbench",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp",
+    "dynamic": {
+      "기술": "11",
+      "SAN": "-0.11"
+    },
+    "description": "아이템 및 방어구를 제작하는 데 필요한 상급 작업대. 아직 작업장이 협소해 빠른 제작은 불가능하다. 수작업이 가능한 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "30",
+    "작업타입": "수작업",
+    "Code": "Factory_Hard_01",
+    "Defense": "2",
+    "수작업": "1",
+    "Hp": "2000",
+    "Hp_PVP": "2000",
+    "Defense_PVP": "25",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "ExtinguishBurnWorkAmount": "1000",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "3",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Product_Repair",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "2.21",
+    "TypesA": "Weapon Armor Consume Material Essential Ammo Glider Accessory",
+    "TypesB": "ArmorBody ArmorHead ConsumeBandage WeaponMelee ConsumeOther MaterialProccessing Shield Essential_UnlockPlayerFuture WeaponCrossbow WeaponBow Glider ConsumeBullet WeaponGrapplingGun Accessory ReturnToBaseCamp Essential_AdditionalInventory Essential_Lamp WeaponFishingRod ConsumeFishingBait",
+    "Rank Max": "2",
+    "Speed Rate": "1.5",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "금속 주괴": "8",
+      "목재": "20",
+      "못": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FMedicineFacility_01",
+    "name": "중세 제약대",
+    "href": "Medieval_Medicine_Workbench",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_01.webp",
+    "dynamic": {
+      "기술": "12",
+      "SAN": "-0.11"
+    },
+    "description": "아픈 팰을 치료할 약을 만드는 설비. 아직은 간단한 약밖에 못 만든다. 작업은 제약이 가능한 팰에게 맡기자.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "30",
+    "작업타입": "수작업",
+    "Code": "MedicineFacility_01",
+    "Defense": "2",
+    "제약": "1",
+    "Hp": "2000",
+    "Hp_PVP": "2000",
+    "Defense_PVP": "25",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "ExtinguishBurnWorkAmount": "1000",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "40",
+    "TypeB": "Prod_Medicine",
+    "TypeUIDisplay": "Medicine",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "2.21",
+    "TypesA": "Food Consume Material",
+    "TypesB": "Medicine Drug ConsumeGainStatusPoints",
+    "Rank Max": "3",
+    "요구적성": [
+      {
+        "type": "Medicine_Production",
+        "name": "Ticonpalwork08",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_08.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "목재": "30",
+      "못": "5",
+      "팰지움 파편": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FSphereFactory_Black_01",
+    "name": "스피어 제작대",
+    "href": "Sphere_Workbench",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_01.webp",
+    "dynamic": {
+      "기술": "14",
+      "SAN": "-0.15"
+    },
+    "description": "팰 포획용 스피어 제작 작업대. 아직 작업장이 협소해 스피어를 빠르게 생산하기는 힘들다. 수작업이 가능한 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "50",
+    "작업타입": "수작업",
+    "Code": "SphereFactory_Black_01",
+    "Defense": "2",
+    "수작업": "1",
+    "Hp": "2000",
+    "Hp_PVP": "2000",
+    "Defense_PVP": "25",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "ExtinguishBurnWorkAmount": "1000",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "11",
+    "TypeB": "Pal_Capture",
+    "TypeUIDisplay": "PalCaptureItem",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "2.74",
+    "TypesA": "SpecialWeapon CaptureItemModifier",
+    "TypesB": "SPWeaponCaptureBall CaptureItemModifier",
+    "Rank Max": "3",
+    "Speed Rate": "1.5",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "팰지움 파편": "10",
+      "목재": "30",
+      "못": "10",
+      "금속 주괴": "20"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FFlourMill",
+    "name": "제분기",
+    "href": "Mill",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FlourMill.webp",
+    "dynamic": {
+      "기술": "15",
+      "SAN": "-0.11"
+    },
+    "description": "밀을(를) 빻아 밀가루을(를) 생산할 수 있는 시설. 물레방아를 돌리는 |물 주기| 적성의 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "80",
+    "작업타입": "수작업",
+    "Code": "FlourMill",
+    "Defense": "3",
+    "물 주기": "1",
+    "Hp": "4000",
+    "Hp_PVP": "4000",
+    "Defense_PVP": "31",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.12",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "37",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Milling_Crusher",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "3.32",
+    "TypesA": "Food",
+    "TypesB": "FoodVegetable",
+    "Rank Max": "2",
+    "요구적성": [
+      {
+        "type": "Watering",
+        "name": "Ticonpalwork01",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_01.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "나무 판자": "10",
+      "돌": "40",
+      "금속 주괴": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FWeaponFactory_Dirty_01",
+    "name": "무기 제작대",
+    "href": "Weapon_Workbench",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp",
+    "dynamic": {
+      "기술": "20",
+      "SAN": "-0.15"
+    },
+    "description": "무기나 탄약을 생산하는 작업대. 아직 작업장이 협소해 상위 무기 제작은 힘들다. 수작업이 가능한 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "50",
+    "작업타입": "수작업",
+    "Code": "WeaponFactory_Dirty_01",
+    "Defense": "2",
+    "수작업": "1",
+    "Hp": "2000",
+    "Hp_PVP": "2000",
+    "Defense_PVP": "25",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "ExtinguishBurnWorkAmount": "1000",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "15",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Weapon",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "2.74",
+    "TypesA": "Weapon Consume Ammo",
+    "TypesB": "WeaponShotgun WeaponHandgun WeaponCrossbow WeaponBow WeaponMelee ConsumeBullet WeaponAssaultRifle WeaponBow WeaponRocketLauncher WeaponThrowObject WeaponGrapplingGun",
+    "Rank Max": "2",
+    "Speed Rate": "1.5",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "금속 주괴": "15",
+      "나무 판자": "10",
+      "못": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FCopperPit",
+    "name": "금속 채굴장",
+    "href": "Ore_Mining_Site",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CopperPit.webp",
+    "dynamic": {
+      "기술": "24",
+      "SAN": "-0.15"
+    },
+    "description": "금속 광석을(를) 생산하는 시설. 금속 광석을(를) 파내는 작업은 고되므로 체력이 필요하다. 채굴에 자신 있는 팰에게 맡기자.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "100",
+    "작업타입": "수작업",
+    "Code": "CopperPit",
+    "Defense": "4",
+    "채굴": "1",
+    "Hp": "10000",
+    "Hp_PVP": "10000",
+    "Defense_PVP": "12",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.2",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "22",
+    "TypeB": "Prod_Resource",
+    "TypeUIDisplay": "Deforest_Mining",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "3.64",
+    "요구적성": [
+      {
+        "type": "Mining",
+        "name": "Ticonpalwork07",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_07.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "돌": "50",
+      "금속 주괴": "25",
+      "팰지움 파편": "20",
+      "고대 문명의 부품": "5"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FSphereFactory_Black_02",
+    "name": "스피어라인 공장",
+    "href": "Sphere_Assembly_Line",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_02.webp",
+    "dynamic": {
+      "기술": "27",
+      "SAN": "-0.15",
+      "Energy": "200 Per Sec"
+    },
+    "description": "팰 포획용 스피어 제작 공장. 분업 덕분에 꽤 속도를 낼 수 있게 됐다. 수작업이 가능한 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "300",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "SphereFactory_Black_02",
+    "Defense": "3",
+    "수작업": "1",
+    "Hp": "4000",
+    "Hp_PVP": "4000",
+    "Defense_PVP": "18",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "12",
+    "TypeB": "Pal_Capture",
+    "TypeUIDisplay": "PalCaptureItem",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "200",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "5.67",
+    "TypesA": "SpecialWeapon CaptureItemModifier",
+    "TypesB": "SPWeaponCaptureBall CaptureItemModifier",
+    "Rank Max": "4",
+    "Speed Rate": "2",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "팰지움 파편": "30",
+      "나무 판자": "5",
+      "금속 주괴": "100",
+      "못": "20"
+    },
+    "production": []
+  },
+  {
+    "id": "7854a26c32dfa695fefd1fa333ee0610914024a12ede412c536621c1da5c959f",
+    "name": "작업라인 공장",
+    "href": "Production_Assembly_Line",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp",
+    "dynamic": {
+      "기술": "29",
+      "SAN": "-0.11",
+      "Energy": "200 Per Sec"
+    },
+    "description": "아이템 및 방어구를 제작하는 데 필요한 공장. 분업 덕분에 꽤 속도를 낼 수 있게 됐다. 수작업이 가능한 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "100",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "Factory_Hard_02",
+    "Defense": "3",
+    "수작업": "1",
+    "Hp": "4000",
+    "Hp_PVP": "4000",
+    "Defense_PVP": "31",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "4",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Product_Repair",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "200",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "3.64",
+    "TypesA": "Weapon Armor Consume Material Essential Ammo Glider Accessory",
+    "TypesB": "ArmorBody ArmorHead ConsumeBandage WeaponMelee ConsumeOther MaterialProccessing Shield Essential_UnlockPlayerFuture WeaponCrossbow WeaponBow Glider ConsumeBullet WeaponGrapplingGun Accessory ReturnToBaseCamp Essential_AdditionalInventory Essential_Lamp WeaponFishingRod ConsumeFishingBait",
+    "Rank Max": "3",
+    "Speed Rate": "2",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "금속 주괴": "100",
+      "나무 판자": "5",
+      "못": "20",
+      "시멘트": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FFishingPond1",
+    "name": "낚시터",
+    "href": "Fishing_Pond",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FishingPond1.webp",
+    "dynamic": {
+      "기술": "31"
+    },
+    "description": "낚시 도구를 비치한 낚시터. 팰을 배치하면 느긋하게 낚시를 한다. 수작업이 가능한 팰이 필요하다.",
+    "skill": "",
+    "meterial": {
+      "나무 판자": "15",
+      "시멘트": "30",
+      "극저온 냉각 매체": "3"
+    },
+    "Type": "생산",
+    "작업량": "235",
+    "작업타입": "수작업",
+    "Code": "FishingPond1",
+    "Defense": "5",
+    "수작업": "1",
+    "Worker Max": "1",
+    "Hp": "4500",
+    "Hp_PVP": "4500",
+    "Defense_PVP": "16",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.18",
+    "ExtinguishBurnWorkAmount": "1000",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "43",
+    "TypeB": "Prod_Resource",
+    "TypeUIDisplay": "FishingPond",
+    "Rank": "1",
+    "AssetValue": "1",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "5.14",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FWeaponFactory_Dirty_02",
+    "name": "무기라인 공장",
+    "href": "Weapon_Assembly_Line",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp",
+    "dynamic": {
+      "기술": "32",
+      "SAN": "-0.15",
+      "Energy": "200 Per Sec"
+    },
+    "description": "무기나 탄약을 생산하는 공장. 분업 덕분에 꽤 많은 무기를 생산할 수 있게 됐다. 수작업이 가능한 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "300",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "WeaponFactory_Dirty_02",
+    "Defense": "3",
+    "수작업": "1",
+    "Hp": "4000",
+    "Hp_PVP": "4000",
+    "Defense_PVP": "18",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "16",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Weapon",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "200",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "5.67",
+    "TypesA": "Weapon Consume Ammo",
+    "TypesB": "WeaponAssaultRifle WeaponSniperRifle WeaponShotgun WeaponHandgun WeaponCrossbow WeaponBow WeaponMelee ConsumeBullet WeaponRocketLauncher WeaponThrowObject WeaponGrapplingGun",
+    "Rank Max": "3",
+    "Speed Rate": "2",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "금속 주괴": "100",
+      "나무 판자": "20",
+      "못": "20",
+      "고급 팰 기름": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FBlastFurnace2",
+    "name": "개선된 화로",
+    "href": "Improved_Furnace",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace_2.webp",
+    "dynamic": {
+      "기술": "34",
+      "SAN": "-0.15"
+    },
+    "description": "제련 주괴을(를) 제련할 수 있다. 품질은 좀 나아졌지만 속도는 여전히 꽤 느리다. 화염 팰이 불을 붙여줘야 한다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "300",
+    "작업타입": "수작업",
+    "Code": "BlastFurnace2",
+    "Defense": "3",
+    "불 피우기": "1",
+    "Hp": "4000",
+    "Hp_PVP": "4000",
+    "Defense_PVP": "18",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "33",
+    "TypeB": "Prod_Furnace",
+    "TypeUIDisplay": "Refine",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "5.67",
+    "TypesA": "Material",
+    "TypesB": "MaterialIngot",
+    "Rank Max": "2",
+    "Speed Rate": "1.5",
+    "요구적성": [
+      {
+        "type": "Kindling",
+        "name": "Ticonpalwork00",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_00.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "돌": "100",
+      "시멘트": "30",
+      "발화 기관": "15",
+      "극저온 냉각 매체": "5"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FSphereFactory_Black_03",
+    "name": "스피어라인 공장 II",
+    "href": "Sphere_Assembly_Line_II",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_03.webp",
+    "dynamic": {
+      "기술": "35",
+      "SAN": "-0.15",
+      "Energy": "400 Per Sec"
+    },
+    "description": "팰 포획용 스피어 제작 공장. 작업 세분화를 통해 빠른 스피어 제작이 가능해졌다. 수작업이 가능한 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "1200",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "SphereFactory_Black_03",
+    "Defense": "4",
+    "수작업": "1",
+    "Hp": "8000",
+    "Hp_PVP": "8000",
+    "Defense_PVP": "12",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "13",
+    "TypeB": "Pal_Capture",
+    "TypeUIDisplay": "PalCaptureItem",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "400",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "9.75",
+    "TypesA": "SpecialWeapon CaptureItemModifier",
+    "TypesB": "SPWeaponCaptureBall CaptureItemModifier",
+    "Rank Max": "6",
+    "Speed Rate": "4",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "제련 주괴": "100",
+      "전자기판": "10",
+      "못": "30",
+      "팰지움 파편": "50"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FCoalPit",
+    "name": "석탄 채굴장",
+    "href": "Coal_Mine",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoalPit.webp",
+    "dynamic": {
+      "기술": "37",
+      "SAN": "-0.15"
+    },
+    "description": "석탄을(를) 생산하는 시설. 석탄을(를) 파내는 작업은 고되므로 체력이 필요하다. 채굴에 자신 있는 팰에게 맡기자.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "300",
+    "작업타입": "수작업",
+    "Code": "CoalPit",
+    "Defense": "4",
+    "채굴": "1",
+    "Hp": "10000",
+    "Hp_PVP": "10000",
+    "Defense_PVP": "12",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.2",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "24",
+    "TypeB": "Prod_Resource",
+    "TypeUIDisplay": "Deforest_Mining",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "5.67",
+    "요구적성": [
+      {
+        "type": "Mining",
+        "name": "Ticonpalwork07",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_07.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "돌": "70",
+      "석탄": "100",
+      "팰지움 파편": "30",
+      "고대 문명의 부품": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FCopperPit_2",
+    "name": "금속 채굴장 Ⅱ",
+    "href": "Ore_Mining_Site_II",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CopperPit_2.webp",
+    "dynamic": {
+      "기술": "39",
+      "SAN": "-0.15"
+    },
+    "description": "금속 광석을(를) 대량으로 생산하는 시설. 금속 광석을(를) 파내는 작업은 고되므로 체력이 필요하다. 채굴에 자신 있는 팰에게 맡기자.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "100",
+    "작업타입": "수작업",
+    "Code": "CopperPit_2",
+    "Defense": "4",
+    "채굴": "1",
+    "Hp": "10000",
+    "Hp_PVP": "10000",
+    "Defense_PVP": "12",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.2",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "23",
+    "TypeB": "Prod_Resource",
+    "TypeUIDisplay": "Deforest_Mining",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "3.64",
+    "요구적성": [
+      {
+        "type": "Mining",
+        "name": "Ticonpalwork07",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_07.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "돌": "100",
+      "금속 주괴": "50",
+      "팰지움 파편": "40",
+      "고대 문명의 부품": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "c3b7e3215595d6954e61130e4e80eac923e83bf6b0dedfcde8f498b76816883d",
+    "name": "작업라인 공장 II",
+    "href": "Production_Assembly_Line_II",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp",
+    "dynamic": {
+      "기술": "42",
+      "SAN": "-0.2",
+      "Energy": "400 Per Sec"
+    },
+    "description": "아이템 및 방어구를 제작하는 데 필요한 공장. 작업 세분화를 통해 빠른 제작이 가능해졌다. 수작업이 가능한 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "500",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "Factory_Hard_03",
+    "Defense": "4",
+    "수작업": "1",
+    "Hp": "6000",
+    "Hp_PVP": "6000",
+    "Defense_PVP": "20",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.06",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "5",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Product_Repair",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "400",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "6.94",
+    "TypesA": "Weapon Armor Consume Material Essential Ammo Glider Accessory",
+    "TypesB": "ArmorBody ArmorHead ConsumeBandage WeaponMelee ConsumeOther MaterialProccessing Essential_UnlockPlayerFuture WeaponBow WeaponCrossbow Shield Glider ConsumeBullet WeaponGrapplingGun Accessory ReturnToBaseCamp WeaponMetalDetector Essential_AdditionalInventory Essential_Lamp WeaponFishingRod ConsumeFishingBait ConsumePalGainExp",
+    "Rank Max": "4",
+    "Speed Rate": "4",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "제련 주괴": "100",
+      "전자기판": "10",
+      "시멘트": "30",
+      "부식성 용액": "5"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FMedicineFacility_02",
+    "name": "전기 제약대",
+    "href": "Electric_Medicine_Workbench",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_02.webp",
+    "dynamic": {
+      "기술": "43",
+      "SAN": "-0.11",
+      "Energy": "50 Per Sec"
+    },
+    "description": "아픈 팰을 치료할 약을 만드는 설비. 전기가 필요하지만 상위 약품도 만들 수 있다. 작업은 제약이 가능한 팰에게 맡기자.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "500",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "MedicineFacility_02",
+    "Defense": "3",
+    "제약": "1",
+    "Hp": "10000",
+    "Hp_PVP": "10000",
+    "Defense_PVP": "10",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.1",
+    "ExtinguishBurnWorkAmount": "1000",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "41",
+    "TypeB": "Prod_Medicine",
+    "TypeUIDisplay": "Medicine",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "50",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "6.94",
+    "TypesA": "Food Consume Material",
+    "TypesB": "Medicine Drug ConsumeGainStatusPoints",
+    "Rank Max": "4",
+    "Speed Rate": "2",
+    "요구적성": [
+      {
+        "type": "Medicine_Production",
+        "name": "Ticonpalwork08",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_08.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "제련 주괴": "40",
+      "전자기판": "10",
+      "카본 섬유": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FStationDeforest3",
+    "name": "벌목장 Ⅱ",
+    "href": "Logging_Site_II",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_StationDeforest3.webp",
+    "dynamic": {
+      "기술": "43",
+      "SAN": "-0.15"
+    },
+    "description": "단단한 목재을(를) 생산하는 시설. 나무를 자르는 작업은 고되므로 체력이 필요하다. 벌목에 자신 있는 팰에게 맡기자.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "300",
+    "작업타입": "수작업",
+    "Code": "StationDeforest3",
+    "Defense": "4",
+    "벌목": "1",
+    "Worker Max": "3",
+    "Hp": "10000",
+    "Hp_PVP": "10000",
+    "Defense_PVP": "12",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.2",
+    "ExtinguishBurnWorkAmount": "1000",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "20",
+    "TypeB": "Prod_Resource",
+    "TypeUIDisplay": "Deforest_Mining",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "5.67",
+    "요구적성": [
+      {
+        "type": "Lumbering",
+        "name": "Ticonpalwork06",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_06.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "단단한 목재": "100",
+      "돌": "50",
+      "팰지움 파편": "20",
+      "고대 문명의 부품": "5"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FBlastFurnace3",
+    "name": "전기 화로",
+    "href": "Electric_Furnace",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace3.webp",
+    "dynamic": {
+      "기술": "44",
+      "SAN": "-0.15",
+      "Energy": "500 Per Sec"
+    },
+    "description": "팰 금속 주괴을(를) 제련할 수 있다. 전기가 필요하지만 상당히 빠르게 제련할 수 있다. 화염 팰이 불을 붙여줘야 한다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "1000",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "BlastFurnace3",
+    "Defense": "4",
+    "불 피우기": "1",
+    "Hp": "8000",
+    "Hp_PVP": "8000",
+    "Defense_PVP": "12",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "34",
+    "TypeB": "Prod_Furnace",
+    "TypeUIDisplay": "Refine",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "500",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "9.09",
+    "TypesA": "Material",
+    "TypesB": "MaterialIngot",
+    "Rank Max": "3",
+    "Speed Rate": "3",
+    "요구적성": [
+      {
+        "type": "Kindling",
+        "name": "Ticonpalwork00",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_00.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "제련 주괴": "50",
+      "바이오 배터리": "4",
+      "폴리머": "20",
+      "극저온 냉각 매체": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "319b7b00c0c3bff0f339897885e2682ce215bd99ed3b7a9de99d0813c55931f7",
+    "name": "제도대",
+    "href": "Drafting_Table",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CompositeDesk.webp",
+    "dynamic": {
+      "기술": "45",
+      "SAN": "-0.11"
+    },
+    "description": "시설여러 설계도를 조합해 더욱 높은 단계의 설계도를 제도할 수 있는 시설.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "200",
+    "작업타입": "수작업",
+    "Code": "CompositeDesk",
+    "Defense": "2",
+    "수작업": "1",
+    "Hp": "1000",
+    "Hp_PVP": "1000",
+    "Defense_PVP": "25",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "ExtinguishBurnWorkAmount": "1000",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "8",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Product_Repair",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "4.82",
+    "TypesA": "Blueprint",
+    "TypesB": "Blueprint",
+    "Rank Max": "1",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "제련 주괴": "20",
+      "상급 나무 판자": "10",
+      "숯": "30"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FSulfurPit",
+    "name": "유황 채굴장",
+    "href": "Sulfur_Mine",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SulfurPit.webp",
+    "dynamic": {
+      "기술": "46",
+      "SAN": "-0.15"
+    },
+    "description": "유황을(를) 생산하는 시설. 유황을(를) 파내는 작업은 고되므로 체력이 필요하다. 채굴에 자신 있는 팰에게 맡기자.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "300",
+    "작업타입": "수작업",
+    "Code": "SulfurPit",
+    "Defense": "4",
+    "채굴": "1",
+    "Hp": "10000",
+    "Hp_PVP": "10000",
+    "Defense_PVP": "12",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.2",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "25",
+    "TypeB": "Prod_Resource",
+    "TypeUIDisplay": "Deforest_Mining",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "5.67",
+    "요구적성": [
+      {
+        "type": "Mining",
+        "name": "Ticonpalwork07",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_07.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "돌": "70",
+      "유황": "100",
+      "팰지움 파편": "30",
+      "고대 문명의 부품": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FWeaponFactory_Dirty_03",
+    "name": "무기라인 공장 II",
+    "href": "Weapon_Assembly_Line_II",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp",
+    "dynamic": {
+      "기술": "47",
+      "SAN": "-0.2",
+      "Energy": "400 Per Sec"
+    },
+    "description": "무기나 탄약을 생산하는 공장. 작업 세분화를 통해 상위 무기를 빠르게 생산할 수 있게 됐다. 수작업이 가능한 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "1200",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "WeaponFactory_Dirty_03",
+    "Defense": "4",
+    "수작업": "1",
+    "Hp": "8000",
+    "Hp_PVP": "8000",
+    "Defense_PVP": "12",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "17",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Weapon",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "400",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "9.75",
+    "TypesA": "Weapon Consume Ammo",
+    "TypesB": "WeaponAssaultRifle WeaponSniperRifle WeaponShotgun WeaponRocketLauncher WeaponHandgun WeaponCrossbow WeaponBow WeaponMelee ConsumeBullet WeaponThrowObject WeaponGrapplingGun WeaponFlameThrower WeaponGatlingGun",
+    "Rank Max": "4",
+    "Speed Rate": "4",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "제련 주괴": "100",
+      "전자기판": "10",
+      "부식성 용액": "5",
+      "바이오 배터리": "5"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FOilPump",
+    "name": "원유 추출기",
+    "href": "Crude_Oil_Extractor",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OilPump.webp",
+    "dynamic": {
+      "기술": "50",
+      "Energy": "2000 Per Sec"
+    },
+    "description": "유전에서 원유을(를) 추출할 때 필요한 장치. 가동하려면 대량의 전력 공급이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "5000",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "OilPump",
+    "Defense": "4",
+    "Hp": "100000",
+    "Hp_PVP": "100000",
+    "Defense_PVP": "1",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "1",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "27",
+    "TypeB": "Prod_Resource",
+    "TypeUIDisplay": "Deforest_Mining",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "2000",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "16.79",
+    "meterial": {
+      "팰 금속 주괴": "125",
+      "전자기판": "25"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FOilPump02",
+    "name": "원유 추출기(고압형)",
+    "href": "High-Pressure_Crude_Oil_Extractor",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OilPump02.webp",
+    "dynamic": {
+      "기술": "51",
+      "Energy": "3000 Per Sec"
+    },
+    "description": "지하 깊숙한 곳으로부터 원유을(를) 끌어올려 추출하는 장치. 유전이 없는 곳에서도 원유을(를) 생산할 수 있으나, 건축물이 없는 지상에만 배치할 수 있다. 원유 추출기보다 더 막대한 전력 공급이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "5000",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "OilPump02",
+    "Defense": "4",
+    "Hp": "100000",
+    "Hp_PVP": "100000",
+    "Defense_PVP": "1",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "1",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "28",
+    "TypeB": "Prod_Resource",
+    "TypeUIDisplay": "Deforest_Mining",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "3000",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "16.79",
+    "meterial": {
+      "팰 금속 주괴": "150",
+      "전자기판": "25",
+      "바이오 배터리": "25",
+      "고대 문명의 부품": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FQuartzPit",
+    "name": "순수한 석영 채굴장",
+    "href": "Pure_Quartz_Quarry",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_QuartzPit.webp",
+    "dynamic": {
+      "기술": "52",
+      "SAN": "-0.15"
+    },
+    "description": "순수한 석영을(를) 생산하는 시설. 순수한 석영을(를) 파내는 작업은 고되므로 체력이 필요하다. 채굴에 자신 있는 팰에게 맡기자.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "500",
+    "작업타입": "수작업",
+    "Code": "QuartzPit",
+    "Defense": "4",
+    "채굴": "1",
+    "Hp": "10000",
+    "Hp_PVP": "10000",
+    "Defense_PVP": "12",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.2",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "26",
+    "TypeB": "Prod_Resource",
+    "TypeUIDisplay": "Deforest_Mining",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "6.94",
+    "요구적성": [
+      {
+        "type": "Mining",
+        "name": "Ticonpalwork07",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_07.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "돌": "70",
+      "순수한 석영": "100",
+      "팰지움 파편": "30",
+      "고대 문명의 부품": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FIceCrusher",
+    "name": "동결 분쇄기",
+    "href": "Refrigerated_Crusher",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_IceCrusher.webp",
+    "dynamic": {
+      "기술": "54",
+      "SAN": "-0.11",
+      "Energy": "300 Per Sec"
+    },
+    "description": "금속 광석을(를) 분쇄하여 다른 소재로 변환할 수 있는 시설. 작업 효율이 높은 대신, 가동하려면 전력 공급 및 |냉각| 적성을 가진 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "1000",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "IceCrusher",
+    "Defense": "3",
+    "냉각": "1",
+    "Hp": "4000",
+    "Hp_PVP": "4000",
+    "Defense_PVP": "31",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.12",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "39",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Milling_Crusher",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "300",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "9.09",
+    "TypesA": "Material",
+    "TypesB": "MaterialOre MaterialMonster MaterialWood",
+    "Rank Max": "2",
+    "Speed Rate": "2",
+    "요구적성": [
+      {
+        "type": "Cooling",
+        "name": "Ticonpalwork10",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_10.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "팰 금속 주괴": "50",
+      "플라스틸": "30",
+      "극저온 냉각 매체": "25",
+      "부식성 용액": "20"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FSphereFactory_Black_04",
+    "name": "고도 문명 스피어 공장",
+    "href": "Advanced_Sphere_Assembly_Line",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_04.webp",
+    "dynamic": {
+      "기술": "58",
+      "SAN": "-0.15",
+      "Energy": "1000 Per Sec"
+    },
+    "description": "팰 포획용 스피어 제작 공장. 고성능 기계를 도입하여 고속 스피어 제작이 가능해졌다. 수작업이 가능한 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "5000",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "SphereFactory_Black_04",
+    "Defense": "5",
+    "수작업": "1",
+    "Hp": "10000",
+    "Hp_PVP": "10000",
+    "Defense_PVP": "12",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.1",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "14",
+    "TypeB": "Pal_Capture",
+    "TypeUIDisplay": "PalCaptureItem",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "1000",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "16.79",
+    "TypesA": "SpecialWeapon CaptureItemModifier",
+    "TypesB": "SPWeaponCaptureBall CaptureItemModifier",
+    "Rank Max": "7",
+    "Speed Rate": "6",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "헥소라이트": "50",
+      "플라스틸": "50",
+      "컴퓨터": "10",
+      "바이오 배터리": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FBlastFurnace4",
+    "name": "거대한 화로",
+    "href": "Gigantic_Furnace",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace4.webp",
+    "dynamic": {
+      "기술": "58",
+      "SAN": "-0.08",
+      "Energy": "1500 Per Sec"
+    },
+    "description": "헥소라이트을(를) 제련할 수 있다. 거대화를 거쳐 여러 팰이 힘을 합쳐 제련할 수 있게 되었다. 화염 팰이 불을 붙여줘야 한다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "6000",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "BlastFurnace4",
+    "Defense": "5",
+    "불 피우기": "1",
+    "Hp": "10000",
+    "Hp_PVP": "10000",
+    "Defense_PVP": "12",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.1",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "35",
+    "TypeB": "Prod_Furnace",
+    "TypeUIDisplay": "Refine",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "1500",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "17.98",
+    "TypesA": "Material",
+    "TypesB": "MaterialIngot",
+    "Rank Max": "4",
+    "Speed Rate": "4.5",
+    "요구적성": [
+      {
+        "type": "Kindling",
+        "name": "Ticonpalwork00",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_00.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "플라스틸": "150",
+      "폴리머": "100",
+      "발화 기관": "200",
+      "컴퓨터": "12"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FMedicineFacility_03",
+    "name": "고도 문명 제약대",
+    "href": "Advanced_Medicine_Workbench",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_03.webp",
+    "dynamic": {
+      "기술": "61",
+      "SAN": "-0.15",
+      "Energy": "1000 Per Sec"
+    },
+    "description": "아픈 팰을 치료할 약을 만드는 설비. 미래 기술을 활용하여 미지의 약도 만들 수 있다. 작업은 제약이 가능한 팰에게 맡기자.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "5000",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "MedicineFacility_03",
+    "Defense": "4",
+    "제약": "1",
+    "Worker Max": "1",
+    "Hp": "15000",
+    "Hp_PVP": "15000",
+    "Defense_PVP": "8",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.15",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "42",
+    "TypeB": "Prod_Medicine",
+    "TypeUIDisplay": "Medicine",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "1000",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "16.79",
+    "TypesA": "Food Consume Material",
+    "TypesB": "Medicine Drug ConsumeGainStatusPoints ConsumePalRevive",
+    "Rank Max": "10",
+    "Speed Rate": "3",
+    "요구적성": [
+      {
+        "type": "Medicine_Production",
+        "name": "Ticonpalwork08",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_08.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "헥소라이트": "50",
+      "플라스틸": "50",
+      "전자기판": "30"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FFactory_Hard_04",
+    "name": "고도 문명 작업 공장",
+    "href": "Advanced_Workshop",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp",
+    "dynamic": {
+      "기술": "62",
+      "SAN": "-0.2",
+      "Energy": "1000 Per Sec"
+    },
+    "description": "아이템 및 방어구를 제작하는 데 필요한 공장. 고성능 기계를 도입하여 고속 제작이 가능해졌다. 수작업이 가능한 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "5000",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "Factory_Hard_04",
+    "Defense": "5",
+    "수작업": "1",
+    "Hp": "8000",
+    "Hp_PVP": "8000",
+    "Defense_PVP": "15",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "6",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Product_Repair",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "1000",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "16.79",
+    "TypesA": "Weapon Armor Consume Material Essential Ammo Glider Accessory",
+    "TypesB": "ArmorBody ArmorHead ConsumeBandage WeaponMelee ConsumeOther MaterialProccessing Essential_UnlockPlayerFuture WeaponBow WeaponCrossbow Shield Glider ConsumeBullet WeaponGrapplingGun Accessory ReturnToBaseCamp Essential_Lamp WeaponMetalDetector Essential_AdditionalInventory WeaponFishingRod ConsumeFishingBait ConsumePalGainExp",
+    "Rank Max": "5",
+    "Speed Rate": "6",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "코랄리움 주괴": "50",
+      "헥소라이트": "50",
+      "컴퓨터": "30",
+      "바이오 배터리": "20"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FCrystalPit",
+    "name": "헥소 석영 채굴장",
+    "href": "Hexolite_Quartz_Mine",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CrystalPit.webp",
+    "dynamic": {
+      "기술": "62",
+      "SAN": "-0.15"
+    },
+    "description": "헥소 석영을(를) 생산하는 시설. 헥소 석영을(를) 파내는 작업은 고되므로 체력이 필요하다. 채굴에 자신 있는 팰에게 맡기자.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "500",
+    "작업타입": "수작업",
+    "Code": "CrystalPit",
+    "Defense": "4",
+    "채굴": "1",
+    "Hp": "10000",
+    "Hp_PVP": "10000",
+    "Defense_PVP": "12",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.2",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "29",
+    "TypeB": "Prod_Resource",
+    "TypeUIDisplay": "Deforest_Mining",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "6.94",
+    "요구적성": [
+      {
+        "type": "Mining",
+        "name": "Ticonpalwork07",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_07.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "돌": "70",
+      "헥소 석영": "100",
+      "고대 문명의 부품": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "21c836c70bcf2433edd7dab70bf3130e6417f434f8450873350772bb3e04a31f",
+    "name": "고도 문명 무기 공장",
+    "href": "Advanced_Weapon_Assembly_Line",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp",
+    "dynamic": {
+      "기술": "63",
+      "SAN": "-0.2",
+      "Energy": "1000 Per Sec"
+    },
+    "description": "무기나 탄약을 생산하는 공장. 고성능 기계를 도입하여 고속 제작이 가능해졌다. 수작업이 가능한 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "6000",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "WeaponFactory_Dirty_04",
+    "Defense": "5",
+    "수작업": "1",
+    "Hp": "10000",
+    "Hp_PVP": "10000",
+    "Defense_PVP": "12",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.1",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "18",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Weapon",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "1000",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "17.98",
+    "TypesA": "Weapon Consume Ammo",
+    "TypesB": "WeaponAssaultRifle WeaponSniperRifle WeaponShotgun WeaponRocketLauncher WeaponHandgun WeaponCrossbow WeaponBow WeaponMelee ConsumeBullet WeaponThrowObject WeaponGrapplingGun WeaponFlameThrower WeaponGatlingGun",
+    "Rank Max": "5",
+    "Speed Rate": "6",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "코랄리움 주괴": "50",
+      "초고열 코어": "10",
+      "부식성 용액": "30"
+    },
+    "production": []
+  },
+  {
+    "id": "1c9d8c96a785cbb9c2fd13d606f3f96f951165419b1bc26ed57c0d39c4d314e4",
+    "name": "고대 문명 화로",
+    "href": "Ancient_Furnace",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientBlastFurnace.webp",
+    "dynamic": {
+      "기술": "66",
+      "SAN": "-0.15",
+      "Energy": "3000 Per Sec"
+    },
+    "description": "고대 문명의 기술을 응용해 모든 주괴를 제련할 수 있는 특수 화로. 불의 힘으로 소재를 녹이고, 얼음의 힘으로 단숨에 식혀 굳히는 방식으로 제련을 수행한다. 가동하려면 높은 등급의 불 피우기 및 냉각 적성을 가진 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "10000",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "AncientBlastFurnace",
+    "Defense": "4",
+    "Hp": "100000",
+    "Hp_PVP": "100000",
+    "Defense_PVP": "40",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "4",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "36",
+    "TypeB": "Prod_Furnace",
+    "TypeUIDisplay": "Refine",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "3000",
+    "BuildExpRate": "21.76",
+    "TypesA": "Material",
+    "TypesB": "MaterialIngot",
+    "Rank Max": "7",
+    "Speed Rate": "11",
+    "요구적성": [
+      {
+        "type": "Kindling",
+        "name": "Ticonpalwork00",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_00.webp",
+        "level": "6"
+      },
+      {
+        "type": "Cooling",
+        "name": "Ticonpalwork10",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_10.webp",
+        "level": "6"
+      }
+    ],
+    "meterial": {
+      "코랄리움 주괴": "100",
+      "초고열 코어": "20",
+      "컴퓨터": "30",
+      "고대 문명의 코어": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "e88c107c3ef97817a112991477449732bb697214e1438901fe8f469ee2122cfd",
+    "name": "고대 문명 작업대",
+    "href": "Ancient_Workbench",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp",
+    "dynamic": {
+      "기술": "67",
+      "SAN": "-0.11",
+      "Energy": "2000 Per Sec"
+    },
+    "description": "모든 아이템을 한자리에서 제작할 수 있는 팰 전용 복합 시설. 플레이어는 사용할 수 없으며 작업 속도도 일반 설비와 다르지 않다. 첨단 설비이므로 운용하려면 높은 등급의 수작업 및 제약 적성을 가진 팰이 필요하다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "10000",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "AncientWorkBench",
+    "Defense": "4",
+    "Hp": "100000",
+    "Hp_PVP": "100000",
+    "Defense_PVP": "40",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "8",
+    "ExtinguishBurnWorkAmount": "1000",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "7",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Product_Repair",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "2000",
+    "BuildExpRate": "21.76",
+    "TypesA": "Weapon Armor Consume Material Essential Ammo Glider Accessory SpecialWeapon CaptureItemModifier Food",
+    "TypesB": "ArmorBody ArmorHead ConsumeBandage WeaponMelee ConsumeOther MaterialProccessing Essential_UnlockPlayerFuture WeaponBow WeaponCrossbow Shield Glider ConsumeBullet WeaponGrapplingGun Accessory ReturnToBaseCamp Essential_Lamp WeaponMetalDetector Essential_AdditionalInventory WeaponFishingRod ConsumeFishingBait SPWeaponCaptureBall CaptureItemModifier Medicine Drug ConsumeGainStatusPoints ConsumePalRevive ConsumePalAwakening WeaponAssaultRifle WeaponSniperRifle WeaponShotgun WeaponRocketLauncher WeaponHandgun WeaponThrowObject WeaponFlameThrower WeaponGatlingGun Essential_PalGear ConsumePalTalentUp",
+    "Rank Max": "10",
+    "Speed Rate": "8",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "6"
+      },
+      {
+        "type": "Medicine_Production",
+        "name": "Ticonpalwork08",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_08.webp",
+        "level": "6"
+      }
+    ],
+    "meterial": {
+      "솔라이트 주괴": "50",
+      "AI 코어": "5",
+      "바이오 배터리": "20"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FFishingPond2",
+    "name": "커다란 낚시터",
+    "href": "Large_Fishing_Pond",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FishingPond2.webp",
+    "dynamic": {
+      "기술": "69"
+    },
+    "description": "낚시 도구를 비치한 커다란 낚시터. 기존 낚시터보다 크기에 더욱 커다란 팰을 낚을 수 있다. 수작업이 가능한 팰이 필요하다.",
+    "skill": "",
+    "meterial": {
+      "상급 나무 판자": "20",
+      "돌": "30",
+      "코랄리움 주괴": "10",
+      "고급 팰 기름": "20"
+    },
+    "Type": "생산",
+    "작업량": "850",
+    "작업타입": "수작업",
+    "Code": "FishingPond2",
+    "Defense": "5",
+    "수작업": "1",
+    "Worker Max": "1",
+    "Hp": "5500",
+    "Hp_PVP": "5500",
+    "Defense_PVP": "22",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.22",
+    "ExtinguishBurnWorkAmount": "1000",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "44",
+    "TypeB": "Prod_Resource",
+    "TypeUIDisplay": "FishingPond",
+    "Rank": "1",
+    "AssetValue": "1",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "8.53",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FSkyIslandOrePit",
+    "name": "솔라이트 채굴장",
+    "href": "Soralite_Quarry",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SkyIslandOrePit.webp",
+    "dynamic": {
+      "기술": "72",
+      "SAN": "-0.15"
+    },
+    "description": "솔라이트을(를) 생산하는 시설. 솔라이트을(를) 파내는 작업은 고되므로 체력이 필요하다. 채굴에 자신 있는 팰에게 맡기자.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "1000",
+    "작업타입": "수작업",
+    "Code": "SkyIslandOrePit",
+    "Defense": "4",
+    "채굴": "1",
+    "Hp": "30000",
+    "Hp_PVP": "30000",
+    "Defense_PVP": "20",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.6",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "30",
+    "TypeB": "Prod_Resource",
+    "TypeUIDisplay": "Deforest_Mining",
+    "Rank": "1",
+    "AssetValue": "1",
+    "BuildExpRate": "9.09",
+    "요구적성": [
+      {
+        "type": "Mining",
+        "name": "Ticonpalwork07",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_07.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "돌": "70",
+      "솔라이트": "100",
+      "고대 문명의 부품": "10"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FFactory_Money",
+    "name": "금화 제조 공장",
+    "href": "Gold_Coin_Assembly_Line",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Money.webp",
+    "dynamic": {
+      "기술": "73",
+      "SAN": "-0.5",
+      "Energy": "200 Per Sec"
+    },
+    "description": "금화을(를) 제조하는 공장. 정신에 부담이 가는 작업이기에 SAN 수치가 감소한다. 수작업이 가능한 팰이 필요하다. 이 건축물을 세우면 자경단의 혹독한 단속에 걸릴 가능성이 있으니 주의하자.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "100",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "Factory_Money",
+    "Defense": "3",
+    "수작업": "1",
+    "Hp": "4000",
+    "Hp_PVP": "4000",
+    "Defense_PVP": "31",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "0.08",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "9",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Product_Repair",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "200",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "3.64",
+    "TypesA": "Material",
+    "TypesB": "Money",
+    "Rank Max": "3",
+    "Speed Rate": "2",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "meterial": {
+      "솔라이트 주괴": "100",
+      "고대 문명의 부품": "20",
+      "AI 코어": "10",
+      "고대 문명의 코어": "5"
+    },
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FAncientRelicRecycler",
+    "name": "고대 문명 유물 변환기",
+    "href": "Ancient_Relic_Recycler",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientRelicRecycler.webp",
+    "dynamic": {
+      "기술": "74",
+      "SAN": "-0.11",
+      "Energy": "800 Per Sec"
+    },
+    "description": "잃어버린 문명의 기술을 다른 방향으로 응용한 고대 물질 변환 장치. |고대 문명의 유물|에 남겨진 기술을 해독하고, 새로운 형태로 승화시킬 수 있다. 유물의 활용성을 최대화하기 위해 제작된, 지극히 특수한 설비.",
+    "skill": "",
+    "meterial": {
+      "팰키사이트 주괴": "50",
+      "신비한 목재": "50",
+      "고대 문명의 부품": "30",
+      "고대 문명의 코어": "20"
+    },
+    "Type": "생산",
+    "작업량": "10000",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "AncientRelicRecycler",
+    "Defense": "4",
+    "수작업": "1",
+    "Hp": "100000",
+    "Hp_PVP": "100000",
+    "Defense_PVP": "40",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "2",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "10",
+    "TypeB": "Prod_Craft",
+    "TypeUIDisplay": "Product_Repair",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "800",
+    "bIsInstallOnlyHubAround": "1",
+    "BuildExpRate": "21.76",
+    "bIsProhibitedInRaidBossArea": "1",
+    "요구적성": [
+      {
+        "type": "Handiwork",
+        "name": "Ticonpalwork04",
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/UI/InGame/T_icon_palwork_04.webp",
+        "level": "1"
+      }
+    ],
+    "production": []
+  },
+  {
+    "id": "?s=MapObjects%2FAncientMultiProduct",
+    "name": "고대 문명 물질 생성기",
+    "href": "Ancient_Material_Synthesizer",
+    "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientMultiProduct.webp",
+    "dynamic": {
+      "기술": "78",
+      "Energy": "800 Per Sec"
+    },
+    "description": "세계수의 힘을 이용해 여러 목재와 광석을 생성하는 고대 문명 생성기. 복잡한 구조로 구성되어 있어 단 한 마리의 팰만 배치할 수 있다.",
+    "skill": "",
+    "Type": "생산",
+    "작업량": "10000",
+    "작업타입": "수작업",
+    "Energy Type": "Electric",
+    "Code": "AncientMultiProduct",
+    "Defense": "4",
+    "Hp": "100000",
+    "Hp_PVP": "100000",
+    "Defense_PVP": "40",
+    "bBelongToBaseCamp": "1",
+    "DeteriorationDamage": "2",
+    "bShowHPGauge": "1",
+    "TypeA": "Product",
+    "SortId": "31",
+    "TypeB": "Prod_Resource",
+    "TypeUIDisplay": "Deforest_Mining",
+    "Rank": "1",
+    "AssetValue": "1",
+    "ConsumeEnergySpeed": "800",
+    "BuildExpRate": "21.76",
+    "meterial": {
+      "팰키사이트 주괴": "50",
+      "고대 문명의 코어": "10"
+    },
+    "production": []
+  }
+]

@@ -15,17 +15,21 @@ data class Pal (
     val partnerSkillDescription: String,
     val partnerSkillImage: String,
     val skills: List<PalSkill>,
-    val suitability: Map<String, String>,
+    val suitability: Map<String, PalSuitability>,
     val foodamount: Int,
     val drops: List<PalDrop>
 ) {
     val iconAssetpath: String
-        get() = if (stats.code.contains("Yakushima")) {
-            "PAL/Texture/PalIcon/Normal/Yakushima/T_${stats.code}_icon_normal.png"
-        } else {
-            "PAL/Texture/PalIcon/Normal/T_${stats.code}_icon_normal.png"
-        }
+        get() = "PAL/Icon/images_palicon/T_${stats.code}_icon_normal.webp"
+}
 
+data class PalSuitability(
+    val level: String = "",
+    val baseLevel: Int = 0,
+    val starLevel: Int = 0,
+    val emptyLevel: Int = 0
+) {
+    val maxLevel: Int get() = baseLevel + starLevel
 }
 
 data class PalStats(

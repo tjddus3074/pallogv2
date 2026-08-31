@@ -30,23 +30,11 @@
         "dataHover": "?s=Technology/Battle_MeleeWeapon_Bat",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bat.webp"
-      },
-      {
-        "itemName": "팰 치장용 장치",
-        "dataHover": "?s=Technology/SkinChange",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SkinChange.webp"
-      },
-      {
-        "itemName": "글로벌 팰 상자",
-        "dataHover": "?s=Technology/GlobalPalStorage",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_GlobalPalStorage.webp"
       }
     ]
   },
   {
-    "2": [
+    "1": [
       {
         "itemName": "팰 상자",
         "dataHover": "?s=Technology/PALBOX",
@@ -82,11 +70,17 @@
         "dataHover": "?s=Technology/Wooden_houseset",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Wood_Foundation.webp"
+      },
+      {
+        "itemName": "팰 치장용 장치",
+        "dataHover": "?s=Technology/SkinChange",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SkinChange.webp"
       }
     ]
   },
   {
-    "3": [
+    "1": [
       {
         "itemName": "오래된 활",
         "dataHover": "?s=Technology/Battle_RangeWeapon_Bow1",
@@ -98,6 +92,12 @@
         "dataHover": "?s=Technology/Arrow",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow.webp"
+      },
+      {
+        "itemName": "돌 창",
+        "dataHover": "?s=Technology/Spear",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp"
       },
       {
         "itemName": "하급 침대",
@@ -112,32 +112,20 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicalPalBed_02.webp"
       },
       {
-        "itemName": "수리 키트",
-        "dataHover": "?s=Technology/RepairKit",
+        "itemName": "글로벌 팰 상자",
+        "dataHover": "?s=Technology/GlobalPalStorage",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/Survival_Icons_Pack/Textures/Tex_tools_10.webp"
-      },
-      {
-        "itemName": "천",
-        "dataHover": "?s=Technology/Battle_Cloth",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_GlobalPalStorage.webp"
       }
     ]
   },
   {
-    "4": [
+    "2": [
       {
         "itemName": "일반 방패",
         "dataHover": "?s=Technology/Shield_01",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_01.webp"
-      },
-      {
-        "itemName": "돌 창",
-        "dataHover": "?s=Technology/Spear",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp"
       },
       {
         "itemName": "천 옷",
@@ -146,27 +134,21 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_ClothArmor.webp"
       },
       {
+        "itemName": "천",
+        "dataHover": "?s=Technology/Battle_Cloth",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cloth.webp"
+      },
+      {
         "itemName": "먹이 상자",
         "dataHover": "?s=Technology/PalFoodBox",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PalFoodBox.webp"
-      },
-      {
-        "itemName": "경종",
-        "dataHover": "?s=Technology/BaseCampBattleDirector",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampBattleDirector.webp"
-      },
-      {
-        "itemName": "공중 덫",
-        "dataHover": "?s=Technology/Trap_Noose",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_Noose.webp"
       }
     ]
   },
   {
-    "5": [
+    "2": [
       {
         "itemName": "열매 농원",
         "dataHover": "?s=Technology/Product_Farm_Berries",
@@ -186,18 +168,6 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Glider_Glider_Old.webp"
       },
       {
-        "itemName": "불의 활",
-        "dataHover": "?s=Technology/Battle_RangeWeapon_Bow_Fire",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bow_Fire.webp"
-      },
-      {
-        "itemName": "불화살",
-        "dataHover": "?s=Technology/Arrow_Fire",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow_Fire.webp"
-      },
-      {
         "itemName": "나무 거실 가구 세트",
         "dataHover": "?s=Technology/FurnitureSet_1",
         "isBossTechnology": false,
@@ -208,11 +178,17 @@
         "dataHover": "?s=Technology/FurnitureSet_3",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Counter_Wood.webp"
+      },
+      {
+        "itemName": "나무 술집 수납 가구 세트",
+        "dataHover": "?s=Technology/FurnitureSet_2",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Barrel_Wood.webp"
       }
     ]
   },
   {
-    "6": [
+    "2": [
       {
         "itemName": "팰 장비 제작대",
         "dataHover": "?s=Technology/Product_WorkBench_SkillUnlock",
@@ -220,10 +196,10 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench_SkillUnlock.webp"
       },
       {
-        "itemName": "힘의 석상",
-        "dataHover": "?s=Technology/BuildableGoddessStatue",
+        "itemName": "불화살",
+        "dataHover": "?s=Technology/Arrow_Fire",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BuildableGoddessStatue.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow_Fire.webp"
       },
       {
         "itemName": "설치형 횃불",
@@ -232,22 +208,28 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TorchStand.webp"
       },
       {
+        "itemName": "간판",
+        "dataHover": "?s=Technology/Signboard",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Signboard.webp"
+      },
+      {
+        "itemName": "벽걸이 간판",
+        "dataHover": "?s=Technology/WallSignboard",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WallSignboard.webp"
+      },
+      {
         "itemName": "돌진돼지의 안장",
         "dataHover": "?s=Technology/SkillUnlock_Boar",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Boar_icon_normal.webp"
       },
       {
-        "itemName": "파이호의 마구",
+        "itemName": "파이호의 하네스",
         "dataHover": "?s=Technology/SkillUnlock_Kitsunebi",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Kitsunebi_icon_normal.webp"
-      },
-      {
-        "itemName": "나무 술집 수납 가구 세트",
-        "dataHover": "?s=Technology/FurnitureSet_2",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Barrel_Wood.webp"
       },
       {
         "itemName": "관엽식물 세트",
@@ -258,7 +240,19 @@
     ]
   },
   {
-    "7": [
+    "2": [
+      {
+        "itemName": "감시대",
+        "dataHover": "?s=Technology/BaseCampWorkHard",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampWorkHard.webp"
+      },
+      {
+        "itemName": "야구 방망이",
+        "dataHover": "?s=Technology/Battle_MeleeWeapon_Bat2",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Bat2.webp"
+      },
       {
         "itemName": "벌목장",
         "dataHover": "?s=Technology/Product_StationDeforest",
@@ -272,16 +266,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_StonePit.webp"
       },
       {
-        "itemName": "간판",
-        "dataHover": "?s=Technology/Signboard",
+        "itemName": "토양",
+        "dataHover": "?s=Technology/DefenseWait",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Signboard.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseWait.webp"
       },
       {
-        "itemName": "야구 방망이",
-        "dataHover": "?s=Technology/Battle_MeleeWeapon_Bat2",
+        "itemName": "경종",
+        "dataHover": "?s=Technology/BaseCampBattleDirector",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Bat2.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampBattleDirector.webp"
       },
       {
         "itemName": "멜파카의 안장",
@@ -290,38 +284,20 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Alpaca_icon_normal.webp"
       },
       {
-        "itemName": "루미카이트의 장갑",
-        "dataHover": "?s=Technology/SkillUnlock_FlyingManta",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlyingManta_icon_normal.webp"
-      },
-      {
         "itemName": "벽걸이 관엽식물 세트",
         "dataHover": "?s=Technology/FurnitureSet_4",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ivy01.webp"
-      },
-      {
-        "itemName": "알 부화기",
-        "dataHover": "?s=Technology/Special_HatchingPalEgg",
-        "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_HatchingPalEgg.webp"
       }
     ]
   },
   {
-    "8": [
+    "2": [
       {
         "itemName": "파쇄기",
         "dataHover": "?s=Technology/Crusher",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Crusher.webp"
-      },
-      {
-        "itemName": "독 활",
-        "dataHover": "?s=Technology/Battle_RangeWeapon_Bow_Poison",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bow_Poison.webp"
       },
       {
         "itemName": "독화살",
@@ -330,22 +306,22 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow_Poison.webp"
       },
       {
-        "itemName": "찌릿도치의 장갑",
-        "dataHover": "?s=Technology/SkillUnlock_Hedgehog",
+        "itemName": "나무 방벽",
+        "dataHover": "?s=Technology/DefenseWall_Wood",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Hedgehog_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseWall_Wood.webp"
       },
       {
-        "itemName": "몽마둥이의 목걸이",
-        "dataHover": "?s=Technology/SkillUnlock_DreamDemon",
+        "itemName": "나무 문",
+        "dataHover": "?s=Technology/Wood_Gate",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DreamDemon_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Wood_Gate.webp"
       },
       {
-        "itemName": "앤티크 수납 세트",
-        "dataHover": "?s=Technology/FurnitureSet_21",
+        "itemName": "공중 덫",
+        "dataHover": "?s=Technology/Trap_Noose",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Shelf01_Stone.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_Noose.webp"
       },
       {
         "itemName": "난로 세트",
@@ -356,7 +332,19 @@
     ]
   },
   {
-    "9": [
+    "2": [
+      {
+        "itemName": "힘의 석상",
+        "dataHover": "?s=Technology/BuildableGoddessStatue",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BuildableGoddessStatue.webp"
+      },
+      {
+        "itemName": "소형 먹이 주머니",
+        "dataHover": "?s=Technology/AutoMealPouch_Tier1",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier1.webp"
+      },
       {
         "itemName": "열대 지방 민속 의상",
         "dataHover": "?s=Technology/Battle_Armor_Grade_01_Cloth_Heat",
@@ -376,22 +364,10 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Spa.webp"
       },
       {
-        "itemName": "토양",
-        "dataHover": "?s=Technology/DefenseWait",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseWait.webp"
-      },
-      {
-        "itemName": "다크울프의 안장 부착 마구",
+        "itemName": "다크울프의 안장과 하네스",
         "dataHover": "?s=Technology/SkillUnlock_Garm",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Garm_icon_normal.webp"
-      },
-      {
-        "itemName": "고스문의 장갑",
-        "dataHover": "?s=Technology/SkillUnlock_NegativeOctopus",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NegativeOctopus_icon_normal.webp"
       },
       {
         "itemName": "카펫 세트",
@@ -402,13 +378,7 @@
     ]
   },
   {
-    "10": [
-      {
-        "itemName": "삼연궁",
-        "dataHover": "?s=Technology/Battle_RangeWeapon_Bow3",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bow.webp"
-      },
+    "3": [
       {
         "itemName": "원시적인 화로",
         "dataHover": "?s=Technology/Product_Ingot_Grade_01_Copper",
@@ -416,10 +386,22 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace.webp"
       },
       {
+        "itemName": "삼연궁",
+        "dataHover": "?s=Technology/Battle_RangeWeapon_Bow3",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bow.webp"
+      },
+      {
         "itemName": "깃털 머리 장식",
         "dataHover": "?s=Technology/Battle_Helm_Grade_02_Fur",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurHelmet.webp"
+      },
+      {
+        "itemName": "못",
+        "dataHover": "?s=Technology/Infra_MachineParts",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp"
       },
       {
         "itemName": "사다리",
@@ -434,27 +416,21 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_LegHold.webp"
       },
       {
-        "itemName": "못",
-        "dataHover": "?s=Technology/Infra_MachineParts",
+        "itemName": "앤티크 수납 세트",
+        "dataHover": "?s=Technology/FurnitureSet_21",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_MachineParts.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Shelf01_Stone.webp"
       },
       {
-        "itemName": "씨무기의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_Serpent",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Serpent_icon_normal.webp"
-      },
-      {
-        "itemName": "소형 먹이 주머니",
-        "dataHover": "?s=Technology/AutoMealPouch_Tier1",
+        "itemName": "알 부화기",
+        "dataHover": "?s=Technology/Special_HatchingPalEgg",
         "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier1.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_HatchingPalEgg.webp"
       }
     ]
   },
   {
-    "11": [
+    "2": [
       {
         "itemName": "금속 도끼",
         "dataHover": "?s=Technology/Product_Axe_Grade_02",
@@ -474,16 +450,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"
       },
       {
-        "itemName": "헤비 웨이트 모듈",
-        "dataHover": "?s=Technology/SphereModule_Heavy",
+        "itemName": "밀렵단 깃발 세트",
+        "dataHover": "?s=Technology/HunterFlagSet",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Heavy.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Hunter_Flag.webp"
       },
       {
-        "itemName": "나무 문",
-        "dataHover": "?s=Technology/Wood_Gate",
+        "itemName": "베비뇽의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_WeaselDragon",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Wood_Gate.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WeaselDragon_icon_normal.webp"
       },
       {
         "itemName": "쿠룰리스의 기관단총",
@@ -492,15 +468,15 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Carbunclo_icon_normal.webp"
       },
       {
-        "itemName": "코치도치의 장갑",
-        "dataHover": "?s=Technology/SkillUnlock_Hedgehog_Ice",
+        "itemName": "앤티크 의자 세트",
+        "dataHover": "?s=Technology/FurnitureSet_19",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Hedgehog_Ice_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Chair01_Stone.webp"
       }
     ]
   },
   {
-    "12": [
+    "2": [
       {
         "itemName": "가죽 갑옷",
         "dataHover": "?s=Technology/Battle_Armor_Grade_02_Fur",
@@ -532,16 +508,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Deer_icon_normal.webp"
       },
       {
-        "itemName": "소름냥이의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_NaughtyCat",
+        "itemName": "모형 나무 세트",
+        "dataHover": "?s=Technology/FurnitureTree_Green",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NaughtyCat_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Green.webp"
       },
       {
-        "itemName": "앤티크 의자 세트",
-        "dataHover": "?s=Technology/FurnitureSet_19",
+        "itemName": "정돈된 탁자 세트",
+        "dataHover": "?s=Technology/TableCircular",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Chair01_Stone.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TableCircular_Wood_None.webp"
       },
       {
         "itemName": "갈고리 총",
@@ -552,7 +528,7 @@
     ]
   },
   {
-    "13": [
+    "2": [
       {
         "itemName": "쇠뇌",
         "dataHover": "?s=Technology/Battle_RangeWeapon_BowGun",
@@ -566,16 +542,10 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp"
       },
       {
-        "itemName": "인력 발전기",
-        "dataHover": "?s=Technology/ManualElectricGenerator",
+        "itemName": "금속 상자",
+        "dataHover": "?s=Technology/Infra_ItemChest_Grade_02",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ManualElectricGenerator.webp"
-      },
-      {
-        "itemName": "피해 측정 허수아비",
-        "dataHover": "?s=Technology/DamagedScarecrow",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DamagedScarecrow.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ItemChest_02.webp"
       },
       {
         "itemName": "아이스박스",
@@ -584,10 +554,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoolerBox.webp"
       },
       {
-        "itemName": "베비뇽의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_WeaselDragon",
+        "itemName": "피해 측정 허수아비",
+        "dataHover": "?s=Technology/DamagedScarecrow",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WeaselDragon_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DamagedScarecrow.webp"
+      },
+      {
+        "itemName": "몽화의 돌격 소총",
+        "dataHover": "?s=Technology/SkillUnlock_Monkey_Fire",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Monkey_Fire_icon_normal.webp"
       },
       {
         "itemName": "앤티크 수납 캐비닛 세트",
@@ -598,7 +574,7 @@
     ]
   },
   {
-    "14": [
+    "2": [
       {
         "itemName": "메가 스피어",
         "dataHover": "?s=Technology/Special_PalSphere_Grade_02",
@@ -612,10 +588,10 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_01.webp"
       },
       {
-        "itemName": "감시대",
-        "dataHover": "?s=Technology/BaseCampWorkHard",
+        "itemName": "중형 먹이 주머니",
+        "dataHover": "?s=Technology/AutoMealPouch_Tier2",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampWorkHard.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier2.webp"
       },
       {
         "itemName": "벽걸이 횃불",
@@ -624,16 +600,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TorchHang.webp"
       },
       {
-        "itemName": "모프킹의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_MopKing",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MopKing_icon_normal.webp"
-      },
-      {
         "itemName": "썬더콘의 안장",
         "dataHover": "?s=Technology/SkillUnlock_Kirin",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Kirin_icon_normal.webp"
+      },
+      {
+        "itemName": "모형 붉은 단풍나무 세트",
+        "dataHover": "?s=Technology/FurnitureTree_Red",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Red.webp"
       },
       {
         "itemName": "앤티크 책상 세트",
@@ -650,24 +626,12 @@
     ]
   },
   {
-    "15": [
+    "2": [
       {
         "itemName": "초급 낚시 세트",
         "dataHover": "?s=Technology/FishingSet1",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FishingRod_1.webp"
-      },
-      {
-        "itemName": "불화살 쇠뇌",
-        "dataHover": "?s=Technology/Battle_RangeWeapon_BowGun_Fire",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Fire.webp"
-      },
-      {
-        "itemName": "팰 원정소",
-        "dataHover": "?s=Technology/Expedition",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Expedition.webp"
       },
       {
         "itemName": "밀 농원",
@@ -682,10 +646,22 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FlourMill.webp"
       },
       {
+        "itemName": "나무 판자",
+        "dataHover": "?s=Technology/Processed_Wood",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Processed_Wood.webp"
+      },
+      {
         "itemName": "감상용 케이지",
         "dataHover": "?s=Technology/DisplayCharacter",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DisplayCharacter.webp"
+      },
+      {
+        "itemName": "불페르노의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_FlameBuffalo",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlameBuffalo_icon_normal.webp"
       },
       {
         "itemName": "나이트윙의 안장",
@@ -702,7 +678,7 @@
     ]
   },
   {
-    "16": [
+    "2": [
       {
         "itemName": "메가 방패",
         "dataHover": "?s=Technology/Shield_02",
@@ -716,22 +692,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorHeat.webp"
       },
       {
-        "itemName": "금속 상자",
-        "dataHover": "?s=Technology/Infra_ItemChest_Grade_02",
+        "itemName": "씨무기의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_Serpent",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ItemChest_02.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Serpent_icon_normal.webp"
       },
       {
-        "itemName": "나무 방벽",
-        "dataHover": "?s=Technology/DefenseWall_Wood",
+        "itemName": "모형 노란 단풍나무 세트",
+        "dataHover": "?s=Technology/FurnitureTree_Yellow",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseWall_Wood.webp"
-      },
-      {
-        "itemName": "불페르노의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_FlameBuffalo",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlameBuffalo_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Yellow.webp"
       },
       {
         "itemName": "앤티크 욕실 세트",
@@ -754,12 +724,12 @@
     ]
   },
   {
-    "17": [
+    "2": [
       {
-        "itemName": "독화살 쇠뇌",
-        "dataHover": "?s=Technology/Battle_RangeWeapon_BowGun_Poison",
+        "itemName": "원시적인 검",
+        "dataHover": "?s=Technology/BronzeSword",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BowGun_Poison.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BronzeSword.webp"
       },
       {
         "itemName": "조리 냄비",
@@ -786,16 +756,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Penguin_icon_normal.webp"
       },
       {
-        "itemName": "토푸리의 목걸이",
-        "dataHover": "?s=Technology/SkillUnlock_FlowerRabbit",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlowerRabbit_icon_normal.webp"
-      },
-      {
         "itemName": "피아노 가구 세트",
         "dataHover": "?s=Technology/FurnitureSet_15",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Piano01_Stone.webp"
+      },
+      {
+        "itemName": "금속 선반 세트",
+        "dataHover": "?s=Technology/FurnitureSet_30",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Shelf01_Iron.webp"
       },
       {
         "itemName": "메가 갈고리 총",
@@ -806,7 +776,7 @@
     ]
   },
   {
-    "18": [
+    "2": [
       {
         "itemName": "메가 글라이더",
         "dataHover": "?s=Technology/Battle_Glider_Grade_02",
@@ -818,12 +788,6 @@
         "dataHover": "?s=Technology/Battle_Armor_Grade_02_Fur_Cold",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_FurArmorCold.webp"
-      },
-      {
-        "itemName": "돌 건축 세트",
-        "dataHover": "?s=Technology/Stone_houseset",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Stone_Foundation.webp"
       },
       {
         "itemName": "얼음 냉방기",
@@ -838,16 +802,22 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ColorfulBird_icon_normal.webp"
       },
       {
-        "itemName": "금속 선반 세트",
-        "dataHover": "?s=Technology/FurnitureSet_30",
+        "itemName": "뎅키의 로켓 발사기",
+        "dataHover": "?s=Technology/SkillUnlock_Penguin_Electric",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Shelf01_Iron.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Penguin_Electric_icon_normal.webp"
       },
       {
         "itemName": "화장실 세트",
         "dataHover": "?s=Technology/FurnitureSet_25",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Toilet01_Stone.webp"
+      },
+      {
+        "itemName": "앤티크 고급 가구 세트",
+        "dataHover": "?s=Technology/FurnitureSet_32",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Curtain01_Wall_Stone.webp"
       },
       {
         "itemName": "힘 조절의 반지",
@@ -858,12 +828,18 @@
     ]
   },
   {
-    "19": [
+    "2": [
       {
-        "itemName": "배합 목장",
-        "dataHover": "?s=Technology/BreedFarm",
+        "itemName": "팰 작업 연구소",
+        "dataHover": "?s=Technology/Lab",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BreedFarm.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Lab.webp"
+      },
+      {
+        "itemName": "헤비 웨이트 모듈",
+        "dataHover": "?s=Technology/SphereModule_Heavy",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Heavy.webp"
       },
       {
         "itemName": "시멘트",
@@ -872,45 +848,39 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Cement.webp"
       },
       {
-        "itemName": "벽걸이 간판",
-        "dataHover": "?s=Technology/WallSignboard",
+        "itemName": "돌 건축 세트",
+        "dataHover": "?s=Technology/Stone_houseset",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WallSignboard.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Stone_Foundation.webp"
       },
       {
-        "itemName": "플로라디노의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_FlowerDinosaur",
+        "itemName": "방벽",
+        "dataHover": "?s=Technology/DefenseWall",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlowerDinosaur_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseWall.webp"
       },
       {
-        "itemName": "라브라돈의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_SakuraSaurus",
+        "itemName": "돌 문",
+        "dataHover": "?s=Technology/Stone_Gate",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SakuraSaurus_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Stone_Gate.webp"
       },
       {
-        "itemName": "드릴북이의 머리띠",
-        "dataHover": "?s=Technology/SkillUnlock_DrillGame",
+        "itemName": "소름냥이의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_NaughtyCat",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DrillGame_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NaughtyCat_icon_normal.webp"
       },
       {
-        "itemName": "앤티크 고급 가구 세트",
-        "dataHover": "?s=Technology/FurnitureSet_32",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Curtain01_Wall_Stone.webp"
-      },
-      {
-        "itemName": "중형 먹이 주머니",
-        "dataHover": "?s=Technology/AutoMealPouch_Tier2",
+        "itemName": "배합 목장",
+        "dataHover": "?s=Technology/BreedFarm",
         "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier2.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BreedFarm.webp"
       }
     ]
   },
   {
-    "20": [
+    "3": [
       {
         "itemName": "기가 스피어",
         "dataHover": "?s=Technology/Special_PalSphere_Grade_03",
@@ -924,22 +894,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"
       },
       {
-        "itemName": "팰 작업 연구소",
-        "dataHover": "?s=Technology/Lab",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Lab.webp"
-      },
-      {
         "itemName": "대형 공구함",
         "dataHover": "?s=Technology/ToolBoxV1",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ToolBoxV1.webp"
       },
       {
-        "itemName": "건다리의 장갑",
-        "dataHover": "?s=Technology/SkillUnlock_WindChimes",
+        "itemName": "팰 애호 단체 깃발 세트",
+        "dataHover": "?s=Technology/BelieverFlagSet",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WindChimes_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Believer_Flag.webp"
       },
       {
         "itemName": "실피아의 안장",
@@ -948,13 +912,25 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FairyDragon_icon_normal.webp"
       },
       {
+        "itemName": "스틱툴라의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_PurpleSpider",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_PurpleSpider_icon_normal.webp"
+      },
+      {
+        "itemName": "모프킹의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_MopKing",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MopKing_icon_normal.webp"
+      },
+      {
         "itemName": "앤티크 소파 세트",
         "dataHover": "?s=Technology/FurnitureSet_18",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Sofa01_Stone.webp"
       },
       {
-        "itemName": "팰 복원 스토리지",
+        "itemName": "팰 차원 스토리지",
         "dataHover": "?s=Technology/DimensionPalStorage",
         "isBossTechnology": true,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DimensionPalStorage.webp"
@@ -962,7 +938,7 @@
     ]
   },
   {
-    "21": [
+    "3": [
       {
         "itemName": "머스킷",
         "dataHover": "?s=Technology/Musket",
@@ -994,16 +970,22 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OlympicCauldron.webp"
       },
       {
+        "itemName": "덫(대형)",
+        "dataHover": "?s=Technology/Trap_LegHold_Big",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_LegHold.webp"
+      },
+      {
         "itemName": "버드래곤의 안장",
         "dataHover": "?s=Technology/SkillUnlock_BirdDragon",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BirdDragon_icon_normal.webp"
       },
       {
-        "itemName": "킹파카의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_KingAlpaca",
+        "itemName": "산령사슴의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_Deer_Ground",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingAlpaca_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Deer_Ground_icon_normal.webp"
       },
       {
         "itemName": "앤티크 드레서",
@@ -1014,7 +996,13 @@
     ]
   },
   {
-    "22": [
+    "2": [
+      {
+        "itemName": "팰 원정소",
+        "dataHover": "?s=Technology/Expedition",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Expedition.webp"
+      },
       {
         "itemName": "기절 배턴",
         "dataHover": "?s=Technology/ElecBaton",
@@ -1040,22 +1028,22 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PalBooth.webp"
       },
       {
-        "itemName": "덫(대형)",
-        "dataHover": "?s=Technology/Trap_LegHold_Big",
+        "itemName": "버드아이스의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_BirdDragon_Ice",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_LegHold.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BirdDragon_Ice_icon_normal.webp"
       },
       {
-        "itemName": "썬더 키드의 목걸이",
-        "dataHover": "?s=Technology/SkillUnlock_RaijinDaughter",
+        "itemName": "시계 세트",
+        "dataHover": "?s=Technology/FurnitureSet_23",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_RaijinDaughter_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Clock01_Wall_Iron.webp"
       },
       {
-        "itemName": "페더치프의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_FeatherOstrich",
+        "itemName": "금속 의자와 책상 세트",
+        "dataHover": "?s=Technology/FurnitureSet_13",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FeatherOstrich_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Stool01_Iron.webp"
       },
       {
         "itemName": "귀환의 뇌운",
@@ -1066,7 +1054,7 @@
     ]
   },
   {
-    "23": [
+    "2": [
       {
         "itemName": "금속 갑옷",
         "dataHover": "?s=Technology/Battle_Armor_Grade_03_Copper",
@@ -1086,39 +1074,45 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Curve.webp"
       },
       {
+        "itemName": "대형 먹이 주머니",
+        "dataHover": "?s=Technology/AutoMealPouch_Tier3",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier3.webp"
+      },
+      {
         "itemName": "분수",
         "dataHover": "?s=Technology/Fountain",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Fountain.webp"
       },
       {
-        "itemName": "고스호스의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_GhostBeast",
+        "itemName": "킹파카의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_KingAlpaca",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostBeast_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingAlpaca_icon_normal.webp"
       },
       {
-        "itemName": "질풍수리의 장갑",
-        "dataHover": "?s=Technology/SkillUnlock_Eagle",
+        "itemName": "모형 대나무 세트",
+        "dataHover": "?s=Technology/FurnitureTree_Bamboo",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Eagle_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Bamboo.webp"
       },
       {
-        "itemName": "드리문의 장갑",
-        "dataHover": "?s=Technology/SkillUnlock_NegativeOctopus_Neutral",
+        "itemName": "수납 컨테이너 세트",
+        "dataHover": "?s=Technology/FurnitureSet_6",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NegativeOctopus_Neutral_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Container01_Iron.webp"
       },
       {
-        "itemName": "대형 먹이 주머니",
-        "dataHover": "?s=Technology/AutoMealPouch_Tier3",
+        "itemName": "수상 건축 키트",
+        "dataHover": "?s=Technology/WaterBuildKit",
         "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier3.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_WaterBuildKit.webp"
       }
     ]
   },
   {
-    "24": [
+    "3": [
       {
         "itemName": "즉석 핸드건",
         "dataHover": "?s=Technology/MakeshiftHandgun",
@@ -1138,6 +1132,12 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PalMedicineBox.webp"
       },
       {
+        "itemName": "진료소",
+        "dataHover": "?s=Technology/Clinic",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Clinic.webp"
+      },
+      {
         "itemName": "화단",
         "dataHover": "?s=Technology/FlowerBed",
         "isBossTechnology": false,
@@ -1150,16 +1150,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Kitsunebi_Ice_icon_normal.webp"
       },
       {
-        "itemName": "초판다의 수류탄 발사기",
-        "dataHover": "?s=Technology/SkillUnlock_GrassPanda",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassPanda_icon_normal.webp"
-      },
-      {
         "itemName": "아주리비의 안장",
         "dataHover": "?s=Technology/SkillUnlock_BlueDragon",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlueDragon_icon_normal.webp"
+      },
+      {
+        "itemName": "플로라디노의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_FlowerDinosaur",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlowerDinosaur_icon_normal.webp"
       },
       {
         "itemName": "금속 채굴장",
@@ -1170,7 +1170,7 @@
     ]
   },
   {
-    "25": [
+    "2": [
       {
         "itemName": "부스트 건",
         "dataHover": "?s=Technology/PalDopingShot",
@@ -1182,12 +1182,6 @@
         "dataHover": "?s=Technology/PalDopingShotBullet",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_PalDopingShotBullet.webp"
-      },
-      {
-        "itemName": "파편 수류탄",
-        "dataHover": "?s=Technology/FragGrenade",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade.webp"
       },
       {
         "itemName": "내열 금속 갑옷",
@@ -1208,16 +1202,22 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Silo.webp"
       },
       {
-        "itemName": "스너펜트의 안장",
+        "itemName": "파편 수류탄",
+        "dataHover": "?s=Technology/FragGrenade",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade.webp"
+      },
+      {
+        "itemName": "샌무기의 안장",
         "dataHover": "?s=Technology/SkillUnlock_Serpent_Ground",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Serpent_Ground_icon_normal.webp"
       },
       {
-        "itemName": "산령사슴의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_Deer_Ground",
+        "itemName": "헬가루다의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_HadesBird",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Deer_Ground_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_HadesBird_icon_normal.webp"
       },
       {
         "itemName": "고급 락픽 도구",
@@ -1228,7 +1228,7 @@
     ]
   },
   {
-    "26": [
+    "3": [
       {
         "itemName": "낡은 기관단총",
         "dataHover": "?s=Technology/MakeshiftSubmachineGun",
@@ -1248,6 +1248,12 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_LampStand.webp"
       },
       {
+        "itemName": "인력 발전기",
+        "dataHover": "?s=Technology/ManualElectricGenerator",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ManualElectricGenerator.webp"
+      },
+      {
         "itemName": "설치형 쇠뇌",
         "dataHover": "?s=Technology/Battle_Defense_BowGun",
         "isBossTechnology": false,
@@ -1260,16 +1266,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FengyunDeeper_icon_normal.webp"
       },
       {
-        "itemName": "썬더판다의 수류탄 발사기",
-        "dataHover": "?s=Technology/SkillUnlock_GrassPanda_Electric",
+        "itemName": "크리범의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_IceSeal",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassPanda_Electric_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceSeal_icon_normal.webp"
       },
       {
-        "itemName": "일레카이트의 장갑",
-        "dataHover": "?s=Technology/SkillUnlock_FlyingManta_Thunder",
+        "itemName": "앤티크 등불 세트",
+        "dataHover": "?s=Technology/FurnitureSet_29",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlyingManta_Thunder_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Light_FloorLamp01.webp"
       },
       {
         "itemName": "단발형 스피어 발사기",
@@ -1280,7 +1286,7 @@
     ]
   },
   {
-    "27": [
+    "3": [
       {
         "itemName": "테라 스피어",
         "dataHover": "?s=Technology/Special_PalSphere_Grade_04",
@@ -1294,16 +1300,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_02.webp"
       },
       {
-        "itemName": "전격 수류탄",
-        "dataHover": "?s=Technology/FragGrenade_Elec",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Elec.webp"
-      },
-      {
         "itemName": "내한 금속 갑옷",
         "dataHover": "?s=Technology/Battle_Armor_Grade_03_Copper_Cold",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_CopperArmorCold.webp"
+      },
+      {
+        "itemName": "소형 확장 파우치",
+        "dataHover": "?s=Technology/AdditionalInventory_001",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AdditionalInventory_001.webp"
       },
       {
         "itemName": "천장 램프",
@@ -1312,33 +1318,33 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_LampTop.webp"
       },
       {
-        "itemName": "스프라돈의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_SakuraSaurus_Water",
+        "itemName": "전격 수류탄",
+        "dataHover": "?s=Technology/FragGrenade_Elec",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SakuraSaurus_Water_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Elec.webp"
       },
       {
-        "itemName": "썬도그의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_ThunderDog",
+        "itemName": "아주리나의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_BlueDragon_Ice",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThunderDog_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlueDragon_Ice_icon_normal.webp"
       },
       {
-        "itemName": "모몽파의 하네스",
-        "dataHover": "?s=Technology/SkillUnlock_LeafMomonga",
+        "itemName": "모형 남국 나무 세트",
+        "dataHover": "?s=Technology/FurnitureTree_Tropical",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LeafMomonga_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Tropical.webp"
       },
       {
-        "itemName": "소형 확장 파우치",
-        "dataHover": "?s=Technology/AdditionalInventory_001",
+        "itemName": "무기 추가 홀더",
+        "dataHover": "?s=Technology/UnlockEquipmentSlot_Weapon_01",
         "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AdditionalInventory_001.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_UnlockEquipmentSlot_Weapon_01.webp"
       }
     ]
   },
   {
-    "28": [
+    "3": [
       {
         "itemName": "핸드건",
         "dataHover": "?s=Technology/Battle_RangeWeapon_HandGun",
@@ -1352,16 +1358,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_HandgunBullet.webp"
       },
       {
-        "itemName": "기가 방패",
-        "dataHover": "?s=Technology/Shield_03",
+        "itemName": "상급 침대",
+        "dataHover": "?s=Technology/Infra_PlayerBed_Grade_02",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_03.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PlayerBed_03.webp"
       },
       {
-        "itemName": "작업라인 공장",
-        "dataHover": "?s=Technology/Product_Factory_Hard_Grade_02",
+        "itemName": "고급 감시대",
+        "dataHover": "?s=Technology/BaseCampWorkHard02",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampWorkHard02.webp"
       },
       {
         "itemName": "그루터기와 도끼",
@@ -1370,22 +1376,22 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Stump.webp"
       },
       {
-        "itemName": "방벽",
-        "dataHover": "?s=Technology/DefenseWall",
+        "itemName": "영원한 불꽃의 동지 깃발 세트",
+        "dataHover": "?s=Technology/FireCultFlagSet",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseWall.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FireCult_Flag.webp"
       },
       {
-        "itemName": "실티아의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_FairyDragon_Water",
+        "itemName": "페더치프의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_FeatherOstrich",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FairyDragon_Water_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FeatherOstrich_icon_normal.webp"
       },
       {
-        "itemName": "스틱툴라의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_PurpleSpider",
+        "itemName": "그린모스의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_GrassMammoth",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_PurpleSpider_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassMammoth_icon_normal.webp"
       },
       {
         "itemName": "반중력 벨트",
@@ -1396,12 +1402,12 @@
     ]
   },
   {
-    "29": [
+    "2": [
       {
-        "itemName": "중급 낚싯대 (까부냥)",
-        "dataHover": "?s=Technology/FishingRod_02_1",
+        "itemName": "기가 방패",
+        "dataHover": "?s=Technology/Shield_03",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FishingRod_3.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_03.webp"
       },
       {
         "itemName": "검",
@@ -1410,10 +1416,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Sword.webp"
       },
       {
-        "itemName": "빙결 수류탄",
-        "dataHover": "?s=Technology/FragGrenade_Ice",
+        "itemName": "중급 낚싯대 (까부냥)",
+        "dataHover": "?s=Technology/FishingRod_02_1",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Ice.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FishingRod_3.webp"
+      },
+      {
+        "itemName": "작업라인 공장",
+        "dataHover": "?s=Technology/Product_Factory_Hard_Grade_02",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
       },
       {
         "itemName": "감자 농원",
@@ -1422,28 +1434,22 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FarmBlockV2_Potato.webp"
       },
       {
-        "itemName": "상급 침대",
-        "dataHover": "?s=Technology/Infra_PlayerBed_Grade_02",
+        "itemName": "빙결 수류탄",
+        "dataHover": "?s=Technology/FragGrenade_Ice",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_PlayerBed_03.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Ice.webp"
       },
       {
-        "itemName": "그린모스의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_GrassMammoth",
+        "itemName": "파이린의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_FireKirin",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassMammoth_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FireKirin_icon_normal.webp"
       },
       {
-        "itemName": "얼음사슴의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_IceDeer",
+        "itemName": "라이버드의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_ThunderBird",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceDeer_icon_normal.webp"
-      },
-      {
-        "itemName": "아주리나의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_BlueDragon_Ice",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlueDragon_Ice_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThunderBird_icon_normal.webp"
       },
       {
         "itemName": "허리 휴대형 강화 랜턴",
@@ -1454,7 +1460,7 @@
     ]
   },
   {
-    "30": [
+    "2": [
       {
         "itemName": "낡은 산탄총",
         "dataHover": "?s=Technology/MakeshiftShotgun",
@@ -1474,28 +1480,34 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Metal_Foundation.webp"
       },
       {
+        "itemName": "금속 방벽",
+        "dataHover": "?s=Technology/DefenseWall_Metal",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseWall_Metal.webp"
+      },
+      {
+        "itemName": "철 문",
+        "dataHover": "?s=Technology/Metal_Gate",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Metal_Gate.webp"
+      },
+      {
         "itemName": "곡괭이와 헬멧",
         "dataHover": "?s=Technology/MiningTool",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MiningTool.webp"
       },
       {
-        "itemName": "불이리의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_AmaterasuWolf",
+        "itemName": "버섯 케이크",
+        "dataHover": "?s=Technology/Cake02",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_AmaterasuWolf_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Cake02.webp"
       },
       {
-        "itemName": "시로카바네의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_BirdDragon_Ice",
+        "itemName": "썬도그의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_ThunderDog",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BirdDragon_Ice_icon_normal.webp"
-      },
-      {
-        "itemName": "찌르르디노의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_FlowerDinosaur_Electric",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlowerDinosaur_Electric_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThunderDog_icon_normal.webp"
       },
       {
         "itemName": "미야우미어",
@@ -1506,7 +1518,7 @@
     ]
   },
   {
-    "31": [
+    "2": [
       {
         "itemName": "낡은 돌격 소총",
         "dataHover": "?s=Technology/MakeshiftAssaultRifle",
@@ -1514,16 +1526,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_MakeshiftAssaultRifle.webp"
       },
       {
-        "itemName": "소이 수류탄",
-        "dataHover": "?s=Technology/FragGrenade_Fire",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Fire.webp"
-      },
-      {
         "itemName": "스나이퍼 모듈",
         "dataHover": "?s=Technology/SphereModule_Sniper",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Spiper.webp"
+      },
+      {
+        "itemName": "극저온 냉각 매체",
+        "dataHover": "?s=Technology/Bio_Coolant",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bio_Coolant.webp"
       },
       {
         "itemName": "낚시터",
@@ -1538,22 +1550,22 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Spa_2.webp"
       },
       {
-        "itemName": "돌 문",
-        "dataHover": "?s=Technology/Stone_Gate",
+        "itemName": "소이 수류탄",
+        "dataHover": "?s=Technology/FragGrenade_Fire",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Stone_Gate.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Fire.webp"
       },
       {
-        "itemName": "파이린의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_FireKirin",
+        "itemName": "빛초롱의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_GhostAnglerfish",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FireKirin_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostAnglerfish_icon_normal.webp"
       },
       {
-        "itemName": "유령건다리의 장갑",
-        "dataHover": "?s=Technology/SkillUnlock_WindChimes_Ice",
+        "itemName": "얼음사슴의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_IceDeer",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WindChimes_Ice_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceDeer_icon_normal.webp"
       },
       {
         "itemName": "기가 갈고리 총",
@@ -1564,30 +1576,18 @@
     ]
   },
   {
-    "32": [
+    "3": [
       {
-        "itemName": "기계식 활",
-        "dataHover": "?s=Technology/Battle_RangeWeapon_CompoundBow",
+        "itemName": "무기라인 공장",
+        "dataHover": "?s=Technology/Product_WeaponFactory_Dirty_Grade_02",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp"
-      },
-      {
-        "itemName": "강화 화살",
-        "dataHover": "?s=Technology/ReinforcedArrow",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ReinforcedArrow.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
       },
       {
         "itemName": "팰 회복 수류탄",
         "dataHover": "?s=Technology/PalHealingGrenade",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PalHealingGrenade.webp"
-      },
-      {
-        "itemName": "무기라인 공장",
-        "dataHover": "?s=Technology/Product_WeaponFactory_Dirty_Grade_02",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
       },
       {
         "itemName": "당근 농원",
@@ -1608,10 +1608,22 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampWorkerExtraStation.webp"
       },
       {
-        "itemName": "볼카노의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_VolcanicMonster",
+        "itemName": "실티아의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_FairyDragon_Water",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_VolcanicMonster_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FairyDragon_Water_icon_normal.webp"
+      },
+      {
+        "itemName": "풀바오의 수류탄 발사기",
+        "dataHover": "?s=Technology/SkillUnlock_GrassPanda",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassPanda_icon_normal.webp"
+      },
+      {
+        "itemName": "프리도그의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_Thunderdog_Ice",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Thunderdog_Ice_icon_normal.webp"
       },
       {
         "itemName": "ULTRAKILL 컬래버 세트 1",
@@ -1622,18 +1634,12 @@
     ]
   },
   {
-    "33": [
+    "3": [
       {
         "itemName": "낡은 리볼버",
         "dataHover": "?s=Technology/Battle_RangeWeapon_OldRevolver",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_OldRevolver.webp"
-      },
-      {
-        "itemName": "유수 수류탄",
-        "dataHover": "?s=Technology/FragGrenade_Water",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Water.webp"
       },
       {
         "itemName": "폴리머",
@@ -1648,16 +1654,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_MineElecShock.webp"
       },
       {
+        "itemName": "유수 수류탄",
+        "dataHover": "?s=Technology/FragGrenade_Water",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Water.webp"
+      },
+      {
         "itemName": "눈사람",
         "dataHover": "?s=Technology/Snowman",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Snowman.webp"
-      },
-      {
-        "itemName": "헬가루다의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_HadesBird",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_HadesBird_icon_normal.webp"
       },
       {
         "itemName": "만티파이어의 안장",
@@ -1666,10 +1672,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Manticore_icon_normal.webp"
       },
       {
-        "itemName": "시계 세트",
-        "dataHover": "?s=Technology/FurnitureSet_23",
+        "itemName": "적토조의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_RedArmorBird",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Clock01_Wall_Iron.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_RedArmorBird_icon_normal.webp"
+      },
+      {
+        "itemName": "라브라돈의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_SakuraSaurus",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SakuraSaurus_icon_normal.webp"
       },
       {
         "itemName": "소환의 제단",
@@ -1680,7 +1692,7 @@
     ]
   },
   {
-    "34": [
+    "4": [
       {
         "itemName": "개선된 화로",
         "dataHover": "?s=Technology/Product_Ingot_Grade_02_Iron",
@@ -1706,28 +1718,28 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_Tier_00.webp"
       },
       {
-        "itemName": "라이버드의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_ThunderBird",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThunderBird_icon_normal.webp"
-      },
-      {
-        "itemName": "사라블랙의 안장",
+        "itemName": "베이린의 안장",
         "dataHover": "?s=Technology/SkillUnlock_FireKirin_Dark",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FireKirin_Dark_icon_normal.webp"
       },
       {
-        "itemName": "크리범의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_IceSeal",
+        "itemName": "라이바오의 수류탄 발사기",
+        "dataHover": "?s=Technology/SkillUnlock_GrassPanda_Electric",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceSeal_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassPanda_Electric_icon_normal.webp"
       },
       {
-        "itemName": "수납 컨테이너 세트",
-        "dataHover": "?s=Technology/FurnitureSet_6",
+        "itemName": "찌르르디노의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_FlowerDinosaur_Electric",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Container01_Iron.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FlowerDinosaur_Electric_icon_normal.webp"
+      },
+      {
+        "itemName": "드럼통 세트",
+        "dataHover": "?s=Technology/FurnitureSet_5",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Barrel01_Iron.webp"
       },
       {
         "itemName": "재능 안경",
@@ -1738,7 +1750,7 @@
     ]
   },
   {
-    "35": [
+    "4": [
       {
         "itemName": "울트라 스피어",
         "dataHover": "?s=Technology/Special_PalSphere_Grade_05",
@@ -1750,12 +1762,6 @@
         "dataHover": "?s=Technology/Special_SphereFactory_Black_Grade_03",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SphereFactory_Black_03.webp"
-      },
-      {
-        "itemName": "초목 수류탄",
-        "dataHover": "?s=Technology/FragGrenade_Leaf",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Leaf.webp"
       },
       {
         "itemName": "전자기판",
@@ -1770,22 +1776,28 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_CarbonFiber.webp"
       },
       {
-        "itemName": "빙등고래의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_IceNarwhal",
+        "itemName": "초목 수류탄",
+        "dataHover": "?s=Technology/FragGrenade_Leaf",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceNarwhal_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Leaf.webp"
       },
       {
-        "itemName": "시니에노의 안장",
+        "itemName": "만티녹턴의 안장",
         "dataHover": "?s=Technology/SkillUnlock_Manticore_Dark",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Manticore_Dark_icon_normal.webp"
       },
       {
-        "itemName": "금속 의자와 책상 세트",
-        "dataHover": "?s=Technology/FurnitureSet_13",
+        "itemName": "트로조크의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_TropicalOstrich",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Stool01_Iron.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_TropicalOstrich_icon_normal.webp"
+      },
+      {
+        "itemName": "경질 목재 탁자 세트",
+        "dataHover": "?s=Technology/FurnitureSet_14",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TableSide01_Iron.webp"
       },
       {
         "itemName": "에어 대시 부츠",
@@ -1796,7 +1808,7 @@
     ]
   },
   {
-    "36": [
+    "3": [
       {
         "itemName": "단발식 소총",
         "dataHover": "?s=Technology/Battle_RangeWeapon_Rifle",
@@ -1808,12 +1820,6 @@
         "dataHover": "?s=Technology/RifleBullet",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_RifleBullet.webp"
-      },
-      {
-        "itemName": "팰 수술대",
-        "dataHover": "?s=Technology/OperatingTable",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OperatingTable.webp"
       },
       {
         "itemName": "양파 농원",
@@ -1834,27 +1840,33 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicalPalBed_04.webp"
       },
       {
-        "itemName": "페스키의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_SkyDragon",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SkyDragon_icon_normal.webp"
-      },
-      {
-        "itemName": "앤티크 등불 세트",
-        "dataHover": "?s=Technology/FurnitureSet_29",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Light_FloorLamp01.webp"
-      },
-      {
         "itemName": "거대 먹이 주머니",
         "dataHover": "?s=Technology/AutoMealPouch_Tier4",
-        "isBossTechnology": true,
+        "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier4.webp"
+      },
+      {
+        "itemName": "풀레시오의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_Plesiosaur",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Plesiosaur_icon_normal.webp"
+      },
+      {
+        "itemName": "마그맨더의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_VolcanoDragon",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_VolcanoDragon_icon_normal.webp"
+      },
+      {
+        "itemName": "전동 알 부화기",
+        "dataHover": "?s=Technology/Special_ElectricHatchingPalEgg",
+        "isBossTechnology": true,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ElectricHatchingPalEgg.webp"
       }
     ]
   },
   {
-    "37": [
+    "3": [
       {
         "itemName": "기관단총",
         "dataHover": "?s=Technology/Battle_RangeWeapon_SubmachineGun",
@@ -1874,50 +1886,56 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_IronHelmet.webp"
       },
       {
+        "itemName": "부식성 용액",
+        "dataHover": "?s=Technology/Corrosive_Solvent",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Corrosive_Solvent.webp"
+      },
+      {
         "itemName": "축전기",
         "dataHover": "?s=Technology/EnergyStorage_Electric",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_EnergyStorage_Electric.webp"
       },
       {
-        "itemName": "적토조의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_RedArmorBird",
+        "itemName": "고스호스의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_GhostBeast",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_RedArmorBird_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostBeast_icon_normal.webp"
       },
       {
-        "itemName": "빛초롱의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_GhostAnglerfish",
+        "itemName": "모형 사막 나무 세트",
+        "dataHover": "?s=Technology/FurnitureTree_Desert",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostAnglerfish_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Desert.webp"
       },
       {
-        "itemName": "경질 목재 탁자 세트",
-        "dataHover": "?s=Technology/FurnitureSet_14",
+        "itemName": "야외 가구 세트",
+        "dataHover": "?s=Technology/FurnitureSet_31",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TableSide01_Iron.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CableCoil01_Iron.webp"
       },
       {
-        "itemName": "전동 알 부화기",
-        "dataHover": "?s=Technology/Special_ElectricHatchingPalEgg",
+        "itemName": "석탄 채굴장",
+        "dataHover": "?s=Technology/Product_CoalPit",
         "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ElectricHatchingPalEgg.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoalPit.webp"
       }
     ]
   },
   {
-    "38": [
+    "3": [
+      {
+        "itemName": "팰 수술대",
+        "dataHover": "?s=Technology/OperatingTable",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OperatingTable.webp"
+      },
       {
         "itemName": "메테오 발사기",
         "dataHover": "?s=Technology/Launcher_Meteor",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Meteor.webp"
-      },
-      {
-        "itemName": "대지 수류탄",
-        "dataHover": "?s=Technology/FragGrenade_Ground",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Ground.webp"
       },
       {
         "itemName": "호화로운 낚시 미끼",
@@ -1938,22 +1956,22 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Trap_MineFreeze.webp"
       },
       {
-        "itemName": "프로스카노의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_VolcanicMonster_Ice",
+        "itemName": "대지 수류탄",
+        "dataHover": "?s=Technology/FragGrenade_Ground",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_VolcanicMonster_Ice_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Ground.webp"
       },
       {
-        "itemName": "호루스의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_Horus",
+        "itemName": "페스키의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_SkyDragon",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Horus_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SkyDragon_icon_normal.webp"
       },
       {
-        "itemName": "야외 가구 세트",
-        "dataHover": "?s=Technology/FurnitureSet_31",
+        "itemName": "가죽 의자 세트",
+        "dataHover": "?s=Technology/FurnitureSet_7",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CableCoil01_Iron.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Sofa01_Iron.webp"
       },
       {
         "itemName": "확산형 스피어 발사기",
@@ -1964,7 +1982,13 @@
     ]
   },
   {
-    "39": [
+    "1": [
+      {
+        "itemName": "자경단 깃발 세트",
+        "dataHover": "?s=Technology/PoliceFlagSet",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Police_Flag.webp"
+      },
       {
         "itemName": "쌍발 산탄총",
         "dataHover": "?s=Technology/Battle_RangeWeapon_ShotGun",
@@ -1984,34 +2008,28 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Curve2.webp"
       },
       {
-        "itemName": "유리 건축 세트",
-        "dataHover": "?s=Technology/Glass_houseset",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Glass_foundation.webp"
-      },
-      {
         "itemName": "제련 금속 상자",
         "dataHover": "?s=Technology/Infra_ItemChest_Grade_03",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_ItemChest_03.webp"
       },
       {
-        "itemName": "뎅키의 로켓 발사기",
-        "dataHover": "?s=Technology/SkillUnlock_Penguin_Electric",
+        "itemName": "라바드래곤의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_BlackMetalDragon",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Penguin_Electric_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlackMetalDragon_icon_normal.webp"
       },
       {
-        "itemName": "레비드라의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_Umihebi",
+        "itemName": "머쉬드래곤의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_MushroomDragon",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Umihebi_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MushroomDragon_icon_normal.webp"
       },
       {
-        "itemName": "드럼통 세트",
-        "dataHover": "?s=Technology/FurnitureSet_5",
+        "itemName": "머쉬포이즌의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_MushroomDragon_Dark",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Barrel01_Iron.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MushroomDragon_Dark_icon_normal.webp"
       },
       {
         "itemName": "금속 채굴장 Ⅱ",
@@ -2022,12 +2040,12 @@
     ]
   },
   {
-    "40": [
+    "3": [
       {
-        "itemName": "암흑 수류탄",
-        "dataHover": "?s=Technology/FragGrenade_Dark",
+        "itemName": "금속 방망이",
+        "dataHover": "?s=Technology/Bat3",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Dark.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Bat3.webp"
       },
       {
         "itemName": "내열 제련 금속 갑옷",
@@ -2048,10 +2066,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseMachinegun.webp"
       },
       {
-        "itemName": "볼카이저의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_KingBahamut",
+        "itemName": "암흑 수류탄",
+        "dataHover": "?s=Technology/FragGrenade_Dark",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingBahamut_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Dark.webp"
+      },
+      {
+        "itemName": "레비드라의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_Umihebi",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Umihebi_icon_normal.webp"
       },
       {
         "itemName": "일렉판다의 미니건",
@@ -2060,10 +2084,10 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ElecPanda_icon_normal.webp"
       },
       {
-        "itemName": "가죽 의자 세트",
-        "dataHover": "?s=Technology/FurnitureSet_7",
+        "itemName": "천도뇽의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_WeaselDragon_Fire",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Sofa01_Iron.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WeaselDragon_Fire_icon_normal.webp"
       },
       {
         "itemName": "더블 점프 부츠",
@@ -2074,7 +2098,7 @@
     ]
   },
   {
-    "41": [
+    "3": [
       {
         "itemName": "반자동 소총",
         "dataHover": "?s=Technology/Battle_RangeWeapon_SemiAutoRifle",
@@ -2106,16 +2130,22 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_HeaterElectric.webp"
       },
       {
-        "itemName": "주작의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_Suzaku",
+        "itemName": "제노루더의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_WhiteAlienDragon",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Suzaku_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteAlienDragon_icon_normal.webp"
       },
       {
-        "itemName": "가로등 세트",
-        "dataHover": "?s=Technology/FurnitureSet_27",
+        "itemName": "둥실해치의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_GuardianDog",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Light_LightPole01.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GuardianDog_icon_normal.webp"
+      },
+      {
+        "itemName": "블리자모스의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_GrassMammoth_Ice",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassMammoth_Ice_icon_normal.webp"
       },
       {
         "itemName": "길드 상자",
@@ -2126,12 +2156,18 @@
     ]
   },
   {
-    "42": [
+    "3": [
       {
-        "itemName": "용격 수류탄",
-        "dataHover": "?s=Technology/FragGrenade_Dragon",
+        "itemName": "기계식 활",
+        "dataHover": "?s=Technology/Battle_RangeWeapon_CompoundBow",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Dragon.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_CompoundBow.webp"
+      },
+      {
+        "itemName": "강화 화살",
+        "dataHover": "?s=Technology/ReinforcedArrow",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ReinforcedArrow.webp"
       },
       {
         "itemName": "작업라인 공장 II",
@@ -2146,45 +2182,33 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoolerElectric.webp"
       },
       {
-        "itemName": "철 문",
-        "dataHover": "?s=Technology/Metal_Gate",
+        "itemName": "용격 수류탄",
+        "dataHover": "?s=Technology/FragGrenade_Dragon",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Metal_Gate.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_FragGrenade_Dragon.webp"
       },
       {
-        "itemName": "블루파카의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_KingAlpaca_Ice",
+        "itemName": "빙등고래의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_IceNarwhal",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingAlpaca_Ice_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceNarwhal_icon_normal.webp"
       },
       {
-        "itemName": "트로조크의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_TropicalOstrich",
+        "itemName": "불초롱의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_GhostAnglerfish_Fire",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_TropicalOstrich_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostAnglerfish_Fire_icon_normal.webp"
       },
       {
-        "itemName": "오락 가구 세트",
-        "dataHover": "?s=Technology/FurnitureSet_26",
+        "itemName": "볼카노의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_VolcanicMonster",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_GoalSoccer_Iron.webp"
-      },
-      {
-        "itemName": "비상구 표식 세트",
-        "dataHover": "?s=Technology/FurnitureSet_8",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SignExit_Ceiling_Iron.webp"
-      },
-      {
-        "itemName": "석탄 채굴장",
-        "dataHover": "?s=Technology/Product_CoalPit",
-        "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoalPit.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_VolcanicMonster_icon_normal.webp"
       }
     ]
   },
   {
-    "43": [
+    "4": [
       {
         "itemName": "펌프식 산탄총",
         "dataHover": "?s=Technology/Battle_RangeWeapon_ShotGun_Multi",
@@ -2198,45 +2222,45 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_04.webp"
       },
       {
+        "itemName": "중형 확장 파우치",
+        "dataHover": "?s=Technology/AdditionalInventory_002",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AdditionalInventory_002.webp"
+      },
+      {
+        "itemName": "상급 나무 판자",
+        "dataHover": "?s=Technology/HighGrade_Processed_Wood",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_HighGrade_Processed_Wood.webp"
+      },
+      {
         "itemName": "전기 제약대",
         "dataHover": "?s=Technology/Product_Medicine_Grade_02",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_02.webp"
       },
       {
-        "itemName": "금속 방벽",
-        "dataHover": "?s=Technology/DefenseWall_Metal",
+        "itemName": "주작의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_Suzaku",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DefenseWall_Metal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Suzaku_icon_normal.webp"
       },
       {
-        "itemName": "시바의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_Suzaku_Water",
+        "itemName": "프로스카노의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_VolcanicMonster_Ice",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Suzaku_Water_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_VolcanicMonster_Ice_icon_normal.webp"
       },
       {
-        "itemName": "아그니드라의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_Umihebi_Fire",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Umihebi_Fire_icon_normal.webp"
-      },
-      {
-        "itemName": "둥실해치의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_GuardianDog",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GuardianDog_icon_normal.webp"
-      },
-      {
-        "itemName": "중형 확장 파우치",
-        "dataHover": "?s=Technology/AdditionalInventory_002",
+        "itemName": "벌목장 Ⅱ",
+        "dataHover": "?s=Technology/Product_StationDeforest2",
         "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AdditionalInventory_002.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_StationDeforest3.webp"
       }
     ]
   },
   {
-    "44": [
+    "5": [
       {
         "itemName": "전설 스피어",
         "dataHover": "?s=Technology/Special_PalSphere_Grade_06",
@@ -2248,6 +2272,12 @@
         "dataHover": "?s=Technology/Product_Ingot_Grade_03_Steal",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BlastFurnace3.webp"
+      },
+      {
+        "itemName": "바이오 배터리",
+        "dataHover": "?s=Technology/Bio_Battery",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Bio_Battery.webp"
       },
       {
         "itemName": "카타나",
@@ -2268,27 +2298,27 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Axe_Tier_03.webp"
       },
       {
-        "itemName": "헤로롱의 미사일 발사기",
-        "dataHover": "?s=Technology/SkillUnlock_LazyDragon",
+        "itemName": "시바의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_Suzaku_Water",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LazyDragon_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Suzaku_Water_icon_normal.webp"
       },
       {
-        "itemName": "움포의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_Yeti",
+        "itemName": "스프라돈의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_SakuraSaurus_Water",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Yeti_icon_normal.webp"
-      },
-      {
-        "itemName": "릴리의 창",
-        "dataHover": "?s=Technology/Spear_ForestBoss",
-        "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_ForestBoss.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SakuraSaurus_Water_icon_normal.webp"
       }
     ]
   },
   {
-    "45": [
+    "2": [
+      {
+        "itemName": "유리 건축 세트",
+        "dataHover": "?s=Technology/Glass_houseset",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Glass_foundation.webp"
+      },
       {
         "itemName": "돌격 소총",
         "dataHover": "?s=Technology/Battle_RangeWeapon_AssaultRifle",
@@ -2314,28 +2344,22 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CompositeDesk.webp"
       },
       {
-        "itemName": "트로피티의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_Yeti_Grass",
+        "itemName": "포레스키의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_SkyDragon_Grass",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Yeti_Grass_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SkyDragon_Grass_icon_normal.webp"
       },
       {
-        "itemName": "블리자모스의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_GrassMammoth_Ice",
+        "itemName": "헤로롱의 미사일 발사기",
+        "dataHover": "?s=Technology/SkillUnlock_LazyDragon",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassMammoth_Ice_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LazyDragon_icon_normal.webp"
       },
       {
-        "itemName": "천도뇽의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_WeaselDragon_Fire",
+        "itemName": "움포의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_Yeti",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WeaselDragon_Fire_icon_normal.webp"
-      },
-      {
-        "itemName": "교통 정리 세트",
-        "dataHover": "?s=Technology/FurnitureSet_11",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TrafficCone01_Iron.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Yeti_icon_normal.webp"
       },
       {
         "itemName": "데칼 총 세트",
@@ -2346,7 +2370,7 @@
     ]
   },
   {
-    "46": [
+    "4": [
       {
         "itemName": "팰 금속 갑옷",
         "dataHover": "?s=Technology/Battle_Armor_Grade_04_Steal",
@@ -2372,28 +2396,28 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_LampStandLarge.webp"
       },
       {
-        "itemName": "핑피롱의 미사일 발사기",
-        "dataHover": "?s=Technology/SkillUnlock_LazyDragon_Electric",
+        "itemName": "마그마카이저의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_KingBahamut",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LazyDragon_Electric_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingBahamut_icon_normal.webp"
       },
       {
-        "itemName": "머쉬드래곤의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_MushroomDragon",
+        "itemName": "블루파카의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_KingAlpaca_Ice",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MushroomDragon_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingAlpaca_Ice_icon_normal.webp"
       },
       {
-        "itemName": "풀레시오의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_Plesiosaur",
+        "itemName": "가로등 세트",
+        "dataHover": "?s=Technology/FurnitureSet_27",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Plesiosaur_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Light_LightPole01.webp"
       },
       {
-        "itemName": "도로 표식 세트",
-        "dataHover": "?s=Technology/FurnitureSet_12",
+        "itemName": "오락 가구 세트",
+        "dataHover": "?s=Technology/FurnitureSet_26",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TrafficSign01_Iron.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_GoalSoccer_Iron.webp"
       },
       {
         "itemName": "유황 채굴장",
@@ -2404,7 +2428,7 @@
     ]
   },
   {
-    "47": [
+    "4": [
       {
         "itemName": "반자동 산탄총",
         "dataHover": "?s=Technology/Battle_RangeWeapon_SemiAutoShotgun",
@@ -2418,10 +2442,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
       },
       {
-        "itemName": "슬라이더 모듈 Ⅱ",
-        "dataHover": "?s=Technology/SphereModule_Sniper2",
+        "itemName": "야채 케이크",
+        "dataHover": "?s=Technology/Cake03",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Sniper2.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Cake03.webp"
+      },
+      {
+        "itemName": "초거대 먹이 주머니",
+        "dataHover": "?s=Technology/AutoMealPouch_Tier5",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier5.webp"
       },
       {
         "itemName": "대형 천장 램프",
@@ -2430,10 +2460,10 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_LampTopLarge.webp"
       },
       {
-        "itemName": "라바드래곤의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_BlackMetalDragon",
+        "itemName": "라이가루다의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_HadesBird_Electric",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlackMetalDragon_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_HadesBird_Electric_icon_normal.webp"
       },
       {
         "itemName": "제노그리프의 안장",
@@ -2442,21 +2472,15 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlackGriffon_icon_normal.webp"
       },
       {
-        "itemName": "머쉬포이즌의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_MushroomDragon_Dark",
+        "itemName": "비상구 표식 세트",
+        "dataHover": "?s=Technology/FurnitureSet_8",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MushroomDragon_Dark_icon_normal.webp"
-      },
-      {
-        "itemName": "초거대 먹이 주머니",
-        "dataHover": "?s=Technology/AutoMealPouch_Tier5",
-        "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AutoMealPouch_Tier5.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SignExit_Ceiling_Iron.webp"
       }
     ]
   },
   {
-    "48": [
+    "5": [
       {
         "itemName": "내열 팰 금속 갑옷",
         "dataHover": "?s=Technology/Battle_Armor_Grade_04_Steal_Heat",
@@ -2464,16 +2488,10 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorHeat.webp"
       },
       {
-        "itemName": "기술 열매 농원",
-        "dataHover": "?s=Technology/Farm_SkillFruits",
+        "itemName": "스나이퍼 모듈 Ⅱ",
+        "dataHover": "?s=Technology/SphereModule_Sniper2",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Farm_SkillFruits.webp"
-      },
-      {
-        "itemName": "금화 제조 공장",
-        "dataHover": "?s=Technology/Factory_Money",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Money.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Sniper2.webp"
       },
       {
         "itemName": "송전탑",
@@ -2482,22 +2500,28 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TransmissionTower.webp"
       },
       {
-        "itemName": "빙천마의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_IceHorse",
+        "itemName": "핑피롱의 미사일 발사기",
+        "dataHover": "?s=Technology/SkillUnlock_LazyDragon_Electric",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceHorse_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LazyDragon_Electric_icon_normal.webp"
       },
       {
-        "itemName": "그레이섀도우의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_IceHorse_Dark",
+        "itemName": "스태초의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_GrassGolem",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceHorse_Dark_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassGolem_icon_normal.webp"
       },
       {
-        "itemName": "바리케이드 세트",
-        "dataHover": "?s=Technology/FurnitureSet_10",
+        "itemName": "누름북의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_CubeTurtle",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TrafficBarricade01_Iron.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CubeTurtle_icon_normal.webp"
+      },
+      {
+        "itemName": "교통 정리 세트",
+        "dataHover": "?s=Technology/FurnitureSet_11",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TrafficCone01_Iron.webp"
       },
       {
         "itemName": "대형 알 부화기",
@@ -2508,19 +2532,7 @@
     ]
   },
   {
-    "49": [
-      {
-        "itemName": "로켓 발사기",
-        "dataHover": "?s=Technology/Battle_RangeWeapon_RocketLauncher",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp"
-      },
-      {
-        "itemName": "로켓탄",
-        "dataHover": "?s=Technology/LauncherBullet",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ExplosiveBullet.webp"
-      },
+    "5": [
       {
         "itemName": "아이템 배출기",
         "dataHover": "?s=Technology/BaseCampItemDispenser",
@@ -2534,22 +2546,28 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_HugeKitchen.webp"
       },
       {
-        "itemName": "팔라디우스의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_SaintCentaur",
+        "itemName": "일본식 건축 세트",
+        "dataHover": "?s=Technology/JapaneseStyle_houseset",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SaintCentaur_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_JapaneseStyle_foundation.webp"
       },
       {
-        "itemName": "켄타나이트의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_BlackCentaur",
+        "itemName": "모형 눈 쌓인 나무 세트",
+        "dataHover": "?s=Technology/FurnitureTree_Snow",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlackCentaur_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Snow.webp"
       },
       {
-        "itemName": "포레스키의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_SkyDragon_Grass",
+        "itemName": "도로 표식 세트",
+        "dataHover": "?s=Technology/FurnitureSet_12",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SkyDragon_Grass_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TrafficSign01_Iron.webp"
+      },
+      {
+        "itemName": "바리케이드 세트",
+        "dataHover": "?s=Technology/FurnitureSet_10",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_TrafficBarricade01_Iron.webp"
       },
       {
         "itemName": "테라 갈고리 총",
@@ -2560,24 +2578,12 @@
     ]
   },
   {
-    "50": [
+    "5": [
       {
         "itemName": "내한 팰 금속 갑옷",
         "dataHover": "?s=Technology/Battle_Armor_Grade_04_Steal_Cold",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_StealArmorCold.webp"
-      },
-      {
-        "itemName": "설치형 미사일 발사대",
-        "dataHover": "?s=Technology/Battle_Defense_Missile",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_efenseBulletLauncher_Missile.webp"
-      },
-      {
-        "itemName": "플라스틸",
-        "dataHover": "?s=Technology/Plastic",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp"
       },
       {
         "itemName": "원유 추출기",
@@ -2586,22 +2592,28 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OilPump.webp"
       },
       {
-        "itemName": "일본식 건축 세트",
-        "dataHover": "?s=Technology/JapaneseStyle_houseset",
+        "itemName": "플라스틸",
+        "dataHover": "?s=Technology/Plastic",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_JapaneseStyle_foundation.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Plastic.webp"
       },
       {
-        "itemName": "제트래곤의 미사일 발사기",
-        "dataHover": "?s=Technology/SkillUnlock_JetDragon",
+        "itemName": "컴퓨터",
+        "dataHover": "?s=Technology/Computer",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_JetDragon_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Computer.webp"
       },
       {
-        "itemName": "제노루더의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_WhiteAlienDragon",
+        "itemName": "설치형 미사일 발사대",
+        "dataHover": "?s=Technology/Battle_Defense_Missile",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteAlienDragon_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_efenseBulletLauncher_Missile.webp"
+      },
+      {
+        "itemName": "유전자 연구 부대 깃발 세트",
+        "dataHover": "?s=Technology/ScientistFlagSet",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Scientist_Flag.webp"
       },
       {
         "itemName": "대형 발전기",
@@ -2612,7 +2624,7 @@
     ]
   },
   {
-    "51": [
+    "5": [
       {
         "itemName": "얼티밋 스피어",
         "dataHover": "?s=Technology/Special_PalSphere_Grade_07",
@@ -2650,21 +2662,21 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_CoolerPalFoodBox.webp"
       },
       {
-        "itemName": "다크 키드의 목걸이",
-        "dataHover": "?s=Technology/SkillUnlock_RaijinDaughter_Water",
+        "itemName": "움피티의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_Yeti_Grass",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_RaijinDaughter_Water_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Yeti_Grass_icon_normal.webp"
       },
       {
-        "itemName": "순수한 석영 채굴장",
-        "dataHover": "?s=Technology/Product_QuartzPit",
+        "itemName": "원유 추출기(고압형)",
+        "dataHover": "?s=Technology/OilPump02",
         "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_QuartzPit.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_OilPump02.webp"
       }
     ]
   },
   {
-    "52": [
+    "4": [
       {
         "itemName": "테라 글라이더",
         "dataHover": "?s=Technology/Battle_Glider_Grade_04",
@@ -2690,33 +2702,27 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Consume_FishingBait_3_A.webp"
       },
       {
-        "itemName": "동결 분쇄기",
-        "dataHover": "?s=Technology/IceCrusher",
+        "itemName": "멀보냥의 산탄총",
+        "dataHover": "?s=Technology/SkillUnlock_BadCatgirl",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_IceCrusher.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BadCatgirl_icon_normal.webp"
       },
       {
-        "itemName": "라이가루다의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_HadesBird_Electric",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_HadesBird_Electric_icon_normal.webp"
-      },
-      {
-        "itemName": "볼트디어의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_FengyunDeeper_Electric",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FengyunDeeper_Electric_icon_norma.webp"
-      },
-      {
-        "itemName": "전문가용 락픽 도구",
-        "dataHover": "?s=Technology/Unlock_Picking_Tier3",
+        "itemName": "순수한 석영 채굴장",
+        "dataHover": "?s=Technology/Product_QuartzPit",
         "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_Unlock_Picking_Tier3.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_QuartzPit.webp"
       }
     ]
   },
   {
-    "53": [
+    "3": [
+      {
+        "itemName": "대형 확장 파우치",
+        "dataHover": "?s=Technology/AdditionalInventory_003",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AdditionalInventory_003.webp"
+      },
       {
         "itemName": "내열 플라스틸 갑옷",
         "dataHover": "?s=Technology/Battle_Armor_Grade_05_Plastic_Heat",
@@ -2748,27 +2754,27 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_MoonQueen_icon_normal.webp"
       },
       {
-        "itemName": "뭘보냥의 산탄총",
-        "dataHover": "?s=Technology/SkillUnlock_BadCatgirl",
+        "itemName": "와르차차의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_SumoDog",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BadCatgirl_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SumoDog_icon_normal.webp"
       },
       {
-        "itemName": "음이리의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_AmaterasuWolf_Dark",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_AmaterasuWolf_Dark_icon_normal.webp"
-      },
-      {
-        "itemName": "대형 확장 파우치",
-        "dataHover": "?s=Technology/AdditionalInventory_003",
+        "itemName": "전문가용 락픽 도구",
+        "dataHover": "?s=Technology/Unlock_Picking_Tier3",
         "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AdditionalInventory_003.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_Unlock_Picking_Tier3.webp"
       }
     ]
   },
   {
-    "54": [
+    "4": [
+      {
+        "itemName": "멀티 플라즈마 커터",
+        "dataHover": "?s=Technology/LaserMiningTool",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_LaserMiningTool.webp"
+      },
       {
         "itemName": "내한 플라스틸 갑옷",
         "dataHover": "?s=Technology/Battle_Armor_Grade_05_Plastic_Cold",
@@ -2788,10 +2794,10 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_GatlingBullet.webp"
       },
       {
-        "itemName": "팰 해체 컨베이어",
-        "dataHover": "?s=Technology/DismantlingConveyor",
+        "itemName": "동결 분쇄기",
+        "dataHover": "?s=Technology/IceCrusher",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DismantlingConveyor.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_IceCrusher.webp"
       },
       {
         "itemName": "러시골드의 안장",
@@ -2800,26 +2806,26 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GoldenHorse_icon_normal.webp"
       },
       {
-        "itemName": "일본식 가구 세트",
-        "dataHover": "?s=Technology/FurnitureSet_Japanese",
+        "itemName": "셀레스디얼의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_WhiteDeer",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Byobu.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteDeer_icon_normal.webp"
       },
       {
-        "itemName": "더블 에어 대시 부츠",
-        "dataHover": "?s=Technology/Accessory_AirDash2",
+        "itemName": "무기 추가 홀더 2",
+        "dataHover": "?s=Technology/UnlockEquipmentSlot_Weapon_02",
         "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AirDash.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_UnlockEquipmentSlot_Weapon_02.webp"
       }
     ]
   },
   {
-    "55": [
+    "3": [
       {
-        "itemName": "커다란 낚시터",
-        "dataHover": "?s=Technology/FishingPond2",
+        "itemName": "릴리의 창",
+        "dataHover": "?s=Technology/Spear_ForestBoss",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FishingPond2.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_ForestBoss.webp"
       },
       {
         "itemName": "울트라 방패",
@@ -2834,6 +2840,40 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_PlasticArmorWeight.webp"
       },
       {
+        "itemName": "초코범의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_IceSeal_Ground",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceSeal_Ground_icon_normal.webp"
+      },
+      {
+        "itemName": "마그마드라고의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_KingBahamut_Dragon",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingBahamut_Dragon_icon_normal.webp"
+      },
+      {
+        "itemName": "일본식 가구 세트",
+        "dataHover": "?s=Technology/FurnitureSet_Japanese",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Byobu.webp"
+      },
+      {
+        "itemName": "달꽃단 깃발 세트",
+        "dataHover": "?s=Technology/NinjaFlagSet",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ninja_Flag.webp"
+      },
+      {
+        "itemName": "유도형 스피어 발사기",
+        "dataHover": "?s=Technology/Battle_RangeWeapon_HomingSphereLauncher",
+        "isBossTechnology": true,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HomingSphereLauncher.webp"
+      }
+    ]
+  },
+  {
+    "5": [
+      {
         "itemName": "미사일 발사기",
         "dataHover": "?s=Technology/Battle_RangeWeapon_GuidedMissileLauncher",
         "isBossTechnology": false,
@@ -2846,27 +2886,79 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_MissileBullet.webp"
       },
       {
-        "itemName": "마그마 드라고의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_KingBahamut_Dragon",
+        "itemName": "팰 해체 컨베이어",
+        "dataHover": "?s=Technology/DismantlingConveyor",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingBahamut_Dragon_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DismantlingConveyor.webp"
       },
       {
-        "itemName": "이시스의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_Horus_Water",
+        "itemName": "고도 문명 팰 포드",
+        "dataHover": "?s=Technology/MedicalPalBed_05",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Horus_Water_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicalPalBed_05.webp"
       },
       {
-        "itemName": "귀환형 스피어 발사기",
-        "dataHover": "?s=Technology/Battle_RangeWeapon_HomingSphereLauncher",
+        "itemName": "모형 벚나무 세트",
+        "dataHover": "?s=Technology/FurnitureTree_Cherry",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FurnitureTree01_Cherry.webp"
+      },
+      {
+        "itemName": "ULTRAKILL 컬래버 세트 2",
+        "dataHover": "?s=Technology/OctaviaSet02",
         "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_HomingSphereLauncher.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Octavia002_Armor.webp"
       }
     ]
   },
   {
-    "56": [
+    "3": [
+      {
+        "itemName": "발전형 활",
+        "dataHover": "?s=Technology/SFBow",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp"
+      },
+      {
+        "itemName": "발전형 화살",
+        "dataHover": "?s=Technology/SFArrow",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SFArrow.webp"
+      },
+      {
+        "itemName": "거대 확장 파우치",
+        "dataHover": "?s=Technology/AdditionalInventory_004",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AdditionalInventory_004.webp"
+      },
+      {
+        "itemName": "빔 소드",
+        "dataHover": "?s=Technology/BeamSword",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BeamSword.webp"
+      },
+      {
+        "itemName": "나이트롯의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_NightBlueHorse",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NightBlueHorse_icon_normal.webp"
+      },
+      {
+        "itemName": "볼트디어의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_FengyunDeeper_Electric",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_FengyunDeeper_Electric_icon_normal.webp"
+      },
+      {
+        "itemName": "불이리의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_AmaterasuWolf",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_AmaterasuWolf_icon_normal.webp"
+      }
+    ]
+  },
+  {
+    "5": [
       {
         "itemName": "인피니티 스피어",
         "dataHover": "?s=Technology/PalSphere_Exotic",
@@ -2898,79 +2990,27 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_MetalDetector.webp"
       },
       {
-        "itemName": "썬더호스의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_BlueThunderHorse",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlueThunderHorse_icon_normal.webp"
-      },
-      {
         "itemName": "껌댕이의 하네스",
         "dataHover": "?s=Technology/SkillUnlock_BlackPuppy",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlackPuppy_icon_normal.webp"
       },
       {
-        "itemName": "ULTRAKILL 컬래버 세트 2",
-        "dataHover": "?s=Technology/OctaviaSet02",
+        "itemName": "썬더호스의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_BlueThunderHorse",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlueThunderHorse_icon_normal.webp"
+      },
+      {
+        "itemName": "대형 전동 알 부화기",
+        "dataHover": "?s=Technology/MultiElectricHatchingPalEgg",
         "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Octavia002_Armor.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MultiElectricHatchingPalEgg.webp"
       }
     ]
   },
   {
-    "57": [
-      {
-        "itemName": "발전형 활",
-        "dataHover": "?s=Technology/SFBow",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SFBow.webp"
-      },
-      {
-        "itemName": "발전형 화살",
-        "dataHover": "?s=Technology/SFArrow",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SFArrow.webp"
-      },
-      {
-        "itemName": "헥소라이트 갑옷",
-        "dataHover": "?s=Technology/SFArmor",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp"
-      },
-      {
-        "itemName": "빔 소드",
-        "dataHover": "?s=Technology/BeamSword",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BeamSword.webp"
-      },
-      {
-        "itemName": "호밍 모듈",
-        "dataHover": "?s=Technology/SphereModule_Homing",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Homing.webp"
-      },
-      {
-        "itemName": "고도 문명 팰 포드",
-        "dataHover": "?s=Technology/MedicalPalBed_05",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicalPalBed_05.webp"
-      },
-      {
-        "itemName": "나이트롯의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_NightBlueHorse",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NightBlueHorse_icon_normal.webp"
-      },
-      {
-        "itemName": "거대 확장 파우치",
-        "dataHover": "?s=Technology/AdditionalInventory_004",
-        "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Essential_AdditionalInventory_004.webp"
-      }
-    ]
-  },
-  {
-    "58": [
+    "4": [
       {
         "itemName": "고도 문명 상자",
         "dataHover": "?s=Technology/ItemChest_04",
@@ -2990,33 +3030,91 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_LaserGatlingBullet.webp"
       },
       {
+        "itemName": "헥소라이트 갑옷",
+        "dataHover": "?s=Technology/SFArmor",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmor.webp"
+      },
+      {
+        "itemName": "초고열 코어",
+        "dataHover": "?s=Technology/Thermal_Core",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_Thermal_Core.webp"
+      },
+      {
+        "itemName": "아그니드라의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_Umihebi_Fire",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Umihebi_Fire_icon_normal.webp"
+      },
+      {
+        "itemName": "음이리의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_AmaterasuWolf_Dark",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_AmaterasuWolf_Dark_icon_normal.webp"
+      }
+    ]
+  },
+  {
+    "5": [
+      {
+        "itemName": "발전형 방패",
+        "dataHover": "?s=Technology/Shield_SF",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_06.webp"
+      },
+      {
         "itemName": "헥소라이트 투구",
         "dataHover": "?s=Technology/SFHelmet",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFHelmet.webp"
       },
       {
+        "itemName": "호화 야채 케이크",
+        "dataHover": "?s=Technology/Cake04",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Cake04.webp"
+      },
+      {
+        "itemName": "천락의 민족 깃발 세트",
+        "dataHover": "?s=Technology/DarkIslandFlagSet",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_DarkIsland_Flag.webp"
+      },
+      {
+        "itemName": "호루스의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_Horus",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Horus_icon_normal.webp"
+      },
+      {
+        "itemName": "이시스의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_Horus_Water",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Horus_Water_icon_normal.webp"
+      },
+      {
         "itemName": "드라이지스의 안장",
         "dataHover": "?s=Technology/SkillUnlock_WhiteShieldDragon",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteShieldDragon_icon_normal.webp"
-      },
-      {
-        "itemName": "셀레스디얼의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_WhiteDeer",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteDeer_icon_normal.webp"
-      },
-      {
-        "itemName": "트리플 점프 부츠",
-        "dataHover": "?s=Technology/Accessory_JumpCount_Increase2",
-        "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpCount_Increase.webp"
       }
     ]
   },
   {
-    "59": [
+    "5": [
+      {
+        "itemName": "플라즈마 대포",
+        "dataHover": "?s=Technology/EnergyRocketLauncher",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp"
+      },
+      {
+        "itemName": "플라즈마 카트리지",
+        "dataHover": "?s=Technology/EnergyLauncherBullet",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_EnergyLauncherBullet.webp"
+      },
       {
         "itemName": "지고의 회복약",
         "dataHover": "?s=Technology/Potion_Extreme",
@@ -3036,67 +3134,27 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MedicineFacility_03.webp"
       },
       {
-        "itemName": "내열 헥소라이트 갑옷",
-        "dataHover": "?s=Technology/SFArmorHeat",
+        "itemName": "팔라디우스의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_SaintCentaur",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SaintCentaur_icon_normal.webp"
       },
       {
-        "itemName": "내한 헥소라이트 갑옷",
-        "dataHover": "?s=Technology/SFArmorCold",
+        "itemName": "켄타나이트의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_BlackCentaur",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlackCentaur_icon_normal.webp"
       },
       {
-        "itemName": "빙호우거의 해머",
-        "dataHover": "?s=Technology/SkillUnlock_SnowTigerBeastman",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SnowTigerBeastman_icon_normal.webp"
-      }
-    ]
-  },
-  {
-    "60": [
-      {
-        "itemName": "플라즈마 대포",
-        "dataHover": "?s=Technology/EnergyRocketLauncher",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_EnergyRocketLauncher.webp"
-      },
-      {
-        "itemName": "플라즈마 카트리지",
-        "dataHover": "?s=Technology/EnergyLauncherBullet",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_EnergyLauncherBullet.webp"
-      },
-      {
-        "itemName": "발전형 방패",
-        "dataHover": "?s=Technology/Shield_SF",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_06.webp"
-      },
-      {
-        "itemName": "경량 헥소라이트 갑옷",
-        "dataHover": "?s=Technology/SFArmorWeight",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp"
-      },
-      {
-        "itemName": "제노드란의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_DarkMechaDragon",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DarkMechaDragon_icon_normal.webp"
-      },
-      {
-        "itemName": "대형 전동 알 부화기",
-        "dataHover": "?s=Technology/MultiElectricHatchingPalEgg",
+        "itemName": "더블 에어 대시 부츠",
+        "dataHover": "?s=Technology/Accessory_AirDash2",
         "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MultiElectricHatchingPalEgg.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AirDash.webp"
       }
     ]
   },
   {
-    "61": [
+    "3": [
       {
         "itemName": "강력 낚시 마그넷",
         "dataHover": "?s=Technology/Salvage_TreasureBoxKey02",
@@ -3122,10 +3180,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SF_foundation.webp"
       },
       {
-        "itemName": "불초롱의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_GhostAnglerfish_Fire",
+        "itemName": "빙천마의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_IceHorse",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostAnglerfish_Fire_icon_normal.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceHorse_icon_normal.webp"
+      },
+      {
+        "itemName": "흑천마의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_IceHorse_Dark",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceHorse_Dark_icon_normal.webp"
       },
       {
         "itemName": "헥소 석영 채굴장",
@@ -3136,7 +3200,7 @@
     ]
   },
   {
-    "62": [
+    "5": [
       {
         "itemName": "에너지 산탄총",
         "dataHover": "?s=Technology/EnergyShotgun",
@@ -3156,50 +3220,16 @@
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
       },
       {
-        "itemName": "일본식 온천",
-        "dataHover": "?s=Technology/Spa3",
+        "itemName": "내열 헥소라이트 갑옷",
+        "dataHover": "?s=Technology/SFArmorHeat",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Spa3.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorHeat.webp"
       },
-      {
-        "itemName": "홍등고래의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_IceNarwhal_Fire",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceNarwhal_Fire_icon_normal.webp"
-      },
-      {
-        "itemName": "트리플 에어 대시 부츠",
-        "dataHover": "?s=Technology/Accessory_AirDash3",
-        "isBossTechnology": true,
-        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AirDash.webp"
-      }
-    ]
-  },
-  {
-    "63": [
       {
         "itemName": "메가 부스트 건",
         "dataHover": "?s=Technology/PalDopingShot_2",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_PalDopingShot_2.webp"
-      },
-      {
-        "itemName": "밀렵단 깃발 세트",
-        "dataHover": "?s=Technology/HunterFlagSet",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Hunter_Flag.webp"
-      },
-      {
-        "itemName": "팰 애호 단체 깃발 세트",
-        "dataHover": "?s=Technology/BelieverFlagSet",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Believer_Flag.webp"
-      },
-      {
-        "itemName": "넵티오스의 안장",
-        "dataHover": "?s=Technology/SkillUnlock_PoseidonOrca",
-        "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_PoseidonOrca_icon_normal.webp"
       },
       {
         "itemName": "울트라 갈고리 총",
@@ -3210,7 +3240,7 @@
     ]
   },
   {
-    "64": [
+    "5": [
       {
         "itemName": "전자동 소총",
         "dataHover": "?s=Technology/OverheatRifle",
@@ -3224,21 +3254,51 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_OverheatRifleBullet.webp"
       },
       {
-        "itemName": "영원한 불꽃의 동지 깃발 세트",
-        "dataHover": "?s=Technology/FireCultFlagSet",
+        "itemName": "내한 헥소라이트 갑옷",
+        "dataHover": "?s=Technology/SFArmorCold",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FireCult_Flag.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorCold.webp"
       },
       {
-        "itemName": "자경단 깃발 세트",
-        "dataHover": "?s=Technology/PoliceFlagSet",
+        "itemName": "일본식 온천",
+        "dataHover": "?s=Technology/Spa3",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Police_Flag.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Spa3.webp"
+      },
+      {
+        "itemName": "레이콘의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_Kirin_Ice",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_Kirin_Ice_icon_normal.webp"
+      },
+      {
+        "itemName": "넵티오스의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_PoseidonOrca",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_PoseidonOrca_icon_normal.webp"
+      },
+      {
+        "itemName": "빙천마 상",
+        "dataHover": "?s=Technology/IceHorseStatue",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_IceHorseStatue.webp"
       }
     ]
   },
   {
-    "65": [
+    "5": [
+      {
+        "itemName": "로켓 발사기",
+        "dataHover": "?s=Technology/Battle_RangeWeapon_RocketLauncher",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Launcher_Default.webp"
+      },
+      {
+        "itemName": "로켓탄",
+        "dataHover": "?s=Technology/LauncherBullet",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ExplosiveBullet.webp"
+      },
       {
         "itemName": "충전식 소총",
         "dataHover": "?s=Technology/ChargeLaserRifle",
@@ -3252,22 +3312,538 @@
         "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ChargeLaserRifleBullet.webp"
       },
       {
-        "itemName": "유전자 연구 부대 깃발 세트",
-        "dataHover": "?s=Technology/ScientistFlagSet",
+        "itemName": "경량 헥소라이트 갑옷",
+        "dataHover": "?s=Technology/SFArmorWeight",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Scientist_Flag.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_SFArmorWeight.webp"
       },
       {
-        "itemName": "달꽃단 깃발 세트",
-        "dataHover": "?s=Technology/NinjaFlagSet",
+        "itemName": "킹복치의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_KingSunfish",
         "isBossTechnology": false,
-        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ninja_Flag.webp"
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingSunfish_icon_normal.webp"
+      },
+      {
+        "itemName": "트리플 에어 대시 부츠",
+        "dataHover": "?s=Technology/Accessory_AirDash3",
+        "isBossTechnology": true,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_AirDash.webp"
+      }
+    ]
+  },
+  {
+    "5": [
+      {
+        "itemName": "고대 문명 화로",
+        "dataHover": "?s=Technology/AncientBlastFurnace",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientBlastFurnace.webp"
+      },
+      {
+        "itemName": "솔라이트 주괴",
+        "dataHover": "?s=Technology/SkyislandIngot",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_SkyislandIngot.webp"
+      },
+      {
+        "itemName": "쇼군복치의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_KingSunfish_Thunder",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_KingSunfish_Thunder_icon_normal.webp"
+      },
+      {
+        "itemName": "뇌운조의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_ThunderFluffyBird",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThunderFluffyBird_icon_normal.webp"
+      },
+      {
+        "itemName": "제노드란의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_DarkMechaDragon",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DarkMechaDragon_icon_normal.webp"
+      }
+    ]
+  },
+  {
+    "5": [
+      {
+        "itemName": "솔 스피어",
+        "dataHover": "?s=Technology/PalSphere_Ancient_1",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Ancient_1.webp"
+      },
+      {
+        "itemName": "정밀 기계식 활",
+        "dataHover": "?s=Technology/SkyBow",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkyBow.webp"
+      },
+      {
+        "itemName": "정밀 기계식 활 전용 화살",
+        "dataHover": "?s=Technology/SkyBowArrow",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkyBowArrow.webp"
+      },
+      {
+        "itemName": "AI 코어",
+        "dataHover": "?s=Technology/AIcore",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_AIcore.webp"
+      },
+      {
+        "itemName": "고대 문명 작업대",
+        "dataHover": "?s=Technology/AncientWorkBench",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      },
+      {
+        "itemName": "고대 문명 건축 세트",
+        "dataHover": "?s=Technology/Ancient_Houseset",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ancient_foundation.webp"
+      }
+    ]
+  },
+  {
+    "4": [
+      {
+        "itemName": "강화된 릴리의 창",
+        "dataHover": "?s=Technology/Spear_ForestBoss2",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_Spear_ForestBoss2.webp"
+      },
+      {
+        "itemName": "야전 기관단총",
+        "dataHover": "?s=Technology/SkySubmachineGun",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkySubmachineGun.webp"
+      },
+      {
+        "itemName": "야전 기관단총 탄약",
+        "dataHover": "?s=Technology/SkySubmachineGunBullet",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkySubmachineGunBullet.webp"
+      },
+      {
+        "itemName": "고대 갑옷",
+        "dataHover": "?s=Technology/AncientArmor",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_AncientArmor.webp"
+      },
+      {
+        "itemName": "고대 투구",
+        "dataHover": "?s=Technology/AncientHelmet",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_AncientHelmet.webp"
+      },
+      {
+        "itemName": "레이번의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_GhostDragon",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostDragon_icon_normal.webp"
+      }
+    ]
+  },
+  {
+    "4": [
+      {
+        "itemName": "시작형 산탄총",
+        "dataHover": "?s=Technology/SkyShotgun",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkyShotgun.webp"
+      },
+      {
+        "itemName": "시작형 산탄총 탄약",
+        "dataHover": "?s=Technology/SkyShotgunBullet",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkyShotgunBullet.webp"
+      },
+      {
+        "itemName": "호밍 모듈",
+        "dataHover": "?s=Technology/SphereModule_Homing",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_SphereModule_Homing.webp"
+      },
+      {
+        "itemName": "커다란 낚시터",
+        "dataHover": "?s=Technology/FishingPond2",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_FishingPond2.webp"
+      },
+      {
+        "itemName": "스태그림의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_GrassGolem_Dark",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GrassGolem_Dark_icon_normal.webp"
+      }
+    ]
+  },
+  {
+    "5": [
+      {
+        "itemName": "중형 돌격 소총",
+        "dataHover": "?s=Technology/SkyAssaultRifle",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkyAssaultRifle.webp"
+      },
+      {
+        "itemName": "중형 돌격 소총 탄약",
+        "dataHover": "?s=Technology/SkyAssaultRifleBullet",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkyAssaultRifleBullet.webp"
+      },
+      {
+        "itemName": "고대 문명 부엌",
+        "dataHover": "?s=Technology/AncientCookingStove",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientCookingStove.webp"
       },
       {
         "itemName": "레젠디얼의 안장",
         "dataHover": "?s=Technology/SkillUnlock_LegendDeer",
         "isBossTechnology": false,
         "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LegendDeer_icon_normal.webp"
+      },
+      {
+        "itemName": "블리잰더의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_VolcanoDragon_Ice",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_VolcanoDragon_Ice_icon_normal.webp"
+      },
+      {
+        "itemName": "제트래곤의 미사일 발사기",
+        "dataHover": "?s=Technology/SkillUnlock_JetDragon",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_JetDragon_icon_normal.webp"
+      },
+      {
+        "itemName": "제트래곤 상",
+        "dataHover": "?s=Technology/JetDragonStatue",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_JetDragonStatue.webp"
+      },
+      {
+        "itemName": "트리플 점프 부츠",
+        "dataHover": "?s=Technology/Accessory_JumpCount_Increase2",
+        "isBossTechnology": true,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_JumpCount_Increase.webp"
+      }
+    ]
+  },
+  {
+    "5": [
+      {
+        "itemName": "고대 방패",
+        "dataHover": "?s=Technology/Shield_07",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_Shield_07.webp"
+      },
+      {
+        "itemName": "고대 문명 감시대",
+        "dataHover": "?s=Technology/BaseCampWorkHard03",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_BaseCampWorkHard03.webp"
+      },
+      {
+        "itemName": "기술 열매 농원",
+        "dataHover": "?s=Technology/Farm_SkillFruits",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Farm_SkillFruits.webp"
+      },
+      {
+        "itemName": "창천의 맹약 깃발 세트",
+        "dataHover": "?s=Technology/SkyIslandFlagSet",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SkyIsland_Flag.webp"
+      },
+      {
+        "itemName": "칠버드의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_ThunderBird_Ice",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThunderBird_Ice_icon_normal.webp"
+      },
+      {
+        "itemName": "홍등고래의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_IceNarwhal_Fire",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_IceNarwhal_Fire_icon_normal.webp"
+      }
+    ]
+  },
+  {
+    "5": [
+      {
+        "itemName": "전술 유탄 발사기",
+        "dataHover": "?s=Technology/SkyGrenadeLauncher",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkyGrenadeLauncher.webp"
+      },
+      {
+        "itemName": "전술 유탄 발사기 탄약",
+        "dataHover": "?s=Technology/SkyGrenadeLauncherBullet",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkyGrenadeLauncherBullet.webp"
+      },
+      {
+        "itemName": "아르셉의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_ThiefBird",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_ThiefBird_icon_normal.webp"
+      },
+      {
+        "itemName": "연미르의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_LotusDragon",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_LotusDragon_icon_normal.webp"
+      },
+      {
+        "itemName": "솔라이트 채굴장",
+        "dataHover": "?s=Technology/SkyIslandOrePit",
+        "isBossTechnology": true,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_SkyIslandOrePit.webp"
+      }
+    ]
+  },
+  {
+    "5": [
+      {
+        "itemName": "레이저 소드",
+        "dataHover": "?s=Technology/SkyBeamSword",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_SkyBeamSword.webp"
+      },
+      {
+        "itemName": "금화 제조 공장",
+        "dataHover": "?s=Technology/Factory_Money",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Money.webp"
+      },
+      {
+        "itemName": "고대 문명 진료소",
+        "dataHover": "?s=Technology/Ancient_Clinic",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ancient_Clinic.webp"
+      },
+      {
+        "itemName": "고대 문명 팰 침대",
+        "dataHover": "?s=Technology/Ancient_MedicalPalBed",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ancient_MedicalPalBed.webp"
+      },
+      {
+        "itemName": "빙호우거의 해머",
+        "dataHover": "?s=Technology/SkillUnlock_SnowTigerBeastman",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_SnowTigerBeastman_icon_normal.webp"
+      }
+    ]
+  },
+  {
+    "4": [
+      {
+        "itemName": "팰키사이트 주괴",
+        "dataHover": "?s=Technology/WorldTreeIngot",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WorldTreeIngot.webp"
+      },
+      {
+        "itemName": "고대 스피어",
+        "dataHover": "?s=Technology/PalSphere_Ancient_2",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_PalSphere_Ancient_2.webp"
+      },
+      {
+        "itemName": "고대 문명 유물 변환기",
+        "dataHover": "?s=Technology/AncientRelicRecycler",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientRelicRecycler.webp"
+      },
+      {
+        "itemName": "스페셜 케이크",
+        "dataHover": "?s=Technology/Cake05",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Cake05.webp"
+      }
+    ]
+  },
+  {
+    "5": [
+      {
+        "itemName": "빔 스캐터",
+        "dataHover": "?s=Technology/WidePenetrateShotgun",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_WidePenetrateShotgun.webp"
+      },
+      {
+        "itemName": "빔 스캐터 탄약",
+        "dataHover": "?s=Technology/WidePenetrateShotgunBullet",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_WidePenetrateShotgunBullet.webp"
+      },
+      {
+        "itemName": "내열 고대 갑옷",
+        "dataHover": "?s=Technology/AncientArmorHeat",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_AncientArmorHeat.webp"
+      },
+      {
+        "itemName": "고대 문명 발전기",
+        "dataHover": "?s=Technology/AncientElectricGenerator",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientElectricGenerator.webp"
+      },
+      {
+        "itemName": "성채북의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_CubeTurtle_Neutral",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_CubeTurtle_Neutral_icon_normal.webp"
+      }
+    ]
+  },
+  {
+    "5": [
+      {
+        "itemName": "고대 문명 온천",
+        "dataHover": "?s=Technology/Ancient_Spa",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Ancient_Spa.webp"
+      },
+      {
+        "itemName": "부식 안개 마스크",
+        "dataHover": "?s=Technology/GasMask",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_GasMask.webp"
+      },
+      {
+        "itemName": "방폭 속옷",
+        "dataHover": "?s=Technology/Accessory_ExplosionResist",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Accessory_ExplosionResist.webp"
+      },
+      {
+        "itemName": "헬번의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_GhostDragon_Fire",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_GhostDragon_Fire_icon_normal.webp"
+      },
+      {
+        "itemName": "고대 문명 배합기",
+        "dataHover": "?s=Technology/MultiElectricHatchingPalEggWithBreed",
+        "isBossTechnology": true,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_MultiElectricHatchingPalEggWithBreed.webp"
+      }
+    ]
+  },
+  {
+    "4": [
+      {
+        "itemName": "드론 발사기",
+        "dataHover": "?s=Technology/DroneLauncher",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_DroneLauncher.webp"
+      },
+      {
+        "itemName": "내한 고대 갑옷",
+        "dataHover": "?s=Technology/AncientArmorCold",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_AncientArmorCold.webp"
+      },
+      {
+        "itemName": "라이트롯의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_NightBlueHorse_Neutral",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_NightBlueHorse_Neutral_icon_normal.webp"
+      },
+      {
+        "itemName": "샤오롱의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_BlueSkyDragon",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_BlueSkyDragon_icon_normal.webp"
+      }
+    ]
+  },
+  {
+    "5": [
+      {
+        "itemName": "플라즈마 소총",
+        "dataHover": "?s=Technology/ElectricArcAssaultRifle",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_ElectricArcAssaultRifle.webp"
+      },
+      {
+        "itemName": "플라즈마 소총 탄약",
+        "dataHover": "?s=Technology/ElectricArcAssaultRifleBullet",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ElectricArcAssaultRifleBullet.webp"
+      },
+      {
+        "itemName": "고대 문명 물질 생성기",
+        "dataHover": "?s=Technology/AncientMultiProduct",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientMultiProduct.webp"
+      },
+      {
+        "itemName": "고대 문명 재배기",
+        "dataHover": "?s=Technology/AncientFarmBlock",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientFarmBlock.webp"
+      },
+      {
+        "itemName": "코스모디얼의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_WhiteDeer_Dark",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_WhiteDeer_Dark_icon_normal.webp"
+      }
+    ]
+  },
+  {
+    "5": [
+      {
+        "itemName": "경량 고대 갑옷",
+        "dataHover": "?s=Technology/AncientArmorWeight",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Armor_AncientArmorWeight.webp"
+      },
+      {
+        "itemName": "영양제",
+        "dataHover": "?s=Technology/Supplement",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_food_Supplement.webp"
+      },
+      {
+        "itemName": "셸가드라의 안장",
+        "dataHover": "?s=Technology/SkillUnlock_DomeArmorDragon",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_DomeArmorDragon_icon_normal.webp"
+      }
+    ]
+  },
+  {
+    "5": [
+      {
+        "itemName": "빔 발사기",
+        "dataHover": "?s=Technology/BeamLauncher",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_BeamLauncher.webp"
+      },
+      {
+        "itemName": "빔 발사기 탄약",
+        "dataHover": "?s=Technology/BeamLauncherBullet",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_BeamLauncherBullet.webp"
+      },
+      {
+        "itemName": "윙 셀",
+        "dataHover": "?s=Technology/WingGlider_Fuel",
+        "isBossTechnology": false,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Material_WingGlider_Fuel.webp"
+      },
+      {
+        "itemName": "윙 팩",
+        "dataHover": "?s=Technology/WingGlider",
+        "isBossTechnology": true,
+        "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Glider_WingGlider.webp"
       }
     ]
   }

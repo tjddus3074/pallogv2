@@ -13,13 +13,21 @@ data class Item (
     @SerializedName("Rank") val rank: String = "",
     @SerializedName("Code") val code: String = "",
     val 금화: String = "",
-    @SerializedName("Weight") val weight: String = ""
+    @SerializedName("Weight") val weight: String = "",
+    @SerializedName("MaxStackCount") val maxStackCount: String = "",
+    @SerializedName("SneakAttackRate") val sneakAttackRate: String = "",
+    @SerializedName("meterial") val material: Map<String, String> = emptyMap(),
+    val production: List<ProductionFacility> = emptyList(),
+    val dynamic: Map<String, String> = emptyMap()
 ) {
 
     fun iconAssetPath(category: ItemCategory) : String {
         val fileName = imgurl.substringAfterLast("/")
         return "file:///android_asset/PAL/Icon/${category.iconFolder}/$fileName"
     }
+
+    val techLevel: String
+        get() = dynamic["기술"] ?: ""
 }
 
 enum class ItemCategory(val displayName: String, val fileName: String, val iconFolder: String) {

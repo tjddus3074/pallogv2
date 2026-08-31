@@ -43,3 +43,5 @@ val tech_boss = Color(0xFF9C2BFF)
 
 val blackThemeBackGround = Color(0xFF070707)
 val blackThemeText = Color(0xFFF0F0F0)
+
+val GoldAccent = Color(0xFFD4AF37)

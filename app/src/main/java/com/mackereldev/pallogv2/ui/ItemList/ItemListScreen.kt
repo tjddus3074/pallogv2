@@ -9,6 +9,16 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 @Composable
 fun ItemListScreen(
     onMenuClick: () -> Unit,
+    onWeaponClick: (String) -> Unit,
+    onAmmoClick: (String) -> Unit,
+    onArmorClick: (String) -> Unit,
+    onSphereClick: (String) -> Unit,
+    onSphereModuleClick: (String) -> Unit,
+    onAccessoryClick: (String) -> Unit,
+    onMaterialClick: (String) -> Unit,
+    onConsumableClick: (String) -> Unit,
+    onIngredientClick: (String) -> Unit,
+    onKeyItemClick: (String) -> Unit,
     viewModel: ItemListViewModel = hiltViewModel()
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
@@ -18,6 +28,16 @@ fun ItemListScreen(
         uiState = uiState,
         selectedCategory = selectedCategory,
         onCategorySelect = { viewModel.selectCategory(it) },
-        onMenuClick = onMenuClick
+        onMenuClick = onMenuClick,
+        onWeaponClick = onWeaponClick,
+        onAmmoClick = onAmmoClick,
+        onArmorClick = onArmorClick,
+        onSphereClick = onSphereClick,
+        onSphereModuleClick = onSphereModuleClick,
+        onAccessoryClick = onAccessoryClick,
+        onMaterialClick = onMaterialClick,
+        onConsumableClick = onConsumableClick,
+        onIngredientClick = onIngredientClick,
+        onKeyItemClick = onKeyItemClick
     )
 }

@@ -9,12 +9,12 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 
 @Composable
 fun PalDetailScreen(
-    deckIndex: Int,
+    code: String,
     onBack: () -> Unit,
     viewModel: PalDetailViewModel = hiltViewModel()
 ) {
 
-    LaunchedEffect(deckIndex) { viewModel.loadPal(deckIndex) }
+    LaunchedEffect(code) { viewModel.loadPal(code) }
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
     PalDetailView(uiState = uiState, onBack = onBack)
 

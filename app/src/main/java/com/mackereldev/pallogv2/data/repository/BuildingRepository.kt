@@ -17,4 +17,7 @@ class BuildingRepository @Inject constructor(
             dataSource.loadBuildings(category.fileName)
         }
     }
+
+    fun getBuilding(category: BuildingCategory, href: String): Building? =
+        getBuildings(category).find { it.href == href }
 }

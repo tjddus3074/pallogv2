@@ -3,12 +3,15 @@ package com.mackereldev.pallogv2.ui.components
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
@@ -19,6 +22,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.mackereldev.pallogv2.data.model.Item
@@ -41,19 +45,56 @@ fun ItemCard(item: Item, category: ItemCategory, onClick: () -> Unit, modifier: 
                 .border(1.dp, SoftGray, RoundedCornerShape(15.dp))
                 .padding(10.dp)
         ) {
-            Column(horizontalAlignment = Alignment.CenterHorizontally) {
+
+            Box(
+                modifier = Modifier.fillMaxWidth(0.2f)
+                    .aspectRatio(1f)
+            ) {
                 AsyncImage(
                     model = item.iconAssetPath(category),
                     contentDescription = null,
                     modifier = Modifier
-                        .fillMaxWidth(0.2f)
+                        .fillMaxSize()
                         .aspectRatio(1f)
                         .clip(CircleShape)
                         .border(1.dp, SoftGray, CircleShape)
                 )
-                Spacer(modifier = Modifier.padding(3.dp))
+            }
+
+            Spacer(modifier = Modifier.width(10.dp))
+
+            Column(modifier = Modifier.fillMaxWidth()) {
                 Text(text = item.name)
             }
+//            Column(horizontalAlignment = Alignment.Start) {
+//                AsyncImage(
+//                    model = item.iconAssetPath(category),
+//                    contentDescription = null,
+//                    modifier = Modifier
+//                        .fillMaxWidth(0.2f)
+//                        .aspectRatio(1f)
+//                        .clip(CircleShape)
+//                        .border(1.dp, SoftGray, CircleShape)
+//                )
+//                Spacer(modifier = Modifier.padding(3.dp))
+//                Text(text = item.name)
+//            }
         }
+    }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun ItemCardPreview() {
+    val sampleItem = Item(
+        name = "돌격 소총",
+        imgurl = "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Weapon_AssaultRifle_Default1.webp"
+    )
+    Column {
+        ItemCard(
+            item = sampleItem,
+            category = ItemCategory.WEAPON,
+            onClick = {}
+        )
     }
 }

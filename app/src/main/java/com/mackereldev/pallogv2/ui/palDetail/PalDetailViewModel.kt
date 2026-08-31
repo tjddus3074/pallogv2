@@ -26,9 +26,9 @@ class PalDetailViewModel @Inject constructor(
     private val _uiState = MutableStateFlow<PalDetailUiState>(PalDetailUiState.Loading)
     val uiState: StateFlow<PalDetailUiState> = _uiState.asStateFlow()
 
-    fun loadPal(deckIndex: Int) {
+    fun loadPal(code: String) {
         viewModelScope.launch(Dispatchers.IO) {
-            runCatching { repository.getPal(deckIndex) }
+            runCatching { repository.getPal(code) }
                 .onSuccess { pal ->
                     _uiState.value = if (pal != null) PalDetailUiState.Success(pal)
                     else PalDetailUiState.Error("팰을 찾을 수 없습니다.")

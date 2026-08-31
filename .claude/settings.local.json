@@ -3,7 +3,14 @@
     "allow": [
       "Bash(dir \"C:\\\\Users\\\\asuspc\\\\AndroidStudioProjects\\\\pallogv2\\\\app\\\\src\\\\main\\\\res\")",
       "PowerShell(Get-ChildItem \"C:\\\\Users\\\\asuspc\\\\AndroidStudioProjects\\\\pallogv2\\\\app\\\\src\\\\main\" -Recurse | Select-Object FullName, PSIsContainer | Where-Object {$_.PSIsContainer -eq $false} | Select-Object -First 50)",
-      "Bash(dir \"C:\\\\Users\\\\asuspc\\\\AndroidStudioProjects\\\\pallogv2\\\\app\\\\src\\\\main\\\\assets\\\\PAL\")"
+      "Bash(dir \"C:\\\\Users\\\\asuspc\\\\AndroidStudioProjects\\\\pallogv2\\\\app\\\\src\\\\main\\\\assets\\\\PAL\")",
+      "Bash(python -c ' *)",
+      "Bash(python3 -c ' *)",
+      "Bash(node -e ' *)",
+      "Bash(python *)",
+      "Bash(grep *)",
+      "Bash(python3 -c \"print\\('test'\\)\")",
+      "PowerShell(python -c \"import json,sys; data=json.load\\(open\\(r'C:\\\\Users\\\\pine\\\\AndroidStudioProjects\\\\pallogv2\\\\app\\\\src\\\\main\\\\assets\\\\PAL\\\\Json\\\\pals_data.json', encoding='utf-8'\\)\\); print\\('OK', len\\(data\\)\\)\")"
     ]
   }
 }

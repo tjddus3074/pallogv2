@@ -1,1 +1,1688 @@
-[{"id":"e50378e6b5104e8aeab6ee60deaeff9627dc251d0ff7422fc38f271696451629","name":"화살","href":"Arrow","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow.webp","dynamic":{"기술":"3"},"description":"활로 발사하는 화살.","skill":"","meterial":{"목재":"1","돌":"1"},"Rarity":"일반","Type":"탄약","Rank":"1","금화":"5","Weight":"0.025","MaxStackCount":"9999","Code":"Arrow","IconName":"Arrow","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"10","bLegalInGame":"1","VisualBlueprintClassName":"BP_Item_Arrow","SneakAttackRate":"1","production":[{"pname":"상급 작업대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"},{"pname":"작업라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"},{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기 제작대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"},{"pname":"무기라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"},{"pname":"원시적인 작업대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench.webp"}]},{"id":"?s=Items%2FArrow_Poison","name":"독화살","href":"Poison_Arrow","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow_Poison.webp","dynamic":{"기술":"8"},"description":"|독 활| 및 |독화살 쇠뇌|으(로) 발사할 수 있는 화살. 적중한 상대를 중독시킨다.","skill":"","meterial":{"목재":"3","돌":"3","독샘":"1"},"Rarity":"일반","Type":"탄약","Rank":"1","금화":"15","Weight":"0.025","MaxStackCount":"9999","Code":"Arrow_Poison","IconName":"Arrow_Poison","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"11","bLegalInGame":"1","VisualBlueprintClassName":"BP_Item_Arrow","SneakAttackRate":"1","production":[{"pname":"상급 작업대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"},{"pname":"작업라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"},{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기 제작대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"},{"pname":"무기라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"},{"pname":"원시적인 작업대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench.webp"}]},{"id":"?s=Items%2FArrow_Fire","name":"불화살","href":"Fire_Arrow","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow_Fire.webp","dynamic":{"기술":"5"},"description":"|불의 활| 및 |불화살 쇠뇌|으(로) 발사할 수 있는 화살. 화염 속성 피해를 준다.","skill":"","meterial":{"목재":"3","돌":"3","발화 기관":"1"},"Rarity":"일반","Type":"탄약","Rank":"1","금화":"15","Weight":"0.025","MaxStackCount":"9999","Code":"Arrow_Fire","IconName":"Arrow_Fire","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"12","bLegalInGame":"1","VisualBlueprintClassName":"BP_Item_Arrow","SneakAttackRate":"1","production":[{"pname":"상급 작업대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"},{"pname":"작업라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"},{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기 제작대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"},{"pname":"무기라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"},{"pname":"원시적인 작업대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench.webp"}]},{"id":"621b8b5c8160176eebd213bcdfc6f9d6d6086f27c17f2b5ecfc0be298627d29e","name":"로켓탄","href":"Rocket_Ammo","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ExplosiveBullet.webp","dynamic":{"기술":"49"},"description":"로켓 발사기 등에 사용하는 탄.","skill":"","meterial":{"팰 금속 주괴":"1","화약":"5"},"Rarity":"일반","Type":"탄약","Rank":"4","금화":"5000","Weight":"0.5","MaxStackCount":"9999","Code":"ExplosiveBullet","IconName":"ExplosiveBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"27","bLegalInGame":"1","VisualBlueprintClassName":"BP_Item_ExplosiveBullet","SneakAttackRate":"1","production":[{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"4ff39b7e9d28027b2274655b0cce909a8610cb0716d717771d051ea90f623dc8","name":"에너지 카트리지","href":"Energy_Cartridge","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_LaserBullet.webp","dynamic":{"기술":"51"},"description":"레이저 소총 등에 사용하는 탄.","skill":"","meterial":{"발전 기관":"5","팰 금속 주괴":"1"},"Rarity":"일반","Type":"탄약","Rank":"4","금화":"950","Weight":"0.01","MaxStackCount":"9999","Code":"LaserBullet","IconName":"LaserBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"34","bLegalInGame":"1","SneakAttackRate":"1","production":[{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"?s=Items%2FInkBullet","name":"데칼 잉크","href":"Decal_Ink","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_InkBullet.webp","dynamic":{"기술":"45"},"description":"데칼 총에 사용하는 탄. 잉크로 팰 그림을 그릴 수 있다.","skill":"","meterial":{"팰의 체액":"1","고급 팰 기름":"1"},"Rarity":"일반","Type":"탄약","Rank":"2","금화":"10","Weight":"0.05","MaxStackCount":"9999","Code":"InkBullet","IconName":"InkBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"28","bLegalInGame":"1","SneakAttackRate":"1","production":[{"pname":"상급 작업대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"},{"pname":"작업라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"},{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기 제작대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"},{"pname":"무기라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"?s=Items%2FHandgunBullet","name":"핸드건 탄약","href":"Handgun_Ammo","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_HandgunBullet.webp","dynamic":{"기술":"28"},"description":"핸드건 등에 사용하는 탄.","skill":"","meterial":{"금속 주괴":"2","화약":"1"},"Rarity":"일반","Type":"탄약","Rank":"2","금화":"120","Weight":"0.025","MaxStackCount":"9999","Code":"HandgunBullet","IconName":"HandgunBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"21","bLegalInGame":"1","VisualBlueprintClassName":"BP_Item_RifleBullet","SneakAttackRate":"1","production":[{"pname":"상급 작업대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"},{"pname":"작업라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"},{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기 제작대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"},{"pname":"무기라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"?s=Items%2FRifleBullet","name":"소총 탄약","href":"Rifle_Ammo","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_RifleBullet.webp","dynamic":{"기술":"36"},"description":"소총 등에 사용하는 탄.","skill":"","meterial":{"제련 주괴":"1","화약":"2"},"Rarity":"일반","Type":"탄약","Rank":"2","금화":"220","Weight":"0.025","MaxStackCount":"9999","Code":"RifleBullet","IconName":"RifleBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"23","bLegalInGame":"1","VisualBlueprintClassName":"BP_Item_RifleBullet","SneakAttackRate":"1","production":[{"pname":"상급 작업대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"},{"pname":"작업라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"},{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기 제작대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"},{"pname":"무기라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"5ac7afcfa1b02730a880b00a487835cbd4d73876fee19c9ba6026a2181cb262b","name":"산탄총 탄약","href":"Shotgun_Shell","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ShotgunBullet.webp","dynamic":{"기술":"39"},"description":"산탄총 등에 사용하는 탄.","skill":"","meterial":{"제련 주괴":"1","화약":"3"},"Rarity":"일반","Type":"탄약","Rank":"2","금화":"220","Weight":"0.025","MaxStackCount":"9999","Code":"ShotgunBullet","IconName":"ShotgunBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"24","bLegalInGame":"1","VisualBlueprintClassName":"BP_Item_RifleBullet","SneakAttackRate":"1","production":[{"pname":"상급 작업대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"},{"pname":"작업라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"},{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기 제작대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"},{"pname":"무기라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"ab085c1733d2d6b290fc88a256466b1b9a125036fb08617e15bc89329b399ad9","name":"조악한 탄약","href":"Coarse_Ammo","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_RoughBullet.webp","dynamic":{"기술":"21"},"description":"머스킷 혹은 즉석 핸드건 등에 사용하는 탄.","skill":"","meterial":{"금속 주괴":"2","화약":"1"},"Rarity":"일반","Type":"탄약","Rank":"2","금화":"120","Weight":"0.025","MaxStackCount":"9999","Code":"RoughBullet","IconName":"RoughBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"20","bLegalInGame":"1","VisualBlueprintClassName":"BP_Item_RifleBullet","SneakAttackRate":"1","production":[{"pname":"상급 작업대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"},{"pname":"작업라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"},{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기 제작대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"},{"pname":"무기라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"93befe76236e8e7b2ea1ae692144402af19bb25036a2aa6990879ab7606c8b67","name":"돌격 소총 탄약","href":"Assault_Rifle_Ammo","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_AssaultRifleBullet.webp","dynamic":{"기술":"45"},"description":"돌격 소총 등에 사용하는 탄.","skill":"","meterial":{"제련 주괴":"1","화약":"2"},"Rarity":"일반","Type":"탄약","Rank":"3","금화":"150","Weight":"0.01","MaxStackCount":"9999","Code":"AssaultRifleBullet","IconName":"AssaultRifleBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"26","bLegalInGame":"1","VisualBlueprintClassName":"BP_Item_RifleBullet","SneakAttackRate":"1","production":[{"pname":"작업라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"},{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"?s=Items%2FFlamethrowerBullet","name":"화염방사기 연료","href":"Flamethrower_Fuel","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_FlamethrowerBullet.webp","dynamic":{"기술":"52"},"description":"화염방사기의 연료. 화염방사기 등에 사용할 수 있는 탄.","skill":"","meterial":{"원유":"1"},"Rarity":"일반","Type":"탄약","Rank":"4","금화":"400","Weight":"0.01","MaxStackCount":"9999","Code":"FlamethrowerBullet","IconName":"FlamethrowerBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"29","bLegalInGame":"1","SneakAttackRate":"1","production":[{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"?s=Items%2FMissileBullet","name":"미사일탄","href":"Missile_Ammo","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_MissileBullet.webp","dynamic":{"기술":"55"},"description":"미사일 발사기 등에 사용하는 탄.","skill":"","meterial":{"팰 금속 주괴":"1","원유":"1","전자기판":"1","팰의 체액":"1"},"Rarity":"일반","Type":"탄약","Rank":"4","금화":"15000","Weight":"1","MaxStackCount":"9999","Code":"MissileBullet","IconName":"MissileBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"30","bLegalInGame":"1","SneakAttackRate":"1","production":[{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"?s=Items%2FGrenadeBullet","name":"유탄","href":"Grenade_Ammo","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_GrenadeBullet.webp","dynamic":{"기술":"53"},"description":"유탄 발사기 등에 사용하는 탄.","skill":"","meterial":{"팰 금속 주괴":"1","섬유":"20","화약":"3"},"Rarity":"일반","Type":"탄약","Rank":"4","금화":"1500","Weight":"0.1","MaxStackCount":"9999","Code":"GrenadeBullet","IconName":"GrenadeBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"31","bLegalInGame":"1","SneakAttackRate":"1","production":[{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"?s=Items%2FGatlingBullet","name":"개틀링탄","href":"Gatling_Gun_Ammo","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_GatlingBullet.webp","dynamic":{"기술":"54"},"description":"개틀링 건 등에 사용하는 탄.","skill":"","meterial":{"팰 금속 주괴":"1","화약":"3"},"Rarity":"일반","Type":"탄약","Rank":"4","금화":"780","Weight":"0.025","MaxStackCount":"9999","Code":"GatlingBullet","IconName":"GatlingBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"32","bLegalInGame":"1","SneakAttackRate":"1","production":[{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"d359e79d2dd71ce32b726e84c384e274e30705080bb6f6ea63c65119b1403a39","name":"운석탄","href":"Meteorite_Ammo","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_MeteorBullet.webp","dynamic":{"기술":"38"},"description":"메테오 발사기 등에 사용하는 탄.","skill":"","meterial":{"운석 파편":"2"},"Rarity":"일반","Type":"탄약","Rank":"3","금화":"400","Weight":"1","MaxStackCount":"9999","Code":"MeteorBullet","IconName":"MeteorBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"33","bLegalInGame":"1","SneakAttackRate":"1","production":[{"pname":"작업라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"},{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"62d817f14792d181c90c59087e48e357d648222292d3ebb5855eaa4b0a7e0f16","name":"플라즈마 카트리지","href":"Plasma_Cartridge","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_EnergyLauncherBullet.webp","dynamic":{"기술":"60"},"description":"플라즈마 대포 등에 사용하는 탄.","skill":"","meterial":{"발전 기관":"10","헥소라이트":"1"},"Rarity":"일반","Type":"탄약","Rank":"4","금화":"400","Weight":"0.5","MaxStackCount":"9999","Code":"EnergyLauncherBullet","IconName":"EnergyLauncherBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"35","bLegalInGame":"1","SneakAttackRate":"1","production":[{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"1c50da9d001b43a0e5729d74fd874112da3192ca8d99930b48c5f8c34854f771","name":"개틀링 레이저 카트리지","href":"Laser_Gatling_Cartridge","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_LaserGatlingBullet.webp","dynamic":{"기술":"58"},"description":"레이저 개틀링 건 등에 사용하는 탄.","skill":"","meterial":{"발전 기관":"5","플라스틸":"1"},"Rarity":"일반","Type":"탄약","Rank":"4","금화":"120","Weight":"0.025","MaxStackCount":"9999","Code":"LaserGatlingBullet","IconName":"LaserGatlingBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"36","bLegalInGame":"1","SneakAttackRate":"1","production":[{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"?s=Items%2FReinforcedArrow","name":"강화 화살","href":"Reinforced_Arrow","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ReinforcedArrow.webp","dynamic":{"기술":"32"},"description":"기계식 활(으)로 발사하는 강화된 화살.","skill":"","meterial":{"금속 주괴":"1","돌":"2"},"Rarity":"일반","Type":"탄약","Rank":"1","금화":"50","Weight":"0.025","MaxStackCount":"9999","Code":"ReinforcedArrow","IconName":"ReinforcedArrow","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"13","bLegalInGame":"1","SneakAttackRate":"1","production":[{"pname":"상급 작업대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"},{"pname":"작업라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"},{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기 제작대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"},{"pname":"무기라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"},{"pname":"원시적인 작업대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench.webp"}]},{"id":"0ab24b911b11e1e0914058b7c7eca8c9d223a0b5d7c53a78dea04cfbfb7cecb0","name":"발전형 화살","href":"Advanced_Arrow","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SFArrow.webp","dynamic":{"기술":"57"},"description":"발전형 활(으)로 발사하는 헥소라이트 소재 화살.","skill":"","meterial":{"헥소라이트":"1","돌":"10"},"Rarity":"일반","Type":"탄약","Rank":"1","금화":"100","Weight":"0.025","MaxStackCount":"9999","Code":"SFArrow","IconName":"SFArrow","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"14","bLegalInGame":"1","SneakAttackRate":"1","production":[{"pname":"상급 작업대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"},{"pname":"작업라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"},{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기 제작대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"},{"pname":"무기라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"},{"pname":"원시적인 작업대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench.webp"}]},{"id":"4c2002e63e1288d1d484c5e5313963f3dcbfcf1f1b3b85380bbaf092f5d198cd","name":"충전식 소총 탄약","href":"Charge_Rifle_Ammo","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ChargeLaserRifleBullet.webp","dynamic":{"기술":"65"},"description":"충전식 소총 등에 사용하는 탄.","skill":"","meterial":{"발전 기관":"10","헥소라이트":"1","코랄리움 주괴":"1"},"Rarity":"일반","Type":"탄약","Rank":"5","금화":"150","Weight":"0.01","MaxStackCount":"9999","Code":"ChargeLaserRifleBullet","IconName":"ChargeLaserRifleBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"37","bLegalInGame":"1","VisualBlueprintClassName":"BP_Item_RifleBullet","SneakAttackRate":"1","production":[{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"0e3c47d3a28f9b5ac211ea264185c6f5a0e8303318a3bace7ae8a7e393122f17","name":"전자동 소총 탄약","href":"Overheat_Rifle_Ammo","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_OverheatRifleBullet.webp","dynamic":{"기술":"64"},"description":"전자동 소총 등에 사용하는 탄.","skill":"","meterial":{"발전 기관":"10","헥소라이트":"1","코랄리움 주괴":"1"},"Rarity":"일반","Type":"탄약","Rank":"5","금화":"150","Weight":"0.01","MaxStackCount":"9999","Code":"OverheatRifleBullet","IconName":"OverheatRifleBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"38","bLegalInGame":"1","VisualBlueprintClassName":"BP_Item_RifleBullet","SneakAttackRate":"1","production":[{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"?s=Items%2FEnergyShotgunBullet","name":"에너지 산탄총 탄약","href":"Energy_Shotgun_Ammo","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_EnergyShotgunBullet.webp","dynamic":{"기술":"62"},"description":"에너지 산탄총 등에 사용하는 탄.","skill":"","meterial":{"발전 기관":"10","헥소라이트":"1","코랄리움 주괴":"1"},"Rarity":"일반","Type":"탄약","Rank":"5","금화":"220","Weight":"0.025","MaxStackCount":"9999","Code":"EnergyShotgunBullet","IconName":"EnergyShotgunBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"39","bLegalInGame":"1","VisualBlueprintClassName":"BP_Item_RifleBullet","SneakAttackRate":"1","production":[{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]},{"id":"?s=Items%2FPalDopingShotBullet","name":"부스트 건 탄약","href":"Boost_Gun_Ammo","imgurl":"https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_PalDopingShotBullet.webp","dynamic":{"기술":"25"},"description":"부스트 건 등에 사용하는 탄.","skill":"","meterial":{"금속 주괴":"2","발전 기관":"1"},"Rarity":"일반","Type":"탄약","Rank":"2","금화":"120","Weight":"0.025","MaxStackCount":"9999","Code":"PalDopingShotBullet","IconName":"PalDopingShotBullet","TypeA":"Ammo","TypeB":"ConsumeBullet","SortId":"40","bLegalInGame":"1","VisualBlueprintClassName":"BP_Item_RifleBullet","SneakAttackRate":"1","production":[{"pname":"상급 작업대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"},{"pname":"작업라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"},{"pname":"작업라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"},{"pname":"고도 문명 작업 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"},{"pname":"무기 제작대","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"},{"pname":"무기라인 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"},{"pname":"무기라인 공장 II","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"},{"pname":"고도 문명 무기 공장","imgsrc":"https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"}]}]
+[
+  {
+    "id": "?s=Items%2FArrow",
+    "name": "화살",
+    "href": "Arrow",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow.webp",
+    "dynamic": {
+      "기술": "3"
+    },
+    "description": "활로 발사하는 화살. |원시적인 작업대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "목재": "2",
+      "돌": "2"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "1",
+    "금화": "10",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "Arrow",
+    "IconName": "Arrow",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "15",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_Arrow",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "상급 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"
+      },
+      {
+        "pname": "작업라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
+      },
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기 제작대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"
+      },
+      {
+        "pname": "무기라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "원시적인 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FArrow_Poison",
+    "name": "독화살",
+    "href": "Poison_Arrow",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow_Poison.webp",
+    "dynamic": {
+      "기술": "8"
+    },
+    "description": "활로 발사하는 독화살. 적중한 상대에게  상태 이상을 부여한다. |원시적인 작업대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "목재": "2",
+      "돌": "2",
+      "독샘": "1"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "1",
+    "금화": "40",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "Arrow_Poison",
+    "IconName": "Arrow_Poison",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "16",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_Arrow",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "상급 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"
+      },
+      {
+        "pname": "작업라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
+      },
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기 제작대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"
+      },
+      {
+        "pname": "무기라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "원시적인 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FArrow_Fire",
+    "name": "불화살",
+    "href": "Fire_Arrow",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_Arrow_Fire.webp",
+    "dynamic": {
+      "기술": "6"
+    },
+    "description": "활로 발사하는 불화살. 적중한 상대에게  피해를 준다. |원시적인 작업대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "목재": "2",
+      "돌": "2",
+      "발화 기관": "1"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "1",
+    "금화": "40",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "Arrow_Fire",
+    "IconName": "Arrow_Fire",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "17",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_Arrow",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "상급 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"
+      },
+      {
+        "pname": "작업라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
+      },
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기 제작대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"
+      },
+      {
+        "pname": "무기라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "원시적인 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FExplosiveBullet",
+    "name": "로켓탄",
+    "href": "Rocket_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ExplosiveBullet.webp",
+    "dynamic": {
+      "기술": "65"
+    },
+    "description": "로켓 발사기 등에 사용하는 탄. |무기라인 공장 II|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "헥소라이트": "3",
+      "초고열 코어": "1"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "4",
+    "금화": "2550",
+    "Weight": "0.5",
+    "MaxStackCount": "9999",
+    "Code": "ExplosiveBullet",
+    "IconName": "ExplosiveBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "27",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_ExplosiveBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FLaserBullet",
+    "name": "에너지 카트리지",
+    "href": "Energy_Cartridge",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_LaserBullet.webp",
+    "dynamic": {
+      "기술": "51"
+    },
+    "description": "레이저 소총 등에 사용하는 탄. |무기라인 공장 II|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "바이오 배터리": "1",
+      "팰 금속 주괴": "2"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "4",
+    "금화": "280",
+    "Weight": "0.01",
+    "MaxStackCount": "9999",
+    "Code": "LaserBullet",
+    "IconName": "LaserBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "34",
+    "bLegalInGame": "1",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FInkBullet",
+    "name": "데칼 잉크",
+    "href": "Decal_Ink",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_InkBullet.webp",
+    "dynamic": {
+      "기술": "45"
+    },
+    "description": "데칼 총에 사용하는 탄. 잉크로 팰 그림을 그릴 수 있다. |무기 제작대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "수생 팰의 점액": "1",
+      "고급 팰 기름": "1"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "2",
+    "금화": "70",
+    "Weight": "0.05",
+    "MaxStackCount": "9999",
+    "Code": "InkBullet",
+    "IconName": "InkBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "28",
+    "bLegalInGame": "1",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "상급 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"
+      },
+      {
+        "pname": "작업라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
+      },
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기 제작대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"
+      },
+      {
+        "pname": "무기라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FHandgunBullet",
+    "name": "핸드건 탄약",
+    "href": "Handgun_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_HandgunBullet.webp",
+    "dynamic": {
+      "기술": "28"
+    },
+    "description": "핸드건 등에 사용하는 탄. |무기 제작대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "금속 주괴": "1",
+      "화약": "1"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "2",
+    "금화": "40",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "HandgunBullet",
+    "IconName": "HandgunBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "21",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "상급 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"
+      },
+      {
+        "pname": "작업라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
+      },
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기 제작대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"
+      },
+      {
+        "pname": "무기라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FRifleBullet",
+    "name": "소총 탄약",
+    "href": "Rifle_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_RifleBullet.webp",
+    "dynamic": {
+      "기술": "36"
+    },
+    "description": "소총 등에 사용하는 탄. |무기 제작대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "제련 주괴": "2",
+      "화약": "2"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "2",
+    "금화": "280",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "RifleBullet",
+    "IconName": "RifleBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "23",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "상급 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"
+      },
+      {
+        "pname": "작업라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
+      },
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기 제작대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"
+      },
+      {
+        "pname": "무기라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FShotgunBullet",
+    "name": "산탄총 탄약",
+    "href": "Shotgun_Shell",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ShotgunBullet.webp",
+    "dynamic": {
+      "기술": "39"
+    },
+    "description": "산탄총 등에 사용하는 탄. |무기 제작대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "제련 주괴": "2",
+      "화약": "3"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "2",
+    "금화": "330",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "ShotgunBullet",
+    "IconName": "ShotgunBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "24",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "상급 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"
+      },
+      {
+        "pname": "작업라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
+      },
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기 제작대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"
+      },
+      {
+        "pname": "무기라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FRoughBullet",
+    "name": "조악한 탄약",
+    "href": "Coarse_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_RoughBullet.webp",
+    "dynamic": {
+      "기술": "21"
+    },
+    "description": "머스킷혹은 즉석 핸드건 등에 사용하는 탄. |무기 제작대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "금속 주괴": "1",
+      "화약": "1"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "2",
+    "금화": "40",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "RoughBullet",
+    "IconName": "RoughBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "20",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "상급 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"
+      },
+      {
+        "pname": "작업라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
+      },
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기 제작대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"
+      },
+      {
+        "pname": "무기라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FAssaultRifleBullet",
+    "name": "돌격 소총 탄약",
+    "href": "Assault_Rifle_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_AssaultRifleBullet.webp",
+    "dynamic": {
+      "기술": "45"
+    },
+    "description": "돌격 소총 등에 사용하는 탄. |무기라인 공장|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "제련 주괴": "1",
+      "화약": "2"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "3",
+    "금화": "90",
+    "Weight": "0.01",
+    "MaxStackCount": "9999",
+    "Code": "AssaultRifleBullet",
+    "IconName": "AssaultRifleBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "26",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "작업라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
+      },
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FFlamethrowerBullet",
+    "name": "화염방사기 연료",
+    "href": "Flamethrower_Fuel",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_FlamethrowerBullet.webp",
+    "dynamic": {
+      "기술": "52"
+    },
+    "description": "화염방사기의 연료. 화염방사기 등에 사용하는 탄. |무기라인 공장 II|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "원유": "2",
+      "제련 주괴": "1"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "4",
+    "금화": "280",
+    "Weight": "0.01",
+    "MaxStackCount": "9999",
+    "Code": "FlamethrowerBullet",
+    "IconName": "FlamethrowerBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "29",
+    "bLegalInGame": "1",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FMissileBullet",
+    "name": "미사일탄",
+    "href": "Missile_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_MissileBullet.webp",
+    "dynamic": {
+      "기술": "56"
+    },
+    "description": "미사일 발사기 등에 사용하는 탄. |무기라인 공장 II|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "팰 금속 주괴": "3",
+      "원유": "1",
+      "컴퓨터": "1"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "4",
+    "금화": "3240",
+    "Weight": "1",
+    "MaxStackCount": "9999",
+    "Code": "MissileBullet",
+    "IconName": "MissileBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "30",
+    "bLegalInGame": "1",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FGrenadeBullet",
+    "name": "유탄",
+    "href": "Grenade_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_GrenadeBullet.webp",
+    "dynamic": {
+      "기술": "53"
+    },
+    "description": "유탄 발사기 등에 사용하는 탄. |무기라인 공장 II|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "팰 금속 주괴": "2",
+      "섬유": "20",
+      "화약": "3"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "4",
+    "금화": "470",
+    "Weight": "0.1",
+    "MaxStackCount": "9999",
+    "Code": "GrenadeBullet",
+    "IconName": "GrenadeBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "31",
+    "bLegalInGame": "1",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FGatlingBullet",
+    "name": "개틀링탄",
+    "href": "Gatling_Gun_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_GatlingBullet.webp",
+    "dynamic": {
+      "기술": "54"
+    },
+    "description": "개틀링 건 등에 사용하는 탄. |무기라인 공장 II|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "팰 금속 주괴": "1",
+      "화약": "3"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "4",
+    "금화": "60",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "GatlingBullet",
+    "IconName": "GatlingBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "32",
+    "bLegalInGame": "1",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FMeteorBullet",
+    "name": "운석탄",
+    "href": "Meteorite_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_MeteorBullet.webp",
+    "dynamic": {
+      "기술": "38"
+    },
+    "description": "메테오 발사기 등에 사용하는 탄. |무기라인 공장|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "운석 파편": "3"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "3",
+    "금화": "360",
+    "Weight": "1",
+    "MaxStackCount": "9999",
+    "Code": "MeteorBullet",
+    "IconName": "MeteorBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "33",
+    "bLegalInGame": "1",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "작업라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
+      },
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FEnergyLauncherBullet",
+    "name": "플라즈마 카트리지",
+    "href": "Plasma_Cartridge",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_EnergyLauncherBullet.webp",
+    "dynamic": {
+      "기술": "61"
+    },
+    "description": "플라즈마 대포 등에 사용하는 탄. |무기라인 공장 II|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "초고열 코어": "1",
+      "헥소라이트": "2"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "4",
+    "금화": "2190",
+    "Weight": "0.5",
+    "MaxStackCount": "9999",
+    "Code": "EnergyLauncherBullet",
+    "IconName": "EnergyLauncherBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "35",
+    "bLegalInGame": "1",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FLaserGatlingBullet",
+    "name": "개틀링 레이저 카트리지",
+    "href": "Laser_Gatling_Cartridge",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_LaserGatlingBullet.webp",
+    "dynamic": {
+      "기술": "59"
+    },
+    "description": "레이저 개틀링 건 등에 사용하는 탄. |무기라인 공장 II|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "바이오 배터리": "1",
+      "플라스틸": "1"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "4",
+    "금화": "110",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "LaserGatlingBullet",
+    "IconName": "LaserGatlingBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "36",
+    "bLegalInGame": "1",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FReinforcedArrow",
+    "name": "강화 화살",
+    "href": "Reinforced_Arrow",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ReinforcedArrow.webp",
+    "dynamic": {
+      "기술": "42"
+    },
+    "description": "기계식 활(으)로 발사하는 강화된 화살. |원시적인 작업대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "제련 주괴": "2",
+      "카본 섬유": "2"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "1",
+    "금화": "370",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "ReinforcedArrow",
+    "IconName": "ReinforcedArrow",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "18",
+    "bLegalInGame": "1",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "상급 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"
+      },
+      {
+        "pname": "작업라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
+      },
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기 제작대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"
+      },
+      {
+        "pname": "무기라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "원시적인 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FSFArrow",
+    "name": "발전형 화살",
+    "href": "Advanced_Arrow",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SFArrow.webp",
+    "dynamic": {
+      "기술": "57"
+    },
+    "description": "발전형 활(으)로 발사하는 강화된 화살. |원시적인 작업대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "플라스틸": "2",
+      "카본 섬유": "5"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "1",
+    "금화": "1110",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "SFArrow",
+    "IconName": "SFArrow",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "19",
+    "bLegalInGame": "1",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "상급 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"
+      },
+      {
+        "pname": "작업라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
+      },
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기 제작대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"
+      },
+      {
+        "pname": "무기라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "원시적인 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WorkBench.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FChargeLaserRifleBullet",
+    "name": "충전식 소총 탄약",
+    "href": "Charge_Rifle_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ChargeLaserRifleBullet.webp",
+    "dynamic": {
+      "기술": "65"
+    },
+    "description": "충전식 소총 등에 사용하는 탄. |고도 문명 무기 공장|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "바이오 배터리": "1",
+      "초고열 코어": "1"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "5",
+    "금화": "1740",
+    "Weight": "0.01",
+    "MaxStackCount": "9999",
+    "Code": "ChargeLaserRifleBullet",
+    "IconName": "ChargeLaserRifleBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "37",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FOverheatRifleBullet",
+    "name": "전자동 소총 탄약",
+    "href": "Overheat_Rifle_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_OverheatRifleBullet.webp",
+    "dynamic": {
+      "기술": "64"
+    },
+    "description": "전자동 소총 등에 사용하는 탄. |고도 문명 무기 공장|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "초고열 코어": "1",
+      "헥소라이트": "1"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "5",
+    "금화": "920",
+    "Weight": "0.01",
+    "MaxStackCount": "9999",
+    "Code": "OverheatRifleBullet",
+    "IconName": "OverheatRifleBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "38",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FEnergyShotgunBullet",
+    "name": "에너지 산탄총 탄약",
+    "href": "Energy_Shotgun_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_EnergyShotgunBullet.webp",
+    "dynamic": {
+      "기술": "63"
+    },
+    "description": "에너지 산탄총 등에 사용하는 탄. |고도 문명 무기 공장|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "바이오 배터리": "1",
+      "헥소라이트": "2"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "5",
+    "금화": "990",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "EnergyShotgunBullet",
+    "IconName": "EnergyShotgunBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "39",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FPalDopingShotBullet",
+    "name": "부스트 건 탄약",
+    "href": "Boost_Gun_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_PalDopingShotBullet.webp",
+    "dynamic": {
+      "기술": "25"
+    },
+    "description": "부스트 건 등에 사용하는 탄. |무기 제작대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "금속 주괴": "2",
+      "발전 기관": "1"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "2",
+    "금화": "90",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "PalDopingShotBullet",
+    "IconName": "PalDopingShotBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "40",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "상급 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_01.webp"
+      },
+      {
+        "pname": "작업라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_02.webp"
+      },
+      {
+        "pname": "작업라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_03.webp"
+      },
+      {
+        "pname": "고도 문명 작업 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_Factory_Hard_04.webp"
+      },
+      {
+        "pname": "무기 제작대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_01.webp"
+      },
+      {
+        "pname": "무기라인 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_02.webp"
+      },
+      {
+        "pname": "무기라인 공장 II",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_03.webp"
+      },
+      {
+        "pname": "고도 문명 무기 공장",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_WeaponFactory_Dirty_04.webp"
+      },
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FWidePenetrateShotgunBullet",
+    "name": "빔 스캐터 탄약",
+    "href": "Beam_Scatter_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_WidePenetrateShotgunBullet.webp",
+    "dynamic": {
+      "기술": "75"
+    },
+    "description": "빔 스캐터에 사용하는 탄. |고대 문명 작업대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "바이오 배터리": "1",
+      "팰키사이트 주괴": "3",
+      "솔라이트 주괴": "2"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "10",
+    "금화": "7830",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "WidePenetrateShotgunBullet",
+    "IconName": "WidePenetrateShotgunBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "41",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FElectricArcAssaultRifleBullet",
+    "name": "플라즈마 소총 탄약",
+    "href": "Plasma_Rifle_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_ElectricArcAssaultRifleBullet.webp",
+    "dynamic": {
+      "기술": "78"
+    },
+    "description": "플라즈마 소총에 사용하는 탄. |고대 문명 작업대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "바이오 배터리": "1",
+      "팰키사이트 주괴": "3",
+      "솔라이트 주괴": "2"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "10",
+    "금화": "3910",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "ElectricArcAssaultRifleBullet",
+    "IconName": "ElectricArcAssaultRifleBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "42",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FBeamLauncherBullet",
+    "name": "빔 발사기 탄약",
+    "href": "Beam_Launcher_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_BeamLauncherBullet.webp",
+    "dynamic": {
+      "기술": "80"
+    },
+    "description": "빔 발사기에 사용하는 탄. |고대 문명 작업대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "바이오 배터리": "1",
+      "팰키사이트 주괴": "6",
+      "솔라이트 주괴": "2"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "10",
+    "금화": "13660",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "BeamLauncherBullet",
+    "IconName": "BeamLauncherBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "43",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FSkyBowArrow",
+    "name": "정밀 기계식 활 전용 화살",
+    "href": "Mechanical_Bow_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkyBowArrow.webp",
+    "dynamic": {
+      "기술": "67"
+    },
+    "description": "정밀 기계식 활(으)로 발사하는 강화된 화살. |고대 문명 작업대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "솔라이트 주괴": "2"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "10",
+    "금화": "1730",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "SkyBowArrow",
+    "IconName": "SkyBowArrow",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "44",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FSkySubmachineGunBullet",
+    "name": "야전 기관단총 탄약",
+    "href": "Combat_SMG_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkySubmachineGunBullet.webp",
+    "dynamic": {
+      "기술": "68"
+    },
+    "description": "야전 기관단총에 사용하는 탄. |고대 문명 작업대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "솔라이트 주괴": "2",
+      "화약": "6"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "10",
+    "금화": "1020",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "SkySubmachineGunBullet",
+    "IconName": "SkySubmachineGunBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "45",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FSkyShotgunBullet",
+    "name": "시작형 산탄총 탄약",
+    "href": "Prototype_Shotgun_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkyShotgunBullet.webp",
+    "dynamic": {
+      "기술": "69"
+    },
+    "description": "시작형 산탄총에 사용하는 탄. |고대 문명 작업대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "솔라이트 주괴": "4",
+      "화약": "8"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "10",
+    "금화": "3870",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "SkyShotgunBullet",
+    "IconName": "SkyShotgunBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "46",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FSkyAssaultRifleBullet",
+    "name": "중형 돌격 소총 탄약",
+    "href": "Heavy_Assault_Rifle_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkyAssaultRifleBullet.webp",
+    "dynamic": {
+      "기술": "70"
+    },
+    "description": "중형 돌격 소총에 사용하는 탄. |고대 문명 작업대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "솔라이트 주괴": "2",
+      "화약": "10"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "10",
+    "금화": "1120",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "SkyAssaultRifleBullet",
+    "IconName": "SkyAssaultRifleBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "47",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  },
+  {
+    "id": "?s=Items%2FSkyGrenadeLauncherBullet",
+    "name": "전술 유탄 발사기 탄약",
+    "href": "Tactical_Grenade_Launcher_Ammo",
+    "imgurl": "https://cdn.paldb.cc/image/Others/InventoryItemIcon/Texture/T_itemicon_Ammo_SkyGrenadeLauncherBullet.webp",
+    "dynamic": {
+      "기술": "72"
+    },
+    "description": "전술 유탄 발사기에 사용하는 탄. |고대 문명 작업대|에서 제작할 수 있다.",
+    "skill": "",
+    "meterial": {
+      "솔라이트 주괴": "4",
+      "화약": "10"
+    },
+    "Rarity": "일반",
+    "Type": "탄약",
+    "Rank": "10",
+    "금화": "3970",
+    "Weight": "0.025",
+    "MaxStackCount": "9999",
+    "Code": "SkyGrenadeLauncherBullet",
+    "IconName": "SkyGrenadeLauncherBullet",
+    "TypeA": "Ammo",
+    "TypeB": "ConsumeBullet",
+    "SortId": "48",
+    "bLegalInGame": "1",
+    "VisualBlueprintClassName": "BP_Item_RifleBullet",
+    "SneakAttackRate": "1",
+    "production": [
+      {
+        "pname": "고대 문명 작업대",
+        "imgsrc": "https://cdn.paldb.cc/image/Pal/Texture/BuildObject/PNG/T_icon_buildObject_AncientWorkBench.webp"
+      }
+    ]
+  }
+]

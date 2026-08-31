@@ -32,6 +32,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.mackereldev.pallogv2.data.model.BuildingCategory
 import com.mackereldev.pallogv2.ui.components.BuildingCard
+import com.mackereldev.pallogv2.ui.components.PalArchitectureCard
+import com.mackereldev.pallogv2.ui.components.ProductionCard
+import com.mackereldev.pallogv2.ui.components.StorageCard
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -108,12 +111,29 @@ fun BuildingListView(
 
                 is BuildingListUiState.Success -> LazyColumn {
                     items(uiState.buildings) { building ->
-                        BuildingCard(
-                            building = building,
-                            category = selectedCategory,
-                            onClick = {},
-                            modifier = Modifier.fillMaxWidth()
-                        )
+                        when (selectedCategory) {
+                            BuildingCategory.PRODUCTION -> ProductionCard(
+                                building = building,
+                                onClick = {},
+                                modifier = Modifier.fillMaxWidth()
+                            )
+                            BuildingCategory.PAL -> PalArchitectureCard(
+                                building = building,
+                                onClick = {},
+                                modifier = Modifier.fillMaxWidth()
+                            )
+                            BuildingCategory.STORAGE -> StorageCard(
+                                building = building,
+                                onClick = {},
+                                modifier = Modifier.fillMaxWidth()
+                            )
+                            else -> BuildingCard(
+                                building = building,
+                                category = selectedCategory,
+                                onClick = {},
+                                modifier = Modifier.fillMaxWidth()
+                            )
+                        }
                     }
                 }
             }

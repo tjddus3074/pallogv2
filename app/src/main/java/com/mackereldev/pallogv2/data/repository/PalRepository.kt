@@ -16,6 +16,8 @@ class PalRepository @Inject constructor(
         return cache!!
     }
 
-    fun getPal(deckIndex: Int): Pal? =
-        getPals().find { it.palDeckIndex == deckIndex }
+//    fun getPal(deckIndex: Int): Pal? =
+//        getPals().find { it.palDeckIndex == deckIndex }
+    fun getPal(code: String): Pal? =
+        getPals().find { it.stats.code == code }
 }

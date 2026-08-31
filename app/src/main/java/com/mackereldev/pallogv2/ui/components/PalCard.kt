@@ -1,5 +1,6 @@
 package com.mackereldev.pallogv2.ui.components
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.ui.graphics.Color
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -11,6 +12,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -28,6 +30,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -42,7 +46,9 @@ import com.mackereldev.pallogv2.ui.theme.SoftGray
 
 @Composable
 fun PalCard(pal: Pal, onClick: () -> Unit, modifier: Modifier = Modifier) {
-    val borderColor = elementBorderColor(pal.types.firstOrNull() ?: "무속성")
+//    val borderColor = elementBorderColor(pal.types.firstOrNull() ?: "무속성")
+    val palTypes = pal.types.distinct().ifEmpty { listOf("무속성") }
+    val borderBrush = elementBorderBrush(palTypes)
 
     Card(
         modifier = modifier
@@ -61,8 +67,7 @@ fun PalCard(pal: Pal, onClick: () -> Unit, modifier: Modifier = Modifier) {
         ) {
             // 팰 이미지 + 속성 아이콘 오버레이 (비율 기반)
             Box(
-                modifier = Modifier
-                    .fillMaxWidth(0.2f)
+                modifier = Modifier.fillMaxWidth(0.2f)
                     .aspectRatio(1f)
             ) {
                 AsyncImage(
@@ -71,16 +76,28 @@ fun PalCard(pal: Pal, onClick: () -> Unit, modifier: Modifier = Modifier) {
                     modifier = Modifier
                         .fillMaxSize()
                         .clip(CircleShape)
-                        .border(2.5.dp, borderColor, CircleShape)
+                        .border(BorderStroke(2.5.dp, borderBrush), CircleShape)
                 )
-                // 속성 아이콘 좌하단 오버레이 (경로 대소문자 수정: PAL)
+
+                // 첫 번째 속성 아이콘: 기존 위치(좌하단) 유지
                 AsyncImage(
-                    model = "file:///android_asset/PAL/Texture/UI/InGame/${elementkotoeng(pal.types.firstOrNull() ?: "무속성")}.png",
+                    model = "file:///android_asset/PAL/Texture/UI/InGame/${elementkotoeng(palTypes[0])}.png",
                     contentDescription = null,
                     modifier = Modifier
                         .fillMaxSize(0.35f)
                         .align(Alignment.BottomStart)
                 )
+
+                // 두 번째 속성이 있을 때만 우하단에 추가
+                if (palTypes.size > 1) {
+                    AsyncImage(
+                        model = "file:///android_asset/PAL/Texture/UI/InGame/${elementkotoeng(palTypes[1])}.png",
+                        contentDescription = null,
+                        modifier = Modifier
+                            .fillMaxSize(0.35f)
+                            .align(Alignment.BottomEnd)
+                    )
+                }
             }
 
             Spacer(modifier = Modifier.width(10.dp))
@@ -130,7 +147,7 @@ fun PalCard(pal: Pal, onClick: () -> Unit, modifier: Modifier = Modifier) {
                                 modifier = Modifier.size(24.dp)
                             )
                             Text(
-                                text = value,
+                                text = value.baseLevel.toString(),
                                 fontSize = 10.sp,
                                 color = Color.White,
                                 textAlign = TextAlign.Center
@@ -154,6 +171,23 @@ fun elementBorderColor(type: String): Color = when (type) {
     "어둠 속성" -> Color(0xFF7B1FA2)
     "용 속성"   -> Color(0xFFAB47BC)
     else        -> Color(0xFF9E9E9E)
+}
+
+fun elementBorderBrush(types: List<String>): Brush {
+    val colors = types.map { elementBorderColor(it) }
+    return when (colors.size) {
+        0 -> SolidColor(elementBorderColor("무속성"))
+        1 -> SolidColor(colors[0])
+        else -> {
+            val leftColor = colors[0]   // 좌하단 아이콘과 매칭
+            val rightColor = colors[1]  // 우하단 아이콘과 매칭
+            Brush.sweepGradient(
+                0f to rightColor,    // 3시(오른쪽) = rightColor 정점
+                0.5f to leftColor,   // 9시(왼쪽) = leftColor 정점
+                1f to rightColor     // 다시 3시로 돌아와 이음매 자연스럽게
+            )
+        }
+    }
 }
 
 fun elementkotoeng(em: String): String = when (em) {
