@@ -1,0 +1,5427 @@
+{
+  "id": "?s=Pals%2FAlpaca",
+  "palname": "멜파카",
+  "code": "Alpaca",
+  "dayTimeLocations": [
+    {
+      "x": -278788.56,
+      "y": 330859.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5967,
+      "pixelY": 3552,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -278037.47,
+      "y": 336687.66,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6000,
+      "pixelY": 3548,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -278808.9,
+      "y": 343343.62,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6037,
+      "pixelY": 3552,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -271993.4,
+      "y": 330867.44,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5967,
+      "pixelY": 3514,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -272278.56,
+      "y": 337586.66,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6005,
+      "pixelY": 3515,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -271839.1,
+      "y": 343134.1,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6036,
+      "pixelY": 3513,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -266834.6,
+      "y": 331094.16,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5968,
+      "pixelY": 3484,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -266336.44,
+      "y": 336940.78,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6001,
+      "pixelY": 3482,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -265991.84,
+      "y": 342894.7,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6035,
+      "pixelY": 3480,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -260068.58,
+      "y": 336781.06,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6000,
+      "pixelY": 3446,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -254366.84,
+      "y": 336931.88,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6001,
+      "pixelY": 3414,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -253927.4,
+      "y": 342606.7,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6033,
+      "pixelY": 3411,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -248179.11,
+      "y": 331078.28,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5968,
+      "pixelY": 3379,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -248196.16,
+      "y": 337140.12,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6002,
+      "pixelY": 3379,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -247975.72,
+      "y": 343249.53,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6037,
+      "pixelY": 3378,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -252102.05,
+      "y": 313097.34,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5866,
+      "pixelY": 3401,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -251789.06,
+      "y": 322032.2,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5917,
+      "pixelY": 3399,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -256001.5,
+      "y": 326992.1,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5945,
+      "pixelY": 3423,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -243287.31,
+      "y": 322074.22,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5917,
+      "pixelY": 3351,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -246790.92,
+      "y": 326108.12,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5940,
+      "pixelY": 3371,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -238468.22,
+      "y": 326159.53,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5940,
+      "pixelY": 3324,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -242568.52,
+      "y": 330335.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5964,
+      "pixelY": 3347,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -238229.1,
+      "y": 334287.1,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5986,
+      "pixelY": 3323,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -242384.34,
+      "y": 339025.06,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6013,
+      "pixelY": 3346,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -289415.2,
+      "y": 189897.56,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5170,
+      "pixelY": 3612,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -285749.16,
+      "y": 184956.22,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5142,
+      "pixelY": 3591,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -288567.47,
+      "y": 198275.38,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5217,
+      "pixelY": 3607,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -284902.6,
+      "y": 202335.97,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5240,
+      "pixelY": 3587,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -279974.44,
+      "y": 205533.95,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5258,
+      "pixelY": 3559,
+      "tileX": 10,
+      "tileY": 6
+    },
+    {
+      "x": -298717.12,
+      "y": 181486.47,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5122,
+      "pixelY": 3665,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -315738.88,
+      "y": 182615.95,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5129,
+      "pixelY": 3761,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -293369.2,
+      "y": 203026.77,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5244,
+      "pixelY": 3634,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -298386.75,
+      "y": 190475.42,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5173,
+      "pixelY": 3663,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -299959.16,
+      "y": 165343.62,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5031,
+      "pixelY": 3672,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -288510.56,
+      "y": 207139.03,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5267,
+      "pixelY": 3607,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -281714.2,
+      "y": 180700.0,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5118,
+      "pixelY": 3569,
+      "tileX": 9,
+      "tileY": 6
+    },
+    {
+      "x": -284352.84,
+      "y": 210412.84,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5286,
+      "pixelY": 3583,
+      "tileX": 10,
+      "tileY": 6
+    },
+    {
+      "x": -295549.9,
+      "y": 168650.4,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5050,
+      "pixelY": 3647,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -281398.4,
+      "y": 188676.75,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5163,
+      "pixelY": 3567,
+      "tileX": 10,
+      "tileY": 6
+    },
+    {
+      "x": -277052.38,
+      "y": 192661.44,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5185,
+      "pixelY": 3542,
+      "tileX": 10,
+      "tileY": 6
+    },
+    {
+      "x": -307015.5,
+      "y": 182205.3,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5126,
+      "pixelY": 3712,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -277573.3,
+      "y": 184703.94,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5140,
+      "pixelY": 3545,
+      "tileX": 10,
+      "tileY": 6
+    },
+    {
+      "x": -293781.28,
+      "y": 194760.64,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5197,
+      "pixelY": 3637,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -307160.66,
+      "y": 190904.2,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5175,
+      "pixelY": 3712,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -280412.75,
+      "y": 197782.31,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5214,
+      "pixelY": 3561,
+      "tileX": 10,
+      "tileY": 6
+    },
+    {
+      "x": -302601.47,
+      "y": 186178.1,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5149,
+      "pixelY": 3687,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -297846.7,
+      "y": 198289.03,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5217,
+      "pixelY": 3660,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -286531.9,
+      "y": 176744.19,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5095,
+      "pixelY": 3596,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -308403.22,
+      "y": 174064.83,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5080,
+      "pixelY": 3719,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -310793.53,
+      "y": 186782.03,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5152,
+      "pixelY": 3733,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -311480.0,
+      "y": 178434.0,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5105,
+      "pixelY": 3737,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -321160.0,
+      "y": 165120.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5030,
+      "pixelY": 3792,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -338265.0,
+      "y": 181225.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5121,
+      "pixelY": 3888,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -331840.0,
+      "y": 204950.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5255,
+      "pixelY": 3852,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -335920.0,
+      "y": 199665.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5225,
+      "pixelY": 3875,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -326665.0,
+      "y": 203535.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5247,
+      "pixelY": 3823,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -325525.0,
+      "y": 182450.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5128,
+      "pixelY": 3816,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -330660.0,
+      "y": 196090.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5205,
+      "pixelY": 3845,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -326015.0,
+      "y": 162685.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5016,
+      "pixelY": 3819,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -335305.0,
+      "y": 170245.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5059,
+      "pixelY": 3872,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -319945.0,
+      "y": 169140.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5052,
+      "pixelY": 3785,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -319100.0,
+      "y": 173525.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5077,
+      "pixelY": 3780,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -335425.0,
+      "y": 184540.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5139,
+      "pixelY": 3872,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -330875.0,
+      "y": 201065.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5233,
+      "pixelY": 3847,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -335670.0,
+      "y": 202255.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5240,
+      "pixelY": 3874,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -324845.0,
+      "y": 198420.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5218,
+      "pixelY": 3812,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -332370.0,
+      "y": 167335.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5042,
+      "pixelY": 3855,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -335140.0,
+      "y": 191975.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5181,
+      "pixelY": 3871,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -341705.0,
+      "y": 181310.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5121,
+      "pixelY": 3908,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -340430.0,
+      "y": 178715.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5107,
+      "pixelY": 3901,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -336335.0,
+      "y": 196360.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5206,
+      "pixelY": 3877,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -333750.0,
+      "y": 180545.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5117,
+      "pixelY": 3863,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -335225.0,
+      "y": 180735.0,
+      "lv": 5,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5118,
+      "pixelY": 3871,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -323540.0,
+      "y": 187470.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5156,
+      "pixelY": 3805,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -320815.0,
+      "y": 195680.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5202,
+      "pixelY": 3790,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -323740.0,
+      "y": 178740.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5107,
+      "pixelY": 3806,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -312835.0,
+      "y": 164865.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5028,
+      "pixelY": 3744,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -321380.0,
+      "y": 199815.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5226,
+      "pixelY": 3793,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -322120.0,
+      "y": 203600.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5247,
+      "pixelY": 3797,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -336075.0,
+      "y": 175455.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5088,
+      "pixelY": 3876,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -317135.0,
+      "y": 165555.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5032,
+      "pixelY": 3769,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -327060.0,
+      "y": 192845.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5186,
+      "pixelY": 3825,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -410585.0,
+      "y": 80785.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4553,
+      "pixelY": 4297,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -439000.0,
+      "y": 86315.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4584,
+      "pixelY": 4458,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -456235.0,
+      "y": 84855.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4576,
+      "pixelY": 4555,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -459020.0,
+      "y": 90590.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4608,
+      "pixelY": 4571,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -416485.0,
+      "y": 88375.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4596,
+      "pixelY": 4331,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -419160.0,
+      "y": 102645.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4676,
+      "pixelY": 4346,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -411790.0,
+      "y": 86230.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4584,
+      "pixelY": 4304,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -432705.0,
+      "y": 100810.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4666,
+      "pixelY": 4422,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -409365.0,
+      "y": 76575.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4529,
+      "pixelY": 4290,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -434890.0,
+      "y": 86305.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4584,
+      "pixelY": 4435,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -416305.0,
+      "y": 79985.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4548,
+      "pixelY": 4330,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -434010.0,
+      "y": 81775.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4558,
+      "pixelY": 4430,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -427025.0,
+      "y": 97165.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4645,
+      "pixelY": 4390,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -423535.0,
+      "y": 101975.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4673,
+      "pixelY": 4370,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -435555.0,
+      "y": 95390.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4635,
+      "pixelY": 4438,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -412490.0,
+      "y": 90095.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4605,
+      "pixelY": 4308,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -448105.0,
+      "y": 55970.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4412,
+      "pixelY": 4509,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -417875.0,
+      "y": 93560.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4625,
+      "pixelY": 4338,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -421265.0,
+      "y": 88505.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4596,
+      "pixelY": 4358,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -423670.0,
+      "y": 79310.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4544,
+      "pixelY": 4371,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -418005.0,
+      "y": 75150.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4521,
+      "pixelY": 4339,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -418810.0,
+      "y": 70515.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4495,
+      "pixelY": 4344,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -425515.0,
+      "y": 83820.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4570,
+      "pixelY": 4382,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -419365.0,
+      "y": 79585.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4546,
+      "pixelY": 4347,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -435645.0,
+      "y": 90675.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4609,
+      "pixelY": 4439,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -413005.0,
+      "y": 72215.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4504,
+      "pixelY": 4311,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -419945.0,
+      "y": 84090.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4571,
+      "pixelY": 4350,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -429765.0,
+      "y": 86375.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4584,
+      "pixelY": 4406,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -421685.0,
+      "y": 92910.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4621,
+      "pixelY": 4360,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -460725.0,
+      "y": 72935.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4508,
+      "pixelY": 4581,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -417905.0,
+      "y": 97850.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4649,
+      "pixelY": 4339,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -431370.0,
+      "y": 90855.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4610,
+      "pixelY": 4415,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -415340.0,
+      "y": 84820.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4576,
+      "pixelY": 4324,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -414270.0,
+      "y": 75525.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4523,
+      "pixelY": 4318,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -413490.0,
+      "y": 94025.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4628,
+      "pixelY": 4314,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -444460.0,
+      "y": 85715.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4581,
+      "pixelY": 4489,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -413305.0,
+      "y": 100000.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4661,
+      "pixelY": 4313,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -392435.56,
+      "y": 116281.086,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4753,
+      "pixelY": 4195,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -404514.38,
+      "y": 104300.03,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4686,
+      "pixelY": 4263,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -409068.44,
+      "y": 124851.09,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4802,
+      "pixelY": 4289,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -405035.78,
+      "y": 85676.24,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4580,
+      "pixelY": 4266,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -394520.38,
+      "y": 123971.914,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4797,
+      "pixelY": 4206,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -404552.78,
+      "y": 127905.51,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4819,
+      "pixelY": 4263,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -404891.8,
+      "y": 91544.16,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4614,
+      "pixelY": 4265,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -404722.4,
+      "y": 73689.305,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4513,
+      "pixelY": 4264,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -410522.94,
+      "y": 110303.67,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4720,
+      "pixelY": 4297,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -386849.2,
+      "y": 121384.43,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4782,
+      "pixelY": 4163,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -410880.62,
+      "y": 115960.37,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4752,
+      "pixelY": 4299,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -404862.47,
+      "y": 121802.52,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4785,
+      "pixelY": 4265,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -410945.62,
+      "y": 73833.29,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4513,
+      "pixelY": 4299,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -372539.75,
+      "y": 129062.78,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4826,
+      "pixelY": 4082,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -386525.34,
+      "y": 80271.38,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4550,
+      "pixelY": 4161,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -380598.06,
+      "y": 121820.56,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4785,
+      "pixelY": 4128,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -386990.34,
+      "y": 115617.33,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4750,
+      "pixelY": 4164,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -392398.53,
+      "y": 128283.875,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4821,
+      "pixelY": 4194,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -375254.8,
+      "y": 115296.41,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4748,
+      "pixelY": 4097,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -392811.9,
+      "y": 91383.84,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4613,
+      "pixelY": 4197,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -381276.25,
+      "y": 115843.195,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4751,
+      "pixelY": 4131,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -410439.3,
+      "y": 103747.88,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4683,
+      "pixelY": 4296,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -411228.7,
+      "y": 79864.78,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4548,
+      "pixelY": 4301,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -374821.44,
+      "y": 127803.11,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4819,
+      "pixelY": 4095,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -375123.5,
+      "y": 121353.98,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4782,
+      "pixelY": 4097,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -393338.62,
+      "y": 79893.99,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4548,
+      "pixelY": 4200,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -369213.44,
+      "y": 128176.266,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4821,
+      "pixelY": 4063,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -389645.0,
+      "y": 124688.45,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4801,
+      "pixelY": 4179,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -410618.7,
+      "y": 97820.46,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4649,
+      "pixelY": 4297,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -398569.8,
+      "y": 115937.7,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4752,
+      "pixelY": 4229,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -387222.16,
+      "y": 73844.05,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4514,
+      "pixelY": 4165,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -363331.25,
+      "y": 121910.73,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4785,
+      "pixelY": 4030,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -362621.78,
+      "y": 115904.44,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4751,
+      "pixelY": 4026,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -404476.94,
+      "y": 97819.42,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4649,
+      "pixelY": 4263,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -399103.44,
+      "y": 91437.12,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4613,
+      "pixelY": 4232,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -399298.84,
+      "y": 127421.16,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4816,
+      "pixelY": 4233,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -398657.5,
+      "y": 121803.73,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4785,
+      "pixelY": 4230,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -401187.7,
+      "y": 121112.586,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4781,
+      "pixelY": 4244,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -411200.5,
+      "y": 85586.625,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4580,
+      "pixelY": 4301,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -368640.5,
+      "y": 115317.87,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4748,
+      "pixelY": 4060,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -393272.2,
+      "y": 73312.516,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4511,
+      "pixelY": 4199,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -405313.53,
+      "y": 79628.875,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4546,
+      "pixelY": 4267,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -380914.44,
+      "y": 80151.29,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4549,
+      "pixelY": 4129,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -398359.44,
+      "y": 97863.08,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4649,
+      "pixelY": 4228,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -392552.4,
+      "y": 85351.625,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4579,
+      "pixelY": 4195,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -393166.0,
+      "y": 97336.84,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4646,
+      "pixelY": 4199,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -381226.6,
+      "y": 73534.95,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4512,
+      "pixelY": 4131,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -393108.8,
+      "y": 121465.73,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4783,
+      "pixelY": 4198,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -386369.5,
+      "y": 91831.734,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4615,
+      "pixelY": 4160,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -399287.38,
+      "y": 109752.875,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4717,
+      "pixelY": 4233,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -387309.2,
+      "y": 97705.85,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4648,
+      "pixelY": 4166,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -398787.7,
+      "y": 79943.5,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4548,
+      "pixelY": 4231,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -386723.38,
+      "y": 85977.21,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4582,
+      "pixelY": 4162,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -206215.8,
+      "y": 317818.22,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5893,
+      "pixelY": 3142,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -201127.31,
+      "y": 320527.6,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5908,
+      "pixelY": 3113,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -204199.56,
+      "y": 325760.4,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5938,
+      "pixelY": 3130,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -208201.17,
+      "y": 330521.8,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5965,
+      "pixelY": 3153,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -211369.48,
+      "y": 335405.12,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5992,
+      "pixelY": 3171,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -214537.38,
+      "y": 340539.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6022,
+      "pixelY": 3189,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -218134.45,
+      "y": 345917.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6052,
+      "pixelY": 3209,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -221211.11,
+      "y": 350220.53,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6076,
+      "pixelY": 3226,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -225817.47,
+      "y": 355471.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6106,
+      "pixelY": 3252,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -228133.89,
+      "y": 360408.4,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6134,
+      "pixelY": 3266,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -232424.6,
+      "y": 365242.38,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6161,
+      "pixelY": 3290,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -235913.83,
+      "y": 370309.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6190,
+      "pixelY": 3310,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -238464.92,
+      "y": 374998.66,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6216,
+      "pixelY": 3324,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -242466.77,
+      "y": 380103.84,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6245,
+      "pixelY": 3347,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -199744.39,
+      "y": 328962.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5956,
+      "pixelY": 3105,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -203544.34,
+      "y": 333846.62,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5984,
+      "pixelY": 3127,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -206490.31,
+      "y": 339464.34,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6015,
+      "pixelY": 3143,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -213573.92,
+      "y": 348599.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6067,
+      "pixelY": 3183,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -237626.55,
+      "y": 383796.62,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6266,
+      "pixelY": 3319,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -191589.6,
+      "y": 327184.38,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5946,
+      "pixelY": 3059,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -194944.62,
+      "y": 332632.9,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5977,
+      "pixelY": 3078,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -198447.14,
+      "y": 337282.34,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6003,
+      "pixelY": 3098,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -201257.0,
+      "y": 342620.12,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6033,
+      "pixelY": 3114,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -208182.42,
+      "y": 352636.56,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6090,
+      "pixelY": 3153,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -211871.8,
+      "y": 357069.97,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6115,
+      "pixelY": 3174,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -193547.69,
+      "y": 341195.12,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6025,
+      "pixelY": 3070,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -203820.11,
+      "y": 355879.38,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6108,
+      "pixelY": 3128,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -231065.69,
+      "y": 395329.53,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6331,
+      "pixelY": 3282,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -178043.44,
+      "y": 330076.8,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5962,
+      "pixelY": 2982,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -184979.77,
+      "y": 339835.88,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6018,
+      "pixelY": 3022,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -202534.61,
+      "y": 364017.3,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6154,
+      "pixelY": 3121,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -205561.4,
+      "y": 368968.84,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6182,
+      "pixelY": 3138,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -209038.23,
+      "y": 374355.03,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6213,
+      "pixelY": 3158,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -225833.86,
+      "y": 398308.62,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6348,
+      "pixelY": 3253,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -176778.27,
+      "y": 338338.28,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6009,
+      "pixelY": 2975,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -200332.62,
+      "y": 372970.12,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6205,
+      "pixelY": 3108,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -203833.64,
+      "y": 377274.38,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6229,
+      "pixelY": 3128,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -221208.31,
+      "y": 401961.44,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6369,
+      "pixelY": 3226,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -175481.53,
+      "y": 345914.53,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6052,
+      "pixelY": 2968,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -192356.92,
+      "y": 371234.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6195,
+      "pixelY": 3063,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -195238.64,
+      "y": 375916.56,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6222,
+      "pixelY": 3080,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -198687.95,
+      "y": 381275.94,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6252,
+      "pixelY": 3099,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -205834.11,
+      "y": 390139.78,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6302,
+      "pixelY": 3139,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -212806.6,
+      "y": 400556.5,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6361,
+      "pixelY": 3179,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -172970.47,
+      "y": 354388.62,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6100,
+      "pixelY": 2954,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -187319.14,
+      "y": 374281.9,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6212,
+      "pixelY": 3035,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -190341.6,
+      "y": 379638.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6243,
+      "pixelY": 3052,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -194122.97,
+      "y": 383544.84,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6265,
+      "pixelY": 3073,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -196793.66,
+      "y": 389104.8,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6296,
+      "pixelY": 3088,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -200909.56,
+      "y": 393428.6,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6321,
+      "pixelY": 3112,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -204527.83,
+      "y": 398609.97,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6350,
+      "pixelY": 3132,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -207658.27,
+      "y": 404093.16,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6381,
+      "pixelY": 3150,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -165242.22,
+      "y": 352728.56,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6090,
+      "pixelY": 2910,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -169046.3,
+      "y": 357689.5,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6118,
+      "pixelY": 2931,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -175349.11,
+      "y": 368191.16,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6178,
+      "pixelY": 2967,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -178951.77,
+      "y": 372952.84,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6205,
+      "pixelY": 2987,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -182853.62,
+      "y": 377732.3,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6232,
+      "pixelY": 3010,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -185262.28,
+      "y": 382938.06,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6261,
+      "pixelY": 3023,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -189170.62,
+      "y": 387227.62,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6286,
+      "pixelY": 3045,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -195712.17,
+      "y": 397094.34,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6341,
+      "pixelY": 3082,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -202187.69,
+      "y": 407435.7,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6400,
+      "pixelY": 3119,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -159721.02,
+      "y": 356431.2,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6111,
+      "pixelY": 2879,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -163381.36,
+      "y": 361271.53,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6139,
+      "pixelY": 2899,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -174130.98,
+      "y": 376318.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6224,
+      "pixelY": 2960,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -177227.64,
+      "y": 380948.3,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6250,
+      "pixelY": 2978,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -180952.11,
+      "y": 385923.03,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6278,
+      "pixelY": 2999,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -184182.5,
+      "y": 390371.75,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6303,
+      "pixelY": 3017,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -187292.2,
+      "y": 395612.6,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6333,
+      "pixelY": 3035,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -191092.02,
+      "y": 400415.94,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6360,
+      "pixelY": 3056,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -197280.38,
+      "y": 410781.97,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6419,
+      "pixelY": 3091,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -154778.14,
+      "y": 359838.62,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6131,
+      "pixelY": 2851,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -158816.4,
+      "y": 364580.34,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6157,
+      "pixelY": 2874,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -162177.89,
+      "y": 369696.62,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6186,
+      "pixelY": 2893,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -165145.47,
+      "y": 374634.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6214,
+      "pixelY": 2909,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -168671.05,
+      "y": 379682.4,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6243,
+      "pixelY": 2929,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -172287.39,
+      "y": 384093.7,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6268,
+      "pixelY": 2950,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -175753.64,
+      "y": 389533.75,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6299,
+      "pixelY": 2969,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -178977.64,
+      "y": 394485.75,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6327,
+      "pixelY": 2988,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -182602.8,
+      "y": 398938.9,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6352,
+      "pixelY": 3008,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -189177.73,
+      "y": 409294.75,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6410,
+      "pixelY": 3045,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -193195.25,
+      "y": 414163.72,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6438,
+      "pixelY": 3068,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -150477.72,
+      "y": 363387.66,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6151,
+      "pixelY": 2826,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -153553.73,
+      "y": 367783.56,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6176,
+      "pixelY": 2844,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -161218.44,
+      "y": 378095.84,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6234,
+      "pixelY": 2887,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -163802.9,
+      "y": 383288.47,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6263,
+      "pixelY": 2902,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -167558.88,
+      "y": 388137.75,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6291,
+      "pixelY": 2923,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -171257.42,
+      "y": 392789.53,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6317,
+      "pixelY": 2944,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -185101.61,
+      "y": 412715.8,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6430,
+      "pixelY": 3022,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -187534.34,
+      "y": 417222.8,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6455,
+      "pixelY": 3036,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -145526.44,
+      "y": 366397.1,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6168,
+      "pixelY": 2798,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -155367.56,
+      "y": 381753.84,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6255,
+      "pixelY": 2854,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -159022.44,
+      "y": 386512.28,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6281,
+      "pixelY": 2875,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -162618.16,
+      "y": 390885.47,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6306,
+      "pixelY": 2895,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -165479.0,
+      "y": 396282.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6337,
+      "pixelY": 2911,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -169332.83,
+      "y": 400941.28,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6363,
+      "pixelY": 2933,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -156962.56,
+      "y": 394584.47,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6327,
+      "pixelY": 2863,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -161513.23,
+      "y": 399707.88,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6356,
+      "pixelY": 2889,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -167537.84,
+      "y": 409283.8,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6410,
+      "pixelY": 2923,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -399103.44,
+      "y": 91437.12,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4613,
+      "pixelY": 4232,
+      "tileX": 9,
+      "tileY": 8
+    }
+  ],
+  "nightTimeLocations": [
+    {
+      "x": -278788.56,
+      "y": 330859.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5967,
+      "pixelY": 3552,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -278037.47,
+      "y": 336687.66,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6000,
+      "pixelY": 3548,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -278808.9,
+      "y": 343343.62,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6037,
+      "pixelY": 3552,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -271993.4,
+      "y": 330867.44,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5967,
+      "pixelY": 3514,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -272278.56,
+      "y": 337586.66,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6005,
+      "pixelY": 3515,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -271839.1,
+      "y": 343134.1,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6036,
+      "pixelY": 3513,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -266834.6,
+      "y": 331094.16,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5968,
+      "pixelY": 3484,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -266336.44,
+      "y": 336940.78,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6001,
+      "pixelY": 3482,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -265991.84,
+      "y": 342894.7,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6035,
+      "pixelY": 3480,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -260068.58,
+      "y": 336781.06,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6000,
+      "pixelY": 3446,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -254366.84,
+      "y": 336931.88,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6001,
+      "pixelY": 3414,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -253927.4,
+      "y": 342606.7,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6033,
+      "pixelY": 3411,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -248179.11,
+      "y": 331078.28,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5968,
+      "pixelY": 3379,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -248196.16,
+      "y": 337140.12,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6002,
+      "pixelY": 3379,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -247975.72,
+      "y": 343249.53,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6037,
+      "pixelY": 3378,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -252102.05,
+      "y": 313097.34,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5866,
+      "pixelY": 3401,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -251789.06,
+      "y": 322032.2,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5917,
+      "pixelY": 3399,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -256001.5,
+      "y": 326992.1,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5945,
+      "pixelY": 3423,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -243287.31,
+      "y": 322074.22,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5917,
+      "pixelY": 3351,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -246790.92,
+      "y": 326108.12,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5940,
+      "pixelY": 3371,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -238468.22,
+      "y": 326159.53,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5940,
+      "pixelY": 3324,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -242568.52,
+      "y": 330335.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5964,
+      "pixelY": 3347,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -238229.1,
+      "y": 334287.1,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5986,
+      "pixelY": 3323,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -242384.34,
+      "y": 339025.06,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6013,
+      "pixelY": 3346,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -289415.2,
+      "y": 189897.56,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5170,
+      "pixelY": 3612,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -285749.16,
+      "y": 184956.22,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5142,
+      "pixelY": 3591,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -288567.47,
+      "y": 198275.38,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5217,
+      "pixelY": 3607,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -284902.6,
+      "y": 202335.97,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5240,
+      "pixelY": 3587,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -279974.44,
+      "y": 205533.95,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5258,
+      "pixelY": 3559,
+      "tileX": 10,
+      "tileY": 6
+    },
+    {
+      "x": -298717.12,
+      "y": 181486.47,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5122,
+      "pixelY": 3665,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -315738.88,
+      "y": 182615.95,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5129,
+      "pixelY": 3761,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -293369.2,
+      "y": 203026.77,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5244,
+      "pixelY": 3634,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -298386.75,
+      "y": 190475.42,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5173,
+      "pixelY": 3663,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -299959.16,
+      "y": 165343.62,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5031,
+      "pixelY": 3672,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -288510.56,
+      "y": 207139.03,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5267,
+      "pixelY": 3607,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -281714.2,
+      "y": 180700.0,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5118,
+      "pixelY": 3569,
+      "tileX": 9,
+      "tileY": 6
+    },
+    {
+      "x": -284352.84,
+      "y": 210412.84,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5286,
+      "pixelY": 3583,
+      "tileX": 10,
+      "tileY": 6
+    },
+    {
+      "x": -295549.9,
+      "y": 168650.4,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5050,
+      "pixelY": 3647,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -281398.4,
+      "y": 188676.75,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5163,
+      "pixelY": 3567,
+      "tileX": 10,
+      "tileY": 6
+    },
+    {
+      "x": -277052.38,
+      "y": 192661.44,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5185,
+      "pixelY": 3542,
+      "tileX": 10,
+      "tileY": 6
+    },
+    {
+      "x": -307015.5,
+      "y": 182205.3,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5126,
+      "pixelY": 3712,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -277573.3,
+      "y": 184703.94,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5140,
+      "pixelY": 3545,
+      "tileX": 10,
+      "tileY": 6
+    },
+    {
+      "x": -293781.28,
+      "y": 194760.64,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5197,
+      "pixelY": 3637,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -307160.66,
+      "y": 190904.2,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5175,
+      "pixelY": 3712,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -280412.75,
+      "y": 197782.31,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5214,
+      "pixelY": 3561,
+      "tileX": 10,
+      "tileY": 6
+    },
+    {
+      "x": -302601.47,
+      "y": 186178.1,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5149,
+      "pixelY": 3687,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -297846.7,
+      "y": 198289.03,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5217,
+      "pixelY": 3660,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -286531.9,
+      "y": 176744.19,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5095,
+      "pixelY": 3596,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -308403.22,
+      "y": 174064.83,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5080,
+      "pixelY": 3719,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -310793.53,
+      "y": 186782.03,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5152,
+      "pixelY": 3733,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -311480.0,
+      "y": 178434.0,
+      "lv": 10,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5105,
+      "pixelY": 3737,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -321160.0,
+      "y": 165120.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5030,
+      "pixelY": 3792,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -338265.0,
+      "y": 181225.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5121,
+      "pixelY": 3888,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -331840.0,
+      "y": 204950.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5255,
+      "pixelY": 3852,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -335920.0,
+      "y": 199665.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5225,
+      "pixelY": 3875,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -326665.0,
+      "y": 203535.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5247,
+      "pixelY": 3823,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -325525.0,
+      "y": 182450.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5128,
+      "pixelY": 3816,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -330660.0,
+      "y": 196090.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5205,
+      "pixelY": 3845,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -326015.0,
+      "y": 162685.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5016,
+      "pixelY": 3819,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -335305.0,
+      "y": 170245.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5059,
+      "pixelY": 3872,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -319945.0,
+      "y": 169140.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5052,
+      "pixelY": 3785,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -319100.0,
+      "y": 173525.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5077,
+      "pixelY": 3780,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -335425.0,
+      "y": 184540.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5139,
+      "pixelY": 3872,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -330875.0,
+      "y": 201065.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5233,
+      "pixelY": 3847,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -335670.0,
+      "y": 202255.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5240,
+      "pixelY": 3874,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -324845.0,
+      "y": 198420.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5218,
+      "pixelY": 3812,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -332370.0,
+      "y": 167335.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5042,
+      "pixelY": 3855,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -335140.0,
+      "y": 191975.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5181,
+      "pixelY": 3871,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -341705.0,
+      "y": 181310.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5121,
+      "pixelY": 3908,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -340430.0,
+      "y": 178715.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5107,
+      "pixelY": 3901,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -336335.0,
+      "y": 196360.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5206,
+      "pixelY": 3877,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -333750.0,
+      "y": 180545.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5117,
+      "pixelY": 3863,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -335225.0,
+      "y": 180735.0,
+      "lv": 5,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5118,
+      "pixelY": 3871,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -323540.0,
+      "y": 187470.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5156,
+      "pixelY": 3805,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -320815.0,
+      "y": 195680.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5202,
+      "pixelY": 3790,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -323740.0,
+      "y": 178740.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5107,
+      "pixelY": 3806,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -312835.0,
+      "y": 164865.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5028,
+      "pixelY": 3744,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -321380.0,
+      "y": 199815.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5226,
+      "pixelY": 3793,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -322120.0,
+      "y": 203600.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5247,
+      "pixelY": 3797,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -336075.0,
+      "y": 175455.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5088,
+      "pixelY": 3876,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -317135.0,
+      "y": 165555.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5032,
+      "pixelY": 3769,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -327060.0,
+      "y": 192845.0,
+      "lv": 7,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5186,
+      "pixelY": 3825,
+      "tileX": 10,
+      "tileY": 7
+    },
+    {
+      "x": -410585.0,
+      "y": 80785.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4553,
+      "pixelY": 4297,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -439000.0,
+      "y": 86315.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4584,
+      "pixelY": 4458,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -456235.0,
+      "y": 84855.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4576,
+      "pixelY": 4555,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -459020.0,
+      "y": 90590.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4608,
+      "pixelY": 4571,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -416485.0,
+      "y": 88375.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4596,
+      "pixelY": 4331,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -419160.0,
+      "y": 102645.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4676,
+      "pixelY": 4346,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -411790.0,
+      "y": 86230.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4584,
+      "pixelY": 4304,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -432705.0,
+      "y": 100810.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4666,
+      "pixelY": 4422,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -409365.0,
+      "y": 76575.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4529,
+      "pixelY": 4290,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -434890.0,
+      "y": 86305.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4584,
+      "pixelY": 4435,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -416305.0,
+      "y": 79985.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4548,
+      "pixelY": 4330,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -434010.0,
+      "y": 81775.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4558,
+      "pixelY": 4430,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -427025.0,
+      "y": 97165.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4645,
+      "pixelY": 4390,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -423535.0,
+      "y": 101975.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4673,
+      "pixelY": 4370,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -435555.0,
+      "y": 95390.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4635,
+      "pixelY": 4438,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -412490.0,
+      "y": 90095.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4605,
+      "pixelY": 4308,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -448105.0,
+      "y": 55970.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4412,
+      "pixelY": 4509,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -417875.0,
+      "y": 93560.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4625,
+      "pixelY": 4338,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -421265.0,
+      "y": 88505.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4596,
+      "pixelY": 4358,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -423670.0,
+      "y": 79310.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4544,
+      "pixelY": 4371,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -418005.0,
+      "y": 75150.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4521,
+      "pixelY": 4339,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -418810.0,
+      "y": 70515.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4495,
+      "pixelY": 4344,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -425515.0,
+      "y": 83820.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4570,
+      "pixelY": 4382,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -419365.0,
+      "y": 79585.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4546,
+      "pixelY": 4347,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -435645.0,
+      "y": 90675.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4609,
+      "pixelY": 4439,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -413005.0,
+      "y": 72215.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4504,
+      "pixelY": 4311,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -419945.0,
+      "y": 84090.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4571,
+      "pixelY": 4350,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -429765.0,
+      "y": 86375.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4584,
+      "pixelY": 4406,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -421685.0,
+      "y": 92910.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4621,
+      "pixelY": 4360,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -460725.0,
+      "y": 72935.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4508,
+      "pixelY": 4581,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -417905.0,
+      "y": 97850.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4649,
+      "pixelY": 4339,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -431370.0,
+      "y": 90855.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4610,
+      "pixelY": 4415,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -415340.0,
+      "y": 84820.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4576,
+      "pixelY": 4324,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -414270.0,
+      "y": 75525.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4523,
+      "pixelY": 4318,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -413490.0,
+      "y": 94025.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4628,
+      "pixelY": 4314,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -444460.0,
+      "y": 85715.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4581,
+      "pixelY": 4489,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -413305.0,
+      "y": 100000.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4661,
+      "pixelY": 4313,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -392435.56,
+      "y": 116281.086,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4753,
+      "pixelY": 4195,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -404514.38,
+      "y": 104300.03,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4686,
+      "pixelY": 4263,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -409068.44,
+      "y": 124851.09,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4802,
+      "pixelY": 4289,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -405035.78,
+      "y": 85676.24,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4580,
+      "pixelY": 4266,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -394520.38,
+      "y": 123971.914,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4797,
+      "pixelY": 4206,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -404552.78,
+      "y": 127905.51,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4819,
+      "pixelY": 4263,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -404891.8,
+      "y": 91544.16,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4614,
+      "pixelY": 4265,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -404722.4,
+      "y": 73689.305,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4513,
+      "pixelY": 4264,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -410522.94,
+      "y": 110303.67,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4720,
+      "pixelY": 4297,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -386849.2,
+      "y": 121384.43,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4782,
+      "pixelY": 4163,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -410880.62,
+      "y": 115960.37,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4752,
+      "pixelY": 4299,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -404862.47,
+      "y": 121802.52,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4785,
+      "pixelY": 4265,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -410945.62,
+      "y": 73833.29,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4513,
+      "pixelY": 4299,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -372539.75,
+      "y": 129062.78,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4826,
+      "pixelY": 4082,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -386525.34,
+      "y": 80271.38,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4550,
+      "pixelY": 4161,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -380598.06,
+      "y": 121820.56,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4785,
+      "pixelY": 4128,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -386990.34,
+      "y": 115617.33,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4750,
+      "pixelY": 4164,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -392398.53,
+      "y": 128283.875,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4821,
+      "pixelY": 4194,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -375254.8,
+      "y": 115296.41,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4748,
+      "pixelY": 4097,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -392811.9,
+      "y": 91383.84,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4613,
+      "pixelY": 4197,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -381276.25,
+      "y": 115843.195,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4751,
+      "pixelY": 4131,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -410439.3,
+      "y": 103747.88,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4683,
+      "pixelY": 4296,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -411228.7,
+      "y": 79864.78,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4548,
+      "pixelY": 4301,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -374821.44,
+      "y": 127803.11,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4819,
+      "pixelY": 4095,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -375123.5,
+      "y": 121353.98,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4782,
+      "pixelY": 4097,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -393338.62,
+      "y": 79893.99,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4548,
+      "pixelY": 4200,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -369213.44,
+      "y": 128176.266,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4821,
+      "pixelY": 4063,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -389645.0,
+      "y": 124688.45,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4801,
+      "pixelY": 4179,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -410618.7,
+      "y": 97820.46,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4649,
+      "pixelY": 4297,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -398569.8,
+      "y": 115937.7,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4752,
+      "pixelY": 4229,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -387222.16,
+      "y": 73844.05,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4514,
+      "pixelY": 4165,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -363331.25,
+      "y": 121910.73,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4785,
+      "pixelY": 4030,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -362621.78,
+      "y": 115904.44,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4751,
+      "pixelY": 4026,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -404476.94,
+      "y": 97819.42,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4649,
+      "pixelY": 4263,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -399103.44,
+      "y": 91437.12,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4613,
+      "pixelY": 4232,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -399298.84,
+      "y": 127421.16,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4816,
+      "pixelY": 4233,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -398657.5,
+      "y": 121803.73,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4785,
+      "pixelY": 4230,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -401187.7,
+      "y": 121112.586,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4781,
+      "pixelY": 4244,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -411200.5,
+      "y": 85586.625,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4580,
+      "pixelY": 4301,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -368640.5,
+      "y": 115317.87,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4748,
+      "pixelY": 4060,
+      "tileX": 9,
+      "tileY": 7
+    },
+    {
+      "x": -393272.2,
+      "y": 73312.516,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4511,
+      "pixelY": 4199,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -405313.53,
+      "y": 79628.875,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4546,
+      "pixelY": 4267,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -380914.44,
+      "y": 80151.29,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4549,
+      "pixelY": 4129,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -398359.44,
+      "y": 97863.08,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4649,
+      "pixelY": 4228,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -392552.4,
+      "y": 85351.625,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4579,
+      "pixelY": 4195,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -393166.0,
+      "y": 97336.84,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4646,
+      "pixelY": 4199,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -381226.6,
+      "y": 73534.95,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4512,
+      "pixelY": 4131,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -393108.8,
+      "y": 121465.73,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4783,
+      "pixelY": 4198,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -386369.5,
+      "y": 91831.734,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4615,
+      "pixelY": 4160,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -399287.38,
+      "y": 109752.875,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4717,
+      "pixelY": 4233,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -387309.2,
+      "y": 97705.85,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4648,
+      "pixelY": 4166,
+      "tileX": 9,
+      "tileY": 8
+    },
+    {
+      "x": -398787.7,
+      "y": 79943.5,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4548,
+      "pixelY": 4231,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -386723.38,
+      "y": 85977.21,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4582,
+      "pixelY": 4162,
+      "tileX": 8,
+      "tileY": 8
+    },
+    {
+      "x": -206215.8,
+      "y": 317818.22,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5893,
+      "pixelY": 3142,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -201127.31,
+      "y": 320527.6,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5908,
+      "pixelY": 3113,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -204199.56,
+      "y": 325760.4,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5938,
+      "pixelY": 3130,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -208201.17,
+      "y": 330521.8,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5965,
+      "pixelY": 3153,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -211369.48,
+      "y": 335405.12,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5992,
+      "pixelY": 3171,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -214537.38,
+      "y": 340539.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6022,
+      "pixelY": 3189,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -218134.45,
+      "y": 345917.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6052,
+      "pixelY": 3209,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -221211.11,
+      "y": 350220.53,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6076,
+      "pixelY": 3226,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -225817.47,
+      "y": 355471.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6106,
+      "pixelY": 3252,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -228133.89,
+      "y": 360408.4,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6134,
+      "pixelY": 3266,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -232424.6,
+      "y": 365242.38,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6161,
+      "pixelY": 3290,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -235913.83,
+      "y": 370309.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6190,
+      "pixelY": 3310,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -238464.92,
+      "y": 374998.66,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6216,
+      "pixelY": 3324,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -242466.77,
+      "y": 380103.84,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6245,
+      "pixelY": 3347,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -199744.39,
+      "y": 328962.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5956,
+      "pixelY": 3105,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -203544.34,
+      "y": 333846.62,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5984,
+      "pixelY": 3127,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -206490.31,
+      "y": 339464.34,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6015,
+      "pixelY": 3143,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -213573.92,
+      "y": 348599.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6067,
+      "pixelY": 3183,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -237626.55,
+      "y": 383796.62,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6266,
+      "pixelY": 3319,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -191589.6,
+      "y": 327184.38,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5946,
+      "pixelY": 3059,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -194944.62,
+      "y": 332632.9,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5977,
+      "pixelY": 3078,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -198447.14,
+      "y": 337282.34,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6003,
+      "pixelY": 3098,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -201257.0,
+      "y": 342620.12,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6033,
+      "pixelY": 3114,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -208182.42,
+      "y": 352636.56,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6090,
+      "pixelY": 3153,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -211871.8,
+      "y": 357069.97,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6115,
+      "pixelY": 3174,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -193547.69,
+      "y": 341195.12,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6025,
+      "pixelY": 3070,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -203820.11,
+      "y": 355879.38,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6108,
+      "pixelY": 3128,
+      "tileX": 11,
+      "tileY": 6
+    },
+    {
+      "x": -231065.69,
+      "y": 395329.53,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6331,
+      "pixelY": 3282,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -178043.44,
+      "y": 330076.8,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 5962,
+      "pixelY": 2982,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -184979.77,
+      "y": 339835.88,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6018,
+      "pixelY": 3022,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -202534.61,
+      "y": 364017.3,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6154,
+      "pixelY": 3121,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -205561.4,
+      "y": 368968.84,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6182,
+      "pixelY": 3138,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -209038.23,
+      "y": 374355.03,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6213,
+      "pixelY": 3158,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -225833.86,
+      "y": 398308.62,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6348,
+      "pixelY": 3253,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -176778.27,
+      "y": 338338.28,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6009,
+      "pixelY": 2975,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -200332.62,
+      "y": 372970.12,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6205,
+      "pixelY": 3108,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -203833.64,
+      "y": 377274.38,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6229,
+      "pixelY": 3128,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -221208.31,
+      "y": 401961.44,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6369,
+      "pixelY": 3226,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -175481.53,
+      "y": 345914.53,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6052,
+      "pixelY": 2968,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -192356.92,
+      "y": 371234.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6195,
+      "pixelY": 3063,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -195238.64,
+      "y": 375916.56,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6222,
+      "pixelY": 3080,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -198687.95,
+      "y": 381275.94,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6252,
+      "pixelY": 3099,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -205834.11,
+      "y": 390139.78,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6302,
+      "pixelY": 3139,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -212806.6,
+      "y": 400556.5,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6361,
+      "pixelY": 3179,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -172970.47,
+      "y": 354388.62,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6100,
+      "pixelY": 2954,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -187319.14,
+      "y": 374281.9,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6212,
+      "pixelY": 3035,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -190341.6,
+      "y": 379638.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6243,
+      "pixelY": 3052,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -194122.97,
+      "y": 383544.84,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6265,
+      "pixelY": 3073,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -196793.66,
+      "y": 389104.8,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6296,
+      "pixelY": 3088,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -200909.56,
+      "y": 393428.6,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6321,
+      "pixelY": 3112,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -204527.83,
+      "y": 398609.97,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6350,
+      "pixelY": 3132,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -207658.27,
+      "y": 404093.16,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6381,
+      "pixelY": 3150,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -165242.22,
+      "y": 352728.56,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6090,
+      "pixelY": 2910,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -169046.3,
+      "y": 357689.5,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6118,
+      "pixelY": 2931,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -175349.11,
+      "y": 368191.16,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6178,
+      "pixelY": 2967,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -178951.77,
+      "y": 372952.84,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6205,
+      "pixelY": 2987,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -182853.62,
+      "y": 377732.3,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6232,
+      "pixelY": 3010,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -185262.28,
+      "y": 382938.06,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6261,
+      "pixelY": 3023,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -189170.62,
+      "y": 387227.62,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6286,
+      "pixelY": 3045,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -195712.17,
+      "y": 397094.34,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6341,
+      "pixelY": 3082,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -202187.69,
+      "y": 407435.7,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6400,
+      "pixelY": 3119,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -159721.02,
+      "y": 356431.2,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6111,
+      "pixelY": 2879,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -163381.36,
+      "y": 361271.53,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6139,
+      "pixelY": 2899,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -174130.98,
+      "y": 376318.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6224,
+      "pixelY": 2960,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -177227.64,
+      "y": 380948.3,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6250,
+      "pixelY": 2978,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -180952.11,
+      "y": 385923.03,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6278,
+      "pixelY": 2999,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -184182.5,
+      "y": 390371.75,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6303,
+      "pixelY": 3017,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -187292.2,
+      "y": 395612.6,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6333,
+      "pixelY": 3035,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -191092.02,
+      "y": 400415.94,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6360,
+      "pixelY": 3056,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -197280.38,
+      "y": 410781.97,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6419,
+      "pixelY": 3091,
+      "tileX": 12,
+      "tileY": 6
+    },
+    {
+      "x": -154778.14,
+      "y": 359838.62,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6131,
+      "pixelY": 2851,
+      "tileX": 11,
+      "tileY": 5
+    },
+    {
+      "x": -158816.4,
+      "y": 364580.34,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6157,
+      "pixelY": 2874,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -162177.89,
+      "y": 369696.62,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6186,
+      "pixelY": 2893,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -165145.47,
+      "y": 374634.25,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6214,
+      "pixelY": 2909,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -168671.05,
+      "y": 379682.4,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6243,
+      "pixelY": 2929,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -172287.39,
+      "y": 384093.7,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6268,
+      "pixelY": 2950,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -175753.64,
+      "y": 389533.75,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6299,
+      "pixelY": 2969,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -178977.64,
+      "y": 394485.75,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6327,
+      "pixelY": 2988,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -182602.8,
+      "y": 398938.9,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6352,
+      "pixelY": 3008,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -189177.73,
+      "y": 409294.75,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6410,
+      "pixelY": 3045,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -193195.25,
+      "y": 414163.72,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6438,
+      "pixelY": 3068,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -150477.72,
+      "y": 363387.66,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6151,
+      "pixelY": 2826,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -153553.73,
+      "y": 367783.56,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6176,
+      "pixelY": 2844,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -161218.44,
+      "y": 378095.84,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6234,
+      "pixelY": 2887,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -163802.9,
+      "y": 383288.47,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6263,
+      "pixelY": 2902,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -167558.88,
+      "y": 388137.75,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6291,
+      "pixelY": 2923,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -171257.42,
+      "y": 392789.53,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6317,
+      "pixelY": 2944,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -185101.61,
+      "y": 412715.8,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6430,
+      "pixelY": 3022,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -187534.34,
+      "y": 417222.8,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6455,
+      "pixelY": 3036,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -145526.44,
+      "y": 366397.1,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6168,
+      "pixelY": 2798,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -155367.56,
+      "y": 381753.84,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6255,
+      "pixelY": 2854,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -159022.44,
+      "y": 386512.28,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6281,
+      "pixelY": 2875,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -162618.16,
+      "y": 390885.47,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6306,
+      "pixelY": 2895,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -165479.0,
+      "y": 396282.0,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6337,
+      "pixelY": 2911,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -169332.83,
+      "y": 400941.28,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6363,
+      "pixelY": 2933,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -156962.56,
+      "y": 394584.47,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6327,
+      "pixelY": 2863,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -161513.23,
+      "y": 399707.88,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6356,
+      "pixelY": 2889,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -167537.84,
+      "y": 409283.8,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 6410,
+      "pixelY": 2923,
+      "tileX": 12,
+      "tileY": 5
+    },
+    {
+      "x": -399103.44,
+      "y": 91437.12,
+      "lv": 14,
+      "map": "PALPAGOS_ISLANDS",
+      "pixelX": 4613,
+      "pixelY": 4232,
+      "tileX": 9,
+      "tileY": 8
+    }
+  ]
+}
