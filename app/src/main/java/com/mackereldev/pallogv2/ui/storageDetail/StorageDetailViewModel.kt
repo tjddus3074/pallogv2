@@ -1,4 +1,4 @@
-package com.mackereldev.pallogv2.ui.productionDetail
+package com.mackereldev.pallogv2.ui.storageDetail
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -15,32 +15,32 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-sealed class ProductionDetailUiState{
-    object Loading : ProductionDetailUiState()
+sealed class StorageDetailUiState {
+    object Loading : StorageDetailUiState()
     data class Success(
         val building: Building,
         val materialIcons: Map<String, String>,
-        val materialLocations: Map<String, Pair<ItemCategory,String>>
-    ) : ProductionDetailUiState()
-    data class Error(val message: String) : ProductionDetailUiState()
+        val materialLocations: Map<String, Pair<ItemCategory, String>>
+    ) : StorageDetailUiState()
+    data class Error(val message: String) : StorageDetailUiState()
 }
 
 @HiltViewModel
-class ProductionDetailViewModel @Inject constructor(
+class StorageDetailViewModel @Inject constructor(
     private val buildingRepository: BuildingRepository,
     private val itemRepository: ItemRepository
 ) : ViewModel() {
 
-    private val _uiState = MutableStateFlow<ProductionDetailUiState>(ProductionDetailUiState.Loading)
-    val uiState: StateFlow<ProductionDetailUiState> = _uiState.asStateFlow()
+    private val _uiState = MutableStateFlow<StorageDetailUiState>(StorageDetailUiState.Loading)
+    val uiState: StateFlow<StorageDetailUiState> = _uiState.asStateFlow()
 
-    fun loadProduction(href: String) {
-        _uiState.value = ProductionDetailUiState.Loading
+    fun loadBuilding(href: String) {
+        _uiState.value = StorageDetailUiState.Loading
         viewModelScope.launch(Dispatchers.IO) {
-            runCatching { buildingRepository.getBuilding(BuildingCategory.PRODUCTION, href) }
+            runCatching { buildingRepository.getBuilding(BuildingCategory.STORAGE, href) }
                 .onSuccess { building ->
-                    if(building == null) {
-                        _uiState.value = ProductionDetailUiState.Error("생산 건축물을 찾을 수 없습니다.")
+                    if (building == null) {
+                        _uiState.value = StorageDetailUiState.Error("수납 건축물을 찾을 수 없습니다")
                         return@onSuccess
                     }
                     val materialIcons = building.material.keys.distinct().mapNotNull { name ->
@@ -49,9 +49,9 @@ class ProductionDetailViewModel @Inject constructor(
                     val materialLocations = building.material.keys.distinct().mapNotNull { name ->
                         itemRepository.findItemLocation(name)?.let { name to it }
                     }.toMap()
-                    _uiState.value = ProductionDetailUiState.Success(building, materialIcons, materialLocations)
+                    _uiState.value = StorageDetailUiState.Success(building, materialIcons, materialLocations)
                 }
-                .onFailure { _uiState.value = ProductionDetailUiState.Error(it.message ?: "오류 발생") }
+                .onFailure { _uiState.value = StorageDetailUiState.Error(it.message ?: "오류 발생") }
         }
     }
 }

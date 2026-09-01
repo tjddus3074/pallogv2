@@ -1,4 +1,4 @@
-package com.mackereldev.pallogv2.ui.ingredientDetail
+package com.mackereldev.pallogv2.ui.buildingSuitabilityDetail
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
@@ -9,19 +9,14 @@ import com.mackereldev.pallogv2.data.model.BuildingCategory
 import com.mackereldev.pallogv2.data.model.ItemCategory
 
 @Composable
-fun IngredientDetailScreen(
+fun BuildingSuitabilityDetailScreen(
+    category: BuildingCategory,
     href: String,
     onBack: () -> Unit,
     onItemClick: (ItemCategory, String) -> Unit,
-    onProductionClick: (BuildingCategory, String) -> Unit,
-    viewModel: IngredientDetailViewModel = hiltViewModel()
+    viewModel: BuildingSuitabilityDetailViewModel = hiltViewModel()
 ) {
-    LaunchedEffect(href) { viewModel.loadIngredient(href) }
+    LaunchedEffect(category, href) { viewModel.loadBuilding(category, href) }
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
-    IngredientDetailView(
-        uiState = uiState,
-        onBack = onBack,
-        onItemClick = onItemClick,
-        onProductionClick = onProductionClick
-    )
+    BuildingSuitabilityDetailView(uiState = uiState, onBack = onBack, onItemClick = onItemClick)
 }

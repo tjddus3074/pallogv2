@@ -22,19 +22,19 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.paint
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
-import com.mackereldev.pallogv2.data.model.Item
-import com.mackereldev.pallogv2.data.model.ItemCategory
+import com.mackereldev.pallogv2.data.model.Building
+import com.mackereldev.pallogv2.data.model.BuildingCategory
 import com.mackereldev.pallogv2.ui.theme.SoftGray
 
 @Composable
-fun StatItemCard(
-    item: Item,
-    category: ItemCategory,
+fun SchematicsCard(
+    building: Building,
     onClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
@@ -57,8 +57,8 @@ fun StatItemCard(
                     .aspectRatio(1f)
             ) {
                 AsyncImage(
-                    model = item.iconAssetPath(category),
-                    contentDescription = item.name,
+                    model = building.iconAssetPath(BuildingCategory.SCHEMATICS),
+                    contentDescription = building.name,
                     modifier = Modifier
                         .fillMaxSize()
                         .clip(CircleShape)
@@ -68,65 +68,32 @@ fun StatItemCard(
 
             Spacer(modifier = Modifier.width(10.dp))
 
-            Text(
-                text = item.name,
-                fontSize = 16.sp,
-                fontWeight = FontWeight.Bold,
-                modifier = Modifier.weight(1f)
-            )
+            //이름 + 등급 배지
+            Column(modifier = Modifier.weight(1f)) {
+                Text(text = building.name, fontSize = 16.sp, fontWeight = FontWeight.Bold)
+                if(building.rarity.isNotBlank()) {
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Box(
+                        modifier = Modifier
+                            .clip(RoundedCornerShape(6.dp))
+                            .background(weaponRarityColor(building.rarity))
+                            .padding(horizontal = 6.dp, vertical = 2.dp)
+                    ) {
+                        Text(text = building.rarity, fontSize = 10.sp, color = Color.White)
+                    }
+                }
+            }
 
             Spacer(modifier = Modifier.width(8.dp))
 
-            if(item.dynamic.isNotEmpty()) {
-                Column(horizontalAlignment = Alignment.End) {
-                    item.dynamic.entries.forEachIndexed { index, (key, value) ->
-                        if(index > 0) Spacer(modifier = Modifier.height(2.dp))
-                        Text(
-                            text = "${statLabel(key)} $value",
-                            fontSize = 12.sp,
-                            color = Color.Gray
-                        )
-                    }
-                }
+            // 가격
+            if(building.금화.isNotBlank()) {
+                Text(
+                    text = "${building.금화} 금화",
+                    fontSize = 13.sp,
+                    fontWeight = FontWeight.Medium
+                )
             }
         }
     }
 }
-
-// json dynamic 키 -> 표시 라벨. 매핑에 없는 키는 원문 그대로 표시
-val statLabels = mapOf(
-    "기술" to "기술 Lv",
-    "기술 포인트" to "기술 포인트",
-    "영양가" to "영양가",
-    "SAN" to "SAN",
-    "SANResist" to "SAN 내성",
-    "회복 시간" to "회복 시간",
-    "HP 회복" to "HP 회복",
-    "작업 속도" to "작업 속도",
-    "공격" to "공격",
-    "방어" to "방어",
-    "Exp" to "경험치",
-    "Exp_Increase" to "경험치 증가",
-    "MaxHP" to "최대 HP",
-    "MaxSP" to "최대 SP",
-    "Power" to "작업 효율",
-    "WorkSpeed" to "작업 속도",
-    "MaxInventoryWeight" to "소지 무게 증가",
-    "HP IV" to "HP 개체값",
-    "Attack IV" to "공격 개체값",
-    "Defense IV" to "방어 개체값",
-    "HungerResist" to "허기 내성",
-    "ExplosionResist" to "폭발 내성",
-    "SearchProbabilityRate" to "탐색 확률",
-    "HitBarSizeRate" to "히트바 크기",
-    "EnemyAddDropPercent" to "적 드랍률 증가",
-    "ItemLotteryAddDropPercent" to "아이템 드랍률 증가",
-    "FullStomachKeep" to "포만감 유지",
-    "LeanBackAndKnockbackInvalid" to "넉백 무효",
-    "SAN Rate" to "SAN 회복률",
-    "Healing" to "치유량",
-    "Energy" to "소모 전력",
-    "ReviveSpeedMultiplier" to "소생 속도 배율",
-)
-
-fun statLabel(key: String): String = statLabels[key] ?: key

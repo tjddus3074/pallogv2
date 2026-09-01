@@ -3,7 +3,10 @@ package com.mackereldev.pallogv2.ui.weaponDetail
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.mackereldev.pallogv2.data.model.AmmoItem
+import com.mackereldev.pallogv2.data.model.FacilityLocation
+import com.mackereldev.pallogv2.data.model.ItemCategory
 import com.mackereldev.pallogv2.data.model.WeaponItem
+import com.mackereldev.pallogv2.data.repository.BuildingRepository
 import com.mackereldev.pallogv2.data.repository.ItemRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
@@ -14,9 +17,15 @@ import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 
-sealed class WeaponDetailUiState{
+sealed class WeaponDetailUiState {
     object Loading : WeaponDetailUiState()
-    data class Success(val weapon: WeaponItem, val ammo: AmmoItem?, val materialIcons: Map<String, String>) : WeaponDetailUiState()
+    data class Success(
+        val weapon: WeaponItem,
+        val ammo: AmmoItem?,
+        val materialIcons: Map<String, String>,
+        val materialLocations: Map<String, Pair<ItemCategory, String>>,
+        val productionFacilities: Map<String, FacilityLocation>
+    ) : WeaponDetailUiState()
     data class Error(val message: String) : WeaponDetailUiState()
 }
 
@@ -35,7 +44,8 @@ private val weaponAmmoCodeByTypeB = mapOf(
 
 @HiltViewModel
 class WeaponDetailViewModel @Inject constructor(
-    private val repository: ItemRepository
+    private val repository: ItemRepository,
+    private val buildingRepository: BuildingRepository
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow<WeaponDetailUiState>(WeaponDetailUiState.Loading)
@@ -58,7 +68,16 @@ class WeaponDetailViewModel @Inject constructor(
                     val materialIcons = materialNames.mapNotNull { name ->
                         repository.getMaterialIconPath(name)?.let { name to it }
                     }.toMap()
-                    _uiState.value = WeaponDetailUiState.Success(weapon, ammo, materialIcons)
+                    val materialLocations = materialNames.mapNotNull { name ->
+                        repository.findItemLocation(name)?.let { name to it }
+                    }.toMap()
+
+                    val productionNames = weapon.production.map { it.pname }.distinct()
+                    val productionFacilities = productionNames.mapNotNull { name ->
+                        buildingRepository.findFacilityLocation(name)?.let { name to it }
+                    }.toMap()
+
+                    _uiState.value = WeaponDetailUiState.Success(weapon, ammo, materialIcons, materialLocations, productionFacilities)
                 }
                 .onFailure { _uiState.value = WeaponDetailUiState.Error(it.message ?: "오류 발생") }
         }

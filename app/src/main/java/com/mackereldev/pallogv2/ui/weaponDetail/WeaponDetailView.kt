@@ -1,6 +1,5 @@
 package com.mackereldev.pallogv2.ui.weaponDetail
 
-import android.widget.Space
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -24,7 +23,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material.icons.materialIcon
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -43,11 +41,12 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.LineHeightStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.mackereldev.pallogv2.data.model.AmmoItem
+import com.mackereldev.pallogv2.data.model.BuildingCategory
+import com.mackereldev.pallogv2.data.model.FacilityLocation
 import com.mackereldev.pallogv2.data.model.ItemCategory
 import com.mackereldev.pallogv2.data.model.WeaponItem
 import com.mackereldev.pallogv2.data.model.WeaponLevel
@@ -58,7 +57,9 @@ import com.mackereldev.pallogv2.ui.theme.SoftGray
 @Composable
 fun WeaponDetailView(
     uiState: WeaponDetailUiState,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onItemClick: (ItemCategory, String) -> Unit,
+    onProductionClick: (BuildingCategory, String) -> Unit
 ) {
     Scaffold(
         topBar = {
@@ -82,8 +83,14 @@ fun WeaponDetailView(
             when (uiState) {
                 is WeaponDetailUiState.Loading -> CircularProgressIndicator()
                 is WeaponDetailUiState.Error -> Text(uiState.message)
-                is WeaponDetailUiState.Success -> WeaponDetailContent(weapon = uiState.weapon, ammo = uiState.ammo,
-                    materialIcons = uiState.materialIcons
+                is WeaponDetailUiState.Success -> WeaponDetailContent(
+                    weapon = uiState.weapon,
+                    ammo = uiState.ammo,
+                    materialIcons = uiState.materialIcons,
+                    materialLocations = uiState.materialLocations,
+                    productionFacilities = uiState.productionFacilities,
+                    onItemClick = onItemClick,
+                    onProductionClick = onProductionClick
                 )
             }
         }
@@ -91,7 +98,15 @@ fun WeaponDetailView(
 }
 
 @Composable
-private fun WeaponDetailContent(weapon: WeaponItem, ammo: AmmoItem?, materialIcons: Map<String, String>) {
+private fun WeaponDetailContent(
+    weapon: WeaponItem,
+    ammo: AmmoItem?,
+    materialIcons: Map<String, String>,
+    materialLocations: Map<String, Pair<ItemCategory, String>>,
+    productionFacilities: Map<String, FacilityLocation>,
+    onItemClick: (ItemCategory, String) -> Unit,
+    onProductionClick: (BuildingCategory, String) -> Unit
+) {
     var selectedRarity by remember(weapon.href) { mutableStateOf(weapon.rarities.firstOrNull()) }
     val selectedLevel = weapon.effectiveLevels.firstOrNull { it.rarity == selectedRarity }
         ?: weapon.effectiveLevels.firstOrNull()
@@ -119,11 +134,11 @@ private fun WeaponDetailContent(weapon: WeaponItem, ammo: AmmoItem?, materialIco
             Spacer(modifier = Modifier.height(16.dp))
             WeaponDescriptionSection(selectedLevel)
             Spacer(modifier = Modifier.height(16.dp))
-            AmmoSection(ammo)
+            AmmoSection(ammo, onItemClick)
             Spacer(modifier = Modifier.height(16.dp))
-            MaterialSection(selectedLevel, materialIcons)
+            MaterialSection(selectedLevel, materialIcons, materialLocations, onItemClick)
             Spacer(modifier = Modifier.height(16.dp))
-            ProductionSection(weapon)
+            ProductionSection(weapon, productionFacilities, onProductionClick)
             Spacer(modifier = Modifier.height(16.dp))
             OtherSpecSection(selectedLevel)
             Spacer(modifier = Modifier.height(16.dp))
@@ -219,10 +234,13 @@ private fun WeaponDescriptionSection(level: WeaponLevel) {
 }
 
 @Composable
-private fun AmmoSection(ammo: AmmoItem?) {
+private fun AmmoSection(ammo: AmmoItem?, onItemClick: (ItemCategory, String) -> Unit) {
     if(ammo == null) return
     SectionCard(title = "사용 탄약") {
-        Row(verticalAlignment = Alignment.CenterVertically) {
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            modifier = Modifier.clickable { onItemClick(ItemCategory.AMMO, ammo.href) }
+        ) {
             AsyncImage(
                 model = ammo.iconAssetPath(ItemCategory.AMMO),
                 contentDescription = ammo.name,
@@ -244,12 +262,20 @@ private fun AmmoSection(ammo: AmmoItem?) {
 }
 
 @Composable
-private fun MaterialSection(level: WeaponLevel, materialIcons: Map<String, String>) {
+private fun MaterialSection(
+    level: WeaponLevel,
+    materialIcons: Map<String, String>,
+    materialLocations: Map<String, Pair<ItemCategory, String>>,
+    onItemClick: (ItemCategory, String) -> Unit
+) {
     if (level.meterial.isEmpty()) return
     SectionCard(title = "제작 재료") {
         level.meterial.entries.forEachIndexed { index, (name, amount) ->
+            val location = materialLocations[name]
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .let { base -> if (location != null) base.clickable { onItemClick(location.first, location.second) } else base },
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 val iconPath = materialIcons[name]
@@ -278,16 +304,24 @@ private fun MaterialSection(level: WeaponLevel, materialIcons: Map<String, Strin
 }
 
 @Composable
-private fun ProductionSection(weapon: WeaponItem) {
+private fun ProductionSection(
+    weapon: WeaponItem,
+    productionFacilities: Map<String, FacilityLocation>,
+    onProductionClick: (BuildingCategory, String) -> Unit
+) {
     if (weapon.production.isEmpty()) return
     SectionCard(title = "생산 시설") {
         weapon.production.forEachIndexed { index, facility ->
+            val location = productionFacilities[facility.pname]
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .let { base -> if (location != null) base.clickable { onProductionClick(location.category, location.href) } else base },
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 AsyncImage(
-                    model = "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
+                    model = location?.iconPath
+                        ?: "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
                     contentDescription = facility.pname,
                     modifier = Modifier
                         .size(40.dp)

@@ -2,7 +2,10 @@ package com.mackereldev.pallogv2.ui.materialDetail
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.mackereldev.pallogv2.data.model.FacilityLocation
 import com.mackereldev.pallogv2.data.model.Item
+import com.mackereldev.pallogv2.data.model.ItemCategory
+import com.mackereldev.pallogv2.data.repository.BuildingRepository
 import com.mackereldev.pallogv2.data.repository.ItemRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
@@ -14,13 +17,19 @@ import javax.inject.Inject
 
 sealed class MaterialDetailUiState {
     object Loading : MaterialDetailUiState()
-    data class Success(val material: Item, val materialIcons: Map<String, String>) : MaterialDetailUiState()
+    data class Success(
+        val material: Item,
+        val materialIcons: Map<String, String>,
+        val materialLocations: Map<String, Pair<ItemCategory, String>>,
+        val productionFacilities: Map<String, FacilityLocation>
+    ) : MaterialDetailUiState()
     data class Error(val message: String) : MaterialDetailUiState()
 }
 
 @HiltViewModel
 class MaterialDetailViewModel @Inject constructor(
-    private val repository: ItemRepository
+    private val repository: ItemRepository,
+    private val buildingRepository: BuildingRepository
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow<MaterialDetailUiState>(MaterialDetailUiState.Loading)
@@ -31,14 +40,20 @@ class MaterialDetailViewModel @Inject constructor(
         viewModelScope.launch(Dispatchers.IO) {
             runCatching { repository.getMaterialItem(href) }
                 .onSuccess { material ->
-                    if (material == null) {
-                        _uiState.value = MaterialDetailUiState.Error("소재를 찾을 수 없습니다")
+                    if(material == null) {
+                        _uiState.value = MaterialDetailUiState.Error("소재를 찾을 수 없습니다.")
                         return@onSuccess
                     }
                     val materialIcons = material.material.keys.distinct().mapNotNull { name ->
                         repository.getMaterialIconPath(name)?.let { name to it }
                     }.toMap()
-                    _uiState.value = MaterialDetailUiState.Success(material, materialIcons)
+                    val materialLocations = material.material.keys.distinct().mapNotNull { name ->
+                        repository.findItemLocation(name)?.let { name to it }
+                    }.toMap()
+                    val productionFacilities = material.production.map { it.pname }.distinct().mapNotNull { name ->
+                        buildingRepository.findFacilityLocation(name)?.let { name to it }
+                    }.toMap()
+                    _uiState.value = MaterialDetailUiState.Success(material, materialIcons, materialLocations, productionFacilities)
                 }
                 .onFailure { _uiState.value = MaterialDetailUiState.Error(it.message ?: "오류 발생") }
         }

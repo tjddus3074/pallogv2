@@ -1,6 +1,7 @@
 package com.mackereldev.pallogv2.ui.sphereModuleDetail
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -37,6 +38,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import com.mackereldev.pallogv2.data.model.BuildingCategory
+import com.mackereldev.pallogv2.data.model.FacilityLocation
 import com.mackereldev.pallogv2.data.model.ItemCategory
 import com.mackereldev.pallogv2.data.model.SphereModuleItem
 import com.mackereldev.pallogv2.ui.components.weaponRarityColor
@@ -47,7 +50,9 @@ import com.mackereldev.pallogv2.ui.theme.SoftGray
 @Composable
 fun SphereModuleDetailView(
     uiState: SphereModuleDetailUiState,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onItemClick: (ItemCategory, String) -> Unit,
+    onProductionClick: (BuildingCategory, String) -> Unit
 ){
     Scaffold(
         topBar = {
@@ -68,14 +73,28 @@ fun SphereModuleDetailView(
             when (uiState) {
                 is SphereModuleDetailUiState.Loading -> CircularProgressIndicator()
                 is SphereModuleDetailUiState.Error -> Text(uiState.message)
-                is SphereModuleDetailUiState.Success -> SphereModuleDetailContent(module = uiState.module, materialIcons = uiState.materialIcons)
+                is SphereModuleDetailUiState.Success -> SphereModuleDetailContent(
+                    module = uiState.module,
+                    materialIcons = uiState.materialIcons,
+                    materialLocations = uiState.materialLocations,
+                    productionFacilities = uiState.productionFacilities,
+                    onItemClick = onItemClick,
+                    onProductionClick = onProductionClick
+                )
             }
         }
     }
 }
 
 @Composable
-private fun SphereModuleDetailContent(module: SphereModuleItem, materialIcons: Map<String, String>) {
+private fun SphereModuleDetailContent(
+    module: SphereModuleItem,
+    materialIcons: Map<String, String>,
+    materialLocations: Map<String, Pair<ItemCategory, String>>,
+    productionFacilities: Map<String, FacilityLocation>,
+    onItemClick: (ItemCategory, String) -> Unit,
+    onProductionClick: (BuildingCategory, String) -> Unit
+) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -103,9 +122,9 @@ private fun SphereModuleDetailContent(module: SphereModuleItem, materialIcons: M
         Spacer(modifier = Modifier.height(16.dp))
         SphereModuleEffectSection(module)
         Spacer(modifier = Modifier.height(16.dp))
-        SphereModuleMaterialSection(module, materialIcons)
+        SphereModuleMaterialSection(module, materialIcons, materialLocations, onItemClick)
         Spacer(modifier = Modifier.height(16.dp))
-        SphereModuleProductionSection(module)
+        SphereModuleProductionSection(module, productionFacilities, onProductionClick)
         Spacer(modifier = Modifier.height(16.dp))
         SphereModuleOtherSpecSection(module)
         Spacer(modifier = Modifier.height(16.dp))
@@ -173,12 +192,20 @@ private fun SphereModuleEffectSection(module: SphereModuleItem) {
 }
 
 @Composable
-private fun SphereModuleMaterialSection(module: SphereModuleItem, materialIcons: Map<String, String>) {
+private fun SphereModuleMaterialSection(
+    module: SphereModuleItem,
+    materialIcons: Map<String, String>,
+    materialLocations: Map<String, Pair<ItemCategory, String>>,
+    onItemClick: (ItemCategory, String) -> Unit
+) {
     if (module.material.isEmpty()) return
     SectionCard(title = "제작 재료") {
         module.material.entries.forEachIndexed { index, (name, amount) ->
+            val location = materialLocations[name]
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .let { base -> if (location != null) base.clickable { onItemClick(location.first, location.second) } else base },
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 materialIcons[name]?.let { iconPath ->
@@ -201,16 +228,24 @@ private fun SphereModuleMaterialSection(module: SphereModuleItem, materialIcons:
 }
 
 @Composable
-private fun SphereModuleProductionSection(module: SphereModuleItem) {
+private fun SphereModuleProductionSection(
+    module: SphereModuleItem,
+    productionFacilities: Map<String, FacilityLocation>,
+    onProductionClick: (BuildingCategory, String) -> Unit
+) {
     if (module.production.isEmpty()) return
     SectionCard(title = "생산 시설") {
         module.production.forEachIndexed { index, facility ->
+            val location = productionFacilities[facility.pname]
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .let { base -> if (location != null) base.clickable { onProductionClick(location.category, location.href) } else base },
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 AsyncImage(
-                    model = "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
+                    model = location?.iconPath
+                        ?: "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
                     contentDescription = facility.pname,
                     modifier = Modifier
                         .size(40.dp)

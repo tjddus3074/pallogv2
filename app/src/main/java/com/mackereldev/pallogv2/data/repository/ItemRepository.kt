@@ -90,4 +90,58 @@ class ItemRepository @Inject constructor(
     fun getIngredientItem(href: String): Item? = getItems(ItemCategory.INGREDIENT).find { it.href == href }
 
     fun getKeyItem(href: String): Item? = getItems(ItemCategory.KEY_ITEM).find { it.href == href }
+
+    // 카테고리를 특정할 수 없는 아이템 이름으로 아이콘을 찾을 때 사용
+//    fun getItemIconPath(name: String): String? {
+//        val categories = listOf(
+//            ItemCategory.MATERIAL,
+//            ItemCategory.INGREDIENT,
+//            ItemCategory.CONSUMABLE,
+//            ItemCategory.KEY_ITEM,
+//            ItemCategory.ACCESSORY,
+//            ItemCategory.WEAPON,
+//            ItemCategory.ARMOR,
+//            ItemCategory.AMMO,
+//            ItemCategory.SPHERE,
+//            ItemCategory.SPHERE_MODULE
+//        )
+//        for (category in categories) {
+//            getItems(category).find { it.name == name }?.let {
+//                return it.iconAssetPath(category)
+//            }
+//        }
+//        return null
+//    }
+
+    //카테고리를 특정할 수 없는 아이템 이름으로 검색할 때 쓰는 공통 카테고리 목록
+    private val searchableItemCategories = listOf(
+        ItemCategory.MATERIAL,
+        ItemCategory.INGREDIENT,
+        ItemCategory.CONSUMABLE,
+        ItemCategory.KEY_ITEM,
+        ItemCategory.ACCESSORY,
+        ItemCategory.WEAPON,
+        ItemCategory.ARMOR,
+        ItemCategory.AMMO,
+        ItemCategory.SPHERE,
+        ItemCategory.SPHERE_MODULE
+    )
+
+    private fun findItemByName(name: String): Pair<ItemCategory, Item>? {
+        for(category in searchableItemCategories) {
+            getItems(category).find { it.name == name }?.let { return category to it }
+        }
+        return null
+    }
+
+    fun getItemIconpath(name: String): String? {
+        val (category, item) = findItemByName(name) ?: return null
+        return item.iconAssetPath(category)
+    }
+
+    //아이템 이름으로 카테고리와 href를 찾아 상세 화면 이동에 사용
+    fun findItemLocation(name: String): Pair<ItemCategory, String>? {
+        val (category, item) = findItemByName(name) ?: return null
+        return category to item.href
+    }
 }

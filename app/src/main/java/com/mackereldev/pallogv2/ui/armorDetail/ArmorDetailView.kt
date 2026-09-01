@@ -43,6 +43,8 @@ import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.mackereldev.pallogv2.data.model.ArmorItem
 import com.mackereldev.pallogv2.data.model.ArmorLevel
+import com.mackereldev.pallogv2.data.model.BuildingCategory
+import com.mackereldev.pallogv2.data.model.FacilityLocation
 import com.mackereldev.pallogv2.data.model.ItemCategory
 import com.mackereldev.pallogv2.ui.components.weaponRarityColor
 import com.mackereldev.pallogv2.ui.theme.SoftGray
@@ -51,7 +53,9 @@ import com.mackereldev.pallogv2.ui.theme.SoftGray
 @Composable
 fun ArmorDetailView(
     uiState: ArmorDetailUiState,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onItemClick: (ItemCategory, String) -> Unit,
+    onProductionClick: (BuildingCategory, String) -> Unit
 ) {
     Scaffold(
         topBar = {
@@ -72,14 +76,28 @@ fun ArmorDetailView(
             when (uiState) {
                 is ArmorDetailUiState.Loading -> CircularProgressIndicator()
                 is ArmorDetailUiState.Error -> Text(uiState.message)
-                is ArmorDetailUiState.Success -> ArmorDetailContent(armor = uiState.armor, materialIcons = uiState.materialIcons)
+                is ArmorDetailUiState.Success -> ArmorDetailContent(
+                    armor = uiState.armor,
+                    materialIcons = uiState.materialIcons,
+                    materialLocations = uiState.materialLocations,
+                    productionFacilities = uiState.productionFacilities,
+                    onItemClick = onItemClick,
+                    onProductionClick = onProductionClick
+                )
             }
         }
     }
 }
 
 @Composable
-private fun ArmorDetailContent(armor: ArmorItem, materialIcons: Map<String, String>) {
+private fun ArmorDetailContent(
+    armor: ArmorItem,
+    materialIcons: Map<String, String>,
+    materialLocations: Map<String, Pair<ItemCategory, String>>,
+    productionFacilities: Map<String, FacilityLocation>,
+    onItemClick: (ItemCategory, String) -> Unit,
+    onProductionClick: (BuildingCategory, String) -> Unit
+) {
     var selectedRarity by remember(armor.href) { mutableStateOf(armor.rarities.firstOrNull()) }
     val selectedLevel = armor.effectiveLevels.firstOrNull { it.rarity == selectedRarity }
         ?: armor.effectiveLevels.firstOrNull()
@@ -106,9 +124,9 @@ private fun ArmorDetailContent(armor: ArmorItem, materialIcons: Map<String, Stri
             Spacer(modifier = Modifier.height(16.dp))
             ArmorDescriptionSection(selectedLevel)
             Spacer(modifier = Modifier.height(16.dp))
-            ArmorMaterialSection(selectedLevel, materialIcons)
+            ArmorMaterialSection(selectedLevel, materialIcons, materialLocations, onItemClick)
             Spacer(modifier = Modifier.height(16.dp))
-            ArmorProductionSection(armor)
+            ArmorProductionSection(armor, productionFacilities, onProductionClick)
             Spacer(modifier = Modifier.height(16.dp))
             ArmorOtherSpecSection(selectedLevel)
             Spacer(modifier = Modifier.height(16.dp))
@@ -205,12 +223,20 @@ private fun ArmorDescriptionSection(level: ArmorLevel) {
 }
 
 @Composable
-private fun ArmorMaterialSection(level: ArmorLevel, materialIcons: Map<String, String>) {
-    if (level.material.isEmpty()) return
+private fun ArmorMaterialSection(
+    level: ArmorLevel,
+    materialIcons: Map<String, String>,
+    materialLocations: Map<String, Pair<ItemCategory, String>>,
+    onItemClick: (ItemCategory, String) -> Unit
+) {
+    if(level.material.isEmpty()) return
     SectionCard(title = "제작 재료") {
         level.material.entries.forEachIndexed { index, (name, amount) ->
+            val location = materialLocations[name]
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .let { base -> if (location != null) base.clickable { onItemClick(location.first, location.second) } else base },
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 materialIcons[name]?.let { iconPath ->
@@ -227,22 +253,30 @@ private fun ArmorMaterialSection(level: ArmorLevel, materialIcons: Map<String, S
                 Text(text = name, fontSize = 13.sp, color = Color.Gray, modifier = Modifier.weight(1f))
                 Text(text = "x$amount", fontSize = 13.sp, fontWeight = FontWeight.Medium)
             }
-            if (index != level.material.size - 1) Spacer(modifier = Modifier.height(6.dp))
+            if(index != level.material.size - 1) Spacer(modifier = Modifier.height(6.dp))
         }
     }
 }
 
 @Composable
-private fun ArmorProductionSection(armor: ArmorItem) {
-    if (armor.production.isEmpty()) return
+private fun ArmorProductionSection(
+    armor: ArmorItem,
+    productionFacilities: Map<String, FacilityLocation>,
+    onProductionClick: (BuildingCategory, String) -> Unit
+) {
+    if(armor.production.isEmpty()) return
     SectionCard(title = "생산 시설") {
         armor.production.forEachIndexed { index, facility ->
+            val location = productionFacilities[facility.pname]
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .let { base -> if (location != null) base.clickable { onProductionClick(location.category, location.href) } else base },
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 AsyncImage(
-                    model = "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
+                    model = location?.iconPath
+                        ?: "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
                     contentDescription = facility.pname,
                     modifier = Modifier
                         .size(40.dp)
@@ -250,9 +284,9 @@ private fun ArmorProductionSection(armor: ArmorItem) {
                         .background(Color(0xFF1C1C1C))
                 )
                 Spacer(modifier = Modifier.width(10.dp))
-                Text(text = facility.pname, fontSize = 13.sp, fontWeight = FontWeight.Medium)
+                Text(text = facility.pname, fontSize = 13.sp, fontWeight = FontWeight.Bold)
             }
-            if (index != armor.production.lastIndex) Spacer(modifier = Modifier.height(8.dp))
+            if(index != armor.production.lastIndex) Spacer(modifier = Modifier.height(8.dp))
         }
     }
 }

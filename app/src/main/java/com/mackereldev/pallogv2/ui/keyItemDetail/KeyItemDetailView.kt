@@ -1,6 +1,7 @@
 package com.mackereldev.pallogv2.ui.keyItemDetail
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -36,6 +37,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import com.mackereldev.pallogv2.data.model.BuildingCategory
+import com.mackereldev.pallogv2.data.model.FacilityLocation
 import com.mackereldev.pallogv2.data.model.Item
 import com.mackereldev.pallogv2.data.model.ItemCategory
 import com.mackereldev.pallogv2.ui.components.statLabel
@@ -45,7 +48,9 @@ import com.mackereldev.pallogv2.ui.theme.SoftGray
 @Composable
 fun KeyItemDetailView(
     uiState: KeyItemDetailUiState,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onItemClick: (ItemCategory, String) -> Unit,
+    onProductionClick: (BuildingCategory, String) -> Unit
 ) {
     Scaffold(
         topBar = {
@@ -66,14 +71,28 @@ fun KeyItemDetailView(
             when (uiState) {
                 is KeyItemDetailUiState.Loading -> CircularProgressIndicator()
                 is KeyItemDetailUiState.Error -> Text(uiState.message)
-                is KeyItemDetailUiState.Success -> KeyItemDetailContent(keyItem = uiState.keyItem, materialIcons = uiState.materialIcons)
+                is KeyItemDetailUiState.Success -> KeyItemDetailContent(
+                    keyItem = uiState.keyItem,
+                    materialIcons = uiState.materialIcons,
+                    materialLocations = uiState.materialLocations,
+                    productionFacilities = uiState.productionFacilities,
+                    onItemClick = onItemClick,
+                    onProductionClick = onProductionClick
+                )
             }
         }
     }
 }
 
 @Composable
-private fun KeyItemDetailContent(keyItem: Item, materialIcons: Map<String, String>) {
+private fun KeyItemDetailContent(
+    keyItem: Item,
+    materialIcons: Map<String, String>,
+    materialLocations: Map<String, Pair<ItemCategory, String>>,
+    productionFacilities: Map<String, FacilityLocation>,
+    onItemClick: (ItemCategory, String) -> Unit,
+    onProductionClick: (BuildingCategory, String) -> Unit
+) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -86,9 +105,9 @@ private fun KeyItemDetailContent(keyItem: Item, materialIcons: Map<String, Strin
         Spacer(modifier = Modifier.height(16.dp))
         KeyItemDescriptionSection(keyItem)
         Spacer(modifier = Modifier.height(16.dp))
-        KeyItemMaterialSection(keyItem, materialIcons)
+        KeyItemMaterialSection(keyItem, materialIcons, materialLocations, onItemClick)
         Spacer(modifier = Modifier.height(16.dp))
-        KeyItemProductionSection(keyItem)
+        KeyItemProductionSection(keyItem, productionFacilities, onProductionClick)
         Spacer(modifier = Modifier.height(16.dp))
         KeyItemOtherSpecSection(keyItem)
         Spacer(modifier = Modifier.height(16.dp))
@@ -140,12 +159,20 @@ private fun KeyItemDescriptionSection(keyItem: Item) {
 }
 
 @Composable
-private fun KeyItemMaterialSection(keyItem: Item, materialIcons: Map<String, String>) {
+private fun KeyItemMaterialSection(
+    keyItem: Item,
+    materialIcons: Map<String, String>,
+    materialLocations: Map<String, Pair<ItemCategory, String>>,
+    onItemClick: (ItemCategory, String) -> Unit
+) {
     if (keyItem.material.isEmpty()) return
     SectionCard(title = "제작 재료") {
         keyItem.material.entries.forEachIndexed { index, (name, amount) ->
+            val location = materialLocations[name]
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .let { base -> if (location != null) base.clickable { onItemClick(location.first, location.second) } else base },
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 materialIcons[name]?.let { iconPath ->
@@ -168,16 +195,24 @@ private fun KeyItemMaterialSection(keyItem: Item, materialIcons: Map<String, Str
 }
 
 @Composable
-private fun KeyItemProductionSection(keyItem: Item) {
+private fun KeyItemProductionSection(
+    keyItem: Item,
+    productionFacilities: Map<String, FacilityLocation>,
+    onProductionClick: (BuildingCategory, String) -> Unit
+) {
     if (keyItem.production.isEmpty()) return
     SectionCard(title = "생산 시설") {
         keyItem.production.forEachIndexed { index, facility ->
+            val location = productionFacilities[facility.pname]
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .let { base -> if (location != null) base.clickable { onProductionClick(location.category, location.href) } else base },
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 AsyncImage(
-                    model = "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
+                    model = location?.iconPath
+                        ?: "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
                     contentDescription = facility.pname,
                     modifier = Modifier
                         .size(40.dp)

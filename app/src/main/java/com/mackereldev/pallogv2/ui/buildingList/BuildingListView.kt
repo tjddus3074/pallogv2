@@ -32,8 +32,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.mackereldev.pallogv2.data.model.BuildingCategory
 import com.mackereldev.pallogv2.ui.components.BuildingCard
-import com.mackereldev.pallogv2.ui.components.PalArchitectureCard
+import com.mackereldev.pallogv2.ui.components.BuildingSuitabilityCard
 import com.mackereldev.pallogv2.ui.components.ProductionCard
+import com.mackereldev.pallogv2.ui.components.SchematicsCard
 import com.mackereldev.pallogv2.ui.components.StorageCard
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -42,7 +43,11 @@ fun BuildingListView(
     uiState: BuildingListUiState,
     selectedCategory: BuildingCategory,
     onCategorySelect: (BuildingCategory) -> Unit,
-    onMenuClick: () -> Unit
+    onMenuClick: () -> Unit,
+    onProductionClick: (String) -> Unit,
+    onBuildingSuitabilityClick: (BuildingCategory, String) -> Unit,
+    onStorageClick: (String) -> Unit,
+    onSchematicsClick: (String) -> Unit
 ) {
     var expanded by remember { mutableStateOf(false) }
 
@@ -114,23 +119,30 @@ fun BuildingListView(
                         when (selectedCategory) {
                             BuildingCategory.PRODUCTION -> ProductionCard(
                                 building = building,
-                                onClick = {},
+                                onClick = { onProductionClick(building.href) },
                                 modifier = Modifier.fillMaxWidth()
                             )
-                            BuildingCategory.PAL -> PalArchitectureCard(
+                            BuildingCategory.PAL,
+                            BuildingCategory.FOOD,
+                            BuildingCategory.INFRA,
+                            BuildingCategory.LIGHTING,
+                            BuildingCategory.FOUNDATION,
+                            BuildingCategory.DEFENSES,
+                            BuildingCategory.OTHER,
+                            BuildingCategory.FURNITURE -> BuildingSuitabilityCard(
                                 building = building,
-                                onClick = {},
+                                category = selectedCategory,
+                                onClick = { onBuildingSuitabilityClick(selectedCategory, building.href) },
                                 modifier = Modifier.fillMaxWidth()
                             )
                             BuildingCategory.STORAGE -> StorageCard(
                                 building = building,
-                                onClick = {},
+                                onClick = { onStorageClick(building.href) },
                                 modifier = Modifier.fillMaxWidth()
                             )
-                            else -> BuildingCard(
+                            BuildingCategory.SCHEMATICS -> SchematicsCard(
                                 building = building,
-                                category = selectedCategory,
-                                onClick = {},
+                                onClick = { onSchematicsClick(building.href) },
                                 modifier = Modifier.fillMaxWidth()
                             )
                         }

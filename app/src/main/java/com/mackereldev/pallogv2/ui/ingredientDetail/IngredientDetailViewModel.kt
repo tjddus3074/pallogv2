@@ -2,7 +2,10 @@ package com.mackereldev.pallogv2.ui.ingredientDetail
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.mackereldev.pallogv2.data.model.FacilityLocation
 import com.mackereldev.pallogv2.data.model.Item
+import com.mackereldev.pallogv2.data.model.ItemCategory
+import com.mackereldev.pallogv2.data.repository.BuildingRepository
 import com.mackereldev.pallogv2.data.repository.ItemRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
@@ -14,13 +17,19 @@ import javax.inject.Inject
 
 sealed class IngredientDetailUiState {
     object Loading : IngredientDetailUiState()
-    data class Success(val ingredient: Item, val materialIcons: Map<String, String>) : IngredientDetailUiState()
+    data class Success(
+        val ingredient: Item,
+        val materialIcons: Map<String, String>,
+        val materialLocations: Map<String, Pair<ItemCategory, String>>,
+        val productionFacilities: Map<String, FacilityLocation>
+    ) : IngredientDetailUiState()
     data class Error(val message: String) : IngredientDetailUiState()
 }
 
 @HiltViewModel
 class IngredientDetailViewModel @Inject constructor(
-    private val repository: ItemRepository
+    private val repository: ItemRepository,
+    private val buildingRepository: BuildingRepository
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow<IngredientDetailUiState>(IngredientDetailUiState.Loading)
@@ -38,7 +47,13 @@ class IngredientDetailViewModel @Inject constructor(
                     val materialIcons = ingredient.material.keys.distinct().mapNotNull { name ->
                         repository.getMaterialIconPath(name)?.let { name to it }
                     }.toMap()
-                    _uiState.value = IngredientDetailUiState.Success(ingredient, materialIcons)
+                    val materialLocations = ingredient.material.keys.distinct().mapNotNull { name ->
+                        repository.findItemLocation(name)?.let { name to it }
+                    }.toMap()
+                    val productionFacilities = ingredient.production.map { it.pname }.distinct().mapNotNull { name ->
+                        buildingRepository.findFacilityLocation(name)?.let { name to it }
+                    }.toMap()
+                    _uiState.value = IngredientDetailUiState.Success(ingredient, materialIcons, materialLocations, productionFacilities)
                 }
                 .onFailure { _uiState.value = IngredientDetailUiState.Error(it.message ?: "오류 발생") }
         }

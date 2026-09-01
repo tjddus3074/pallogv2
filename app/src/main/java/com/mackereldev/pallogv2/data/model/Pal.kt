@@ -17,7 +17,9 @@ data class Pal (
     val skills: List<PalSkill>,
     val suitability: Map<String, PalSuitability>,
     val foodamount: Int,
-    val drops: List<PalDrop>
+    val drops: List<PalDrop>,
+    val alphaDrops: List<PalDrop> = emptyList(),
+    val worldTreeDrops: List<PalDrop> = emptyList()
 ) {
     val iconAssetpath: String
         get() = "PAL/Icon/images_palicon/T_${stats.code}_icon_normal.webp"

@@ -41,6 +41,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import com.mackereldev.pallogv2.data.model.BuildingCategory
+import com.mackereldev.pallogv2.data.model.FacilityLocation
 import com.mackereldev.pallogv2.data.model.ItemCategory
 import com.mackereldev.pallogv2.data.model.SphereItem
 import com.mackereldev.pallogv2.data.model.SphereLevel
@@ -51,7 +53,9 @@ import com.mackereldev.pallogv2.ui.theme.SoftGray
 @Composable
 fun SphereDetailView(
     uiState: SphereDetailUiState,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onItemClick: (ItemCategory, String) -> Unit,
+    onProductionClick: (BuildingCategory, String) -> Unit
 ) {
     Scaffold(
         topBar = {
@@ -72,14 +76,28 @@ fun SphereDetailView(
             when (uiState) {
                 is SphereDetailUiState.Loading -> CircularProgressIndicator()
                 is SphereDetailUiState.Error -> Text(uiState.message)
-                is SphereDetailUiState.Success -> SphereDetailContent(sphere = uiState.sphere, materialIcons = uiState.materialIcons)
+                is SphereDetailUiState.Success -> SphereDetailContent(
+                    sphere = uiState.sphere,
+                    materialIcons = uiState.materialIcons,
+                    materialLocations = uiState.materialLocations,
+                    productionFacilities = uiState.productionFacilities,
+                    onItemClick = onItemClick,
+                    onProductionClick = onProductionClick
+                )
             }
         }
     }
 }
 
 @Composable
-private fun SphereDetailContent(sphere: SphereItem, materialIcons: Map<String, String>) {
+private fun SphereDetailContent(
+    sphere: SphereItem,
+    materialIcons: Map<String, String>,
+    materialLocations: Map<String, Pair<ItemCategory, String>>,
+    productionFacilities: Map<String, FacilityLocation>,
+    onItemClick: (ItemCategory, String) -> Unit,
+    onProductionClick: (BuildingCategory, String) -> Unit
+) {
     var selectedRarity by remember(sphere.href) { mutableStateOf(sphere.rarities.firstOrNull()) }
     val selectedLevel = sphere.effectiveLevels.firstOrNull { it.rarity == selectedRarity }
         ?: sphere.effectiveLevels.firstOrNull()
@@ -106,9 +124,9 @@ private fun SphereDetailContent(sphere: SphereItem, materialIcons: Map<String, S
             Spacer(modifier = Modifier.height(16.dp))
             SphereDescriptionSection(selectedLevel)
             Spacer(modifier = Modifier.height(16.dp))
-            SphereMaterialSection(selectedLevel, materialIcons)
+            SphereMaterialSection(selectedLevel, materialIcons, materialLocations, onItemClick)
             Spacer(modifier = Modifier.height(16.dp))
-            SphereProductionSection(sphere)
+            SphereProductionSection(sphere, productionFacilities, onProductionClick)
             Spacer(modifier = Modifier.height(16.dp))
             SphereOtherSpecSection(selectedLevel)
             Spacer(modifier = Modifier.height(16.dp))
@@ -193,12 +211,20 @@ private fun SphereDescriptionSection(level: SphereLevel) {
 }
 
 @Composable
-private fun SphereMaterialSection(level: SphereLevel, materialIcons: Map<String, String>) {
+private fun SphereMaterialSection(
+    level: SphereLevel,
+    materialIcons: Map<String, String>,
+    materialLocations: Map<String, Pair<ItemCategory, String>>,
+    onItemClick: (ItemCategory, String) -> Unit
+) {
     if(level.material.isEmpty()) return
-    SectionCard(title = "제작 재료") {
+    SectionCard("제작 재료") {
         level.material.entries.forEachIndexed { index, (name, amount) ->
+            val location = materialLocations[name]
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .let { base -> if (location != null) base.clickable { onItemClick(location.first, location.second) } else base },
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 materialIcons[name]?.let { iconPath ->
@@ -221,16 +247,24 @@ private fun SphereMaterialSection(level: SphereLevel, materialIcons: Map<String,
 }
 
 @Composable
-private fun SphereProductionSection(sphere: SphereItem) {
+private fun SphereProductionSection(
+    sphere: SphereItem,
+    productionFacilities: Map<String, FacilityLocation>,
+    onProductionClick: (BuildingCategory, String) -> Unit
+) {
     if(sphere.production.isEmpty()) return
-    SectionCard(title = "생산 시설") {
+    SectionCard("생산 시설") {
         sphere.production.forEachIndexed { index, facility ->
+            val location = productionFacilities[facility.pname]
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .let { base -> if (location != null) base.clickable { onProductionClick(location.category, location.href) } else base },
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 AsyncImage(
-                    model = "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
+                    model = location?.iconPath
+                        ?: "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
                     contentDescription = facility.pname,
                     modifier = Modifier
                         .size(40.dp)
@@ -282,4 +316,3 @@ private fun SpecRow(label: String, value: String) {
         Text(text = value, fontSize = 13.sp, fontWeight = FontWeight.Medium)
     }
 }
-

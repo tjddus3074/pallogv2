@@ -1,6 +1,7 @@
 package com.mackereldev.pallogv2.ui.accessoryDetail
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -38,6 +39,8 @@ import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.mackereldev.pallogv2.data.model.AccessoryItem
 import com.mackereldev.pallogv2.data.model.AccessoryLevel
+import com.mackereldev.pallogv2.data.model.BuildingCategory
+import com.mackereldev.pallogv2.data.model.FacilityLocation
 import com.mackereldev.pallogv2.data.model.ItemCategory
 import com.mackereldev.pallogv2.ui.components.weaponRarityColor
 import com.mackereldev.pallogv2.ui.theme.SoftGray
@@ -47,7 +50,9 @@ import com.mackereldev.pallogv2.ui.theme.SoftGray
 @Composable
 fun AccessoryDetailView (
     uiState: AccessoryDetailUiState,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onItemClick: (ItemCategory, String) -> Unit,
+    onProductionClick: (BuildingCategory, String) -> Unit
 ) {
     Scaffold(
         topBar = {
@@ -68,14 +73,28 @@ fun AccessoryDetailView (
             when (uiState) {
                 is AccessoryDetailUiState.Loading -> CircularProgressIndicator()
                 is AccessoryDetailUiState.Error -> Text(uiState.message)
-                is AccessoryDetailUiState.Success -> AccessoryDetailContent(accessory = uiState.accessory, materialIcons = uiState.materialIcons)
+                is AccessoryDetailUiState.Success -> AccessoryDetailContent(
+                    accessory = uiState.accessory,
+                    materialIcons = uiState.materialIcons,
+                    materialLocations = uiState.materialLocations,
+                    productionFacilities = uiState.productionFacilities,
+                    onItemClick = onItemClick,
+                    onProductionClick = onProductionClick
+                )
             }
         }
     }
 }
 
 @Composable
-private fun AccessoryDetailContent(accessory: AccessoryItem, materialIcons: Map<String, String>) {
+private fun AccessoryDetailContent(
+    accessory: AccessoryItem,
+    materialIcons: Map<String, String>,
+    materialLocations: Map<String, Pair<ItemCategory, String>>,
+    productionFacilities: Map<String, FacilityLocation>,
+    onItemClick: (ItemCategory, String) -> Unit,
+    onProductionClick: (BuildingCategory, String) -> Unit
+) {
     val level = accessory.effectiveLevels.firstOrNull()
 
     Column(
@@ -104,9 +123,9 @@ private fun AccessoryDetailContent(accessory: AccessoryItem, materialIcons: Map<
             Spacer(modifier = Modifier.height(16.dp))
             AccessoryDescriptionSection(level)
             Spacer(modifier = Modifier.height(16.dp))
-            AccessoryMaterialSection(level, materialIcons)
+            AccessoryMaterialSection(level, materialIcons, materialLocations, onItemClick)
             Spacer(modifier = Modifier.height(16.dp))
-            AccessoryProductionSection(accessory)
+            AccessoryProductionSection(accessory, productionFacilities, onProductionClick)
             Spacer(modifier = Modifier.height(16.dp))
             AccessoryOtherSpecSection(level)
             Spacer(modifier = Modifier.height(16.dp))
@@ -160,12 +179,20 @@ private fun AccessoryDescriptionSection(level: AccessoryLevel) {
 }
 
 @Composable
-private fun AccessoryMaterialSection(level: AccessoryLevel, materialIcons: Map<String, String>) {
+private fun AccessoryMaterialSection(
+    level: AccessoryLevel,
+    materialIcons: Map<String, String>,
+    materialLocations: Map<String, Pair<ItemCategory, String>>,
+    onItemClick: (ItemCategory, String) -> Unit
+) {
     if(level.material.isEmpty()) return
     SectionCard(title = "제작 재료") {
         level.material.entries.forEachIndexed { index, (name, amount) ->
+            val location = materialLocations[name]
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .let { base -> if (location != null) base.clickable { onItemClick(location.first, location.second) } else base },
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 materialIcons[name]?.let { iconPath ->
@@ -188,16 +215,24 @@ private fun AccessoryMaterialSection(level: AccessoryLevel, materialIcons: Map<S
 }
 
 @Composable
-private fun AccessoryProductionSection(accessory: AccessoryItem) {
+private fun AccessoryProductionSection(
+    accessory: AccessoryItem,
+    productionFacilities: Map<String, FacilityLocation>,
+    onProductionClick: (BuildingCategory, String) -> Unit
+) {
     if(accessory.production.isEmpty()) return
     SectionCard(title = "생산 시설") {
         accessory.production.forEachIndexed { index, facility ->
+            val location = productionFacilities[facility.pname]
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .let { base -> if (location != null) base.clickable { onProductionClick(location.category, location.href) } else base },
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 AsyncImage(
-                    model = "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
+                    model = location?.iconPath
+                        ?: "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
                     contentDescription = facility.pname,
                     modifier = Modifier
                         .size(40.dp)

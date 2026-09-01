@@ -1,8 +1,7 @@
-package com.mackereldev.pallogv2.ui.materialDetail
+package com.mackereldev.pallogv2.ui.storageDetail
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
@@ -38,24 +37,22 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import com.mackereldev.pallogv2.data.model.Building
 import com.mackereldev.pallogv2.data.model.BuildingCategory
-import com.mackereldev.pallogv2.data.model.FacilityLocation
-import com.mackereldev.pallogv2.data.model.Item
 import com.mackereldev.pallogv2.data.model.ItemCategory
 import com.mackereldev.pallogv2.ui.theme.SoftGray
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun MaterialDetailView(
-    uiState: MaterialDetailUiState,
+fun StorageDetailView(
+    uiState: StorageDetailUiState,
     onBack: () -> Unit,
-    onItemClick: (ItemCategory, String) -> Unit,
-    onProductionClick: (BuildingCategory, String) -> Unit
+    onItemClick: (ItemCategory, String) -> Unit
 ) {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { if (uiState is MaterialDetailUiState.Success) Text(uiState.material.name) },
+                title = { if (uiState is StorageDetailUiState.Success) Text(uiState.building.name) },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "뒤로가기")
@@ -69,15 +66,13 @@ fun MaterialDetailView(
             contentAlignment = Alignment.Center
         ) {
             when (uiState) {
-                is MaterialDetailUiState.Loading -> CircularProgressIndicator()
-                is MaterialDetailUiState.Error -> Text(uiState.message)
-                is MaterialDetailUiState.Success -> MaterialDetailContent(
-                    material = uiState.material,
+                is StorageDetailUiState.Loading -> CircularProgressIndicator()
+                is StorageDetailUiState.Error -> Text(uiState.message)
+                is StorageDetailUiState.Success -> StorageDetailContent(
+                    building = uiState.building,
                     materialIcons = uiState.materialIcons,
                     materialLocations = uiState.materialLocations,
-                    productionFacilities = uiState.productionFacilities,
-                    onItemClick = onItemClick,
-                    onProductionClick = onProductionClick
+                    onItemClick = onItemClick
                 )
             }
         }
@@ -85,13 +80,11 @@ fun MaterialDetailView(
 }
 
 @Composable
-private fun MaterialDetailContent(
-    material: Item,
+private fun StorageDetailContent(
+    building: Building,
     materialIcons: Map<String, String>,
     materialLocations: Map<String, Pair<ItemCategory, String>>,
-    productionFacilities: Map<String, FacilityLocation>,
-    onItemClick: (ItemCategory, String) -> Unit,
-    onProductionClick: (BuildingCategory, String) -> Unit
+    onItemClick: (ItemCategory, String) -> Unit
 ) {
     Column(
         modifier = Modifier
@@ -99,23 +92,21 @@ private fun MaterialDetailContent(
             .verticalScroll(rememberScrollState())
             .padding(16.dp)
     ) {
-        MaterialHeaderSection(material)
+        StorageHeaderSection(building)
         Spacer(modifier = Modifier.height(20.dp))
-        Text(text = material.name, fontSize = 20.sp, fontWeight = FontWeight.Bold)
+        Text(text = building.name, fontSize = 20.sp, fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.height(16.dp))
-        MaterialDescriptionSection(material)
+        StorageSuitabilitySection(building)
         Spacer(modifier = Modifier.height(16.dp))
-        MaterialMaterialSection(material, materialIcons, materialLocations, onItemClick)
+        StorageDescriptionSection(building)
         Spacer(modifier = Modifier.height(16.dp))
-        MaterialProductionSection(material, productionFacilities, onProductionClick)
-        Spacer(modifier = Modifier.height(16.dp))
-        MaterialOtherSpecSection(material)
+        StorageMaterialSection(building, materialIcons, materialLocations, onItemClick)
         Spacer(modifier = Modifier.height(16.dp))
     }
 }
 
 @Composable
-private fun MaterialHeaderSection(material: Item) {
+private fun StorageHeaderSection(building: Building) {
     Row(
         modifier = Modifier.fillMaxWidth(),
         verticalAlignment = Alignment.CenterVertically
@@ -131,8 +122,8 @@ private fun MaterialHeaderSection(material: Item) {
                 modifier = Modifier.fillMaxSize()
             )
             AsyncImage(
-                model = material.iconAssetPath(ItemCategory.MATERIAL),
-                contentDescription = material.name,
+                model = building.iconAssetPath(BuildingCategory.STORAGE),
+                contentDescription = building.name,
                 modifier = Modifier.fillMaxSize(0.65f)
             )
         }
@@ -140,31 +131,55 @@ private fun MaterialHeaderSection(material: Item) {
         Spacer(modifier = Modifier.width(16.dp))
 
         Column(modifier = Modifier.weight(0.3f)) {
-            if (material.techLevel.isNotBlank()) {
-                Text(text = "기술 Lv.${material.techLevel}", fontSize = 13.sp, color = Color.Gray)
+            if (building.slots.isNotBlank()) {
+                Text(text = "수납 칸 ${building.slots}개", fontSize = 13.sp, fontWeight = FontWeight.Medium)
+            }
+            if (building.techLevel.isNotBlank()) {
+                Spacer(modifier = Modifier.height(4.dp))
+                Text(text = "기술 Lv.${building.techLevel}", fontSize = 12.sp, color = Color.Gray)
             }
         }
     }
 }
 
 @Composable
-private fun MaterialDescriptionSection(material: Item) {
-    if (material.description.isBlank()) return
-    SectionCard(title = "설명") {
-        Text(text = material.description, fontSize = 14.sp, lineHeight = 20.sp)
+private fun StorageSuitabilitySection(building: Building) {
+    if (building.requiredSuitability.isEmpty()) return
+    SectionCard(title = "필요 적성") {
+        building.requiredSuitability.forEachIndexed { index, req ->
+            if (index > 0) Spacer(modifier = Modifier.height(6.dp))
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                AsyncImage(
+                    model = req.localIconPath,
+                    contentDescription = req.koreanLabel,
+                    modifier = Modifier.size(20.dp)
+                )
+                Spacer(modifier = Modifier.width(8.dp))
+                Text(text = "${req.koreanLabel} Lv.${req.level}", fontSize = 14.sp, fontWeight = FontWeight.Medium)
+            }
+        }
     }
 }
 
 @Composable
-private fun MaterialMaterialSection(
-    material: Item,
+private fun StorageDescriptionSection(building: Building) {
+    if (building.description.isBlank()) return
+    SectionCard(title = "설명") {
+        Text(text = building.description, fontSize = 14.sp, lineHeight = 20.sp)
+    }
+}
+
+
+@Composable
+private fun StorageMaterialSection(
+    building: Building,
     materialIcons: Map<String, String>,
     materialLocations: Map<String, Pair<ItemCategory, String>>,
     onItemClick: (ItemCategory, String) -> Unit
 ) {
-    if(material.material.isEmpty()) return
-    SectionCard("제작 재료") {
-        material.material.entries.forEachIndexed { index, (name, amount) ->
+    if (building.material.isEmpty()) return
+    SectionCard(title = "제작 재료") {
+        building.material.entries.forEachIndexed { index, (name, amount) ->
             val location = materialLocations[name]
             Row(
                 modifier = Modifier
@@ -186,51 +201,8 @@ private fun MaterialMaterialSection(
                 Text(text = name, fontSize = 13.sp, color = Color.Gray, modifier = Modifier.weight(1f))
                 Text(text = "x$amount", fontSize = 13.sp, fontWeight = FontWeight.Medium)
             }
-            if(index != material.material.size - 1) Spacer(modifier = Modifier.height(6.dp))
+            if (index != building.material.size - 1) Spacer(modifier = Modifier.height(6.dp))
         }
-    }
-}
-
-@Composable
-private fun MaterialProductionSection(
-    material: Item,
-    productionFacilities: Map<String, FacilityLocation>,
-    onProductionClick: (BuildingCategory, String) -> Unit
-) {
-    if (material.production.isEmpty()) return
-    SectionCard(title = "생산 시설") {
-        material.production.forEachIndexed { index, facility ->
-            val location = productionFacilities[facility.pname]
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .let { base -> if (location != null) base.clickable { onProductionClick(location.category, location.href) } else base },
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                AsyncImage(
-                    model = location?.iconPath
-                        ?: "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
-                    contentDescription = facility.pname,
-                    modifier = Modifier
-                        .size(40.dp)
-                        .clip(RoundedCornerShape(8.dp))
-                        .background(Color(0xFF1C1C1C))
-                )
-                Spacer(modifier = Modifier.width(10.dp))
-                Text(text = facility.pname, fontSize = 13.sp, fontWeight = FontWeight.Medium)
-            }
-            if (index != material.production.lastIndex) Spacer(modifier = Modifier.height(8.dp))
-        }
-    }
-}
-
-@Composable
-private fun MaterialOtherSpecSection(material: Item) {
-    SectionCard(title = "그 외 스펙") {
-        SpecRow("가격", material.금화)
-        SpecRow("무게", material.weight)
-        SpecRow("최대 소지 개수", material.maxStackCount)
-        SpecRow("기습 공격 배율", material.sneakAttackRate)
     }
 }
 
@@ -247,17 +219,5 @@ private fun SectionCard(title: String, content: @Composable ColumnScope.() -> Un
                 .padding(12.dp),
             content = content
         )
-    }
-}
-
-@Composable
-private fun SpecRow(label: String, value: String) {
-    if (value.isBlank()) return
-    Row(
-        modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp),
-        horizontalArrangement = Arrangement.SpaceBetween
-    ) {
-        Text(text = label, fontSize = 13.sp, color = Color.Gray)
-        Text(text = value, fontSize = 13.sp, fontWeight = FontWeight.Medium)
     }
 }

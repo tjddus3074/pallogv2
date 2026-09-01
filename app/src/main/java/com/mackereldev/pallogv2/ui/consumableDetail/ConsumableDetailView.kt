@@ -1,6 +1,7 @@
 package com.mackereldev.pallogv2.ui.consumableDetail
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -36,10 +37,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import com.mackereldev.pallogv2.data.model.BuildingCategory
+import com.mackereldev.pallogv2.data.model.FacilityLocation
 import com.mackereldev.pallogv2.data.model.Item
 import com.mackereldev.pallogv2.data.model.ItemCategory
 import com.mackereldev.pallogv2.ui.components.statLabel
-import com.mackereldev.pallogv2.ui.components.statLabels
 import com.mackereldev.pallogv2.ui.theme.SoftGray
 
 
@@ -47,7 +49,9 @@ import com.mackereldev.pallogv2.ui.theme.SoftGray
 @Composable
 fun ConsumableDetailView(
     uiState: ConsumableDetailUiState,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onItemClick: (ItemCategory, String) -> Unit,
+    onProductionClick: (BuildingCategory, String) -> Unit
 ) {
     Scaffold(
         topBar = {
@@ -68,14 +72,28 @@ fun ConsumableDetailView(
             when(uiState) {
                 is ConsumableDetailUiState.Loading -> CircularProgressIndicator()
                 is ConsumableDetailUiState.Error -> Text(uiState.message)
-                is ConsumableDetailUiState.Success -> ConsumableDetailContent(consumable = uiState.consumable, materialIcons = uiState.materialIcons)
+                is ConsumableDetailUiState.Success -> ConsumableDetailContent(
+                    consumable = uiState.consumable,
+                    materialIcons = uiState.materialIcons,
+                    materialLocations = uiState.materialLocations,
+                    productionFacilities = uiState.productionFacilities,
+                    onItemClick = onItemClick,
+                    onProductionClick = onProductionClick
+                )
             }
         }
     }
 }
 
 @Composable
-private fun ConsumableDetailContent(consumable: Item, materialIcons: Map<String, String>) {
+private fun ConsumableDetailContent(
+    consumable: Item,
+    materialIcons: Map<String, String>,
+    materialLocations: Map<String, Pair<ItemCategory, String>>,
+    productionFacilities: Map<String, FacilityLocation>,
+    onItemClick: (ItemCategory, String) -> Unit,
+    onProductionClick: (BuildingCategory, String) -> Unit
+) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -88,9 +106,9 @@ private fun ConsumableDetailContent(consumable: Item, materialIcons: Map<String,
         Spacer(modifier = Modifier.height(16.dp))
         ConsumableDescriptionSection(consumable)
         Spacer(modifier = Modifier.height(16.dp))
-        ConsumableMaterialSection(consumable, materialIcons)
+        ConsumableMaterialSection(consumable, materialIcons, materialLocations, onItemClick)
         Spacer(modifier = Modifier.height(16.dp))
-        ConsumableProductionSection(consumable)
+        ConsumableProductionSection(consumable, productionFacilities, onProductionClick)
         Spacer(modifier = Modifier.height(16.dp))
         ConsumableOtherSpecSection(consumable)
         Spacer(modifier = Modifier.height(16.dp))
@@ -142,12 +160,20 @@ private fun ConsumableDescriptionSection(consumable: Item) {
 }
 
 @Composable
-private fun ConsumableMaterialSection(consumable: Item, materialIcons: Map<String, String>) {
+private fun ConsumableMaterialSection(
+    consumable: Item,
+    materialIcons: Map<String, String>,
+    materialLocations: Map<String, Pair<ItemCategory, String>>,
+    onItemClick: (ItemCategory, String) -> Unit
+) {
     if(consumable.material.isEmpty()) return
     SectionCard("제작 재료") {
         consumable.material.entries.forEachIndexed { index, (name, amount) ->
+            val location = materialLocations[name]
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .let { base -> if (location != null) base.clickable { onItemClick(location.first, location.second) } else base },
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 materialIcons[name]?.let { iconPath ->
@@ -170,16 +196,24 @@ private fun ConsumableMaterialSection(consumable: Item, materialIcons: Map<Strin
 }
 
 @Composable
-private fun ConsumableProductionSection(consumable: Item) {
+private fun ConsumableProductionSection(
+    consumable: Item,
+    productionFacilities: Map<String, FacilityLocation>,
+    onProductionClick: (BuildingCategory, String) -> Unit
+) {
     if(consumable.production.isEmpty()) return
     SectionCard(title = "생산 시설") {
         consumable.production.forEachIndexed { index, facility ->
+            val location = productionFacilities[facility.pname]
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .let { base -> if (location != null) base.clickable { onProductionClick(location.category, location.href) } else base },
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 AsyncImage(
-                    model = "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
+                    model = location?.iconPath
+                        ?: "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
                     contentDescription = facility.pname,
                     modifier = Modifier
                         .size(40.dp)
@@ -231,4 +265,3 @@ private fun SpecRow(label: String, value: String) {
         Text(text = value, fontSize = 13.sp, fontWeight = FontWeight.Bold)
     }
 }
-

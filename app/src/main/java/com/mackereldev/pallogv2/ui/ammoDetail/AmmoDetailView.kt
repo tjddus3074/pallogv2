@@ -1,6 +1,7 @@
 package com.mackereldev.pallogv2.ui.ammoDetail
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -37,6 +38,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.mackereldev.pallogv2.data.model.AmmoItem
+import com.mackereldev.pallogv2.data.model.BuildingCategory
+import com.mackereldev.pallogv2.data.model.FacilityLocation
 import com.mackereldev.pallogv2.data.model.ItemCategory
 import com.mackereldev.pallogv2.ui.theme.SoftGray
 
@@ -44,7 +47,9 @@ import com.mackereldev.pallogv2.ui.theme.SoftGray
 @Composable
 fun AmmoDetailView(
     uiState: AmmoDetailUiState,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onItemClick: (ItemCategory, String) -> Unit,
+    onProductionClick: (BuildingCategory, String) -> Unit
 ) {
     Scaffold(
         topBar = {
@@ -65,14 +70,28 @@ fun AmmoDetailView(
             when(uiState) {
                 is AmmoDetailUiState.Loading -> CircularProgressIndicator()
                 is AmmoDetailUiState.Error -> Text(uiState.message)
-                is AmmoDetailUiState.Success -> AmmoDetailContent(ammo = uiState.ammo, materialIcons = uiState.materialIcons)
+                is AmmoDetailUiState.Success -> AmmoDetailContent(
+                    ammo = uiState.ammo,
+                    materialIcons = uiState.materialIcons,
+                    materialLocations = uiState.materialLocations,
+                    productionFacilities = uiState.productionFacilities,
+                    onItemClick = onItemClick,
+                    onProductionClick = onProductionClick
+                )
             }
         }
     }
 }
 
 @Composable
-private fun AmmoDetailContent(ammo: AmmoItem, materialIcons: Map<String, String>) {
+private fun AmmoDetailContent(
+    ammo: AmmoItem,
+    materialIcons: Map<String, String>,
+    materialLocations: Map<String, Pair<ItemCategory, String>>,
+    productionFacilities: Map<String, FacilityLocation>,
+    onItemClick: (ItemCategory, String) -> Unit,
+    onProductionClick: (BuildingCategory, String) -> Unit
+) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -85,9 +104,9 @@ private fun AmmoDetailContent(ammo: AmmoItem, materialIcons: Map<String, String>
         Spacer(modifier = Modifier.height(16.dp))
         AmmoDescriptionSection(ammo)
         Spacer(modifier = Modifier.height(16.dp))
-        AmmoMaterialSection(ammo, materialIcons)
+        AmmoMaterialSection(ammo, materialIcons, materialLocations, onItemClick)
         Spacer(modifier = Modifier.height(16.dp))
-        AmmoProductionSection(ammo)
+        AmmoProductionSection(ammo, productionFacilities, onProductionClick)
         Spacer(modifier = Modifier.height(16.dp))
         AmmoOtherSpecSection(ammo)
         Spacer(modifier = Modifier.height(16.dp))
@@ -134,12 +153,20 @@ private fun AmmoDescriptionSection(ammo: AmmoItem) {
 }
 
 @Composable
-private fun AmmoMaterialSection(ammo: AmmoItem, materialIcons: Map<String, String>) {
+private fun AmmoMaterialSection(
+    ammo: AmmoItem,
+    materialIcons: Map<String, String>,
+    materialLocations: Map<String, Pair<ItemCategory, String>>,
+    onItemClick: (ItemCategory, String) -> Unit
+) {
     if(ammo.meterial.isEmpty()) return
     SectionCard(title = "제작 재료") {
         ammo.meterial.entries.forEachIndexed { index, (name, amount) ->
+            val location = materialLocations[name]
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .let { base -> if (location != null) base.clickable { onItemClick(location.first, location.second) } else base },
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 materialIcons[name]?.let { iconPath ->
@@ -162,16 +189,24 @@ private fun AmmoMaterialSection(ammo: AmmoItem, materialIcons: Map<String, Strin
 }
 
 @Composable
-private fun AmmoProductionSection(ammo: AmmoItem) {
+private fun AmmoProductionSection(
+    ammo: AmmoItem,
+    productionFacilities: Map<String, FacilityLocation>,
+    onProductionClick: (BuildingCategory, String) -> Unit
+) {
     if (ammo.production.isEmpty()) return
     SectionCard(title = "생산 시설") {
         ammo.production.forEachIndexed { index, facility ->
+            val location = productionFacilities[facility.pname]
             Row(
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .let { base -> if (location != null) base.clickable { onProductionClick(location.category, location.href) } else base },
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 AsyncImage(
-                    model = "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
+                    model = location?.iconPath
+                        ?: "file:///android_asset/PAL/Icon/images_production/${facility.imgsrc.substringAfterLast("/")}",
                     contentDescription = facility.pname,
                     modifier = Modifier
                         .size(40.dp)

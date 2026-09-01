@@ -4,6 +4,7 @@ import android.view.RoundedCorner
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -36,6 +37,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
@@ -43,6 +45,7 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import com.mackereldev.pallogv2.data.model.ItemCategory
 import com.mackereldev.pallogv2.data.model.Pal
 import com.mackereldev.pallogv2.data.model.PalDrop
 import com.mackereldev.pallogv2.data.model.PalSkill
@@ -61,7 +64,8 @@ import com.mackereldev.pallogv2.ui.theme.SoftGray
 @Composable
 fun PalDetailView(
     uiState: PalDetailUiState,
-    onBack: () -> Unit
+    onBack: () -> Unit,
+    onItemClick: (ItemCategory, String) -> Unit
 ) {
     Scaffold(
         topBar = {
@@ -84,14 +88,24 @@ fun PalDetailView(
             when (uiState) {
                 is PalDetailUiState.Loading -> CircularProgressIndicator()
                 is PalDetailUiState.Error -> Text(uiState.message)
-                is PalDetailUiState.Success -> PalDetailContent(pal = uiState.pal)
+                is PalDetailUiState.Success -> PalDetailContent(
+                    pal = uiState.pal,
+                    dropIcons = uiState.dropIcons,
+                    dropLocations = uiState.dropLocations,
+                    onItemClick = onItemClick
+                )
             }
         }
     }
 }
 
 @Composable
-private fun PalDetailContent(pal : Pal) {
+private fun PalDetailContent(
+    pal: Pal,
+    dropIcons: Map<String, String>,
+    dropLocations: Map<String, Pair<ItemCategory, String>>,
+    onItemClick: (ItemCategory, String) -> Unit
+) {
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -110,26 +124,37 @@ private fun PalDetailContent(pal : Pal) {
         Spacer(modifier = Modifier.height(16.dp))
         PalSkillSection(pal)
         Spacer(modifier = Modifier.height(16.dp))
-        PalDropSection(pal)
+        PalDropSection(pal, dropIcons, dropLocations, onItemClick)
         Spacer(modifier = Modifier.height(16.dp))
     }
 }
 
 // 공통 섹션 카드
 @Composable
-private fun SectionCard(
-    title: String,
-    content: @Composable ColumnScope.() -> Unit
-) {
+private fun SectionCard(title: String, icon: String? = null, content: @Composable ColumnScope.() -> Unit) {
+    SectionCard(title = AnnotatedString(title), icon = icon, content = content)
+}
+
+@Composable
+private fun SectionCard(title: AnnotatedString, icon: String? = null, content: @Composable ColumnScope.() -> Unit) {
     Column {
-        Text(text = title, fontSize = 16.sp, fontWeight = FontWeight.Bold)
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            if (icon != null) {
+                AsyncImage(
+                    model = icon,
+                    contentDescription = null,
+                    modifier = Modifier.size(18.dp)
+                )
+                Spacer(modifier = Modifier.width(6.dp))
+            }
+            Text(text = title, fontSize = 16.sp, fontWeight = FontWeight.Bold)
+        }
         Spacer(modifier = Modifier.height(8.dp))
         Column(
             modifier = Modifier
                 .fillMaxWidth()
                 .clip(RoundedCornerShape(15.dp))
                 .background(SoftGray.copy(alpha = 0.1f))
-                .border(1.dp, SoftGray.copy(alpha = 0.12f), RoundedCornerShape(15.dp))
                 .padding(12.dp),
             content = content
         )
@@ -321,11 +346,10 @@ private fun PalSkillRow(skill: PalSkill) {
             verticalAlignment = Alignment.CenterVertically
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Box(
-                    modifier = Modifier
-                        .size(10.dp)
-                        .clip(CircleShape)
-                        .background(elementBorderColor(skill.skilltype))
+                AsyncImage(
+                    model = "file:///android_asset/PAL/Texture/UI/InGame/${elementkotoeng(skill.skilltype)}.png",
+                    contentDescription = skill.skilltype,
+                    modifier = Modifier.size(18.dp)
                 )
                 Spacer(modifier = Modifier.width(6.dp))
                 Text(text = skill.skillname, fontSize = 14.sp, fontWeight = FontWeight.Bold)
@@ -342,20 +366,71 @@ private fun PalSkillRow(skill: PalSkill) {
                 text = skill.skilldescription,
                 fontSize = 12.sp,
                 color = Color.Gray,
-                modifier = Modifier.padding(top = 2.dp, start = 16.dp)
+                modifier = Modifier.padding(top = 2.dp, start = 24.dp)
             )
         }
     }
 }
 
 // 드롭 아이템
+
 @Composable
-private fun PalDropSection(pal: Pal) {
-    if(pal.drops.isEmpty()) return
-    SectionCard(title = "드롭 아이템") {
-        pal.drops.forEachIndexed { index, drop ->
-            PalDropRow(drop)
-            if(index != pal.drops.lastIndex) {
+private fun PalDropSection(
+    pal: Pal,
+    dropIcons: Map<String, String>,
+    dropLocations: Map<String, Pair<ItemCategory, String>>,
+    onItemClick: (ItemCategory, String) -> Unit
+) {
+    PalDropGroup(
+        title = AnnotatedString("드롭 아이템"),
+        drops = pal.drops,
+        dropIcons = dropIcons,
+        dropLocations = dropLocations,
+        onItemClick = onItemClick
+    )
+    if (pal.alphaDrops.isNotEmpty()) {
+        Spacer(modifier = Modifier.height(16.dp))
+        PalDropGroup(
+            title = AnnotatedString("알파 팰 드롭 아이템"),
+            drops = pal.alphaDrops,
+            dropIcons = dropIcons,
+            dropLocations = dropLocations,
+            icon = "file:///android_asset/PAL/Texture/UI/InGame/T_icon_enemy_strong.png",
+            onItemClick = onItemClick
+        )
+    }
+    if (pal.worldTreeDrops.isNotEmpty()) {
+        Spacer(modifier = Modifier.height(16.dp))
+        PalDropGroup(
+            title = buildAnnotatedString {
+                append("드롭 아이템 (")
+                withStyle(SpanStyle(color = GoldAccent, fontWeight = FontWeight.Bold)) {
+                    append("Lv.80")
+                }
+                append(")")
+            },
+            drops = pal.worldTreeDrops,
+            dropIcons = dropIcons,
+            dropLocations = dropLocations,
+            onItemClick = onItemClick
+        )
+    }
+}
+
+@Composable
+private fun PalDropGroup(
+    title: AnnotatedString,
+    drops: List<PalDrop>,
+    dropIcons: Map<String, String>,
+    dropLocations: Map<String, Pair<ItemCategory, String>>,
+    onItemClick: (ItemCategory, String) -> Unit,
+    icon: String? = null
+) {
+    if (drops.isEmpty()) return
+    SectionCard(title = title, icon = icon) {
+        drops.forEachIndexed { index, drop ->
+            PalDropRow(drop, dropIcons, dropLocations, onItemClick)
+            if (index != drops.lastIndex) {
                 Spacer(modifier = Modifier.height(6.dp))
             }
         }
@@ -363,13 +438,37 @@ private fun PalDropSection(pal: Pal) {
 }
 
 @Composable
-private fun PalDropRow(drop: PalDrop) {
+private fun PalDropRow(
+    drop: PalDrop,
+    dropIcons: Map<String, String>,
+    dropLocations: Map<String, Pair<ItemCategory, String>>,
+    onItemClick: (ItemCategory, String) -> Unit
+) {
+    val location = dropLocations[drop.dropitem]
     Row(
-        modifier = Modifier.fillMaxWidth(),
-        horizontalArrangement = Arrangement.SpaceBetween
+        modifier = Modifier
+            .fillMaxWidth()
+            .let { base ->
+                if (location != null) base.clickable { onItemClick(location.first, location.second) } else base
+            },
+        horizontalArrangement = Arrangement.SpaceBetween,
+        verticalAlignment = Alignment.CenterVertically
     ) {
-        Text(text = drop.dropitem, fontSize = 13.sp)
-        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)){
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            dropIcons[drop.dropitem]?.let { iconPath ->
+                AsyncImage(
+                    model = iconPath,
+                    contentDescription = drop.dropitem,
+                    modifier = Modifier
+                        .size(28.dp)
+                        .clip(RoundedCornerShape(6.dp))
+                        .background(Color(0xFF1C1C1C))
+                )
+                Spacer(modifier = Modifier.width(8.dp))
+            }
+            Text(text = drop.dropitem, fontSize = 13.sp)
+        }
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             Text(text = "x${drop.quantity}", fontSize = 12.sp, color = Color.Gray)
             Text(text = drop.dropprobability, fontSize = 12.sp, color = Color.Gray)
         }

@@ -1,6 +1,5 @@
 package com.mackereldev.pallogv2.ui.components
 
-import android.widget.Space
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -35,13 +34,14 @@ import com.mackereldev.pallogv2.data.model.BuildingCategory
 import com.mackereldev.pallogv2.ui.theme.SoftGray
 
 @Composable
-fun PalArchitectureCard(
+fun BuildingSuitabilityCard(
     building: Building,
+    category: BuildingCategory,
     onClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     Card(
-        modifier = modifier.padding(4.dp).clickable{ onClick() },
+        modifier = modifier.padding(4.dp).clickable { onClick() },
         colors = CardDefaults.cardColors(containerColor = Color.Transparent)
     ) {
         Row(
@@ -59,7 +59,7 @@ fun PalArchitectureCard(
                     .aspectRatio(1f)
             ) {
                 AsyncImage(
-                    model = building.iconAssetPath(BuildingCategory.PAL),
+                    model = building.iconAssetPath(category),
                     contentDescription = building.name,
                     modifier = Modifier
                         .fillMaxSize()
@@ -70,7 +70,7 @@ fun PalArchitectureCard(
 
             Spacer(modifier = Modifier.width(10.dp))
 
-            // 이름 + 필요 적성
+            // 이름 + 필요 적성 (여러 개일 수 있음)
             Column(modifier = Modifier.weight(1f)) {
                 Text(text = building.name, fontSize = 16.sp, fontWeight = FontWeight.Bold)
                 if (building.requiredSuitability.isNotEmpty()) {

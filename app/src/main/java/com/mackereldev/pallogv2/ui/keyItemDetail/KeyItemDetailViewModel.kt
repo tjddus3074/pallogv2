@@ -2,7 +2,10 @@ package com.mackereldev.pallogv2.ui.keyItemDetail
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.mackereldev.pallogv2.data.model.FacilityLocation
 import com.mackereldev.pallogv2.data.model.Item
+import com.mackereldev.pallogv2.data.model.ItemCategory
+import com.mackereldev.pallogv2.data.repository.BuildingRepository
 import com.mackereldev.pallogv2.data.repository.ItemRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
@@ -14,13 +17,19 @@ import javax.inject.Inject
 
 sealed class KeyItemDetailUiState {
     object Loading : KeyItemDetailUiState()
-    data class Success(val keyItem: Item, val materialIcons: Map<String, String>) : KeyItemDetailUiState()
+    data class Success(
+        val keyItem: Item,
+        val materialIcons: Map<String, String>,
+        val materialLocations: Map<String, Pair<ItemCategory, String>>,
+        val productionFacilities: Map<String, FacilityLocation>
+    ) : KeyItemDetailUiState()
     data class Error(val message: String) : KeyItemDetailUiState()
 }
 
 @HiltViewModel
 class KeyItemDetailViewModel @Inject constructor(
-    private val repository: ItemRepository
+    private val repository: ItemRepository,
+    private val buildingRepository: BuildingRepository
 ) : ViewModel() {
 
     private val _uiState = MutableStateFlow<KeyItemDetailUiState>(KeyItemDetailUiState.Loading)
@@ -38,7 +47,13 @@ class KeyItemDetailViewModel @Inject constructor(
                     val materialIcons = keyItem.material.keys.distinct().mapNotNull { name ->
                         repository.getMaterialIconPath(name)?.let { name to it }
                     }.toMap()
-                    _uiState.value = KeyItemDetailUiState.Success(keyItem, materialIcons)
+                    val materialLocations = keyItem.material.keys.distinct().mapNotNull { name ->
+                        repository.findItemLocation(name)?.let { name to it }
+                    }.toMap()
+                    val productionFacilities = keyItem.production.map { it.pname }.distinct().mapNotNull { name ->
+                        buildingRepository.findFacilityLocation(name)?.let { name to it }
+                    }.toMap()
+                    _uiState.value = KeyItemDetailUiState.Success(keyItem, materialIcons, materialLocations, productionFacilities)
                 }
                 .onFailure { _uiState.value = KeyItemDetailUiState.Error(it.message ?: "오류 발생") }
         }

@@ -1,4 +1,4 @@
-package com.mackereldev.pallogv2.ui.productionDetail
+package com.mackereldev.pallogv2.ui.schematicsDetail
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -15,43 +15,43 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-sealed class ProductionDetailUiState{
-    object Loading : ProductionDetailUiState()
+sealed class SchematicsDetailUiState{
+    object Loading : SchematicsDetailUiState()
     data class Success(
         val building: Building,
         val materialIcons: Map<String, String>,
-        val materialLocations: Map<String, Pair<ItemCategory,String>>
-    ) : ProductionDetailUiState()
-    data class Error(val message: String) : ProductionDetailUiState()
+        val materialLocations: Map<String, Pair<ItemCategory, String>>
+    ) : SchematicsDetailUiState()
+    data class Error(val message: String) : SchematicsDetailUiState()
 }
 
 @HiltViewModel
-class ProductionDetailViewModel @Inject constructor(
+class SchematicsDetailViewModel @Inject constructor(
     private val buildingRepository: BuildingRepository,
-    private val itemRepository: ItemRepository
+    private val ItemRepository: ItemRepository
 ) : ViewModel() {
 
-    private val _uiState = MutableStateFlow<ProductionDetailUiState>(ProductionDetailUiState.Loading)
-    val uiState: StateFlow<ProductionDetailUiState> = _uiState.asStateFlow()
+    private val _uiState = MutableStateFlow<SchematicsDetailUiState>(SchematicsDetailUiState.Loading)
+    val uiState : StateFlow<SchematicsDetailUiState> = _uiState.asStateFlow()
 
-    fun loadProduction(href: String) {
-        _uiState.value = ProductionDetailUiState.Loading
+    fun loadSchematics(href: String) {
+        _uiState.value = SchematicsDetailUiState.Loading
         viewModelScope.launch(Dispatchers.IO) {
-            runCatching { buildingRepository.getBuilding(BuildingCategory.PRODUCTION, href) }
+            runCatching { buildingRepository.getBuilding(BuildingCategory.SCHEMATICS, href) }
                 .onSuccess { building ->
                     if(building == null) {
-                        _uiState.value = ProductionDetailUiState.Error("생산 건축물을 찾을 수 없습니다.")
+                        _uiState.value = SchematicsDetailUiState.Error("설계도를 찾을 수 없습니다.")
                         return@onSuccess
                     }
                     val materialIcons = building.material.keys.distinct().mapNotNull { name ->
-                        itemRepository.getMaterialIconPath(name)?.let { name to it }
+                        ItemRepository.getMaterialIconPath(name)?.let { name to it }
                     }.toMap()
                     val materialLocations = building.material.keys.distinct().mapNotNull { name ->
-                        itemRepository.findItemLocation(name)?.let { name to it }
+                        ItemRepository.findItemLocation(name)?.let { name to it }
                     }.toMap()
-                    _uiState.value = ProductionDetailUiState.Success(building, materialIcons, materialLocations)
+                    _uiState.value = SchematicsDetailUiState.Success(building, materialIcons, materialLocations)
                 }
-                .onFailure { _uiState.value = ProductionDetailUiState.Error(it.message ?: "오류 발생") }
+                .onFailure { _uiState.value = SchematicsDetailUiState.Error(it.message ?: "오류 발생") }
         }
     }
 }

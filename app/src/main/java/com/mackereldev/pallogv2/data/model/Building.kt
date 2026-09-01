@@ -14,6 +14,8 @@ data class Building (
     @SerializedName("요구적성") val requiredSuitability: List<RequiredSuitability> = emptyList(),
     @SerializedName("작업타입") val buildWorkType: String = "",
     @SerializedName("작업량") val buildWorkAmount: String = "",
+    @SerializedName("Rarity") val rarity: String = "",
+    @SerializedName("MaxStackCount") val maxStackCount: String = "",
     @SerializedName("Type") val type: String = "",
     @SerializedName("Rank") val rank: String = "",
     @SerializedName("Code") val code: String = "",
@@ -28,6 +30,12 @@ data class Building (
     val requiredSan: String get() = dynamic["SAN"] ?: ""
     val slots: String get() = dynamic["Slots"] ?: ""
 }
+
+data class FacilityLocation(
+    val iconPath: String,
+    val category: BuildingCategory,
+    val href: String
+)
 
 // 건물 운용에 필요한 팰 작업 적성 (요구적성 배열의 원소)
 data class RequiredSuitability(
