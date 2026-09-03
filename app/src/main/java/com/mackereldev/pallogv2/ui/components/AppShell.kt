@@ -3,8 +3,10 @@ package com.mackereldev.pallogv2.ui.components
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.DrawerValue
 import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalDrawerSheet
 import androidx.compose.material3.ModalNavigationDrawer
@@ -15,9 +17,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.currentBackStackEntryAsState
+import com.mackereldev.pallogv2.R
 import kotlinx.coroutines.launch
 
 @Composable
@@ -27,7 +31,7 @@ fun AppShell(
 ) {
     val drawerState = rememberDrawerState(DrawerValue.Closed)
     val scope = rememberCoroutineScope()
-    val onMenuClick: () -> Unit = { scope.launch { drawerState.open() } }
+    val onMenuClick: () -> Unit = { scope.launch { drawerState.open() }}
 
     val backStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = backStackEntry?.destination?.route
@@ -38,7 +42,7 @@ fun AppShell(
             ModalDrawerSheet {
                 Spacer(modifier = Modifier.height(16.dp))
                 Text(
-                    text = "팰로그",
+                    text = "Pal.Log",
                     style = MaterialTheme.typography.titleLarge,
                     modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
                 )
@@ -46,14 +50,28 @@ fun AppShell(
                 Spacer(modifier = Modifier.height(8.dp))
                 NavigationDrawerItem(
                     label = { Text("팰 도감") },
+                    icon = {
+                        Icon(
+                            painter = painterResource(id = R.drawable.drawericon1),
+                            contentDescription = null,
+                            modifier = Modifier.size(24.dp)
+                        )
+                    },
                     selected = currentRoute == "palList",
                     onClick = {
                         scope.launch { drawerState.close() }
-                        navController.navigate("palList")
+                        navController.navigate("palLIst")
                     }
                 )
                 NavigationDrawerItem(
                     label = { Text("아이템 도감") },
+                    icon = {
+                        Icon(
+                            painter = painterResource(id = R.drawable.drawericon2),
+                            contentDescription = null,
+                            modifier = Modifier.size(24.dp)
+                        )
+                    },
                     selected = currentRoute == "itemList",
                     onClick = {
                         scope.launch { drawerState.close() }
@@ -62,6 +80,13 @@ fun AppShell(
                 )
                 NavigationDrawerItem(
                     label = { Text("건축물 도감") },
+                    icon = {
+                        Icon (
+                            painter = painterResource(id = R.drawable.drawericon3),
+                            contentDescription = null,
+                            modifier = Modifier.size(24.dp)
+                        )
+                    },
                     selected = currentRoute == "buildingList",
                     onClick = {
                         scope.launch { drawerState.close() }
@@ -70,6 +95,13 @@ fun AppShell(
                 )
                 NavigationDrawerItem(
                     label = { Text("교배") },
+                    icon = {
+                        Icon(
+                            painter = painterResource(id = R.drawable.drawericon4),
+                            contentDescription = null,
+                            modifier = Modifier.size(24.dp)
+                        )
+                    },
                     selected = currentRoute == "breeding",
                     onClick = {
                         scope.launch { drawerState.close() }
@@ -78,15 +110,28 @@ fun AppShell(
                 )
                 NavigationDrawerItem(
                     label = { Text("기술") },
+                    icon = {
+                        Icon(
+                            painter = painterResource(id = R.drawable.drawericon5),
+                            contentDescription = null,
+                            modifier = Modifier.size(24.dp)
+                        )
+                    },
                     selected = currentRoute == "technology",
                     onClick = {
                         scope.launch { drawerState.close() }
                         navController.navigate("technology")
                     }
                 )
-//                HorizontalDivider(modifier = Modifier.padding(vertical = 8.dp))
                 NavigationDrawerItem(
                     label = { Text("검색") },
+                    icon = {
+                        Icon(
+                            painter = painterResource(id = R.drawable.drawericon6),
+                            contentDescription = null,
+                            modifier = Modifier.size(24.dp)
+                        )
+                    },
                     selected = currentRoute == "search",
                     onClick = {
                         scope.launch { drawerState.close() }

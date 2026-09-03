@@ -9,10 +9,13 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.mackereldev.pallogv2.data.model.BuildingCategory
 import com.mackereldev.pallogv2.data.model.ItemCategory
+import com.mackereldev.pallogv2.data.repository.SearchNavTarget
+import com.mackereldev.pallogv2.data.repository.TechNavTarget
 import com.mackereldev.pallogv2.ui.ItemList.ItemListScreen
 import com.mackereldev.pallogv2.ui.accessoryDetail.AccessoryDetailScreen
 import com.mackereldev.pallogv2.ui.ammoDetail.AmmoDetailScreen
 import com.mackereldev.pallogv2.ui.armorDetail.ArmorDetailScreen
+import com.mackereldev.pallogv2.ui.breeding.BreedingScreen
 import com.mackereldev.pallogv2.ui.buildingList.BuildingListScreen
 import com.mackereldev.pallogv2.ui.buildingSuitabilityDetail.BuildingSuitabilityDetailScreen
 import com.mackereldev.pallogv2.ui.consumableDetail.ConsumableDetailScreen
@@ -23,9 +26,11 @@ import com.mackereldev.pallogv2.ui.palDetail.PalDetailScreen
 import com.mackereldev.pallogv2.ui.palList.PalListScreen
 import com.mackereldev.pallogv2.ui.productionDetail.ProductionDetailScreen
 import com.mackereldev.pallogv2.ui.schematicsDetail.SchematicsDetailScreen
+import com.mackereldev.pallogv2.ui.search.SearchScreen
 import com.mackereldev.pallogv2.ui.sphereDetail.SphereDetailScreen
 import com.mackereldev.pallogv2.ui.sphereModuleDetail.SphereModuleDetailScreen
 import com.mackereldev.pallogv2.ui.storageDetail.StorageDetailScreen
+import com.mackereldev.pallogv2.ui.tech.TechScreen
 import com.mackereldev.pallogv2.ui.weaponDetail.WeaponDetailScreen
 
 
@@ -65,7 +70,8 @@ fun NavGraph(navController: NavHostController, onMenuClick: () -> Unit) {
                 onPalClick = { code ->
                     navController.navigate("palDetail/${Uri.encode(code)}")
                 },
-                onMenuClick = onMenuClick
+                onMenuClick = onMenuClick,
+                onSearchClick = { navController.navigate("search") }
             )
         }
         composable(
@@ -81,6 +87,7 @@ fun NavGraph(navController: NavHostController, onMenuClick: () -> Unit) {
         composable("itemList") {
             ItemListScreen(
                 onMenuClick = onMenuClick,
+                onSearchClick = { navController.navigate("search") },
                 onWeaponClick = { href -> navController.navigate("weaponDetail/${Uri.encode(href)}") },
                 onAmmoClick = { href -> navController.navigate("ammoDetail/${Uri.encode(href)}") },
                 onArmorClick = { href -> navController.navigate("armorDetail/${Uri.encode(href)}") },
@@ -206,6 +213,7 @@ fun NavGraph(navController: NavHostController, onMenuClick: () -> Unit) {
         composable("buildingList") {
             BuildingListScreen(
                 onMenuClick = onMenuClick,
+                onSearchClick = { navController.navigate("search") },
                 onProductionClick = { href -> navController.navigate("productionDetail/${Uri.encode(href)}") },
                 onBuildingSuitabilityClick = { category, href ->
                     navController.navigate("buildingSuitabilityDetail/${category.name}/${Uri.encode(href)}")
@@ -256,6 +264,61 @@ fun NavGraph(navController: NavHostController, onMenuClick: () -> Unit) {
                 href = backStackEntry.arguments?.getString("href") ?: "",
                 onBack = { navController.popBackStack() },
                 onItemClick = { category, href -> navController.navigate(category.detailRoute(href)) }
+            )
+        }
+        composable("breeding") {
+            BreedingScreen(
+                onMenuClick = onMenuClick,
+                onSearchClick = { navController.navigate("search") },
+                onPalClick = { code -> navController.navigate("palDetail/${Uri.encode(code)}") }
+            )
+        }
+        composable("technology") {
+            TechScreen(
+                onMenuClick = onMenuClick,
+                onSearchClick = { navController.navigate("search") },
+                onNavigate = { target ->
+                    when (target) {
+                        is TechNavTarget.Item -> {
+                            val prefix = when (target.category) {
+                                com.mackereldev.pallogv2.data.model.ItemCategory.WEAPON -> "weaponDetail"
+                                com.mackereldev.pallogv2.data.model.ItemCategory.AMMO -> "ammoDetail"
+                                com.mackereldev.pallogv2.data.model.ItemCategory.ARMOR -> "armorDetail"
+                                com.mackereldev.pallogv2.data.model.ItemCategory.SPHERE -> "sphereDetail"
+                                com.mackereldev.pallogv2.data.model.ItemCategory.SPHERE_MODULE -> "sphereModuleDetail"
+                                com.mackereldev.pallogv2.data.model.ItemCategory.ACCESSORY -> "accessoryDetail"
+                                com.mackereldev.pallogv2.data.model.ItemCategory.MATERIAL -> "materialDetail"
+                                com.mackereldev.pallogv2.data.model.ItemCategory.CONSUMABLE -> "consumableDetail"
+                                com.mackereldev.pallogv2.data.model.ItemCategory.INGREDIENT -> "ingredientDetail"
+                                com.mackereldev.pallogv2.data.model.ItemCategory.KEY_ITEM -> "keyItemDetail"
+                            }
+                            navController.navigate("$prefix/${Uri.encode(target.href)}")
+                        }
+                        is TechNavTarget.Production ->
+                            navController.navigate("productionDetail/${Uri.encode(target.href)}")
+                        is TechNavTarget.BuildingSuitability ->
+                            navController.navigate("buildingSuitabilityDetail/${target.category.name}/${Uri.encode(target.href)}")
+                        is TechNavTarget.Storage ->
+                            navController.navigate("storageDetail/${Uri.encode(target.href)}")
+                        is TechNavTarget.Schematics ->
+                            navController.navigate("schematicsDetail/${Uri.encode(target.href)}")
+                    }
+                }
+            )
+        }
+        composable("search") {
+            SearchScreen(
+                onMenuClick = onMenuClick,
+                onResultClick = { target ->
+                    when (target) {
+                        is SearchNavTarget.PalDetail ->
+                            navController.navigate("palDetail/${Uri.encode(target.code)}")
+                        is SearchNavTarget.Item ->
+                            navController.navigate(target.category.detailRoute(target.href))
+                        is SearchNavTarget.Building ->
+                            navController.navigate(target.category.facilityDetailRoute(target.href))
+                    }
+                }
             )
         }
     }

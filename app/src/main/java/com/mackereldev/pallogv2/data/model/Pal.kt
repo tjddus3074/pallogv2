@@ -19,7 +19,8 @@ data class Pal (
     val foodamount: Int,
     val drops: List<PalDrop>,
     val alphaDrops: List<PalDrop> = emptyList(),
-    val worldTreeDrops: List<PalDrop> = emptyList()
+    val worldTreeDrops: List<PalDrop> = emptyList(),
+    val uniqueCombo: UniqueCombo? = null
 ) {
     val iconAssetpath: String
         get() = "PAL/Icon/images_palicon/T_${stats.code}_icon_normal.webp"
@@ -65,4 +66,22 @@ data class PalDrop(
     val dropitem: String,
     val quantity: String,
     val dropprobability: String
+)
+
+data class UniqueCombo(
+    val parents: List<UniqueComboParent> = emptyList(),
+    val child: UniqueComboChild = UniqueComboChild()
+)
+
+data class UniqueComboParent(
+    val id: String = "",
+    val name: String = "",
+    val href: String = "",
+    val gender: String = ""
+)
+
+data class UniqueComboChild(
+    val id: String = "",
+    val name : String = "",
+    val href: String = ""
 )

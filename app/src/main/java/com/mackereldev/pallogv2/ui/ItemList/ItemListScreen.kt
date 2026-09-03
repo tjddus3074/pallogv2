@@ -9,6 +9,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 @Composable
 fun ItemListScreen(
     onMenuClick: () -> Unit,
+    onSearchClick: () -> Unit,
     onWeaponClick: (String) -> Unit,
     onAmmoClick: (String) -> Unit,
     onArmorClick: (String) -> Unit,
@@ -29,6 +30,7 @@ fun ItemListScreen(
         selectedCategory = selectedCategory,
         onCategorySelect = { viewModel.selectCategory(it) },
         onMenuClick = onMenuClick,
+        onSearchClick = onSearchClick,
         onWeaponClick = onWeaponClick,
         onAmmoClick = onAmmoClick,
         onArmorClick = onArmorClick,

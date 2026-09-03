@@ -9,6 +9,7 @@ import com.mackereldev.pallogv2.data.model.BuildingCategory
 @Composable
 fun BuildingListScreen(
     onMenuClick: () -> Unit,
+    onSearchClick: () -> Unit,
     onProductionClick: (String) -> Unit,
     onBuildingSuitabilityClick: (BuildingCategory, String) -> Unit,
     onStorageClick: (String) -> Unit,
@@ -23,6 +24,7 @@ fun BuildingListScreen(
         selectedCategory = selectedCategory,
         onCategorySelect = { viewModel.selectCategory(it) },
         onMenuClick = onMenuClick,
+        onSearchClick = onSearchClick,
         onProductionClick = onProductionClick,
         onBuildingSuitabilityClick = onBuildingSuitabilityClick,
         onStorageClick = onStorageClick,

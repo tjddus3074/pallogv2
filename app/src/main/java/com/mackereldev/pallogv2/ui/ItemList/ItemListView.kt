@@ -11,6 +11,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Menu
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -48,6 +49,7 @@ fun ItemListView(
     selectedCategory: ItemCategory,
     onCategorySelect: (ItemCategory) -> Unit,
     onMenuClick: () -> Unit,
+    onSearchClick: () -> Unit,
     onWeaponClick: (String) -> Unit,
     onAmmoClick: (String) -> Unit,
     onArmorClick: (String) -> Unit,
@@ -68,6 +70,11 @@ fun ItemListView(
                 navigationIcon = {
                     IconButton(onClick = onMenuClick) {
                         Icon(Icons.Default.Menu, contentDescription = "메뉴")
+                    }
+                },
+                actions = {
+                    IconButton(onClick = onSearchClick) {
+                        Icon(Icons.Default.Search, contentDescription = "검색")
                     }
                 }
             )

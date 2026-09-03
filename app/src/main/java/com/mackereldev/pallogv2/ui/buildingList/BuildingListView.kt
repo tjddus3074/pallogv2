@@ -11,6 +11,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowDropDown
 import androidx.compose.material.icons.filled.Menu
+import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -44,6 +45,7 @@ fun BuildingListView(
     selectedCategory: BuildingCategory,
     onCategorySelect: (BuildingCategory) -> Unit,
     onMenuClick: () -> Unit,
+    onSearchClick : () -> Unit,
     onProductionClick: (String) -> Unit,
     onBuildingSuitabilityClick: (BuildingCategory, String) -> Unit,
     onStorageClick: (String) -> Unit,
@@ -58,6 +60,11 @@ fun BuildingListView(
                 navigationIcon = {
                     IconButton(onClick = onMenuClick) {
                         Icon(Icons.Default.Menu, contentDescription = "메뉴")
+                    }
+                },
+                actions = {
+                    IconButton(onClick = onSearchClick) {
+                        Icon(Icons.Default.Search, contentDescription = "검색")
                     }
                 }
             )
