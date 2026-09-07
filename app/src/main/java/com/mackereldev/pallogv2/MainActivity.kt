@@ -7,15 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import com.mackereldev.pallogv2.ui.theme.Pallogv2Theme
 import dagger.hilt.android.AndroidEntryPoint
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.navigation.compose.rememberNavController
 import com.mackereldev.pallogv2.navigation.NavGraph
 import com.mackereldev.pallogv2.ui.components.AppShell
-import kotlinx.coroutines.delay
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -34,7 +28,7 @@ class MainActivity : ComponentActivity() {
 //                    showSplash = false
 //                }
                 val navController = rememberNavController()
-                AppShell(navController = navController) { onMenuClick ->
+                AppShell(navController = navController,) { onMenuClick ->
                     NavGraph(navController = navController, onMenuClick = onMenuClick)
                 }
             }

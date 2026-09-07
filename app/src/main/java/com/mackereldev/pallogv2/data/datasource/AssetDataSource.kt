@@ -12,12 +12,14 @@ import com.mackereldev.pallogv2.data.model.BreedingPalData
 import com.mackereldev.pallogv2.data.model.Building
 import com.mackereldev.pallogv2.data.model.Item
 import com.mackereldev.pallogv2.data.model.Pal
+import com.mackereldev.pallogv2.data.model.PalHabitat
 import com.mackereldev.pallogv2.data.model.SphereItem
 import com.mackereldev.pallogv2.data.model.SphereModuleItem
 import com.mackereldev.pallogv2.data.model.TechItem
 import com.mackereldev.pallogv2.data.model.TechRow
 import com.mackereldev.pallogv2.data.model.WeaponItem
 import dagger.hilt.android.qualifiers.ApplicationContext
+import java.io.IOException
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -30,6 +32,17 @@ class AssetDataSource @Inject constructor(
             .bufferedReader()
             .use { it.readText() }
         return Gson().fromJson(json, object : TypeToken<List<Pal>>() {}.type)
+    }
+
+    fun loadPalHabitat(code: String): PalHabitat? {
+        return try {
+            val json = context.assets.open("PAL/Json/pals_habitat/$code.json")
+                .bufferedReader()
+                .use { it.readText() }
+            Gson().fromJson(json, PalHabitat::class.java)
+        } catch (e: IOException) {
+            null
+        }
     }
 
     fun loadItems(fileName: String): List<Item> {

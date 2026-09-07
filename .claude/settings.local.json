@@ -10,7 +10,9 @@
       "Bash(python *)",
       "Bash(grep *)",
       "Bash(python3 -c \"print\\('test'\\)\")",
-      "PowerShell(python -c \"import json,sys; data=json.load\\(open\\(r'C:\\\\Users\\\\pine\\\\AndroidStudioProjects\\\\pallogv2\\\\app\\\\src\\\\main\\\\assets\\\\PAL\\\\Json\\\\pals_data.json', encoding='utf-8'\\)\\); print\\('OK', len\\(data\\)\\)\")"
+      "PowerShell(python -c \"import json,sys; data=json.load\\(open\\(r'C:\\\\Users\\\\pine\\\\AndroidStudioProjects\\\\pallogv2\\\\app\\\\src\\\\main\\\\assets\\\\PAL\\\\Json\\\\pals_data.json', encoding='utf-8'\\)\\); print\\('OK', len\\(data\\)\\)\")",
+      "Bash(xargs -I{} basename {})",
+      "Bash(awk '{ *)"
     ]
   }
 }

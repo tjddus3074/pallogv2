@@ -45,3 +45,6 @@ val blackThemeBackGround = Color(0xFF070707)
 val blackThemeText = Color(0xFFF0F0F0)
 
 val GoldAccent = Color(0xFFD4AF37)
+
+val HabitatDayColor = Color(0xFFFFB300)
+val HabitatNightColor = Color(0xFF5C6BC0)

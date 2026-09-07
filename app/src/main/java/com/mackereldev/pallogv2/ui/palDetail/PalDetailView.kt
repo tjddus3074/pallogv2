@@ -2,9 +2,11 @@ package com.mackereldev.pallogv2.ui.palDetail
 
 import android.view.RoundedCorner
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.gestures.detectTransformGestures
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -33,10 +35,20 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PaintingStyle.Companion.Stroke
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.text.buildAnnotatedString
@@ -45,9 +57,11 @@ import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import com.mackereldev.pallogv2.data.model.HabitatLocation
 import com.mackereldev.pallogv2.data.model.ItemCategory
 import com.mackereldev.pallogv2.data.model.Pal
 import com.mackereldev.pallogv2.data.model.PalDrop
+import com.mackereldev.pallogv2.data.model.PalHabitat
 import com.mackereldev.pallogv2.data.model.PalSkill
 import com.mackereldev.pallogv2.ui.components.PalScaling
 import com.mackereldev.pallogv2.ui.components.elementBorderBrush
@@ -56,6 +70,8 @@ import com.mackereldev.pallogv2.ui.components.elementkotoeng
 import com.mackereldev.pallogv2.ui.components.worktoimgpath
 import com.mackereldev.pallogv2.ui.theme.Atk2
 import com.mackereldev.pallogv2.ui.theme.GoldAccent
+import com.mackereldev.pallogv2.ui.theme.HabitatDayColor
+import com.mackereldev.pallogv2.ui.theme.HabitatNightColor
 import com.mackereldev.pallogv2.ui.theme.PalDef2
 import com.mackereldev.pallogv2.ui.theme.PalHP2
 import com.mackereldev.pallogv2.ui.theme.SoftGray
@@ -92,6 +108,7 @@ fun PalDetailView(
                     pal = uiState.pal,
                     dropIcons = uiState.dropIcons,
                     dropLocations = uiState.dropLocations,
+                    habitat = uiState.habitat,
                     onItemClick = onItemClick
                 )
             }
@@ -104,6 +121,7 @@ private fun PalDetailContent(
     pal: Pal,
     dropIcons: Map<String, String>,
     dropLocations: Map<String, Pair<ItemCategory, String>>,
+    habitat: PalHabitat?,
     onItemClick: (ItemCategory, String) -> Unit
 ) {
     Column(
@@ -121,6 +139,8 @@ private fun PalDetailContent(
         PalPartnerSkillSection(pal)
         Spacer(modifier = Modifier.height(16.dp))
         PalSuitabilitySection(pal)
+        Spacer(modifier = Modifier.height(16.dp))
+        PalHabitatSection(habitat)
         Spacer(modifier = Modifier.height(16.dp))
         PalSkillSection(pal)
         Spacer(modifier = Modifier.height(16.dp))
@@ -472,5 +492,195 @@ private fun PalDropRow(
             Text(text = "x${drop.quantity}", fontSize = 12.sp, color = Color.Gray)
             Text(text = drop.dropprobability, fontSize = 12.sp, color = Color.Gray)
         }
+    }
+}
+
+// 서식지 지도
+private const val HABITAT_MAP_PIXEL_SIZE = 8192f
+private const val HABITAT_MAP_PATH = "file:///android_asset/PAL/Icon/images_map_merged/palpagos_islands_preview.webp"
+
+private enum class HabitatMap(val mapKey: String, val label: String, val previewPath: String) {
+    PALPAGOS(
+        mapKey = "PALPAGOS_ISLANDS",
+        label = "팰파고스 섬",
+        previewPath = "file:///android_asset/PAL/Icon/images_map_merged/palpagos_islands_preview.webp"
+    ),
+    WORLD_TREE(
+        mapKey = "WORLD_TREE",
+        label = "세계수",
+        previewPath = "file:///android_asset/PAL/Icon/images_map_merged/world_tree_preview.webp"
+    )
+}
+
+private data class HabitatOption(
+    val map: HabitatMap,
+    val label: String,
+    val color: Color,
+    val locations: List<HabitatLocation>
+)
+
+@Composable
+private fun PalHabitatSection(habitat: PalHabitat?) {
+    if (habitat == null) return
+
+    val options = HabitatMap.entries.flatMap { map ->
+        listOf(
+            HabitatOption(
+                map = map,
+                label = "${map.label}(낮)",
+                color = HabitatDayColor,
+                locations = habitat.dayTimeLocations.filter { it.map == map.mapKey }
+            ),
+            HabitatOption(
+                map = map,
+                label = "${map.label}(밤)",
+                color = HabitatNightColor,
+                locations = habitat.nightTimeLocations.filter { it.map == map.mapKey }
+            )
+        )
+    }.filter { it.locations.isNotEmpty() }
+    if (options.isEmpty()) return
+
+    var selectedOption by remember(habitat.code) { mutableStateOf(options.first()) }
+    var scale by remember(selectedOption) { mutableStateOf(1f) }
+    var offset by remember(selectedOption) { mutableStateOf(Offset.Zero) }
+
+    SectionCard(title = "서식지") {
+        val optionsByMap = options.groupBy { it.map }
+        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            HabitatMap.entries.forEach { map ->
+                val rowOptions = optionsByMap[map] ?: return@forEach
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    rowOptions.forEach { option ->
+                        HabitatOptionChip(
+                            label = "${option.label} ${option.locations.size}",
+                            selected = selectedOption == option,
+                            color = option.color,
+                            onClick = { selectedOption = option }
+                        )
+                    }
+                }
+            }
+        }
+        Spacer(modifier = Modifier.height(8.dp))
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .aspectRatio(1f)
+                .clip(RoundedCornerShape(12.dp))
+                .background(Color(0xFF101010))
+                .pointerInput(selectedOption) {
+                    detectTransformGestures { _, pan, zoom, _ ->
+                        val newScale = (scale * zoom).coerceIn(1f, 6f)
+                        scale = newScale
+                        offset = if (newScale <= 1f) Offset.Zero else offset + pan
+                    }
+                }
+        ) {
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .graphicsLayer(
+                        scaleX = scale,
+                        scaleY = scale,
+                        translationX = offset.x,
+                        translationY = offset.y
+                    )
+            ) {
+                AsyncImage(
+                    model = selectedOption.map.previewPath,
+                    contentDescription = selectedOption.label,
+                    contentScale = ContentScale.FillBounds,
+                    modifier = Modifier.fillMaxSize()
+                )
+                Canvas(modifier = Modifier.fillMaxSize()) {
+                    selectedOption.locations.forEach { loc ->
+                        drawHabitatDot(loc, selectedOption.color, scale)
+                    }
+                }
+            }
+        }
+        Spacer(modifier = Modifier.height(4.dp))
+        Text(text = "손가락으로 확대·이동할 수 있습니다", fontSize = 11.sp, color = Color.Gray)
+    }
+}
+
+
+// scale로 나눠 화면상 점 크기가 확대해도 일정하게 유지되도록 보정
+private fun androidx.compose.ui.graphics.drawscope.DrawScope.drawHabitatDot(loc: HabitatLocation, color: Color, scale: Float) {
+    val cx = (loc.pixelX / HABITAT_MAP_PIXEL_SIZE) * size.width
+    val cy = (loc.pixelY / HABITAT_MAP_PIXEL_SIZE) * size.height
+    val center = Offset(cx, cy)
+    val radius = 3.dp.toPx() / scale
+    drawCircle(color = color, radius = radius, center = center)
+    drawCircle(color = Color.White, radius = radius, center = center, style = Stroke(width = 1.dp.toPx() / scale))
+}
+
+@Composable
+private fun HabitatOptionChip(label: String, selected: Boolean, color: Color, onClick: () -> Unit) {
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        modifier = Modifier
+            .clip(RoundedCornerShape(20.dp))
+            .background(if (selected) color.copy(alpha = 0.25f) else Color(0xFF1C1C1C))
+            .border(1.dp, if (selected) color else SoftGray.copy(alpha = 0.3f), RoundedCornerShape(20.dp))
+            .clickable { onClick() }
+            .padding(horizontal = 12.dp, vertical = 6.dp)
+    ) {
+        Box(
+            modifier = Modifier
+                .size(8.dp)
+                .clip(CircleShape)
+                .background(color)
+        )
+        Spacer(modifier = Modifier.width(6.dp))
+        Text(
+            text = label,
+            fontSize = 12.sp,
+            fontWeight = if (selected) FontWeight.Bold else FontWeight.Normal,
+            color = if (selected) Color.White else Color.Gray
+        )
+    }
+}
+
+@Composable
+private fun HabitatMapChip(label: String, selected: Boolean, onClick: () -> Unit) {
+    Box(
+        modifier = Modifier
+            .clip(RoundedCornerShape(20.dp))
+            .background(if (selected) GoldAccent.copy(alpha = 0.25f) else Color(0xFF1C1C1C))
+            .border(1.dp, if (selected) GoldAccent else SoftGray.copy(alpha = 0.3f), RoundedCornerShape(20.dp))
+            .clickable { onClick() }
+            .padding(horizontal = 14.dp, vertical = 6.dp)
+    ) {
+        Text(
+            text = label,
+            fontSize = 12.sp,
+            fontWeight = if (selected) FontWeight.Bold else FontWeight.Normal,
+            color = if (selected) Color.White else Color.Gray
+        )
+    }
+}
+
+
+@Composable
+private fun HabitatFilterChip(label: String, selected: Boolean, color: Color, onClick: () -> Unit) {
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        modifier = Modifier
+            .clip(RoundedCornerShape(20.dp))
+            .background(if (selected) color.copy(alpha = 0.25f) else Color(0xFF1C1C1C))
+            .border(1.dp, if (selected) color else SoftGray.copy(alpha = 0.3f), RoundedCornerShape(20.dp))
+            .clickable { onClick() }
+            .padding(horizontal = 12.dp, vertical = 6.dp)
+    ) {
+        Box(
+            modifier = Modifier
+                .size(8.dp)
+                .clip(CircleShape)
+                .background(color)
+        )
+        Spacer(modifier = Modifier.width(6.dp))
+        Text(text = label, fontSize = 12.sp, color = if (selected) Color.White else Color.Gray)
     }
 }
